@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 import ldap
 import logging
@@ -190,7 +190,7 @@ class CompanyLDAP(models.Model):
             if res[1]:
                 return res[0]
         elif conf['create_user']:
-            _logger.debug("Creating new Eagle ERP user \"%s\" from LDAP" % login)
+            _logger.debug("Creating new Eagle user \"%s\" from LDAP" % login)
             values = self._map_ldap_attributes(conf, login, ldap_entry)
             SudoUser = self.env['res.users'].sudo().with_context(no_reset_password=True)
             if conf['user']:

@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * contacts
 # 
@@ -7,7 +7,7 @@
 # sejun huang <sejun.huang@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-18 09:49+0000\n"
 "PO-Revision-Date: 2018-09-18 09:49+0000\n"
@@ -82,8 +82,8 @@ msgstr "本地化"
 #. module: contacts
 #: model_terms:ir.actions.act_window,help:contacts.action_contacts
 #: model_terms:ir.actions.act_window,help:contacts.action_contacts_summary
-msgid "Eagle ERP helps you to easily track all activities related to a customer."
-msgstr "Eagle ERP可幫助您輕鬆跟踪與客戶相關的所有活動。"
+msgid "Eagle helps you to easily track all activities related to a customer."
+msgstr "Eagle可幫助您輕鬆跟踪與客戶相關的所有活動。"
 
 #. module: contacts
 #: model:ir.ui.menu,name:contacts.res_partner_industry_menu

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 from datetime import date, datetime
 from eagle.tests.common import TransactionCase
 from dateutil.relativedelta import relativedelta

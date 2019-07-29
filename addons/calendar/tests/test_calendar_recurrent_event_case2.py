@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 from eagle.tests import common
 from eagle.addons.calendar.models.calendar import calendar_id2real_id
@@ -13,7 +13,7 @@ class TestRecurrentEvent(common.TransactionCase):
         self.CalendarEvent = self.env['calendar.event']
 
     def test_recurrent_meeting1(self):
-        # In order to test recurrent meetings in Eagle ERP, I create meetings with different recurrence using different test cases.
+        # In order to test recurrent meetings in Eagle, I create meetings with different recurrence using different test cases.
         # I create a recurrent meeting with daily recurrence and fixed amount of time.
         self.CalendarEvent.create({
             'count': 5,

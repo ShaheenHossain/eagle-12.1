@@ -363,7 +363,7 @@ def list_dbs(force=False):
         raise eagle.exceptions.AccessDenied()
 
     if not eagle.tools.config['dbfilter'] and eagle.tools.config['db_name']:
-        # In case --db-filter is not provided and --database is passed, Eagle ERP will not
+        # In case --db-filter is not provided and --database is passed, Eagle will not
         # fetch the list of databases available on the postgres server and instead will
         # use the value of --database as comma seperated list of exposed databases.
         res = sorted(db.strip() for db in eagle.tools.config['db_name'].split(','))
@@ -382,7 +382,7 @@ def list_dbs(force=False):
     return res
 
 def list_db_incompatible(databases):
-    """"Check a list of databases if they are compatible with this version of Eagle ERP
+    """"Check a list of databases if they are compatible with this version of Eagle
 
         :param databases: A list of existing Postgresql databases
         :return: A list of databases that are incompatible

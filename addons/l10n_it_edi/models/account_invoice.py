@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 import base64
 import zipfile
@@ -68,7 +68,7 @@ class AccountInvoice(models.Model):
             invoice.invoice_generate_xml()
             if len(invoice.commercial_partner_id.l10n_it_pa_index or '') == 6:
                 invoice.message_post(
-                    body=(_("Invoices for PA are not managed by Eagle ERP, you can download the document and send it on your own."))
+                    body=(_("Invoices for PA are not managed by Eagle, you can download the document and send it on your own."))
                 )
                 invoice.l10n_it_send_state = "other"
                 continue

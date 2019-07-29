@@ -21,7 +21,7 @@ In any case the basic guidelines are:
 
 * Restart your server
 
-* Enter your Eagle ERP Enterprise Subscription code
+* Enter your Eagle Enterprise Subscription code
 
 .. image:: enterprise/enterprise_code.png
   :class: img-responsive
@@ -49,8 +49,8 @@ On Linux, using an installer
 
     $ python3 /usr/bin/eagle-bin -d <database_name> -i web_enterprise --stop-after-init
 
-* You should be able to connect to your Eagle ERP Enterprise instance using your usual mean of identification.
-  You can then link your database with your Eagle ERP Enterprise Subscription by entering the code you received
+* You should be able to connect to your Eagle Enterprise instance using your usual mean of identification.
+  You can then link your database with your Eagle Enterprise Subscription by entering the code you received
   by e-mail in the form input
 
 
@@ -73,28 +73,28 @@ have your own favourite. You may need to adapt sections to your usual workflow.
 
 * Restart your server with the updated addons path of point 3.
   You should be able to connect to your instance. You can then link your database with your
-  Eagle ERP Enterprise Subscription by entering the code you received by e-mail in the form input
+  Eagle Enterprise Subscription by entering the code you received by e-mail in the form input
 
 On Windows
 ==========
 
 * Backup your community database
 
-* Uninstall Eagle ERP Community (using the Uninstall executable in the installation folder) -
+* Uninstall Eagle Community (using the Uninstall executable in the installation folder) -
   PostgreSQL will remain installed
 
   .. image:: enterprise/windows_uninstall.png
     :class: img-responsive
 
-* Launch the Eagle ERP Enterprise Installer and follow the steps normally. When choosing
+* Launch the Eagle Enterprise Installer and follow the steps normally. When choosing
   the installation path, you can set the folder of the Community installation
   (this folder still contains the PostgreSQL installation).
-  Uncheck ``Start Eagle ERP`` at the end of the installation
+  Uncheck ``Start Eagle`` at the end of the installation
 
   .. image:: enterprise/windows_setup.png
    :class: img-responsive
 
-* Using a command window, update your Eagle ERP Database using this command (from the Eagle ERP
+* Using a command window, update your Eagle Database using this command (from the Eagle
   installation path, in the server subfolder)
 
   .. code-block:: console
@@ -102,6 +102,6 @@ On Windows
     $ eagle.exe -d <database_name> -i web_enterprise --stop-after-init
 
 * No need to manually launch the server, the service is running.
-  You should be able to connect to your Eagle ERP Enterprise instance using your usual
-  mean of identification. You can then link your database with your Eagle ERP Enterprise
+  You should be able to connect to your Eagle Enterprise instance using your usual
+  mean of identification. You can then link your database with your Eagle Enterprise
   Subscription by entering the code you received by e-mail in the form input

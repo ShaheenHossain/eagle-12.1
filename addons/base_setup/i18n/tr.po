@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * base_setup
 # 
@@ -13,7 +13,7 @@
 # Buket Şeker <buket_skr@hotmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-09-21 13:17+0000\n"
@@ -199,8 +199,8 @@ msgstr "Harici Eposta Sunucuları"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Eagle ERP data from Google Spreadsheet"
-msgstr "Google Spreadsheet'den Eagle ERP verilerini analiz et"
+msgid "Extract and analyze Eagle data from Google Spreadsheet"
+msgstr "Google Spreadsheet'den Eagle verilerini analiz et"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -387,8 +387,8 @@ msgstr "Harici kimlik doğrulama sağlayıcıları (OAuth) kullanın"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Eagle ERP Notes"
-msgstr "Eagle ERP Notes'ta harici pad'ler kullanın"
+msgid "Use external pads in Eagle Notes"
+msgstr "Eagle Notes'ta harici pad'ler kullanın"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -398,7 +398,7 @@ msgstr "Kullanıcılar"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Eagle ERP provides a list of matching "
+"When populating your address book, Eagle provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""

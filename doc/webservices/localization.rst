@@ -6,7 +6,7 @@ Creating a Localization
 
 .. warning::
 
-    This tutorial requires knowledges about how to build a module in Eagle ERP (see
+    This tutorial requires knowledges about how to build a module in Eagle (see
     :doc:`../../howtos/backend`).
 
 Building a localization module
@@ -292,7 +292,7 @@ Adding a new fiscal position to my Chart of Accounts
 ####################################################
 
 .. note::
-    If you need more information about what is a fiscal position and how it works in Eagle ERP, please refer to `How to adapt taxes to my customer status or localization <https://www.eagle-erp.com/documentation/user/online/accounting/others/taxes/application.html>`_.
+    If you need more information about what is a fiscal position and how it works in Eagle, please refer to `How to adapt taxes to my customer status or localization <https://www.eagle-erp.com/documentation/user/online/accounting/others/taxes/application.html>`_.
 
 To create a new fiscal position, simply use the ``account.fiscal.position.template`` model:
 
@@ -363,7 +363,7 @@ How to create a new bank operation model?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. note::
-    How a bank operation model works exactly in Eagle ERP? See `Configure model of entries <https://www.eagle-erp.com/documentation/user/online/accounting/bank/reconciliation/configure.html>`_.
+    How a bank operation model works exactly in Eagle? See `Configure model of entries <https://www.eagle-erp.com/documentation/user/online/accounting/bank/reconciliation/configure.html>`_.
 
 Since ``V10``, a new feature is available in the bank statement reconciliation widget: the bank operation model.
 This allows the user to pre-fill some accounting entries with a single click.

@@ -52,7 +52,7 @@ touch $INIT_FILE
 chmod 0700 $INIT_FILE
 cat << EOF > $INIT_FILE
 [Unit]
-Description=Eagle ERP and CRM
+Description=Eagle and CRM
 After=network.target
 
 [Service]

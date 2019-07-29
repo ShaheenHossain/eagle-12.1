@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 import logging
 import os
@@ -36,7 +36,7 @@ class PosboxUpgrader(hw_proxy.Proxy):
     def upgrade(self):
         commit = subprocess.check_output("git --work-tree=/home/pi/eagle/ --git-dir=/home/pi/eagle/.git log -1", shell=True).decode('utf-8').replace("\n", "<br/>")
         return upgrade_page_template.render({
-            'title': "Eagle ERP's IoTBox - Software Upgrade",
+            'title': "Eagle's IoTBox - Software Upgrade",
             'breadcrumb': 'IoT Box Software Upgrade',
             'loading_message': 'Updating IoT box',
             'commit': commit,

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 import functools
 import logging
@@ -176,7 +176,7 @@ class OAuthController(http.Controller):
 
     @http.route('/auth_oauth/oea', type='http', auth='none')
     def oea(self, **kw):
-        """login user via Eagle ERP Account provider"""
+        """login user via Eagle Account provider"""
         dbname = kw.pop('db', None)
         if not dbname:
             dbname = db_monodb()

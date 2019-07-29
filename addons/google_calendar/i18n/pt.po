@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * google_calendar
 # 
@@ -9,7 +9,7 @@
 # Diogo Fonseca <dsf@thinkopensolutions.pt>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-09-21 13:17+0000\n"
@@ -196,10 +196,10 @@ msgstr ""
 #: model:ir.model.fields,help:google_calendar.field_res_users__google_calendar_cal_id
 msgid ""
 "Last Calendar ID who has been synchronized. If it is changed, we remove all "
-"links between GoogleID and Eagle ERP Google Internal ID"
+"links between GoogleID and Eagle Google Internal ID"
 msgstr ""
 "Última ID do calenário que foi sincronizado. Se ele for alterado, nós "
-"removemos todos os links entre GoogleID e Eagle ERP Google Interno ID"
+"removemos todos os links entre GoogleID e Eagle Google Interno ID"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_google_calendar____last_update
@@ -213,13 +213,13 @@ msgstr "Última data de sincronização"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_calendar_attendee__oe_synchro_date
-msgid "Eagle ERP Synchro Date"
-msgstr "Data da Sincronização Eagle ERP"
+msgid "Eagle Synchro Date"
+msgstr "Data da Sincronização Eagle"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_calendar_event__oe_update_date
-msgid "Eagle ERP Update Date"
-msgstr "Eagle ERP - Data de Atualização"
+msgid "Eagle Update Date"
+msgstr "Eagle - Data de Atualização"
 
 #. module: google_calendar
 #. openerp-web

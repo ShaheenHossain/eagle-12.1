@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 from __future__ import print_function
 import logging
@@ -57,7 +57,7 @@ class Proxy(http.Controller):
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Eagle ERP's IoTBox</title>
+        <title>Eagle's IoTBox</title>
         <style>
         body {
             width: 480px;

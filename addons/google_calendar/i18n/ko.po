@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * google_calendar
 # 
@@ -10,7 +10,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:18+0000\n"
@@ -192,8 +192,8 @@ msgstr "이 작업을 수행하려면, 먼저 이전 계정에서 기존의 모�
 #: model:ir.model.fields,help:google_calendar.field_res_users__google_calendar_cal_id
 msgid ""
 "Last Calendar ID who has been synchronized. If it is changed, we remove all "
-"links between GoogleID and Eagle ERP Google Internal ID"
-msgstr "동기화 된 마지막 캘린더 ID. 변경되는 경우, 구글 ID와 Eagle ERP 구글 내부 ID 사이의 모든 연결을 제거합니다."
+"links between GoogleID and Eagle Google Internal ID"
+msgstr "동기화 된 마지막 캘린더 ID. 변경되는 경우, 구글 ID와 Eagle 구글 내부 ID 사이의 모든 연결을 제거합니다."
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_google_calendar____last_update
@@ -207,13 +207,13 @@ msgstr "최근 동기 날짜"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_calendar_attendee__oe_synchro_date
-msgid "Eagle ERP Synchro Date"
-msgstr "Eagle ERP 동기 날짜"
+msgid "Eagle Synchro Date"
+msgstr "Eagle 동기 날짜"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_calendar_event__oe_update_date
-msgid "Eagle ERP Update Date"
-msgstr "Eagle ERP 갱신 날짜"
+msgid "Eagle Update Date"
+msgstr "Eagle 갱신 날짜"
 
 #. module: google_calendar
 #. openerp-web

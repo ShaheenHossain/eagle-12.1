@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * hr_recruitment
 # 
@@ -21,7 +21,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-09 10:31+0000\n"
 "PO-Revision-Date: 2018-08-24 09:19+0000\n"
@@ -1452,19 +1452,19 @@ msgstr "Okunmamış mesaj sayısı"
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
 msgid ""
-"Eagle ERP helps you track applicants in the recruitment\n"
+"Eagle helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, etc."
 msgstr ""
-"Eagle ERP işe alım sürecinde adaylarınızı takip etmenize ve tüm\n"
+"Eagle işe alım sürecinde adaylarınızı takip etmenize ve tüm\n"
 "işlemleri takip etmenize yardımcı olur: toplantılar, görüşmeler, vb."
 
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
-"Eagle ERP helps you track applicants in the recruitment\n"
+"Eagle helps you track applicants in the recruitment\n"
 "            process and follow up all operations: meetings, interviews, etc."
 msgstr ""
-"Eagle ERP işe alım sürecinde adaylarınızı takip etmenize ve tüm\n"
+"Eagle işe alım sürecinde adaylarınızı takip etmenize ve tüm\n"
 "işlemleri takip etmenize yardımcı olur: toplantılar, görüşmeler, vb."
 
 #. module: hr_recruitment
@@ -1905,12 +1905,12 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:hr_recruitment.hr_applicant_resumes
 msgid ""
 "This menu helps you search through resumes and motivation\n"
-"                letters. Eagle ERP automatically indexes .PDF, .DOC, DOCX, .TXT\n"
+"                letters. Eagle automatically indexes .PDF, .DOC, DOCX, .TXT\n"
 "                files so that you can search keywords from the content of these\n"
 "                files."
 msgstr ""
 "Bu menü size özgeçmiş ve tavsiye mektuplarını aramanıza yarar.\n"
-"Eagle ERP otomatik olarak .PDF, .DOC, .DOCX, .TXT dosyalarını\n"
+"Eagle otomatik olarak .PDF, .DOC, .DOCX, .TXT dosyalarını\n"
 "işler ve böylece anahtar kelimeleri bu dosyaların içeriğinde\n"
 "aratabilirsiniz."
 
@@ -2027,11 +2027,11 @@ msgstr "Web Sitesi iletişim geçmişi"
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.action_hr_job_no_employee
 msgid ""
-"With just a quick glance on the Eagle ERP employee screen, you\n"
+"With just a quick glance on the Eagle employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Eagle ERP personel ekranına hızlıca göz atarak, \n"
+"Eagle personel ekranına hızlıca göz atarak, \n"
 "                herkesle ilgili bilgileri kolayca bulabilirsiniz;\n"
 "                kontak bilgisi, iş posizyonu, iletişim bilgileri, job position, müsaitlik, vb."
 

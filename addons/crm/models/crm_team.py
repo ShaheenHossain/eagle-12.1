@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 from dateutil.relativedelta import relativedelta
 
@@ -146,7 +146,7 @@ class Team(models.Model):
     as a member of one of the Sales Team.
 </p>""")
             if user_team_id:
-                action['help'] += "<p>As you don't belong to any Sales Team, Eagle ERP opens the first one by default.</p>"
+                action['help'] += "<p>As you don't belong to any Sales Team, Eagle opens the first one by default.</p>"
 
         action_context = safe_eval(action['context'], {'uid': self.env.uid})
         if user_team_id:

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime
 import json
@@ -71,7 +71,7 @@ class GoogleService(models.TransientModel):
 
     @api.model
     def _get_authorize_uri(self, from_url, service, scope=False):
-        """ This method return the url needed to allow this instance of Eagle ERP to access to the scope
+        """ This method return the url needed to allow this instance of Eagle to access to the scope
             of gmail specified as parameters
         """
         state = {

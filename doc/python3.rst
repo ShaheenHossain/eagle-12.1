@@ -4,16 +4,16 @@
 Python 3 compatibility/conversions
 ==================================
 
-Official compatibility: Eagle ERP 11 will be the first LTS release to introduce
+Official compatibility: Eagle 11 will be the first LTS release to introduce
 Python 3 compatibility, starting with Python 3.5. It will also be the first
 LTS release to drop official support for Python 2.
 
 Rationale: Python 3 has been around since 2008, and all Python libraries
-used by the official Eagle ERP distribution have been ported and are considered
+used by the official Eagle distribution have been ported and are considered
 stable. Most supported platforms have a Python 3.5 package, or a similar
 way to deploy it. Preserving dual compatibility is therefore considered
 unnecessary, and would represent a significant overhead in testing for the
-lifetime of Eagle ERP 11.
+lifetime of Eagle 11.
 
 Python 2 and Python 3 are somewhat different language, but following
 backports, forward ports and cross-compatibility library it is possible to
@@ -26,9 +26,9 @@ with Python 3.
 .. important::
 
     This is not a general-purpose guide for porting Python 2 to Python 3, it's
-    a guide to write 2/3-compatible Eagle ERP code. It does not go through all the
+    a guide to write 2/3-compatible Eagle code. It does not go through all the
     changes in Python but rather through issues which have been found in the
-    standard Eagle ERP distribution in order to show how to evolve such code such
+    standard Eagle distribution in order to show how to evolve such code such
     that it works on both Python 2 and Python 3.
 
 References/useful documents:
@@ -48,7 +48,7 @@ References/useful documents:
 Versions Support
 ================
 
-A cross compatible Eagle ERP would only support Python 2.7 and Python 3.5 and
+A cross compatible Eagle would only support Python 2.7 and Python 3.5 and
 above: Python 2.7 backported some Python 3 features, and Python 2 features
 were reintroduced in various Python 3 in order to make conversion easier.
 Python 3.6 adds great features (f-strings, ...) and performance improvements
@@ -65,7 +65,7 @@ features whereas:
 .. warning::
 
     While Python 3 adds plenty of great features (keyword-only parameters,
-    generator delegation, pathlib, ...), you must *not* use them in Eagle ERP
+    generator delegation, pathlib, ...), you must *not* use them in Eagle
     until Python 2 support is dropped
 
 .. note::
@@ -117,7 +117,7 @@ library:
 * ``urllib``, ``urllib2`` and ``urlparse`` were redistributed across
   ``urllib.parse`` and ``urllib.request``.
 
-  Since `requests`_ and `werkzeug`_ are already hard dependencies of Eagle ERP,
+  Since `requests`_ and `werkzeug`_ are already hard dependencies of Eagle,
   replace ``urllib[2].urlopen``/``urllib2.Request`` uses by `requests`_, and
   ``urlparse`` and a few utilty functions (``urllib.quote``,
   ``urllib.urlencode``) are available through ``werkzeug.urls``, a backport
@@ -125,7 +125,7 @@ library:
 
   .. warning:: `requests`_ does not raise by default on non-200 responses
 
-* ``cgi.escape`` (HTML escaping) is deprecated in Python 3, prefer Eagle ERP's own
+* ``cgi.escape`` (HTML escaping) is deprecated in Python 3, prefer Eagle's own
   :func:`eagle.tools.misc.html_encode`.
 * Most of ``types``'s content has been stripped out in Python 3: only
   "internal" interpreter types (e.g. CodeType, FrameType, ...) have been left
@@ -149,7 +149,7 @@ PYTHONPATH.
 
 Furthermore if a sibling file is named the same as top-level package, the
 library becomes inaccessible to both the file itself ans siblings, this has
-actually happened in Eagle ERP with :mod:`eagle.tools.mimetypes`.
+actually happened in Eagle with :mod:`eagle.tools.mimetypes`.
 
 Additionally, relative imports allow navigating "up" the tree by using
 multiple leading ``.``.
@@ -311,7 +311,7 @@ under the single ``int`` type.
   subtype of ``int`` (nor the reverse), and ``isinstance(value, (int, long))``
   is thus generally necessary to catch all integrals.
 
-  For that case, Eagle ERP 11 now provides a compatibility module with an
+  For that case, Eagle 11 now provides a compatibility module with an
   :py:data:`~eagle.tools.pycompat.integer_types` definition which can be used
   for type-testing.
 
@@ -466,7 +466,7 @@ significant ways:
 * Python 3's CSV only works on *text streams* and extract text values
 * And ``io`` doesn't provide "native string" streaming facilities.
 
-However with respect to Eagle ERP it turns out most or all uses of ``csv`` fit
+However with respect to Eagle it turns out most or all uses of ``csv`` fit
 inside a model of *byte stream to and from text values*.
 
 The latter is thus a model implemented by cross-version wrappers

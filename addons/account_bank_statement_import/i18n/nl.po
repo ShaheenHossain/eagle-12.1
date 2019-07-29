@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * account_bank_statement_import
 # 
@@ -10,7 +10,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:15+0000\n"
@@ -443,23 +443,23 @@ msgstr "Verliesrekening"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Eagle ERP.\n"
+"Manual: Get paid by cash, check or any other method outside of Eagle.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Eagle ERP,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Eagle,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Handmatig: Krijg betaald met contant geld, cheques of een andere methode buiten Eagle ERP om\n"
+"Handmatig: Krijg betaald met contant geld, cheques of een andere methode buiten Eagle om\n"
 "Elektronisch: Betaal automatisch via een betalingsprovider door een transactie aan te vragen op een door de klant opgeslagen kaart bij het online kopen of abonneren van (betalingstoken).\n"
-"Batch Deposito: Verzamel meerdere klantcheques tegelijk door een batch deposito te genereren om bij uw bank in te dienen. Wanneer u de bankafschriften in Eagle ERP ingeeft, wordt u voorgesteld om de transactie af te letteren met de batchafbetaling. Schakel deze optie in bij instellingen."
+"Batch Deposito: Verzamel meerdere klantcheques tegelijk door een batch deposito te genereren om bij uw bank in te dienen. Wanneer u de bankafschriften in Eagle ingeeft, wordt u voorgesteld om de transactie af te letteren met de batchafbetaling. Schakel deze optie in bij instellingen."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Eagle ERP.\n"
-"Check:Pay bill by check and print it from Eagle ERP.\n"
+"Manual:Pay bill by cash or any other method outside of Eagle.\n"
+"Check:Pay bill by check and print it from Eagle.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
-"Handmatig: Betaal met contant geld of een andere methode buiten Eagle ERP om\n"
-"Cheque: Betaal rekening per cheque en druk deze af in Eagle ERP\n"
+"Handmatig: Betaal met contant geld of een andere methode buiten Eagle om\n"
+"Cheque: Betaal rekening per cheque en druk deze af in Eagle\n"
 "SEPA Overboeking: Betaal factuur via een SEPA-bestand dat u bij uw bank indient. Schakel deze optie in bij de instellingen."
 
 #. module: account_bank_statement_import
@@ -531,12 +531,12 @@ msgstr "Toon dagboek in dashboard"
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
 msgid ""
-"The account of the statement you are importing is not yet recorded in Eagle ERP. "
+"The account of the statement you are importing is not yet recorded in Eagle. "
 "In order to proceed with the import, you need to create a bank journal for "
 "this account."
 msgstr ""
 "De rekening van het afschrift dat u aan het importeren bent is nog niet "
-"opgenomen in Eagle ERP. Om verder te gaan met deze import moet u eerst een "
+"opgenomen in Eagle. Om verder te gaan met deze import moet u eerst een "
 "bankdagboek aanmaken voor deze rekening."
 
 #. module: account_bank_statement_import

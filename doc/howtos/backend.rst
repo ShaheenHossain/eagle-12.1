@@ -8,13 +8,13 @@ Building a Module
 
 .. warning::
 
-    This tutorial requires :ref:`having installed Eagle ERP <setup/install>`
+    This tutorial requires :ref:`having installed Eagle <setup/install>`
 
-Start/Stop the Eagle ERP server
+Start/Stop the Eagle server
 ==========================
 
-Eagle ERP uses a client/server architecture in which clients are web browsers
-accessing the Eagle ERP server via RPC.
+Eagle uses a client/server architecture in which clients are web browsers
+accessing the Eagle server via RPC.
 
 Business logic and extension is generally performed on the server side,
 although supporting client features (e.g. new data representation such as
@@ -31,27 +31,27 @@ necessary:
 The server is stopped by hitting ``Ctrl-C`` twice from the terminal, or by
 killing the corresponding OS process.
 
-Build an Eagle ERP module
+Build an Eagle module
 ====================
 
 Both server and client extensions are packaged as *modules* which are
 optionally loaded in a *database*.
 
-Eagle ERP modules can either add brand new business logic to an Eagle ERP system, or
+Eagle modules can either add brand new business logic to an Eagle system, or
 alter and extend existing business logic: a module can be created to add your
-country's accounting rules to Eagle ERP's generic accounting support, while the
+country's accounting rules to Eagle's generic accounting support, while the
 next module adds support for real-time visualisation of a bus fleet.
 
-Everything in Eagle ERP thus starts and ends with modules.
+Everything in Eagle thus starts and ends with modules.
 
 Composition of a module
 -----------------------
 
-An Eagle ERP module can contain a number of elements:
+An Eagle module can contain a number of elements:
 
 Business objects
     Declared as Python classes, these resources are automatically persisted
-    by Eagle ERP based on their configuration
+    by Eagle based on their configuration
 
 Data files
     XML or CSV files declaring metadata (views or reports), configuration
@@ -76,7 +76,7 @@ option.
     most command-line options can also be set using :ref:`a configuration
     file <reference/cmdline/config>`
 
-An Eagle ERP module is declared by its :ref:`manifest <reference/module/manifest>`.
+An Eagle module is declared by its :ref:`manifest <reference/module/manifest>`.
 See the :ref:`manifest documentation <reference/module/manifest>` about it.
 
 A module is also a
@@ -89,7 +89,7 @@ might contain::
 
     from . import mymodule
 
-Eagle ERP provides a mechanism to help set up a new module, :ref:`eagle-bin
+Eagle provides a mechanism to help set up a new module, :ref:`eagle-bin
 <reference/cmdline/server>` has a subcommand :ref:`scaffold
 <reference/cmdline/scaffold>` to create an empty module:
 
@@ -104,7 +104,7 @@ or XML. The usage of most of those files will be explained along this tutorial.
 .. exercise:: Module creation
 
     Use the command line above to  create an empty module Open Academy, and
-    install it in Eagle ERP.
+    install it in Eagle.
 
     .. only:: solutions
 
@@ -117,7 +117,7 @@ or XML. The usage of most of those files will be explained along this tutorial.
 Object-Relational Mapping
 -------------------------
 
-A key component of Eagle ERP is the :abbr:`ORM (Object-Relational Mapping)` layer.
+A key component of Eagle is the :abbr:`ORM (Object-Relational Mapping)` layer.
 This layer avoids having to write most :abbr:`SQL (Structured Query Language)`
 by hand and provides extensibility and security services\ [#rawsql]_.
 
@@ -128,7 +128,7 @@ persistence system.
 Models can be configured by setting a number of attributes at their
 definition. The most important attribute is
 :attr:`~eagle.models.Model._name` which is required and defines the name for
-the model in the Eagle ERP system. Here is a minimally complete definition of a
+the model in the Eagle system. Here is a minimally complete definition of a
 model::
 
     from eagle import models
@@ -166,7 +166,7 @@ Some attributes are available on all fields, here are the most common ones:
 :attr:`~eagle.fields.Field.help` (``unicode``, default: ``''``)
     Long-form, provides a help tooltip to users in the UI.
 :attr:`~eagle.fields.Field.index` (``bool``, default: ``False``)
-    Requests that Eagle ERP create a `database index`_ on the column.
+    Requests that Eagle create a `database index`_ on the column.
 
 Simple fields
 #############
@@ -181,7 +181,7 @@ Example of simple fields are :class:`~eagle.fields.Boolean`,
 Reserved fields
 ###############
 
-Eagle ERP creates a few fields in all models\ [#autofields]_. These fields are
+Eagle creates a few fields in all models\ [#autofields]_. These fields are
 managed by the system and shouldn't be written to. They can be read if
 useful or necessary:
 
@@ -199,7 +199,7 @@ useful or necessary:
 Special fields
 ##############
 
-By default, Eagle ERP also requires a ``name`` field on all models for various
+By default, Eagle also requires a ``name`` field on all models for various
 display and search behaviors. The field used for these purposes can be
 overridden by setting :attr:`~eagle.models.Model._rec_name`.
 
@@ -217,10 +217,10 @@ overridden by setting :attr:`~eagle.models.Model._rec_name`.
 Data files
 ----------
 
-Eagle ERP is a highly data driven system. Although behavior is customized using
+Eagle is a highly data driven system. Although behavior is customized using
 Python_ code part of a module's value is in the data it sets up when loaded.
 
-.. tip:: some modules exist solely to add data into Eagle ERP
+.. tip:: some modules exist solely to add data into Eagle
     :class: aphorism
 
 Module data is declared via :ref:`data files <reference/data>`, XML files with
@@ -237,7 +237,7 @@ record.
 
     </eagle>
 
-* ``model`` is the name of the Eagle ERP model for the record.
+* ``model`` is the name of the Eagle model for the record.
 * ``id`` is an :term:`external identifier`, it allows referring to the record
   (without having to know its in-database identifier).
 * ``<field>`` elements have a ``name`` which is the name of the field in the
@@ -461,7 +461,7 @@ composed of fields defining which fields can be searched on:
         <field name="inventor_id"/>
     </search>
 
-If no search view exists for the model, Eagle ERP generates one which only allows
+If no search view exists for the model, Eagle generates one which only allows
 searching on the ``name`` field.
 
 .. exercise:: Search courses
@@ -589,7 +589,7 @@ Inheritance
 Model inheritance
 -----------------
 
-Eagle ERP provides two *inheritance* mechanisms to extend an existing model in a
+Eagle provides two *inheritance* mechanisms to extend an existing model in a
 modular way.
 
 The first inheritance mechanism allows a module to modify the behavior of a
@@ -616,7 +616,7 @@ fields of the parent record.
 View inheritance
 ----------------
 
-Instead of modifying existing views in place (by overwriting them), Eagle ERP
+Instead of modifying existing views in place (by overwriting them), Eagle
 provides view inheritance where children "extension" views are applied on top of
 root views, and can add or remove content from their parent.
 
@@ -700,7 +700,7 @@ instead of a single view its ``arch`` field is composed of any number of
 Domains
 #######
 
-In Eagle ERP, :ref:`reference/orm/domains` are values that encode conditions on
+In Eagle, :ref:`reference/orm/domains` are values that encode conditions on
 records. A domain is a  list of criteria used to select a subset of a model's
 records. Each criteria is a triple with a field name, an operator and a value.
 
@@ -866,7 +866,7 @@ float, string), or a function taking a recordset and returning a value::
 
         .. note::
 
-            Eagle ERP has built-in rules making fields with an ``active`` field set
+            Eagle has built-in rules making fields with an ``active`` field set
             to ``False`` invisible.
 
 Onchange
@@ -921,7 +921,7 @@ the ``taken_seats`` progressbar is automatically updated.
 Model constraints
 =================
 
-Eagle ERP provides two ways to set up automatically verified invariants:
+Eagle provides two ways to set up automatically verified invariants:
 :func:`Python constraints <eagle.api.constrains>` and
 :attr:`SQL constraints <eagle.models.Model._sql_constraints>`.
 
@@ -1272,7 +1272,7 @@ rights are usually created by a CSV file named after its model:
     access_idea_idea,idea.idea,model_idea_idea,base.group_user,1,1,1,0
     access_idea_vote,idea.vote,model_idea_vote,base.group_user,1,1,1,0
 
-.. exercise:: Add access control through the Eagle ERP interface
+.. exercise:: Add access control through the Eagle interface
 
     Create a new user "John Smith". Then create a group
     "OpenAcademy / Session Read" with read access to the *Session* model.
@@ -1439,15 +1439,15 @@ Internationalization
 Each module can provide its own translations within the i18n directory, by
 having files named LANG.po where LANG is the locale code for the language, or
 the language and country combination when they differ (e.g. pt.po or
-pt_BR.po). Translations will be loaded automatically by Eagle ERP for all
+pt_BR.po). Translations will be loaded automatically by Eagle for all
 enabled languages. Developers always use English when creating a module, then
-export the module terms using Eagle ERP's gettext POT export feature
+export the module terms using Eagle's gettext POT export feature
 (:menuselection:`Settings --> Translations --> Import/Export --> Export
 Translation` without specifying a language), to create the module template POT
 file, and then derive the translated PO files. Many IDE's have plugins or modes
 for editing and merging PO/POT files.
 
-.. tip:: The Portable Object files generated by Eagle ERP are published on
+.. tip:: The Portable Object files generated by Eagle are published on
          `Transifex <https://www.transifex.com/eagle/public/>`__, making it
          easy to translate the software.
 
@@ -1455,22 +1455,22 @@ for editing and merging PO/POT files.
 
    |- idea/ # The module directory
       |- i18n/ # Translation files
-         | - idea.pot # Translation Template (exported from Eagle ERP)
+         | - idea.pot # Translation Template (exported from Eagle)
          | - fr.po # French translation
          | - pt_BR.po # Brazilian Portuguese translation
          | (...)
 
 .. tip:: 
 
-   By default Eagle ERP's POT export only extracts labels inside XML files or
+   By default Eagle's POT export only extracts labels inside XML files or
    inside field definitions in Python code, but any Python string can be
    translated this way by surrounding it with the function :func:`eagle._`
    (e.g. ``_("Label")``)
 
 .. exercise:: Translate a module
 
-   Choose a second language for your Eagle ERP installation. Translate your
-   module using the facilities provided by Eagle ERP.
+   Choose a second language for your Eagle installation. Translate your
+   module using the facilities provided by Eagle.
 
    .. only:: solutions
 
@@ -1508,7 +1508,7 @@ Reporting
 Printed reports
 ---------------
 
-Eagle ERP uses a report engine based on :ref:`reference/qweb`,
+Eagle uses a report engine based on :ref:`reference/qweb`,
 `Twitter Bootstrap`_ and Wkhtmltopdf_. 
 
 A report is a combination two elements:
@@ -1632,13 +1632,13 @@ Business objects can also be accessed via the distributed object
 mechanism. They can all be modified via the client interface with contextual
 views.
 
-Eagle ERP is accessible through XML-RPC/JSON-RPC interfaces, for which libraries
+Eagle is accessible through XML-RPC/JSON-RPC interfaces, for which libraries
 exist in many languages.
 
 XML-RPC Library
 ---------------
 
-The following example is a Python 3 program that interacts with an Eagle ERP
+The following example is a Python 3 program that interacts with an Eagle
 server with the library ``xmlrpc.client``::
 
    import xmlrpc.client
@@ -1660,7 +1660,7 @@ server with the library ``xmlrpc.client``::
 .. exercise:: Add a new service to the client
 
    Write a Python program able to send XML-RPC requests to a PC running
-   Eagle ERP (yours, or your instructor's). This program should display all
+   Eagle (yours, or your instructor's). This program should display all
    the sessions, and their corresponding number of seats. It should also
    create a new session for one of the courses.
 
@@ -1708,7 +1708,7 @@ server with the library ``xmlrpc.client``::
 JSON-RPC Library
 ----------------
 
-The following example is a Python 3 program that interacts with an Eagle ERP server
+The following example is a Python 3 program that interacts with an Eagle server
 with the standard Python libraries ``urllib.request`` and ``json``. This
 example assumes the **Productivity** app (``note``) is installed::
 
@@ -1756,19 +1756,19 @@ Examples can be easily adapted from XML-RPC to JSON-RPC.
 
 .. note::
 
-    There are a number of high-level APIs in various languages to access Eagle ERP
+    There are a number of high-level APIs in various languages to access Eagle
     systems without *explicitly* going through XML-RPC or JSON-RPC, such as:
 
     * https://github.com/akretion/ooor
     * https://github.com/OCA/eaglerpc
     * https://github.com/nicolas-van/openerp-client-lib
-    * http://pythonhosted.org/Eagle ERPRPC
+    * http://pythonhosted.org/EagleRPC
     * https://github.com/abhishek-jaiswal/php-openerp-lib
 
 .. [#autofields] it is possible to :attr:`disable the automatic creation of some
                  fields <eagle.models.Model._log_access>`
 .. [#rawsql] writing raw SQL queries is possible, but requires care as it
-             bypasses all Eagle ERP authentication and security mechanisms.
+             bypasses all Eagle authentication and security mechanisms.
 
 .. _database index:
     http://use-the-index-luke.com/sql/preface

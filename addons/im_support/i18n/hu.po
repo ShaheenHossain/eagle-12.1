@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * im_support
 # 
@@ -9,7 +9,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:20+0000\n"
@@ -51,8 +51,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/im_support/static/src/xml/discuss.xml:10
 #, python-format
-msgid "Eagle ERP Support"
-msgstr "Eagle ERP támogatás"
+msgid "Eagle Support"
+msgstr "Eagle támogatás"
 
 #. module: im_support
 #. openerp-web

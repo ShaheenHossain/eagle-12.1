@@ -307,7 +307,7 @@ var LivechatButton = Widget.extend({
 
     /**
      * @private
-     * @param {Eagle ERPEvent} ev
+     * @param {EagleEvent} ev
      */
     _onCloseChatWindow: function (ev) {
         ev.stopPropagation();
@@ -334,7 +334,7 @@ var LivechatButton = Widget.extend({
     },
     /**
      * @private
-     * @param {Eagle ERPEvent} ev
+     * @param {EagleEvent} ev
      * @param {Object} ev.data.messageData
      */
     _onPostMessageChatWindow: function (ev) {
@@ -348,7 +348,7 @@ var LivechatButton = Widget.extend({
     },
     /**
      * @private
-     * @param {Eagle ERPEvent} ev
+     * @param {EagleEvent} ev
      */
     _onSaveChatWindow: function (ev) {
         ev.stopPropagation();
@@ -356,7 +356,7 @@ var LivechatButton = Widget.extend({
     },
     /**
      * @private
-     * @param {Eagle ERPEvent} ev
+     * @param {EagleEvent} ev
      */
     _onUpdatedTypingPartners: function (ev) {
         ev.stopPropagation();
@@ -364,7 +364,7 @@ var LivechatButton = Widget.extend({
     },
     /**
      * @private
-     * @param {Eagle ERPEvent} ev
+     * @param {EagleEvent} ev
      */
     _onUpdatedUnreadCounter: function (ev) {
         ev.stopPropagation();

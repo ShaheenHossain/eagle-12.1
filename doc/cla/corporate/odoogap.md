@@ -1,6 +1,6 @@
 PromptEQUATION, 2017-09-03
 
-PromptEquation/ Eagle ERPGap agrees to the terms of the Eagle ERP Corporate Contributor License
+PromptEquation/ EagleGap agrees to the terms of the Eagle Corporate Contributor License
 Agreement v1.0.
 
 I declare that I am authorized and able to make this agreement and sign this

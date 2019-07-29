@@ -1,11 +1,11 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * l10n_fr
 #
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP 9.0\n"
+"Project-Id-Version: Eagle 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-09 09:26+0000\n"
 "PO-Revision-Date: 2015-10-10 09:47+0000\n"

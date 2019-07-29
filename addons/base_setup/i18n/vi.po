@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * base_setup
 # 
@@ -9,7 +9,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:16+0000\n"
@@ -90,7 +90,7 @@ msgstr "Asterisk (VoIP)"
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_google_drive
 msgid "Attach Google documents to any record"
 msgstr ""
-"Đính kèm tài liệu Google (Google Docs) và bất kỳ Bản ghi nào trong Eagle ERP"
+"Đính kèm tài liệu Google (Google Docs) và bất kỳ Bản ghi nào trong Eagle"
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_partner_autocomplete
@@ -198,8 +198,8 @@ msgstr "Máy chủ Email Ngoài"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Eagle ERP data from Google Spreadsheet"
-msgstr "Xuất và phân tích Dữ liệu Eagle ERP ở Google Spreadsheet"
+msgid "Extract and analyze Eagle data from Google Spreadsheet"
+msgstr "Xuất và phân tích Dữ liệu Eagle ở Google Spreadsheet"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -347,7 +347,7 @@ msgstr "Hiển thị hiệu ứng"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Synchronize your calendar with Google Calendar"
-msgstr "Đồng bộ lịch của bạn trên Eagle ERP với Lịch Google"
+msgstr "Đồng bộ lịch của bạn trên Eagle với Lịch Google"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -386,8 +386,8 @@ msgstr "Sử dụng các nhà cung cấp dịch vụ xác thực bên ngoài (OA
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Eagle ERP Notes"
-msgstr "Sử dụng Pad bên ngoài cho Ghi chú trong Eagle ERP"
+msgid "Use external pads in Eagle Notes"
+msgstr "Sử dụng Pad bên ngoài cho Ghi chú trong Eagle"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -397,7 +397,7 @@ msgstr "Người dùng"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Eagle ERP provides a list of matching "
+"When populating your address book, Eagle provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""

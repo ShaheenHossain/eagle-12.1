@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 import base64
 
 import babel.dates
@@ -1033,7 +1033,7 @@ class Meeting(models.Model):
                     elif interval == 'minutes':
                         delta = timedelta(minutes=duration)
                     trigger.value = delta
-                    valarm.add('DESCRIPTION').value = alarm.name or u'Eagle ERP'
+                    valarm.add('DESCRIPTION').value = alarm.name or u'Eagle'
             for attendee in meeting.attendee_ids:
                 attendee_add = event.add('attendee')
                 attendee_add.value = u'MAILTO:' + (attendee.email or u'')

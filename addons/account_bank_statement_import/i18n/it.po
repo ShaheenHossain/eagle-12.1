@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * account_bank_statement_import
 # 
@@ -21,7 +21,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:15+0000\n"
@@ -454,23 +454,23 @@ msgstr "Conto Perdite"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Eagle ERP.\n"
+"Manual: Get paid by cash, check or any other method outside of Eagle.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Eagle ERP,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Eagle,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Manuale: incasso contante, assegno o altro metodo al di fuori di Eagle ERP\n"
+"Manuale: incasso contante, assegno o altro metodo al di fuori di Eagle\n"
 "Elettronico: incasso automatico attraverso un sistema di pagamento. Viene richiesta una transazione su una carta salvata dal cliente durante un acquisto o una sottoscrizione (token di pagamento).\n"
-"Versamento raggruppato: raccolta di vari assegni cliente e generazione di un unico versamento da inviare alla banca. Durante l'elaborazione degli estratti conto in Eagle ERP si consiglia di riconciliare la transazione con il versamento raggruppato. Abilitare questa opzione nelle impostazioni. "
+"Versamento raggruppato: raccolta di vari assegni cliente e generazione di un unico versamento da inviare alla banca. Durante l'elaborazione degli estratti conto in Eagle si consiglia di riconciliare la transazione con il versamento raggruppato. Abilitare questa opzione nelle impostazioni. "
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Eagle ERP.\n"
-"Check:Pay bill by check and print it from Eagle ERP.\n"
+"Manual:Pay bill by cash or any other method outside of Eagle.\n"
+"Check:Pay bill by check and print it from Eagle.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
-"Manuale: pagamento fattura in contanti o con altro metodo al di fuori di Eagle ERP.\n"
-"Assegno: pagamento fattura con assegno e relativa stampa da Eagle ERP.\n"
+"Manuale: pagamento fattura in contanti o con altro metodo al di fuori di Eagle.\n"
+"Assegno: pagamento fattura con assegno e relativa stampa da Eagle.\n"
 "Bonifico SEPA: pagamento fattura con bonifico SEPA attraverso un file da inviare alla banca. Abilitare questa opzione dalle impostazioni."
 
 #. module: account_bank_statement_import
@@ -541,12 +541,12 @@ msgstr "Mostrare il registro nella bacheca"
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
 msgid ""
-"The account of the statement you are importing is not yet recorded in Eagle ERP. "
+"The account of the statement you are importing is not yet recorded in Eagle. "
 "In order to proceed with the import, you need to create a bank journal for "
 "this account."
 msgstr ""
 "Il conto della dichiarazione che si sta importando non è ancora registrato "
-"in Eagle ERP. Al fine di procedere con l'importazione, è necessario creare un "
+"in Eagle. Al fine di procedere con l'importazione, è necessario creare un "
 "bank journal per questo account."
 
 #. module: account_bank_statement_import

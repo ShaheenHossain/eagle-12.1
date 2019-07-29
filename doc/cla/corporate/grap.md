@@ -1,6 +1,6 @@
 France, May 22, 2016
 
-GRAP agrees to the terms of the Eagle ERP Corporate Contributor License
+GRAP agrees to the terms of the Eagle Corporate Contributor License
 Agreement v1.0.
 
 I declare that I am authorized and able to make this agreement and sign this

@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * base_setup
 # 
@@ -10,7 +10,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:16+0000\n"
@@ -202,8 +202,8 @@ msgstr "Externé mailové servery"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Eagle ERP data from Google Spreadsheet"
-msgstr "Vyber a analyzuj Eagle ERP dáta v Tabuľkách Google"
+msgid "Extract and analyze Eagle data from Google Spreadsheet"
+msgstr "Vyber a analyzuj Eagle dáta v Tabuľkách Google"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -390,7 +390,7 @@ msgstr "Použite externých poskytovateľov autentifikácie (OAuth)"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Eagle ERP Notes"
+msgid "Use external pads in Eagle Notes"
 msgstr ""
 
 #. module: base_setup
@@ -401,9 +401,9 @@ msgstr "Používatelia"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Eagle ERP provides a list of matching "
+"When populating your address book, Eagle provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
-"Pri plnení adresára, Eagle ERP poskytuje zoznam zodpovedajúcich spoločností.\n"
+"Pri plnení adresára, Eagle poskytuje zoznam zodpovedajúcich spoločností.\n"
 "Ak z nich vyberiete, údaje spoločnosti a logo sa vyplnia automaticky."

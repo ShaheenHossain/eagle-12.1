@@ -1,7 +1,7 @@
-Eagle ERP Invoicing
+Eagle Invoicing
 --------------
 
-Send professional invoices & get paid online with the Eagle ERP
+Send professional invoices & get paid online with the Eagle
 <a href="https://www.eagle.com/page/billing">billing software</a>.
 
 Create and send professional looking invoices & get paid online. It

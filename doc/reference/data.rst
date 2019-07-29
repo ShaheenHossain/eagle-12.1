@@ -6,7 +6,7 @@
 Data Files
 ==========
 
-Eagle ERP is greatly data-driven, and a big part of modules definition is thus
+Eagle is greatly data-driven, and a big part of modules definition is thus
 the definition of the various records it manages: UI (menus and views),
 security (access rights and access rules), reports and plain data are all
 defined via records.
@@ -14,7 +14,7 @@ defined via records.
 Structure
 =========
 
-The main way to define data in Eagle ERP is via XML data files: The broad structure
+The main way to define data in Eagle is via XML data files: The broad structure
 of an XML data file is the following:
 
 * Any number of operation elements within the root element ``eagle``
@@ -157,7 +157,7 @@ values).
 Shortcuts
 =========
 
-Because some important structural models of Eagle ERP are complex and involved,
+Because some important structural models of Eagle are complex and involved,
 data files provide shorter alternatives to defining them using
 :ref:`record tags <reference/data/record>`:
 

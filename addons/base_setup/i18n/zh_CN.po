@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * base_setup
 # 
@@ -13,7 +13,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:16+0000\n"
@@ -200,8 +200,8 @@ msgstr "外部邮件服务器"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Eagle ERP data from Google Spreadsheet"
-msgstr "从Google Spreadsheet中提取和分析Eagle ERP数据"
+msgid "Extract and analyze Eagle data from Google Spreadsheet"
+msgstr "从Google Spreadsheet中提取和分析Eagle数据"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -388,8 +388,8 @@ msgstr "使用外部验证提供者 (OAuth)"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Eagle ERP Notes"
-msgstr "在Eagle ERP Notes中使用外部记事板"
+msgid "Use external pads in Eagle Notes"
+msgstr "在Eagle Notes中使用外部记事板"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -399,7 +399,7 @@ msgstr "用户"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Eagle ERP provides a list of matching "
+"When populating your address book, Eagle provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr "当公布你的地址簿时，系统为你提供一个匹配公司列表。当选择其中一个，公司数据和logo会自动填充。"

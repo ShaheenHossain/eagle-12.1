@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 {
     "name" : "Norway - Accounting",
     "version" : "2.0",
     "author" : "Rolv Råen",
     'category': 'Localization',
-    "description": """This is the module to manage the accounting chart for Norway in Eagle ERP.
+    "description": """This is the module to manage the accounting chart for Norway in Eagle.
 
-Updated for Eagle ERP 9 by Bringsvor Consulting AS <www.bringsvor.com>
+Updated for Eagle 9 by Bringsvor Consulting AS <www.bringsvor.com>
 """,
     "depends" : [
         "account",

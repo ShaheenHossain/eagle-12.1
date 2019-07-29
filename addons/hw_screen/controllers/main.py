@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 from eagle import http
 from eagle.tools import config
@@ -147,7 +147,7 @@ class HardwareScreen(web.Home):
                         })
 
         return pos_display_template.render({
-            'title': "Eagle ERP -- Point of Sale",
+            'title': "Eagle -- Point of Sale",
             'breadcrumb': 'POS Client display',
             'cust_js': cust_js,
             'display_ifaces': display_ifaces,

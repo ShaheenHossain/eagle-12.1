@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 
 {
@@ -9,7 +9,7 @@
     'website': 'http://gscom.vn',
     'category': 'Localization',
     "description": """
-This is the module to manage the accounting chart for Vietnam in Eagle ERP.
+This is the module to manage the accounting chart for Vietnam in Eagle.
 =========================================================================
 
 This module applies to companies based in Vietnamese Accounting Standard (VAS)

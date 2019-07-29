@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * delivery
 # 
@@ -8,7 +8,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 10:09+0000\n"
 "PO-Revision-Date: 2018-08-24 09:17+0000\n"
@@ -106,11 +106,11 @@ msgstr ""
 #, python-format
 msgid ""
 "<p class=\"o_view_nocontent\">\n"
-"                    Buy Eagle ERP Enterprise now to get more providers.\n"
+"                    Buy Eagle Enterprise now to get more providers.\n"
 "                </p>"
 msgstr ""
 "<p class=\"o_view_nocontent\">\n"
-"                    現在購買 Eagle ERP企業版獲取更多的服務商。\n"
+"                    現在購買 Eagle企業版獲取更多的服務商。\n"
 "                </p>"
 
 #. module: delivery

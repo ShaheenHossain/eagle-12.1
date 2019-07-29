@@ -1,10 +1,10 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * hr_holidays
 # 
 # Translators:
 # ChinaMaker <liuct@chinamaker.net>, 2018
-# JZH-Eagle ERP <jzh@eagle.com>, 2018
+# JZH-Eagle <jzh@eagle.com>, 2018
 # 老窦 北京 <2662059195@qq.com>, 2018
 # Maie <m@maie.name>, 2018
 # Lisa Zhang <lzh@eagle.com>, 2018
@@ -21,7 +21,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-09 10:31+0000\n"
 "PO-Revision-Date: 2018-08-24 09:19+0000\n"
@@ -1870,9 +1870,9 @@ msgstr "主管"
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_leave_type__categ_id
 msgid ""
-"Once a leave is validated, Eagle ERP will create a corresponding meeting of this "
+"Once a leave is validated, Eagle will create a corresponding meeting of this "
 "type in the calendar."
-msgstr "一旦休假被批准，Eagle ERP会在日历上生成一个这种类型的活动。"
+msgstr "一旦休假被批准，Eagle会在日历上生成一个这种类型的活动。"
 
 #. module: hr_holidays
 #: model_terms:ir.actions.act_window,help:hr_holidays.hr_leave_action_my

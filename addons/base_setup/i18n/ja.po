@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * base_setup
 # 
@@ -10,7 +10,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:16+0000\n"
@@ -197,8 +197,8 @@ msgstr "外部Eメールサーバ"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Eagle ERP data from Google Spreadsheet"
-msgstr "GoogleスプレッドシートにEagle ERPデータを抽出、分析する"
+msgid "Extract and analyze Eagle data from Google Spreadsheet"
+msgstr "GoogleスプレッドシートにEagleデータを抽出、分析する"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -346,7 +346,7 @@ msgstr ""
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Synchronize your calendar with Google Calendar"
-msgstr "Eagle ERPカレンダをGoogleカレンダーと同期"
+msgstr "EagleカレンダをGoogleカレンダーと同期"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -385,8 +385,8 @@ msgstr "外部認証プロバイダを使用する (OAuth)"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Eagle ERP Notes"
-msgstr "Eagle ERPノートで外部のパッドを使用"
+msgid "Use external pads in Eagle Notes"
+msgstr "Eagleノートで外部のパッドを使用"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -396,7 +396,7 @@ msgstr "ユーザ"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Eagle ERP provides a list of matching "
+"When populating your address book, Eagle provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""

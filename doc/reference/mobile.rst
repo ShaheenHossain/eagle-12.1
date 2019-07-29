@@ -10,18 +10,18 @@ Mobile JavaScript
 Introduction
 ============
 
-In Eagle ERP 10.0 we released a mobile app which allows you to access all **Eagle ERP apps**
+In Eagle 10.0 we released a mobile app which allows you to access all **Eagle apps**
 (even your customized modules). 
 
-The application is a combination of **Eagle ERP Web** and **Native Mobile
-components**. In other words it is a Eagle ERP Web instance loaded inside a native, mobile, WebView container.
+The application is a combination of **Eagle Web** and **Native Mobile
+components**. In other words it is a Eagle Web instance loaded inside a native, mobile, WebView container.
 
 This page documents how you can access mobile native components like Camera,
-Vibration, Notification and Toast through Eagle ERP Web (via JavaScript). For this, you
-do not need to be a mobile developer, if you know Eagle ERP JavaScript API you can
+Vibration, Notification and Toast through Eagle Web (via JavaScript). For this, you
+do not need to be a mobile developer, if you know Eagle JavaScript API you can
 access all available mobile features.
 
-.. warning:: These features work with **Eagle ERP Enterprise 10.0+** only
+.. warning:: These features work with **Eagle Enterprise 10.0+** only
 
 How does it work? 
 =================
@@ -34,8 +34,8 @@ Of course, it is a web page that loads on a Mobile Native Web container. But it
 is integrated in such a way that you can access native resources from your web
 JavaScript.
 
-WebPages (Eagle ERP Web) is on the top of each layer, where the second layer is a Bridge
-between Eagle ERP Web (JS) and the native mobile components.
+WebPages (Eagle Web) is on the top of each layer, where the second layer is a Bridge
+between Eagle Web (JS) and the native mobile components.
 
 When any call from JavaScript is triggered it passes through Bridge and Bridge
 passes it to the native invoker to perform that action.
@@ -49,7 +49,7 @@ from the Native resources. For example the Camera or GPS Location.
 How to use it?
 ==============
 
-Just like the Eagle ERP Web Framework, the Mobile API can be used anywhere by getting the object from
+Just like the Eagle Web Framework, the Mobile API can be used anywhere by getting the object from
 **web_mobile.rpc**
 
 .. image:: images/eagle_mobile_api.png

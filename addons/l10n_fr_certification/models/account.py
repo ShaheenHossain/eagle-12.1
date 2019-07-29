@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 from hashlib import sha256
 from json import dumps
@@ -141,7 +141,7 @@ class AccountMove(models.Model):
                          From: %(start_move_name)s %(start_move_ref)s
                          To: %(end_move_name)s %(end_move_ref)s
 
-                         For this report to be legally meaningful, please download your certification from your customer account on Eagle ERP.com (Only for Eagle ERP Enterprise users).'''
+                         For this report to be legally meaningful, please download your certification from your customer account on Eagle.com (Only for Eagle Enterprise users).'''
                          ) % report_dict)
 
 

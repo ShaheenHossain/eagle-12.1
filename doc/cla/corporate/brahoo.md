@@ -1,6 +1,6 @@
 The Netherlands, 2018-10-24
 
-Brahoo B.V. agrees to the terms of the Eagle ERP Corporate Contributor License
+Brahoo B.V. agrees to the terms of the Eagle Corporate Contributor License
 Agreement v1.0.
 
 I declare that I am authorized and able to make this agreement and sign this

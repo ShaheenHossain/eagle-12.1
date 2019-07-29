@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 
 {
@@ -7,7 +7,7 @@
     'category': 'Tools',
     'summary': 'Basic models and helpers to support In-App purchases.',
     'description': """
-This module provides standard tools (account model, context manager and helpers) to support In-App purchases inside Eagle ERP.
+This module provides standard tools (account model, context manager and helpers) to support In-App purchases inside Eagle.
 """,
     'depends': ['web', 'web_settings_dashboard'],
     'data': [

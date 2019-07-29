@@ -175,7 +175,7 @@ def redirect_with_hash(url, code=303):
     return "<html><head><script>window.location = '%s' + location.hash;</script></head></html>" % url
 
 class WebRequest(object):
-    """ Parent class for all Eagle ERP Web request types, mostly deals with
+    """ Parent class for all Eagle Web request types, mostly deals with
     initialization and setup of the request object (the dispatching itself has
     to be handled by the subclasses)
 
@@ -465,7 +465,7 @@ def route(route=None, **kw):
 
         .. versionadded:: 9.0
 
-        Eagle ERP implements token-based `CSRF protection
+        Eagle implements token-based `CSRF protection
         <https://en.wikipedia.org/wiki/CSRF>`_.
 
         CSRF protection is enabled by default and applies to *UNSAFE*
@@ -498,7 +498,7 @@ def route(route=None, **kw):
               require('web.core').csrf_token
 
         * if the endpoint can be called by external parties (not from
-          Eagle ERP) as e.g. it is a REST API or a `webhook
+          Eagle) as e.g. it is a REST API or a `webhook
           <https://en.wikipedia.org/wiki/Webhook>`_, CSRF protection
           must be disabled on the endpoint. If possible, you may want
           to implement other methods of request validation (to ensure
@@ -660,7 +660,7 @@ class JsonRequest(WebRequest):
                 _logger.exception("Exception during JSON request handling.")
             error = {
                     'code': 200,
-                    'message': "Eagle ERP Server Error",
+                    'message': "Eagle Server Error",
                     'data': serialize_exception(exception)
             }
             if isinstance(exception, werkzeug.exceptions.NotFound):
@@ -669,10 +669,10 @@ class JsonRequest(WebRequest):
                 error['message'] = "404: Not Found"
             if isinstance(exception, AuthenticationError):
                 error['code'] = 100
-                error['message'] = "Eagle ERP Session Invalid"
+                error['message'] = "Eagle Session Invalid"
             if isinstance(exception, SessionExpiredException):
                 error['code'] = 100
-                error['message'] = "Eagle ERP Session Expired"
+                error['message'] = "Eagle Session Expired"
             return self._json_response(error=error)
 
     def dispatch(self):
@@ -808,12 +808,12 @@ class HttpRequest(WebRequest):
                 else:
                     _logger.warn("""No CSRF validation token provided for path '%s'
 
-Eagle ERP URLs are CSRF-protected by default (when accessed with unsafe
+Eagle URLs are CSRF-protected by default (when accessed with unsafe
 HTTP methods). See
 https://www.eagle.com/documentation/12.0/reference/http.html#csrf for
 more details.
 
-* if this endpoint is accessed through Eagle ERP via py-QWeb form, embed a CSRF
+* if this endpoint is accessed through Eagle via py-QWeb form, embed a CSRF
   token in the form, Tokens are available via `request.csrf_token()`
   can be provided through a hidden input and must be POST-ed named
   `csrf_token` e.g. in your form add:
@@ -1515,7 +1515,7 @@ def db_filter(dbs, httprequest=None):
         r = eagle.tools.config['dbfilter'].replace('%h', h).replace('%d', d)
         dbs = [i for i in dbs if re.match(r, i)]
     elif eagle.tools.config['db_name']:
-        # In case --db-filter is not provided and --database is passed, Eagle ERP will
+        # In case --db-filter is not provided and --database is passed, Eagle will
         # use the value of --database as a comma seperated list of exposed databases.
         exposed_dbs = set(db.strip() for db in eagle.tools.config['db_name'].split(','))
         dbs = sorted(exposed_dbs.intersection(dbs))

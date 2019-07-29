@@ -12,7 +12,7 @@ Deploying with KeyCDN_
 .. sectionauthor:: Fabien Meghazi
 
 This document will guide you through the setup of a KeyCDN_ account with your
-Eagle ERP powered website.
+Eagle powered website.
 
 Step 1: Create a pull zone in the KeyCDN dashboard
 --------------------------------------------------
@@ -37,7 +37,7 @@ Once done, you'll have to wait a bit while KeyCDN_ is crawling your website.
 Step 2: Configure the eagle instance with your zone
 --------------------------------------------------
 
-In the Eagle ERP back end, go to the :guilabel:`Website Settings`: menu, then
+In the Eagle back end, go to the :guilabel:`Website Settings`: menu, then
 activate the CDN support and copy/paste your zone URL in the
 :guilabel:`CDN Base URL` field. This field is only visible and configurable if
 you have developer mode activated.
@@ -63,7 +63,7 @@ prevents a remotely linked CSS file to fetch relative resources on this same
 external server.
 
 If you don't activate the CORS option in the CDN zone, the more obvious
-resulting problem on a default Eagle ERP website will be the lack of font-awesome
+resulting problem on a default Eagle website will be the lack of font-awesome
 icons because the font file declared in the font-awesome CSS won't be loaded on
 the remote server.
 

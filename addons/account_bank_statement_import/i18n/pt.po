@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * account_bank_statement_import
 # 
@@ -14,7 +14,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:15+0000\n"
@@ -444,23 +444,23 @@ msgstr "Conta de Perdas"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Eagle ERP.\n"
+"Manual: Get paid by cash, check or any other method outside of Eagle.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Eagle ERP,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Eagle,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Manual: Receba pagamentos em numerário, cheque ou qualquer outro método fora do Eagle ERP.\n"
+"Manual: Receba pagamentos em numerário, cheque ou qualquer outro método fora do Eagle.\n"
 "Eletrónico: Receba pagamentos automaticamente através de um gestor de transações pedindo uma transação com um cartão registado pelo cliente ao comprar ou subscrevendo online (token de pagamento).\n"
-"Depósito em Lote: Junte vários cheques de clientes ao mesmo tempo gerando um depósito em lote e submetendo ao seu banco. Quando codificar o extrato bancário no Eagle ERP, é-lhe sugerido que reconcilie a transação com o depósito em lote. Ative esta opção nas definições."
+"Depósito em Lote: Junte vários cheques de clientes ao mesmo tempo gerando um depósito em lote e submetendo ao seu banco. Quando codificar o extrato bancário no Eagle, é-lhe sugerido que reconcilie a transação com o depósito em lote. Ative esta opção nas definições."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Eagle ERP.\n"
-"Check:Pay bill by check and print it from Eagle ERP.\n"
+"Manual:Pay bill by cash or any other method outside of Eagle.\n"
+"Check:Pay bill by check and print it from Eagle.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
-"Manual: Pague uma conta por numerário ou qualquer outro método fora do Eagle ERP.\n"
-"Cheque: Pague uma conta por cheque e imprima-o através do Eagle ERP.\n"
+"Manual: Pague uma conta por numerário ou qualquer outro método fora do Eagle.\n"
+"Cheque: Pague uma conta por cheque e imprima-o através do Eagle.\n"
 "Transferência a Crédito SEPA: Pague uma conta através de um ficheiro de Transferência a Crédito SEPA submetido ao seu banco. Ative esta opção nas definições."
 
 #. module: account_bank_statement_import
@@ -530,12 +530,12 @@ msgstr "Mostrar diário no painel"
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
 msgid ""
-"The account of the statement you are importing is not yet recorded in Eagle ERP. "
+"The account of the statement you are importing is not yet recorded in Eagle. "
 "In order to proceed with the import, you need to create a bank journal for "
 "this account."
 msgstr ""
 "A conta correspondente ao extrato que está a importar não está ainda criada "
-"no Eagle ERP. Para prosseguir com a importação, precisa de criar um diário de "
+"no Eagle. Para prosseguir com a importação, precisa de criar um diário de "
 "bancos para esta conta."
 
 #. module: account_bank_statement_import

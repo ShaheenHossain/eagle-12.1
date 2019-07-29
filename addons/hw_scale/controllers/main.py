@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 import logging
 import os
@@ -21,7 +21,7 @@ DRIVER_NAME = 'scale'
 try:
     import serial
 except ImportError:
-    _logger.error('Eagle ERP module hw_scale depends on the pyserial python module')
+    _logger.error('Eagle module hw_scale depends on the pyserial python module')
     serial = None
 
 

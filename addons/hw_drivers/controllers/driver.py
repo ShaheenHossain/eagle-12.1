@@ -91,10 +91,10 @@ class StatusController(http.Controller):
     @http.route('/hw_drivers/box/connect', type='http', auth='none', cors='*', csrf=False, save_session=False)
     def connect_box(self, token):
         """
-        This route is called when we want that a IoT Box will be connected to a Eagle ERP DB
+        This route is called when we want that a IoT Box will be connected to a Eagle DB
         token is a base 64 encoded string and have 2 argument separate by |
         1 - url of eagle DB
-        2 - token. This token will be compared to the token of Eagle ERP. He have 1 hour lifetime
+        2 - token. This token will be compared to the token of Eagle. He have 1 hour lifetime
         """
         server = get_eagle_server_url()
         image = get_resource_path('hw_drivers', 'static/img', 'False.jpg')
@@ -258,7 +258,7 @@ class Manager(Thread):
 
     def send_alldevices(self):
         """
-        This method send IoT Box and devices informations to Eagle ERP database
+        This method send IoT Box and devices informations to Eagle database
         """
         server = get_eagle_server_url()
         if server:
@@ -297,7 +297,7 @@ class Manager(Thread):
                 _logger.error('Could not reach configured server')
                 _logger.error('A error encountered : %s ' % e)
         else:
-            _logger.warning('Eagle ERP server not set')
+            _logger.warning('Eagle server not set')
 
     def usb_loop(self):
         usb_devices = {}

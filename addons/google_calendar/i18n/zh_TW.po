@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * google_calendar
 # 
@@ -7,7 +7,7 @@
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-09-21 13:17+0000\n"
@@ -189,9 +189,9 @@ msgstr "為了進行此操作，您首先需要中斷前登入帳戶中所有進
 #: model:ir.model.fields,help:google_calendar.field_res_users__google_calendar_cal_id
 msgid ""
 "Last Calendar ID who has been synchronized. If it is changed, we remove all "
-"links between GoogleID and Eagle ERP Google Internal ID"
+"links between GoogleID and Eagle Google Internal ID"
 msgstr ""
-"已經被同步的最後一個日曆ID。如果它發生改變， 將清除全部在 GoogleID 和 Eagle ERP Google Internal ID之間的連接"
+"已經被同步的最後一個日曆ID。如果它發生改變， 將清除全部在 GoogleID 和 Eagle Google Internal ID之間的連接"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_google_calendar____last_update
@@ -205,13 +205,13 @@ msgstr "最後同步的日期"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_calendar_attendee__oe_synchro_date
-msgid "Eagle ERP Synchro Date"
-msgstr "Eagle ERP 同步日期"
+msgid "Eagle Synchro Date"
+msgstr "Eagle 同步日期"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_calendar_event__oe_update_date
-msgid "Eagle ERP Update Date"
-msgstr "Eagle ERP 更新日期"
+msgid "Eagle Update Date"
+msgstr "Eagle 更新日期"
 
 #. module: google_calendar
 #. openerp-web
@@ -275,7 +275,7 @@ msgstr "使用者"
 #: code:addons/google_calendar/static/src/js/google_calendar.js:42
 #, python-format
 msgid "You will be redirected to Google to authorize access to your calendar!"
-msgstr "您將被重導向到Google來授權Eagle ERP訪問您的日曆!"
+msgstr "您將被重導向到Google來授權Eagle訪問您的日曆!"
 
 #. module: google_calendar
 #: code:addons/google_calendar/models/google_calendar.py:296

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 import logging
 import psycopg2
@@ -75,7 +75,7 @@ class DeliveryCarrier(models.Model):
             'domain': [['name', 'ilike', 'delivery_']],
             'type': 'ir.actions.act_window',
             'help': _('''<p class="o_view_nocontent">
-                    Buy Eagle ERP Enterprise now to get more providers.
+                    Buy Eagle Enterprise now to get more providers.
                 </p>'''),
         }
 

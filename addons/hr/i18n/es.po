@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * hr
 # 
@@ -7,7 +7,7 @@
 # Miquel Torner <miq@eagle.com>, 2018
 # Cristopher Cravioto <ccr@eagle.com>, 2018
 # Ana Juaristi <ajuaristio@gmail.com>, 2018
-# Eagle ERP developer at Praxya.com <sergio.estada@gmail.com>, 2018
+# Eagle developer at Praxya.com <sergio.estada@gmail.com>, 2018
 # Alejandro Die Sanchis <marketing@domatix.com>, 2018
 # Luis M. Ontalba <luis.martinez@tecnativa.com>, 2018
 # Antonio Trueba, 2018
@@ -20,7 +20,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-12 12:19+0000\n"
 "PO-Revision-Date: 2018-08-24 09:18+0000\n"
@@ -136,7 +136,7 @@ msgid ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Powered by <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Eagle ERP</a>\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Eagle</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -467,8 +467,8 @@ msgstr "Define la planificación del recurso."
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_consultant
-msgid "Deliver generic Eagle ERP functional training sessions"
-msgstr "Impartir sesiones genéricas funcionales de Eagle ERP"
+msgid "Deliver generic Eagle functional training sessions"
+msgstr "Impartir sesiones genéricas funcionales de Eagle"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__department_id
@@ -1164,11 +1164,11 @@ msgstr "Número de mensajes no leidos"
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.open_module_tree_department
 msgid ""
-"Eagle ERP's department structure is used to manage all documents\n"
+"Eagle's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves, recruitments, etc."
 msgstr ""
-"La estructura de departamentos de Eagle ERP se usa para gestionar todos los documentos\n"
+"La estructura de departamentos de Eagle se usa para gestionar todos los documentos\n"
 "relacionados al empleado por departamentos: gastos, partes de hora,\n"
 "ausencias, contrataciones, etc."
 
@@ -1758,11 +1758,11 @@ msgstr "Informaremos al encargado de los servicios profesionales"
 #: model_terms:ir.actions.act_window,help:hr.act_employee_from_department
 #: model_terms:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Eagle ERP employee screen, you\n"
+"With just a quick glance on the Eagle employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Con un rápido vistazo a la pantalla de empleados de Eagle ERP\n"
+"Con un rápido vistazo a la pantalla de empleados de Eagle\n"
 "podrá encontrar fácilmente toda la información que necesite\n"
 "sobre cada persona: información de contacto, puesto de trabajo,\n"
 "disponibilidad, etc..."

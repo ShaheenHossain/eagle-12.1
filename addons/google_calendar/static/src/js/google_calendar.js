@@ -24,7 +24,7 @@ CalendarController.include({
      * mean of a dialog.
      *
      * @private
-     * @returns {Eagle ERPEvent} event
+     * @returns {EagleEvent} event
      */
     _onSyncCalendar: function (event) {
         var self = this;

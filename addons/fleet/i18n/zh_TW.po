@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * fleet
 # 
@@ -9,7 +9,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 10:10+0000\n"
 "PO-Revision-Date: 2018-08-24 09:18+0000\n"
@@ -1237,11 +1237,11 @@ msgstr "車輛的品牌"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_action
 msgid ""
 "Manage all your contracts (leasing, insurances, etc.) with\n"
-"            their related services, costs. Eagle ERP will automatically warn\n"
+"            their related services, costs. Eagle will automatically warn\n"
 "            you when some contracts have to be renewed."
 msgstr ""
 "管理所有合同（租賃、保險等）及\n"
-" 其相關服務、費用。當某些合同必須續訂時，Eagle ERP 將自動提醒\n"
+" 其相關服務、費用。當某些合同必須續訂時，Eagle 將自動提醒\n"
 " 您。"
 
 #. module: fleet
@@ -1537,10 +1537,10 @@ msgstr "查看此日誌中那一刻的車輛里程表"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_non_effective_action
 msgid ""
-"Eagle ERP helps you managing the costs for your different vehicles\n"
+"Eagle helps you managing the costs for your different vehicles\n"
 "          Costs are generally created from services and contract and appears here."
 msgstr ""
-"Eagle ERP能幫您管理不同車輛\n"
+"Eagle能幫您管理不同車輛\n"
 "的費用。費用從服務，合同中產生並顯示在這裡。"
 
 #. module: fleet
@@ -1953,10 +1953,10 @@ msgstr "條款和條件"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_non_effective_action
 msgid ""
-"Thanks to the different filters, Eagle ERP can only print the effective\n"
+"Thanks to the different filters, Eagle can only print the effective\n"
 "          costs, sort them by type and by vehicle."
 msgstr ""
-"感謝有不同的篩選，Eagle ERP 能只列印生效\n"
+"感謝有不同的篩選，Eagle 能只列印生效\n"
 "的費用，並且用類型和車輛尋找它們。"
 
 #. module: fleet

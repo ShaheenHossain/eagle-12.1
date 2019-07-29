@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * hr_recruitment
 # 
@@ -10,7 +10,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-09 10:31+0000\n"
 "PO-Revision-Date: 2018-08-24 09:19+0000\n"
@@ -1652,17 +1652,17 @@ msgstr "未讀消息的數量"
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
 msgid ""
-"Eagle ERP helps you track applicants in the recruitment\n"
+"Eagle helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, etc."
-msgstr "Eagle ERP幫助您在招聘過程追蹤申請人及跟進所有操作：會議、面試等。"
+msgstr "Eagle幫助您在招聘過程追蹤申請人及跟進所有操作：會議、面試等。"
 
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
-"Eagle ERP helps you track applicants in the recruitment\n"
+"Eagle helps you track applicants in the recruitment\n"
 "            process and follow up all operations: meetings, interviews, etc."
 msgstr ""
-"Eagle ERP幫助您在招聘\n"
+"Eagle幫助您在招聘\n"
 "過程追蹤申請人及跟進所有操作：會議、面試等。"
 
 #. module: hr_recruitment
@@ -2090,12 +2090,12 @@ msgstr "這是鏈接源，例如，搜尋引擎、其他域名或電子信件列
 #: model_terms:ir.actions.act_window,help:hr_recruitment.hr_applicant_resumes
 msgid ""
 "This menu helps you search through resumes and motivation\n"
-"                letters. Eagle ERP automatically indexes .PDF, .DOC, DOCX, .TXT\n"
+"                letters. Eagle automatically indexes .PDF, .DOC, DOCX, .TXT\n"
 "                files so that you can search keywords from the content of these\n"
 "                files."
 msgstr ""
 "此選單有助您通過簡歷和動機\n"
-" 信進行搜尋。Eagle ERP 自動檢索PDF、DOC、DOCX、TXT\n"
+" 信進行搜尋。Eagle 自動檢索PDF、DOC、DOCX、TXT\n"
 " 文件，這樣您便可在這些\n"
 " 文件的內容中搜尋關鍵字。"
 
@@ -2205,11 +2205,11 @@ msgstr "網站溝通記錄"
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.action_hr_job_no_employee
 msgid ""
-"With just a quick glance on the Eagle ERP employee screen, you\n"
+"With just a quick glance on the Eagle employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"隨著Eagle ERP員工的螢幕上只是一個快速瀏覽，您\n"
+"隨著Eagle員工的螢幕上只是一個快速瀏覽，您\n"
 "可以很容易地找到您所需要的每個人\n"
 "的信息、聯絡人數據、工作崗位、可用性等。"
 

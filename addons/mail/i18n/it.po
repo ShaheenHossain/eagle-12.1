@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * mail
 # 
@@ -26,7 +26,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 10:09+0000\n"
 "PO-Revision-Date: 2018-08-24 09:20+0000\n"
@@ -2433,8 +2433,8 @@ msgstr "Tramite e-mail"
 
 #. module: mail
 #: selection:res.users,notification_type:0
-msgid "Handle in Eagle ERP"
-msgstr "Tramite Eagle ERP"
+msgid "Handle in Eagle"
+msgstr "Tramite Eagle"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_resend_message__has_cancel
@@ -2609,7 +2609,7 @@ msgid ""
 "If set, the queue manager will send the email after the date. If not set, "
 "the email will be send as soon as possible."
 msgstr ""
-"Se questa opzione è definita, il Eagle ERP manderà l'email dopo la data. Se "
+"Se questa opzione è definita, il Eagle manderà l'email dopo la data. Se "
 "questa opzione non è definita, l'email sarà inviata non appena possibile. "
 
 #. module: mail
@@ -2619,7 +2619,7 @@ msgid ""
 "If set, the queue manager will send the email after the date. If not set, "
 "the email will be send as soon as possible. Jinja2 placeholders may be used."
 msgstr ""
-"Se questa opzione è definita, Eagle ERP manderà l'email dopo la data. Se questa "
+"Se questa opzione è definita, Eagle manderà l'email dopo la data. Se questa "
 "opzione non è definita, l'email sarà inviata non appena possibile. Variabili"
 " Jinja2 placeholders possono essere usate. "
 
@@ -2638,11 +2638,11 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings__alias_domain
 msgid ""
-"If you have setup a catch-all email domain redirected to the Eagle ERP server, "
+"If you have setup a catch-all email domain redirected to the Eagle server, "
 "enter the domain name here."
 msgstr ""
 "Se un dominio catch-all è stato configurato per essere reindirizzato su "
-"Eagle ERP, inserire qui il dominio."
+"Eagle, inserire qui il dominio."
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_resend_cancel_view_form
@@ -3965,8 +3965,8 @@ msgstr "Numero di messaggi non letti"
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_light
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_paynow
 #: model_terms:ir.ui.view,arch_db:mail.message_notification_email
-msgid "Eagle ERP"
-msgstr "Eagle ERP"
+msgid "Eagle"
+msgstr "Eagle"
 
 #. module: mail
 #. openerp-web
@@ -4388,11 +4388,11 @@ msgstr "Attendere il caricamento del file."
 msgid ""
 "Policy on how to handle Chatter notifications:\n"
 "- Handle by Emails: notifications are sent to your email address\n"
-"- Handle in Eagle ERP: notifications appear in your Eagle ERP Inbox"
+"- Handle in Eagle: notifications appear in your Eagle Inbox"
 msgstr ""
 "Politica su come gestire le notifiche del chatter:\n"
 "- Email: le notifiche sono inviate sull'indirizzo email\n"
-"- Eagle ERP: le notifiche appaiono nella posta in arrivo Eagle ERP"
+"- Eagle: le notifiche appaiono nella posta in arrivo Eagle"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_contact
@@ -5301,11 +5301,11 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin__alias_model_id
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_model_id
 msgid ""
-"The model (Eagle ERP Document Kind) to which this alias corresponds. Any incoming"
+"The model (Eagle Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Il modello (Eagle ERP Document Kind) a cui corrisponde questo alias. Qualsiasi "
+"Il modello (Eagle Document Kind) a cui corrisponde questo alias. Qualsiasi "
 "messaggio di posta elettronica in arrivo che non risponde a un record "
 "esistente causerà la creazione di un nuovo record di questo modello (ad "
 "esempio un’attività di progetto)"

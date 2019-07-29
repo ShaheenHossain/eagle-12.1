@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 import logging
 import json
@@ -60,9 +60,9 @@ class IoTboxHomepage(web.Home):
         return """
         <p>
             The activate the customer display feature, you will need to reinstall the IoT Box software.
-            You can find the latest images on the <a href="http://nightly.eagle.com/master/posbox/">Eagle ERP Nightly builds</a> website.
+            You can find the latest images on the <a href="http://nightly.eagle.com/master/posbox/">Eagle Nightly builds</a> website.
             Make sure to download at least the version 16.<br/>
-            Eagle ERP version 11, or above, is required to use the customer display feature.
+            Eagle version 11, or above, is required to use the customer display feature.
         </p>
         """
 
@@ -137,7 +137,7 @@ class IoTboxHomepage(web.Home):
             if driver != '__pycache__':
                 drivers_list.append(driver)
         return driver_list_template.render({
-            'title': "Eagle ERP's IoT Box - Drivers list",
+            'title': "Eagle's IoT Box - Drivers list",
             'breadcrumb': 'Drivers list',
             'drivers_list': drivers_list,
         })
@@ -210,7 +210,7 @@ class IoTboxHomepage(web.Home):
         if server:
             res_payload['server'] = {
                 'url': server,
-                'message': 'Redirect to Eagle ERP Server'
+                'message': 'Redirect to Eagle Server'
             }
 
         return json.dumps(res_payload)
@@ -266,8 +266,8 @@ class IoTboxHomepage(web.Home):
     @http.route('/server', type='http', auth='none', website=True)
     def server(self):
         return server_config_template.render({
-            'title': 'IoT -> Eagle ERP server configuration',
-            'breadcrumb': 'Configure Eagle ERP Server',
+            'title': 'IoT -> Eagle server configuration',
+            'breadcrumb': 'Configure Eagle Server',
             'hostname': subprocess.check_output('hostname').decode('utf-8').strip('\n'),
             'server_status': get_eagle_server_url() or 'Not configured yet',
             'loading_message': 'Configure Domain Server'

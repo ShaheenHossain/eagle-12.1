@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * hr_recruitment
 # 
@@ -12,7 +12,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-09 10:31+0000\n"
 "PO-Revision-Date: 2018-08-24 09:19+0000\n"
@@ -1654,19 +1654,19 @@ msgstr "읽지 않은 메시지 수"
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
 msgid ""
-"Eagle ERP helps you track applicants in the recruitment\n"
+"Eagle helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, etc."
 msgstr ""
-"Eagle ERP는 채용 과정에서 지원자를 추적하고 모든 작업을 \n"
+"Eagle는 채용 과정에서 지원자를 추적하고 모든 작업을 \n"
 "                 추적할 수 있도록 도와줍니다.  예 : 회의, 인터뷰 등"
 
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
-"Eagle ERP helps you track applicants in the recruitment\n"
+"Eagle helps you track applicants in the recruitment\n"
 "            process and follow up all operations: meetings, interviews, etc."
 msgstr ""
-"Eagle ERP는 채용 과정에서 지원자를 추적하고 모든 작업을 \n"
+"Eagle는 채용 과정에서 지원자를 추적하고 모든 작업을 \n"
 "                 추적할 수 있도록 도와줍니다.  예 : 회의, 인터뷰 등"
 
 #. module: hr_recruitment
@@ -2099,12 +2099,12 @@ msgstr "이것은 링크의 소스입니다. 예시 : 검색엔진, 다른 도�
 #: model_terms:ir.actions.act_window,help:hr_recruitment.hr_applicant_resumes
 msgid ""
 "This menu helps you search through resumes and motivation\n"
-"                letters. Eagle ERP automatically indexes .PDF, .DOC, DOCX, .TXT\n"
+"                letters. Eagle automatically indexes .PDF, .DOC, DOCX, .TXT\n"
 "                files so that you can search keywords from the content of these\n"
 "                files."
 msgstr ""
 "이 메뉴는 이력서와 자기 소개서를 검색하는 데 도움이 됩니다.\n"
-"                 Eagle ERP는 자동으로 PDF, DOC, DOCX, TXT 파일을 \n"
+"                 Eagle는 자동으로 PDF, DOC, DOCX, TXT 파일을 \n"
 "                 색인화하여 이러한 파일의 내용에서 \n"
 "                 키워드를 검색할 수 있습니다."
 
@@ -2216,11 +2216,11 @@ msgstr "웹사이트 대화 이력"
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.action_hr_job_no_employee
 msgid ""
-"With just a quick glance on the Eagle ERP employee screen, you\n"
+"With just a quick glance on the Eagle employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Eagle ERP 직원 화면을 간단히 보면, 각 사람에게 필요한 모든 정보를 쉽게 찾을 수 있습니다. 연락처 데이터, 직무, 가용성 등."
+"Eagle 직원 화면을 간단히 보면, 각 사람에게 필요한 모든 정보를 쉽게 찾을 수 있습니다. 연락처 데이터, 직무, 가용성 등."
 
 #. module: hr_recruitment
 #: model_terms:ir.ui.view,arch_db:hr_recruitment.hr_recruitment_stage_form

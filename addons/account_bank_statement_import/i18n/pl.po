@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * account_bank_statement_import
 # 
@@ -17,7 +17,7 @@
 # Andrzej Donczew <a.donczew@hadron.eu.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-09-21 13:17+0000\n"
@@ -447,27 +447,27 @@ msgstr "Konto strat"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Eagle ERP.\n"
+"Manual: Get paid by cash, check or any other method outside of Eagle.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Eagle ERP,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Eagle,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Ręcznie: Płać gotówką, czekiem lub jakąkolwiek inną metoda poza Eagle ERP. "
+"Ręcznie: Płać gotówką, czekiem lub jakąkolwiek inną metoda poza Eagle. "
 "Elektronicznie: Otrzymuj automatycznie płatności za pośrednictwem centrum "
 "autoryzacji płatności, żądając transakcji na karcie zapisanej przez klienta "
 "podczas kupowania lub subskrybowania online (token płatności). Depozyt "
 "zbiorczy: załóż kilka czeków klientów naraz, generując depozyt partii, który"
-" zostanie przesłany do Twojego banku. Kodowanie wyciągu bankowego w Eagle ERP "
+" zostanie przesłany do Twojego banku. Kodowanie wyciągu bankowego w Eagle "
 "sugeruje, aby uzgodnić transakcję z wpłatą. Włącz tę opcję w ustawieniach."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Eagle ERP.\n"
-"Check:Pay bill by check and print it from Eagle ERP.\n"
+"Manual:Pay bill by cash or any other method outside of Eagle.\n"
+"Check:Pay bill by check and print it from Eagle.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
-"Ręcznie: Zapłać rachunek gotówką lub inną metodą poza Eagle ERP.\n"
-"Czek: Zapłać rachunek czekiem i wydrukuj go z Eagle ERP.\n"
+"Ręcznie: Zapłać rachunek gotówką lub inną metodą poza Eagle.\n"
+"Czek: Zapłać rachunek czekiem i wydrukuj go z Eagle.\n"
 "Przelew SEPA: Zapłać rachunek z pliku przelewu SEPA, który przesyłasz do swojego banku. Włącz tę opcję w ustawieniach."
 
 #. module: account_bank_statement_import
@@ -538,11 +538,11 @@ msgstr "Pokaż dziennik na konsoli"
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
 msgid ""
-"The account of the statement you are importing is not yet recorded in Eagle ERP. "
+"The account of the statement you are importing is not yet recorded in Eagle. "
 "In order to proceed with the import, you need to create a bank journal for "
 "this account."
 msgstr ""
-"Wyciąg bankowy, który importujesz nie jest jeszcze zarejestrowany w Eagle ERP. By"
+"Wyciąg bankowy, który importujesz nie jest jeszcze zarejestrowany w Eagle. By"
 " kontynuować importowanie potrzebujesz stworzyć dziennik bankowy dla tego "
 "konta."
 

@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * mail
 # 
@@ -12,7 +12,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-08 05:29+0000\n"
 "PO-Revision-Date: 2018-08-24 09:20+0000\n"
@@ -2402,8 +2402,8 @@ msgstr "Χειρισμός από Emails"
 
 #. module: mail
 #: selection:res.users,notification_type:0
-msgid "Handle in Eagle ERP"
-msgstr "Χειρισμός από Eagle ERP"
+msgid "Handle in Eagle"
+msgstr "Χειρισμός από Eagle"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_resend_message__has_cancel
@@ -2605,11 +2605,11 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings__alias_domain
 msgid ""
-"If you have setup a catch-all email domain redirected to the Eagle ERP server, "
+"If you have setup a catch-all email domain redirected to the Eagle server, "
 "enter the domain name here."
 msgstr ""
 "Εάν έχετε ρυθμίσει στον τομέα (domain) ένα 'catch-all' email, να "
-"ανακατευθύνεται σε διακομιστή Eagle ERP , πληκτρολογήστε το όνομα τομέα εδώ."
+"ανακατευθύνεται σε διακομιστή Eagle , πληκτρολογήστε το όνομα τομέα εδώ."
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_resend_cancel_view_form
@@ -3925,8 +3925,8 @@ msgstr "Πλήθος μη αναγνωσμένων μηνυμάτων"
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_light
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_paynow
 #: model_terms:ir.ui.view,arch_db:mail.message_notification_email
-msgid "Eagle ERP"
-msgstr "Eagle ERP"
+msgid "Eagle"
+msgstr "Eagle"
 
 #. module: mail
 #. openerp-web
@@ -4346,7 +4346,7 @@ msgstr "Παρακαλώ περιμένετε όσο το αρχείο αποσ�
 msgid ""
 "Policy on how to handle Chatter notifications:\n"
 "- Handle by Emails: notifications are sent to your email address\n"
-"- Handle in Eagle ERP: notifications appear in your Eagle ERP Inbox"
+"- Handle in Eagle: notifications appear in your Eagle Inbox"
 msgstr ""
 
 #. module: mail
@@ -5255,11 +5255,11 @@ msgstr "Ο κώδικας HTML που αντικαθιστά τη συντόμε
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin__alias_model_id
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_model_id
 msgid ""
-"The model (Eagle ERP Document Kind) to which this alias corresponds. Any incoming"
+"The model (Eagle Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Το μοντέλο (Eagle ERP Document Kind) στο οποίο αντιστοιχεί αυτό το ψευδώνυμο. "
+"Το μοντέλο (Eagle Document Kind) στο οποίο αντιστοιχεί αυτό το ψευδώνυμο. "
 "Κάθε εισερχόμενο email που δεν έχει απαντηθεί σε υπάρχουσα εγγραφή, θα "
 "προκαλέσει τη δημιουργία μίας νέας εγγραφής αυτού του μοντέλου (π.χ. Εργασία"
 " Έργου)"
@@ -5735,7 +5735,7 @@ msgid ""
 msgstr ""
 "Η χρήση του δικού σας διακομιστή ηλεκτρονικού ταχυδρομείου απαιτείται για "
 "την αποστολή / λήψη μηνυμάτων ηλεκτρονικού ταχυδρομείου στις εκδόσεις "
-"Community και Enterprise. Οι χρήστες του προϊόντος Eagle ERP Online ήδη "
+"Community και Enterprise. Οι χρήστες του προϊόντος Eagle Online ήδη "
 "επωφελούνται από έναν έτοιμο προς χρήση διακομιστή ηλεκτρονικού ταχυδρομείου"
 " (@mycompany.eagle.com)."
 

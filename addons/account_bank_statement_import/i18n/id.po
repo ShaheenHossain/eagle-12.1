@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * account_bank_statement_import
 # 
@@ -16,7 +16,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:15+0000\n"
@@ -445,23 +445,23 @@ msgstr "Akun Rugi"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Eagle ERP.\n"
+"Manual: Get paid by cash, check or any other method outside of Eagle.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Eagle ERP,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Eagle,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Manual: Bayar dengan uang kontan, cek atau metode lain diluar sistem Eagle ERP.\n"
+"Manual: Bayar dengan uang kontan, cek atau metode lain diluar sistem Eagle.\n"
 "Elektronik: Bayar secara otomatis melalui penyedia pembayaran dengan meminta transaksi menggunakan kartu yang dimiliki pelanggan ketika membeli atau berlangganan secara daring.\n"
-"Setoran Massal: Mencairkan beberapa cek pelanggan sekaligus dengan membuat setoran massal untuk diberikan kepada bank Anda. Ketika menulis rekening koran di Eagle ERP, Anda disarankan untuk menyesuaikan transaksi dengan setoran massal. Aktifkan opsi ini di pengaturan."
+"Setoran Massal: Mencairkan beberapa cek pelanggan sekaligus dengan membuat setoran massal untuk diberikan kepada bank Anda. Ketika menulis rekening koran di Eagle, Anda disarankan untuk menyesuaikan transaksi dengan setoran massal. Aktifkan opsi ini di pengaturan."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Eagle ERP.\n"
-"Check:Pay bill by check and print it from Eagle ERP.\n"
+"Manual:Pay bill by cash or any other method outside of Eagle.\n"
+"Check:Pay bill by check and print it from Eagle.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
-"Manual: Dibayar dengan kas, cek atau semua cara lain di luar Eagle ERP.\n"
-"Cek: Bayar tagihan dengan cek dan cetak dari Eagle ERP.\n"
+"Manual: Dibayar dengan kas, cek atau semua cara lain di luar Eagle.\n"
+"Cek: Bayar tagihan dengan cek dan cetak dari Eagle.\n"
 "SEPA Credit Transfer: Bayar tagihan Anda dari file SEPA Credit Transfer yang Anda serahkan ke bank Anda. Aktifkan pilihan ini dari pengaturan."
 
 #. module: account_bank_statement_import
@@ -533,11 +533,11 @@ msgstr "Tampilkan jurnal pada dasbor"
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
 msgid ""
-"The account of the statement you are importing is not yet recorded in Eagle ERP. "
+"The account of the statement you are importing is not yet recorded in Eagle. "
 "In order to proceed with the import, you need to create a bank journal for "
 "this account."
 msgstr ""
-"Rekening dari laporan yang Anda impor belum direkam dalam Eagle ERP. Untuk "
+"Rekening dari laporan yang Anda impor belum direkam dalam Eagle. Untuk "
 "memproses impor, Anda perlu membuat jurnal bank untuk rekening ini."
 
 #. module: account_bank_statement_import

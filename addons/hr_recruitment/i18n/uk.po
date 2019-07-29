@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * hr_recruitment
 # 
@@ -8,7 +8,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-09 10:31+0000\n"
 "PO-Revision-Date: 2018-08-24 09:19+0000\n"
@@ -1667,19 +1667,19 @@ msgstr "Кількість непрочитаних повідомлень"
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
 msgid ""
-"Eagle ERP helps you track applicants in the recruitment\n"
+"Eagle helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, etc."
 msgstr ""
-"Eagle ERP допомагає відстежувати заявників при наборі\n"
+"Eagle допомагає відстежувати заявників при наборі\n"
 "і дотримуватися всіх операцій: зустрічей, інтерв'ю тощо."
 
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
-"Eagle ERP helps you track applicants in the recruitment\n"
+"Eagle helps you track applicants in the recruitment\n"
 "            process and follow up all operations: meetings, interviews, etc."
 msgstr ""
-"Eagle ERP допомагає відстежувати заявників при наборі\n"
+"Eagle допомагає відстежувати заявників при наборі\n"
 "і дотримуватися всіх операцій: зустрічей, інтерв'ю тощо."
 
 #. module: hr_recruitment
@@ -2123,12 +2123,12 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:hr_recruitment.hr_applicant_resumes
 msgid ""
 "This menu helps you search through resumes and motivation\n"
-"                letters. Eagle ERP automatically indexes .PDF, .DOC, DOCX, .TXT\n"
+"                letters. Eagle automatically indexes .PDF, .DOC, DOCX, .TXT\n"
 "                files so that you can search keywords from the content of these\n"
 "                files."
 msgstr ""
 "Це меню допомагає вам шукати резюме та мотиваційні\n"
-"листи. Eagle ERP автоматично показує .PDF, .DOC, DOCX, .TXT\n"
+"листи. Eagle автоматично показує .PDF, .DOC, DOCX, .TXT\n"
 "файли, щоби ви могли шукати ключові слова з вмісту\n"
 "файлів."
 
@@ -2246,11 +2246,11 @@ msgstr "Історія бесіди на сайті"
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.action_hr_job_no_employee
 msgid ""
-"With just a quick glance on the Eagle ERP employee screen, you\n"
+"With just a quick glance on the Eagle employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Просто швидко подивіться на екран працівника Eagle ERP, ви\n"
+"Просто швидко подивіться на екран працівника Eagle, ви\n"
 "можете легко знайти всю необхідну інформації для кожної людини;\n"
 "контактні дані, робоче місце, наявність і т. д."
 

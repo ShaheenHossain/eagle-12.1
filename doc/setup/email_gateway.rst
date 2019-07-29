@@ -1,18 +1,18 @@
 :banner: banners/email_gateway.jpg
 
 ==================
-Eagle ERP email gateway
+Eagle email gateway
 ==================
 
-The Eagle ERP mail gateway allows you to inject directly all the received emails in Eagle ERP.
+The Eagle mail gateway allows you to inject directly all the received emails in Eagle.
 
 Its principle is straightforward: your SMTP server executes the "mailgate" script for every new incoming email.
 
-The script takes care of connecting to your Eagle ERP database through XML-RPC, and send the emails via the MailThread.message_process() feature.
+The script takes care of connecting to your Eagle database through XML-RPC, and send the emails via the MailThread.message_process() feature.
 
 Prerequisites
 -------------
-- Administrator access to the Eagle ERP database.
+- Administrator access to the Eagle database.
 - Your own mail server such as Postfix or Exim.
 - Technical knowledge on how to configure an email server.
 

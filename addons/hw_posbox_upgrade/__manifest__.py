@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'IoTBox Software Upgrader',
@@ -13,7 +13,7 @@ IoTBox Software Upgrader
 
 This module allows to remotely upgrade the IoTBox software to a
 new version. This module is specific to the IoTBox setup and environment
-and should not be installed on regular Eagle ERP servers.
+and should not be installed on regular Eagle servers.
 
 """,
     'depends': ['hw_proxy'],

@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * base_setup
 # 
@@ -14,7 +14,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:16+0000\n"
@@ -210,8 +210,8 @@ msgstr "Išoriniai el. pašto serveriai"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Eagle ERP data from Google Spreadsheet"
-msgstr "Gaukite ir analizuokite \"Eagle ERP\" duomenis iš \"Google Spreadsheet\""
+msgid "Extract and analyze Eagle data from Google Spreadsheet"
+msgstr "Gaukite ir analizuokite \"Eagle\" duomenis iš \"Google Spreadsheet\""
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -398,8 +398,8 @@ msgstr "Naudoti išorinius patvirtinimo įrankius (OAuth)"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Eagle ERP Notes"
-msgstr "\"Eagle ERP\" pastabose naudokite išorines užrašines"
+msgid "Use external pads in Eagle Notes"
+msgstr "\"Eagle\" pastabose naudokite išorines užrašines"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -409,10 +409,10 @@ msgstr "Vartotojai"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Eagle ERP provides a list of matching "
+"When populating your address book, Eagle provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
-"Užpildydamas jūsų adresų knygelę \"Eagle ERP\" pateikia susiejusių įmonių sąrašą."
+"Užpildydamas jūsų adresų knygelę \"Eagle\" pateikia susiejusių įmonių sąrašą."
 " Kai pasirenkate vieną įrašą, įmonės data ir logotipas yra užpildomi "
 "automatiškai."

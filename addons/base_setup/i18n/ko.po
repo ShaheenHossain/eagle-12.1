@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * base_setup
 # 
@@ -11,7 +11,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:16+0000\n"
@@ -198,10 +198,10 @@ msgstr "외부 이메일 서버"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Eagle ERP data from Google Spreadsheet"
+msgid "Extract and analyze Eagle data from Google Spreadsheet"
 msgstr ""
 "31\n"
-"Google 스프레드 시트에서 Eagle ERP 데이터 추출 및 분석"
+"Google 스프레드 시트에서 Eagle 데이터 추출 및 분석"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -388,8 +388,8 @@ msgstr "외부 인증 공급자 (OAuth) 사용"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Eagle ERP Notes"
-msgstr "Eagle ERP Notes에서 외부 패드 사용"
+msgid "Use external pads in Eagle Notes"
+msgstr "Eagle Notes에서 외부 패드 사용"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -399,7 +399,7 @@ msgstr "사용자"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Eagle ERP provides a list of matching "
+"When populating your address book, Eagle provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr "주소록을 게시하면 시스템이 일치하는 회사 목록을 제공합니다. 하나를 선택하면 회사 데이터와 로고가 자동으로 채워집니다."

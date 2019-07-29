@@ -4,10 +4,10 @@
 
 
 ===============
-Testing Eagle ERP
+Testing Eagle
 ===============
 
-There are many ways to test an application.  In Eagle ERP, we have three kinds of
+There are many ways to test an application.  In Eagle, we have three kinds of
 tests
 
 - python unit tests: useful for testing model business logic
@@ -18,7 +18,7 @@ tests
 Testing Python code
 ===================
 
-Eagle ERP provides support for testing modules using unittest.
+Eagle provides support for testing modules using unittest.
 
 To write tests, simply define a ``tests`` sub-package in your module, it will
 be automatically inspected for test modules. Test modules should have a name
@@ -50,8 +50,8 @@ and ``__init__.py`` contains::
     run all imported modules
 
 The test runner will simply run any test case, as described in the official
-`unittest documentation`_, but Eagle ERP provides a number of utilities and helpers
-related to testing Eagle ERP content (modules, mainly):
+`unittest documentation`_, but Eagle provides a number of utilities and helpers
+related to testing Eagle content (modules, mainly):
 
 .. autoclass:: eagle.tests.common.TransactionCase
     :members: browse_ref, ref
@@ -106,9 +106,9 @@ Running tests
 
 Tests are automatically run when installing or updating modules if
 :option:`--test-enable <eagle-bin --test-enable>` was enabled when starting the
-Eagle ERP server.
+Eagle server.
 
-As of Eagle ERP 8, running tests outside of the install/update cycle is not
+As of Eagle 8, running tests outside of the install/update cycle is not
 supported.
 
 .. _unittest documentation: https://docs.python.org/2/library/unittest.html
@@ -116,7 +116,7 @@ supported.
 Test selection
 --------------
 
-In Eagle ERP, Python tests can be tagged to facilitate the test selection when
+In Eagle, Python tests can be tagged to facilitate the test selection when
 running tests.
 
 Subclasses of :class:`eagle.tests.common.BaseCase` (usually through
@@ -132,7 +132,7 @@ Invocation
 to run on the command-line.
 
 This option defaults to ``+standard`` meaning tests tagged ``standard``
-(explicitly or implicitly) will be run by default when starting Eagle ERP
+(explicitly or implicitly) will be run by default when starting Eagle
 with :option:`--test-enable <eagle-bin --test-enable>`.
 
 When writing tests, the :func:`~eagle.tests.common.tagged` decorator can be
@@ -200,7 +200,7 @@ they're not going to get run:
 Special tags
 ^^^^^^^^^^^^
 
-- ``standard``: All Eagle ERP tests that inherit from
+- ``standard``: All Eagle tests that inherit from
   :class:`~eagle.tests.common.BaseCase` are implicitely tagged standard.
   :option:`--test-tags <eagle-bin --test-tags>` also defaults to ``standard``.
 
@@ -214,7 +214,7 @@ Special tags
   Note that this is *not exclusive* with ``at_install``, however since you
   will generally not want both ``post_install`` is usually paired with
   ``-at_install`` when tagging a test class.
-- *module_name*: Eagle ERP tests classes extending
+- *module_name*: Eagle tests classes extending
   :class:`~eagle.tests.common.BaseCase` are implicitely tagged with the
   technical name of their module. This allows easily selecting or excluding
   specific modules when testing e.g. if you want to only run tests from
@@ -260,12 +260,12 @@ Testing JS code
 Qunit test suite
 ----------------
 
-Eagle ERP Web includes means to unit-test both the core code of
-Eagle ERP Web and your own javascript modules. On the javascript side,
+Eagle Web includes means to unit-test both the core code of
+Eagle Web and your own javascript modules. On the javascript side,
 unit-testing is based on QUnit_ with a number of helpers and
-extensions for better integration with Eagle ERP.
+extensions for better integration with Eagle.
 
-To see what the runner looks like, find (or start) an Eagle ERP server
+To see what the runner looks like, find (or start) an Eagle server
 with the web client enabled, and navigate to ``/web/tests``
 This will show the runner selector, which lists all modules with javascript
 unit tests, and allows starting any of them (or all javascript tests in all

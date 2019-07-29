@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 import ast
 import functools
@@ -67,7 +67,7 @@ class AddonsHook(object):
         new_mod.__loader__ = self
 
         # module top-level can only be a package
-        assert type_ == imp.PKG_DIRECTORY, "Eagle ERP addon top-level must be a package"
+        assert type_ == imp.PKG_DIRECTORY, "Eagle addon top-level must be a package"
         modfile = opj(path, '__init__.py')
         new_mod.__file__ = modfile
         new_mod.__path__ = [path]
@@ -89,7 +89,7 @@ class AddonsHook(object):
 # PackageLoader
 pkg_resources.register_loader_type(AddonsHook, pkg_resources.DefaultProvider)
 
-class Eagle ERPHook(object):
+class EagleHook(object):
     """ Makes eagle package also available as openerp """
 
     def find_module(self, name, path=None):
@@ -149,7 +149,7 @@ def initialize_sys_path():
             ad_paths.append(ad)
 
     if not hooked:
-        sys.meta_path.insert(0, Eagle ERPHook())
+        sys.meta_path.insert(0, EagleHook())
         sys.meta_path.insert(0, AddonsHook())
         hooked = True
 
@@ -309,7 +309,7 @@ def load_information_from_description_file(module, mod_path=None):
         # default values for descriptor
         info = {
             'application': False,
-            'author': 'Eagle ERP S.A.',
+            'author': 'Eagle S.A.',
             'auto_install': False,
             'category': 'Uncategorized',
             'depends': [],

@@ -1,10 +1,10 @@
 :banner: banners/deploying_eagle.jpg
 
 ==============
-Deploying Eagle ERP
+Deploying Eagle
 ==============
 
-This document describes basic steps to set up Eagle ERP in production or on an
+This document describes basic steps to set up Eagle in production or on an
 internet-facing server. It follows :ref:`installation <setup/install>`, and is
 not generally necessary for a development systems that is not exposed on the
 internet.
@@ -17,7 +17,7 @@ internet.
 dbfilter
 ========
 
-Eagle ERP is a multi-tenant system: a single Eagle ERP system may run and serve a number
+Eagle is a multi-tenant system: a single Eagle system may run and serve a number
 of database instances. It is also highly customizable, with customizations
 (starting from the modules being loaded) depending on the "current database".
 
@@ -26,10 +26,10 @@ company user: the database can be selected when logging in, and customizations
 loaded afterwards.
 
 However it is an issue for non-logged users (portal, website) which aren't
-bound to a database: Eagle ERP needs to know which database should be used to load
+bound to a database: Eagle needs to know which database should be used to load
 the website page or perform the operation. If multi-tenancy is not used that is not an
 issue, there's only one database to use, but if there are multiple databases
-accessible Eagle ERP needs a rule to know which one it should use.
+accessible Eagle needs a rule to know which one it should use.
 
 That is one of the purposes of :option:`--db-filter <eagle-bin --db-filter>`:
 it specifies how the database should be selected based on the hostname (domain)
@@ -82,17 +82,17 @@ By default, PostgreSQL only allows connection over UNIX sockets and loopback
 connections (from "localhost", the same machine the PostgreSQL server is
 installed on).
 
-UNIX socket is fine if you want Eagle ERP and PostgreSQL to execute on the same
-machine, and is the default when no host is provided, but if you want Eagle ERP and
+UNIX socket is fine if you want Eagle and PostgreSQL to execute on the same
+machine, and is the default when no host is provided, but if you want Eagle and
 PostgreSQL to execute on different machines [#different-machines]_ it will
 need to `listen to network interfaces`_ [#remote-socket]_, either:
 
 * Only accept loopback connections and `use an SSH tunnel`_ between the
-  machine on which Eagle ERP runs and the one on which PostgreSQL runs, then
-  configure Eagle ERP to connect to its end of the tunnel
-* Accept connections to the machine on which Eagle ERP is installed, possibly
+  machine on which Eagle runs and the one on which PostgreSQL runs, then
+  configure Eagle to connect to its end of the tunnel
+* Accept connections to the machine on which Eagle is installed, possibly
   over ssl (see `PostgreSQL connection settings`_ for details), then configure
-  Eagle ERP to connect over the network
+  Eagle to connect over the network
 
 Configuration sample
 --------------------
@@ -118,10 +118,10 @@ in ``/etc/postgresql/9.5/main/postgresql.conf`` set:
 
 .. _setup/deploy/eagle:
 
-Configuring Eagle ERP
+Configuring Eagle
 ----------------
 
-Out of the box, Eagle ERP connects to a local postgres over UNIX socket via port
+Out of the box, Eagle connects to a local postgres over UNIX socket via port
 5432. This can be overridden using :ref:`the database options
 <reference/cmdline/server/database>` when your Postgres deployment is not
 local and/or does not use the installation defaults.
@@ -167,11 +167,11 @@ in ``/etc/eagle.conf`` set:
 
 .. _postgresql_ssl_connect:
 
-SSL Between Eagle ERP and PostgreSQL
+SSL Between Eagle and PostgreSQL
 -------------------------------
 
-Since Eagle ERP 11.0, you can enforce ssl connection between Eagle ERP and PostgreSQL.
-in Eagle ERP the db_sslmode control the ssl security of the connection
+Since Eagle 11.0, you can enforce ssl connection between Eagle and PostgreSQL.
+in Eagle the db_sslmode control the ssl security of the connection
 with value choosed out of 'disable', 'allow', 'prefer', 'require', 'verify-ca'
 or 'verify-full'
 
@@ -182,7 +182,7 @@ or 'verify-full'
 Builtin server
 ==============
 
-Eagle ERP includes built-in HTTP servers, using either multithreading or
+Eagle includes built-in HTTP servers, using either multithreading or
 multiprocessing.
 
 For production use, it is recommended to use the multiprocessing server as it
@@ -226,9 +226,9 @@ Instead you must have a proxy redirecting requests whose URL starts with
 ``/longpolling/`` to the longpolling port. Other request should be proxied to
 the :option:`normal HTTP port <eagle-bin --http-port>`
 
-To achieve such a thing, you'll need to deploy a reverse proxy in front of Eagle ERP,
+To achieve such a thing, you'll need to deploy a reverse proxy in front of Eagle,
 like nginx or apache. When doing so, you'll need to forward some more http Headers
-to Eagle ERP, and activate the proxy_mode in Eagle ERP configuration to have Eagle ERP read those
+to Eagle, and activate the proxy_mode in Eagle configuration to have Eagle read those
 headers.
 
 
@@ -242,7 +242,7 @@ Configuration sample
 * 60 users / 6 = 10 <- theorical number of worker needed
 * (4 * 2) + 1 = 9 <- theorical maximal number of worker
 * We'll use 8 workers + 1 for cron. We'll also use a monitoring system to measure cpu load, and check if it's between 7 and 7.5 .
-* RAM = 9 * ((0.8*150) + (0.2*1024)) ~= 3Go RAM for Eagle ERP
+* RAM = 9 * ((0.8*150) + (0.2*1024)) ~= 3Go RAM for Eagle
 
 in ``/etc/eagle.conf``:
 
@@ -262,12 +262,12 @@ in ``/etc/eagle.conf``:
 HTTPS
 =====
 
-Whether it's accessed via website/web client or web service, Eagle ERP transmits
+Whether it's accessed via website/web client or web service, Eagle transmits
 authentication information in cleartext. This means a secure deployment of
-Eagle ERP must use HTTPS\ [#switching]_. SSL termination can be implemented via
+Eagle must use HTTPS\ [#switching]_. SSL termination can be implemented via
 just about any SSL termination proxy, but requires the following setup:
 
-* Enable Eagle ERP's :option:`proxy mode <eagle-bin --proxy-mode>`. This should only be enabled when Eagle ERP is behind a reverse proxy
+* Enable Eagle's :option:`proxy mode <eagle-bin --proxy-mode>`. This should only be enabled when Eagle is behind a reverse proxy
 * Set up the SSL termination proxy (`Nginx termination example`_)
 * Set up the proxying itself (`Nginx proxying example`_)
 * Your SSL termination proxy should also automatically redirect non-secure
@@ -352,25 +352,25 @@ in ``/etc/nginx/sites-enabled/eagle.conf`` set:
    gzip on;
   }
 
-Eagle ERP as a WSGI Application
+Eagle as a WSGI Application
 ==========================
 
-It is also possible to mount Eagle ERP as a standard WSGI_ application. Eagle ERP
+It is also possible to mount Eagle as a standard WSGI_ application. Eagle
 provides the base for a WSGI launcher script as ``eagle-wsgi.example.py``. That
 script should be customized (possibly after copying it from the setup directory) to correctly set the
 configuration directly in :mod:`eagle.tools.config` rather than through the
 command-line or a configuration file.
 
 However the WSGI server will only expose the main HTTP endpoint for the web
-client, website and webservice API. Because Eagle ERP does not control the creation
+client, website and webservice API. Because Eagle does not control the creation
 of workers anymore it can not setup cron or livechat workers
 
 Cron Workers
 ------------
 
-To run cron jobs for an Eagle ERP deployment as a WSGI application requires
+To run cron jobs for an Eagle deployment as a WSGI application requires
 
-* A classical Eagle ERP (run via ``eagle-bin``)
+* A classical Eagle (run via ``eagle-bin``)
 * Connected to the database in which cron jobs have to be run (via
   :option:`eagle-bin -d`)
 * Which should not be exposed to the network. To ensure cron runners are not
@@ -393,22 +393,22 @@ notifications.
 
 The solutions to support livechat/motifications in a WSGI application are:
 
-* Deploy a threaded version of Eagle ERP (instread of a process-based preforking
+* Deploy a threaded version of Eagle (instread of a process-based preforking
   one) and redirect only requests to URLs starting with ``/longpolling/`` to
-  that Eagle ERP, this is the simplest and the longpolling URL can double up as
+  that Eagle, this is the simplest and the longpolling URL can double up as
   the cron instance.
-* Deploy an evented Eagle ERP via ``eagle-gevent`` and proxy requests starting
+* Deploy an evented Eagle via ``eagle-gevent`` and proxy requests starting
   with ``/longpolling/`` to
   :option:`the longpolling port <eagle-bin --longpolling-port>`.
 
 Serving Static Files
 ====================
 
-For development convenience, Eagle ERP directly serves all static files in its
+For development convenience, Eagle directly serves all static files in its
 modules. This may not be ideal when it comes to performances, and static
 files should generally be served by a static HTTP server.
 
-Eagle ERP static files live in each module's ``static/`` folder, so static files
+Eagle static files live in each module's ``static/`` folder, so static files
 can be served by intercepting all requests to :samp:`/{MODULE}/static/{FILE}`,
 and looking up the right module (and file) in the various addons paths.
 
@@ -471,7 +471,7 @@ security-related topics:
 - Configure your server in multi-process mode with proper limits matching your typical
   usage (memory/CPU/timeouts). See also :ref:`builtin_server`.
 
-- Run Eagle ERP behind a web server providing HTTPS termination with a valid SSL certificate,
+- Run Eagle behind a web server providing HTTPS termination with a valid SSL certificate,
   in order to prevent eavesdropping on cleartext communications. SSL certificates are
   cheap, and many free options exist.
   Configure the web proxy to limit the size of requests, set appropriate timeouts,
@@ -508,7 +508,7 @@ security-related topics:
 Blocking Brute Force Attacks
 ----------------------------
 For internet-facing deployments, brute force attacks on user passwords are very common, and this
-threat should not be neglected for Eagle ERP servers. Eagle ERP emits a log entry whenever a login attempt
+threat should not be neglected for Eagle servers. Eagle emits a log entry whenever a login attempt
 is performed, and reports the result: success or failure, along with the target login and source IP.
 
 The log entries will have the following form.
@@ -596,9 +596,9 @@ which will generate a 32 characters pseudorandom printable string.
 Supported Browsers
 ==================
 
-Eagle ERP is supported by multiple browsers for each of its versions. No
+Eagle is supported by multiple browsers for each of its versions. No
 distinction is made according to the browser version in order to be
-up-to-date. Eagle ERP is supported on the current browser version. The list
+up-to-date. Eagle is supported on the current browser version. The list
 of the supported browsers is the following:
 
 - IE11,
@@ -609,7 +609,7 @@ of the supported browsers is the following:
 
 
 .. [#different-machines]
-    to have multiple Eagle ERP installations use the same PostgreSQL database,
+    to have multiple Eagle installations use the same PostgreSQL database,
     or to provide more computing resources to both software.
 .. [#remote-socket]
     technically a tool like socat_ can be used to proxy UNIX sockets across

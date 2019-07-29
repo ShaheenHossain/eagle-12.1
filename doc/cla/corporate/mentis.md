@@ -1,6 +1,6 @@
 Slovenia, 2015-06-29
 
-Mentis d.o.o. agrees to the terms of the Eagle ERP Corporate Contributor License
+Mentis d.o.o. agrees to the terms of the Eagle Corporate Contributor License
 Agreement v1.0.
 
 I declare that I am authorized and able to make this agreement and sign this

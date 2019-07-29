@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * im_livechat_mail_bot
 # 
@@ -9,7 +9,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-02 10:05+0000\n"
 "PO-Revision-Date: 2018-08-24 09:20+0000\n"
@@ -32,11 +32,11 @@ msgstr "Desabilitado"
 msgid ""
 "Good, you can customize canned responses in the live chat "
 "application.<br/><br/><b>It's the end of this overview</b>, enjoy "
-"discovering Eagle ERP!"
+"discovering Eagle!"
 msgstr ""
 "Você pode personalizar respostas prontas no aplicativo de bate "
 "papo.<br/><br/><b>Este é o final dessa visão geral</b>, desfrute o "
-"descobrimento do Eagle ERP!"
+"descobrimento do Eagle!"
 
 #. module: im_livechat_mail_bot
 #: selection:res.users,eaglebot_state:0
@@ -65,8 +65,8 @@ msgstr ""
 
 #. module: im_livechat_mail_bot
 #: model:ir.model.fields,field_description:im_livechat_mail_bot.field_res_users__eaglebot_state
-msgid "Eagle ERPBot Status"
-msgstr "Status do Eagle ERPBot"
+msgid "EagleBot Status"
+msgstr "Status do EagleBot"
 
 #. module: im_livechat_mail_bot
 #: selection:res.users,eaglebot_state:0

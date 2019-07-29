@@ -4,11 +4,11 @@
 Javascript Cheatsheet
 =====================
 
-There are many ways to solve a problem in JavaScript, and in Eagle ERP.  However, the
-Eagle ERP framework was designed to be extensible (this is a pretty big constraint),
+There are many ways to solve a problem in JavaScript, and in Eagle.  However, the
+Eagle framework was designed to be extensible (this is a pretty big constraint),
 and some common problems have a nice standard solution.  The standard solution
 has probably the advantage of being easy to understand for an eagle developers,
-and will probably keep working when Eagle ERP is modified.
+and will probably keep working when Eagle is modified.
 
 This document tries to explain the way one could solve some of these issues.
 Note that this is not a reference.  This is just a random collection of recipes,

@@ -14,7 +14,7 @@ var SupportMessage = Message.extend({
      */
     init: function () {
         this._super.apply(this, arguments);
-        if (this._serverAuthorID !== this.call('mail_service', 'getEagle ERPbotID')) {
+        if (this._serverAuthorID !== this.call('mail_service', 'getEaglebotID')) {
             if (!this._serverAuthorID[0]) {
                 // the author is the client
                 this._serverAuthorID = [session.partner_id, session.name];

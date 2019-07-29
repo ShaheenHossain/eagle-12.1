@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Google Spreadsheet',
     'version': '1.0',
     'category': 'Extra Tools',
     'description': """
-The module adds the possibility to display data from Eagle ERP in Google Spreadsheets in real time.
+The module adds the possibility to display data from Eagle in Google Spreadsheets in real time.
 =================================================================================================
 """,
     'depends': ['google_drive'],

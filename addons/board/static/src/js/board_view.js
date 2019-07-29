@@ -74,7 +74,7 @@ var BoardController = FormController.extend({
 
     /**
      * @private
-     * @param {Eagle ERPEvent} event
+     * @param {EagleEvent} event
      */
     _onChangeLayout: function (event) {
         var self = this;
@@ -104,7 +104,7 @@ var BoardController = FormController.extend({
      * do_action (which will open the record in a different breadcrumb).
      *
      * @private
-     * @param {Eagle ERPEvent} event
+     * @param {EagleEvent} event
      */
     _onSwitchView: function (event) {
         event.stopPropagation();
@@ -384,7 +384,7 @@ var BoardRenderer = FormRenderer.extend({
      * action to execute (a new one will be created instead).
      *
      * @private
-     * @param {Eagle ERPEvent} event
+     * @param {EagleEvent} event
      */
     _onDoAction: function (event) {
         if (event.data.options) {
@@ -424,7 +424,7 @@ var BoardRenderer = FormRenderer.extend({
      * window action of the sub controller that is switching view
      *
      * @private
-     * @param {Eagle ERPEvent} event
+     * @param {EagleEvent} event
      */
     _onSwitchView: function (event) {
         event.data.formViewID = this._boardFormViewIDs[event.target.handle];
@@ -435,7 +435,7 @@ var BoardRenderer = FormRenderer.extend({
      * interfering with the ActionManager.
      *
      * @private
-     * @param {Eagle ERPEvent} event
+     * @param {EagleEvent} event
      */
     _onUpdateFilters: function (event) {
         event.stopPropagation();

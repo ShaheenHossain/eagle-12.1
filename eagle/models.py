@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 
 """
@@ -201,9 +201,9 @@ VALID_AGGREGATE_FUNCTIONS = {
 
 @pycompat.implements_to_string
 class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
-    """ Base class for Eagle ERP models.
+    """ Base class for Eagle models.
 
-    Eagle ERP models are created by inheriting:
+    Eagle models are created by inheriting:
 
     *   :class:`Model` for regular database-persisted models
 
@@ -5597,9 +5597,9 @@ class RecordCache(MutableMapping):
 AbstractModel = BaseModel
 
 class Model(AbstractModel):
-    """ Main super-class for regular database-persisted Eagle ERP models.
+    """ Main super-class for regular database-persisted Eagle models.
 
-    Eagle ERP models are created by inheriting from this class::
+    Eagle models are created by inheriting from this class::
 
         class user(Model):
             ...

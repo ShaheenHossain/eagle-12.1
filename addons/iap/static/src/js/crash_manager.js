@@ -20,7 +20,7 @@ CrashManager.include({
      */
     _getButtonMessage: function (isTrial){
         var isEnterprise = _.last(eagle.session_info.server_version_info) === 'e';
-        return isTrial && isEnterprise ? _t('Start a Trial at Eagle ERP') : _t('Buy credits at Eagle ERP');
+        return isTrial && isEnterprise ? _t('Start a Trial at Eagle') : _t('Buy credits at Eagle');
     },
     /**
      * @override

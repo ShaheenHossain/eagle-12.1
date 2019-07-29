@@ -13,10 +13,10 @@ was written a long time ago.
 
 .. default-domain:: js
 
-This guide is about creating modules for Eagle ERP's web client.
+This guide is about creating modules for Eagle's web client.
 
-To create websites with Eagle ERP, see :doc:`website`; to add business capabilities
-or extend existing business systems of Eagle ERP, see :doc:`backend`.
+To create websites with Eagle, see :doc:`website`; to add business capabilities
+or extend existing business systems of Eagle, see :doc:`backend`.
 
 .. warning::
 
@@ -26,13 +26,13 @@ or extend existing business systems of Eagle ERP, see :doc:`backend`.
     * jQuery_
     * `Underscore.js`_
 
-    It also requires :ref:`an installed Eagle ERP <setup/install>`, and Git_.
+    It also requires :ref:`an installed Eagle <setup/install>`, and Git_.
 
 
 A Simple Module
 ===============
 
-Let's start with a simple Eagle ERP module holding basic web component
+Let's start with a simple Eagle module holding basic web component
 configuration and letting us test the web framework.
 
 The example module is available online and can be downloaded using the
@@ -43,7 +43,7 @@ following command:
     $ git clone http://github.com/eagle/petstore
 
 This will create a ``petstore`` folder wherever you executed the command.
-You then need to add that folder to Eagle ERP's
+You then need to add that folder to Eagle's
 :option:`addons path <eagle-bin --addons-path>`, create a new database and
 install the ``oepetstore`` module.
 
@@ -77,7 +77,7 @@ The module already holds various server customizations. We'll come back to
 these later, for now let's focus on the web-related content, in the ``static``
 folder.
 
-Files used in the "web" side of an Eagle ERP module must be placed in a ``static``
+Files used in the "web" side of an Eagle module must be placed in a ``static``
 folder so they are available to a web browser, files outside that folder can
 not be fetched by browsers. The ``src/css``, ``src/js`` and ``src/xml``
 sub-folders are conventional and not strictly necessary.
@@ -118,9 +118,9 @@ The files in the ``static`` folder, need to be defined within the module in orde
     One of the drawback is debugging becomes more difficult as
     individual files disappear and the code is made significantly less
     readable. It is possible to disable this process by enabling the
-    "developer mode": log into your Eagle ERP instance (user *admin* password
+    "developer mode": log into your Eagle instance (user *admin* password
     *admin* by default) open the user menu (in the top-right corner of the
-    Eagle ERP screen) and select :guilabel:`About Eagle ERP` then :guilabel:`Activate
+    Eagle screen) and select :guilabel:`About Eagle` then :guilabel:`Activate
     the developer mode`:
 
     .. image:: web/about_eagle.png
@@ -134,7 +134,7 @@ The files in the ``static`` folder, need to be defined within the module in orde
 
 .. todo:: qweb files hooked via __manifest__.py, but js and CSS use bundles
 
-Eagle ERP JavaScript Module
+Eagle JavaScript Module
 ======================
 
 Javascript doesn't have built-in modules. As a result variables defined in
@@ -142,7 +142,7 @@ different files are all mashed together and may conflict. This has given rise
 to various module patterns used to build clean namespaces and limit risks of
 naming conflicts.
 
-The Eagle ERP framework uses one such pattern to define modules within web addons,
+The Eagle framework uses one such pattern to define modules within web addons,
 in order to both namespace code and correctly order its loading.
 
 ``oepetstore/static/js/petstore.js`` contains a module declaration::
@@ -151,20 +151,20 @@ in order to both namespace code and correctly order its loading.
         local.xxx = ...;
     }
 
-In Eagle ERP web, modules are declared as functions set on the global ``eagle``
+In Eagle web, modules are declared as functions set on the global ``eagle``
 variable. The function's name must be the same as the addon (in this case
 ``oepetstore``) so the framework can find it, and automatically initialize it.
 
 When the web client loads your module it will call the root function
 and provide two parameters:
 
-* the first parameter is the current instance of the Eagle ERP web client, it gives
-  access to various capabilities defined by the Eagle ERP (translations,
+* the first parameter is the current instance of the Eagle web client, it gives
+  access to various capabilities defined by the Eagle (translations,
   network services) as well as objects defined by the core or by other
   modules.
 * the second parameter is your own local namespace automatically created by
   the web client. Objects and variables which should be accessible from
-  outside your module (either because the Eagle ERP web client needs to call them
+  outside your module (either because the Eagle web client needs to call them
   or because others may want to customize them) should be set inside that
   namespace.
 
@@ -175,7 +175,7 @@ Much as modules, and contrary to most object-oriented languages, javascript
 does not build in *classes*\ [#classes]_ although it provides roughly
 equivalent (if lower-level and more verbose) mechanisms.
 
-For simplicity and developer-friendliness Eagle ERP web provides a class
+For simplicity and developer-friendliness Eagle web provides a class
 system based on John Resig's `Simple JavaScript Inheritance`_.
 
 New classes are defined by calling the :func:`~eagle.web.Class.extend`
@@ -282,14 +282,14 @@ call the original method::
 Widgets Basics
 ==============
 
-The Eagle ERP web client bundles jQuery_ for easy DOM manipulation. It is useful
+The Eagle web client bundles jQuery_ for easy DOM manipulation. It is useful
 and provides a better API than standard `W3C DOM`_\ [#dombugs]_, but
 insufficient to structure complex applications leading to difficult
 maintenance.
 
 Much like object-oriented desktop UI toolkits (e.g. Qt_, Cocoa_ or GTK_),
-Eagle ERP Web makes specific components responsible for sections of a page. In
-Eagle ERP web, the base for such components is the :class:`~eagle.Widget`
+Eagle Web makes specific components responsible for sections of a page. In
+Eagle web, the base for such components is the :class:`~eagle.Widget`
 class, a component specialized in handling a page section and displaying
 information for the user.
 
@@ -350,7 +350,7 @@ Let's add some content to the widget's root element, using jQuery::
 
     local.HomePage = instance.Widget.extend({
         start: function() {
-            this.$el.append("<div>Hello dear Eagle ERP user!</div>");
+            this.$el.append("<div>Hello dear Eagle user!</div>");
         },
     });
 
@@ -359,10 +359,10 @@ That message will now appear when you open :menuselection:`Pet Store
 
 .. note::
 
-    to refresh the javascript code loaded in Eagle ERP Web, you will need to reload
-    the page. There is no need to restart the Eagle ERP server.
+    to refresh the javascript code loaded in Eagle Web, you will need to reload
+    the page. There is no need to restart the Eagle server.
 
-The ``HomePage`` widget is used by Eagle ERP Web and managed automatically.
+The ``HomePage`` widget is used by Eagle Web and managed automatically.
 To learn how to use a widget "from scratch" let's create a new one::
 
     local.GreetingsWidget = instance.Widget.extend({
@@ -376,7 +376,7 @@ We can now add our ``GreetingsWidget`` to the ``HomePage`` by using the
 
     local.HomePage = instance.Widget.extend({
         start: function() {
-            this.$el.append("<div>Hello dear Eagle ERP user!</div>");
+            this.$el.append("<div>Hello dear Eagle user!</div>");
             var greeting = new local.GreetingsWidget(this);
             return greeting.appendTo(this.$el);
         },
@@ -412,7 +412,7 @@ then :guilabel:`Inspect Element`), it should look like this:
 .. code-block:: html
 
     <div class="oe_petstore_homepage">
-        <div>Hello dear Eagle ERP user!</div>
+        <div>Hello dear Eagle user!</div>
         <div class="oe_petstore_greetings">
             <div>We are so happy to see you again in this menu!</div>
         </div>
@@ -513,14 +513,14 @@ The QWeb Template Engine
 In the previous section we added content to our widgets by directly
 manipulating (and adding to) their DOM::
 
-    this.$el.append("<div>Hello dear Eagle ERP user!</div>");
+    this.$el.append("<div>Hello dear Eagle user!</div>");
 
 This allows generating and displaying any type of content, but gets unwieldy
 when generating significant amounts of DOM (lots of duplication, quoting
 issues, ...)
 
-As many other environments, Eagle ERP's solution is to use a `template engine`_.
-Eagle ERP's template engine is called :ref:`reference/qweb`.
+As many other environments, Eagle's solution is to use a `template engine`_.
+Eagle's template engine is called :ref:`reference/qweb`.
 
 QWeb is an XML-based templating language, similar to `Genshi
 <http://en.wikipedia.org/wiki/Genshi_(templating_language)>`_, `Thymeleaf
@@ -530,21 +530,21 @@ characteristics:
 
 * It's implemented fully in JavaScript and rendered in the browser
 * Each template file (XML files) contains multiple templates
-* It has special support in Eagle ERP Web's :class:`~eagle.Widget`, though it
-  can be used outside of Eagle ERP's web client (and it's possible to use
+* It has special support in Eagle Web's :class:`~eagle.Widget`, though it
+  can be used outside of Eagle's web client (and it's possible to use
   :class:`~eagle.Widget` without relying on QWeb)
 
 .. note::
 
     The rationale behind using QWeb instead of existing javascript template
     engines is the extensibility of pre-existing (third-party) templates, much
-    like Eagle ERP :ref:`views <reference/views>`.
+    like Eagle :ref:`views <reference/views>`.
 
     Most javascript template engines are text-based which precludes easy
     structural extensibility where an XML-based templating engine can be
     generically altered using e.g. XPath or CSS and a tree-alteration DSL (or
     even just XSLT). This flexibility and extensibility is a core
-    characteristic of Eagle ERP, and losing it was considered unacceptable.
+    characteristic of Eagle, and losing it was considered unacceptable.
 
 Using QWeb
 ----------
@@ -1074,7 +1074,7 @@ any. Example::
     Triggering events on an other widget is generally a bad idea. The main
     exception to that rule is ``eagle.web.bus`` which exists specifically
     to broadcasts evens in which any widget could be interested throughout
-    the Eagle ERP web application.
+    the Eagle web application.
 
 Properties
 ----------
@@ -1193,7 +1193,7 @@ Exercise
 Modify existing widgets and classes
 ===================================
 
-The class system of the Eagle ERP web framework allows direct modification of
+The class system of the Eagle web framework allows direct modification of
 existing classes using the :func:`~eagle.web.Class.include` method::
 
     var TestClass = instance.web.Class.extend({
@@ -1236,7 +1236,7 @@ JavaScript module. They are used thus::
 
     this.$el.text(_t("Hello user!"));
 
-In Eagle ERP, translations files are automatically generated by scanning the source
+In Eagle, translations files are automatically generated by scanning the source
 code. All piece of code that calls a certain function are detected and their
 content is added to a translation file that will then be sent to the
 translators. In Python, the function is ``_()``. In JavaScript the function is
@@ -1268,19 +1268,19 @@ It is used to define translatable terms before the translations system is
 initialized, for class attributes for instance (as modules are loaded before
 the user's language is configured and translations are downloaded).
 
-Communication with the Eagle ERP Server
+Communication with the Eagle Server
 ==================================
 
 Contacting Models
 -----------------
 
-Most operations with Eagle ERP involve communicating with *models* implementing
+Most operations with Eagle involve communicating with *models* implementing
 business concern, these models will then (potentially) interact with some
 storage engine (usually PostgreSQL_).
 
 Although jQuery_ provides a `$.ajax`_ function for network interactions,
-communicating with Eagle ERP requires additional metadata whose setup before every
-call would be verbose and error-prone. As a result, Eagle ERP web provides
+communicating with Eagle requires additional metadata whose setup before every
+call would be verbose and error-prone. As a result, Eagle web provides
 higher-level communication primitives.
 
 To demonstrate this, the file ``petstore.py`` already contains a small model
@@ -1314,12 +1314,12 @@ Here is a sample widget that calls ``my_method()`` and displays the result::
         },
     });
 
-The class used to call Eagle ERP models is :class:`eagle.Model`. It is
-instantiated with the Eagle ERP model's name as first parameter
+The class used to call Eagle models is :class:`eagle.Model`. It is
+instantiated with the Eagle model's name as first parameter
 (``oepetstore.message_of_the_day`` here).
 
 :func:`~eagle.web.Model.call` can be used to call any (public) method of an
-Eagle ERP model. It takes the following positional arguments:
+Eagle model. It takes the following positional arguments:
 
 ``name``
   The name of the method to call, ``my_method`` here
@@ -1369,7 +1369,7 @@ The context is like a "magic" argument that the web client will always give to
 the server when calling a method. The context is a dictionary containing
 multiple keys. One of the most important key is the language of the user, used
 by the server to translate all the messages of the application. Another one is
-the time zone of the user, used to compute correctly dates and times if Eagle ERP
+the time zone of the user, used to compute correctly dates and times if Eagle
 is used by people in different countries.
 
 The ``argument`` is necessary in all methods, otherwise bad things could
@@ -1396,15 +1396,15 @@ merge all those contexts before sending them to the server.
         // will print: {'lang': 'en_US', 'new_key': 'key_value', 'tz': 'Europe/Brussels', 'uid': 1}
 
 You can see the dictionary in the argument ``context`` contains some keys that
-are related to the configuration of the current user in Eagle ERP plus the
+are related to the configuration of the current user in Eagle plus the
 ``new_key`` key that was added when instantiating
 :class:`~eagle.web.CompoundContext`.
 
 Queries
 -------
 
-While :func:`~eagle.Model.call` is sufficient for any interaction with Eagle ERP
-models, Eagle ERP Web provides a helper for simpler and clearer querying of models
+While :func:`~eagle.Model.call` is sufficient for any interaction with Eagle
+models, Eagle Web provides a helper for simpler and clearer querying of models
 (fetching of records based on various conditions):
 :func:`~eagle.Model.query` which acts as a shortcut for the common
 combination of :py:meth:`~eagle.models.Model.search` and
@@ -1524,7 +1524,7 @@ Exercises
     need to explore ``product.product`` to create the right domain to
     select just pet toys.
 
-    In Eagle ERP, images are generally stored in regular fields encoded as
+    In Eagle, images are generally stored in regular fields encoded as
     base64_, HTML supports displaying images straight from base64 with
     :samp:`<img src="data:{mime_type};base64,{base64_image_data}"/>`
 
@@ -1653,7 +1653,7 @@ Existing web components
 The Action Manager
 ------------------
 
-In Eagle ERP, many operations start from an :ref:`action <reference/actions>`:
+In Eagle, many operations start from an :ref:`action <reference/actions>`:
 opening a menu item (to a view), printing a report, ...
 
 Actions are pieces of data describing how a client should react to the
@@ -1661,7 +1661,7 @@ activation of a piece of content. Actions can be stored (and read through a
 model) or they can be generated on-the fly (locally to the client by
 javascript code, or remotely by a method of a model).
 
-In Eagle ERP Web, the component responsible for handling and reacting to these
+In Eagle Web, the component responsible for handling and reacting to these
 actions is the *Action Manager*.
 
 Using the Action Manager
@@ -1758,11 +1758,11 @@ Client Actions
 
 Throughout this guide, we used a simple ``HomePage`` widget which the web
 client automatically starts when we select the right menu item. But how did
-the Eagle ERP web know to start this widget? Because the widget is registered as
+the Eagle web know to start this widget? Because the widget is registered as
 a *client action*.
 
 A client action is (as its name implies) an action type defined almost
-entirely in the client, in javascript for Eagle ERP web. The server simply sends
+entirely in the client, in javascript for Eagle web. The server simply sends
 an action tag (an arbitrary name), and optionally adds a few parameters, but
 beyond that *everything* is handled by custom client code.
 
@@ -1775,7 +1775,7 @@ Our widget is registered as the handler for the client action through this::
 the action manager looks up client action handlers when it needs to execute
 one. The first parameter of :class:`~eagle.web.Registry.add` is the name
 (tag) of the client action, and the second parameter is the path to the widget
-from the Eagle ERP web client root.
+from the Eagle web client root.
 
 When a client action must be executed, the action manager looks up its tag
 in the registry, walks the specified path and displays the widget it finds at
@@ -1803,7 +1803,7 @@ and a menu opening the action:
 Architecture of the Views
 -------------------------
 
-Much of Eagle ERP web's usefulness (and complexity) resides in views. Each view
+Much of Eagle web's usefulness (and complexity) resides in views. Each view
 type is a way of displaying a model in the client.
 
 The View Manager
@@ -1821,11 +1821,11 @@ multiple views depending on the original action's requirements:
 The Views
 '''''''''
 
-Most :ref:`Eagle ERP views <reference/views>` are implemented through a subclass
+Most :ref:`Eagle views <reference/views>` are implemented through a subclass
 of :class:`eagle.web.View` which provides a bit of generic basic structure
 for handling events and displaying model information.
 
-The *search view* is considered a view type by the main Eagle ERP framework, but
+The *search view* is considered a view type by the main Eagle framework, but
 handled separately by the web client (as it's a more permanent fixture and
 can interact with other views, which regular views don't do).
 
@@ -1885,7 +1885,7 @@ Here are some of the responsibilities of a field class:
 
 * The field class must display and allow the user to edit the value of the field.
 * It must correctly implement the 3 field attributes available in all fields
-  of Eagle ERP. The ``AbstractField`` class already implements an algorithm that
+  of Eagle. The ``AbstractField`` class already implements an algorithm that
   dynamically calculates the value of these attributes (they can change at any
   moment because their value change according to the value of other
   fields). Their values are stored in *Widget Properties* (the widget
@@ -1901,7 +1901,7 @@ Here are some of the responsibilities of a field class:
     ``AbstractField`` class already has a basic implementation of this
     behavior that fits most fields.
   * ``readonly``: When ``true``, the field must not be editable by the
-    user. Most fields in Eagle ERP have a completely different behavior depending
+    user. Most fields in Eagle have a completely different behavior depending
     on the value of ``readonly``. As example, the ``FieldChar`` displays an
     HTML ``<input>`` when it is editable and simply displays the text when
     it is read-only. This also means it has much more code it would need to
@@ -1911,10 +1911,10 @@ Here are some of the responsibilities of a field class:
 * Fields have two methods, ``set_value()`` and ``get_value()``, which are
   called by the form view to give it the value to display and get back the new
   value entered by the user. These methods must be able to handle the value as
-  given by the Eagle ERP server when a ``read()`` is performed on a model and give
+  given by the Eagle server when a ``read()`` is performed on a model and give
   back a valid value for a ``write()``.  Remember that the JavaScript/Python
   data types used to represent the values given by ``read()`` and given to
-  ``write()`` is not necessarily the same in Eagle ERP. As example, when you read a
+  ``write()`` is not necessarily the same in Eagle. As example, when you read a
   many2one, it is always a tuple whose first value is the id of the pointed
   record and the second one is the name get (ie: ``(15, "Agrolait")``). But
   when you write a many2one it must be a single integer, not a tuple
@@ -1924,7 +1924,7 @@ Here are some of the responsibilities of a field class:
 
 Please note that, to better understand how to implement fields, you are
 strongly encouraged to look at the definition of the ``FieldInterface``
-interface and the ``AbstractField`` class directly in the code of the Eagle ERP web
+interface and the ``AbstractField`` class directly in the code of the Eagle web
 client.
 
 Creating a New Type of Field
@@ -1978,7 +1978,7 @@ Read-Write Field
 """"""""""""""""
 
 Read-only fields, which only display content and don't allow the
-user to modify it can be useful, but most fields in Eagle ERP also allow editing.
+user to modify it can be useful, but most fields in Eagle also allow editing.
 This makes the field classes more complicated, mostly because fields are
 supposed to handle both editable and non-editable mode, those modes are
 often completely different (for design and usability purpose) and the fields

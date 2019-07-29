@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * im_livechat_mail_bot
 # 
@@ -7,7 +7,7 @@
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-02 10:05+0000\n"
 "PO-Revision-Date: 2018-10-02 10:05+0000\n"
@@ -30,8 +30,8 @@ msgstr "停用"
 msgid ""
 "Good, you can customize canned responses in the live chat "
 "application.<br/><br/><b>It's the end of this overview</b>, enjoy "
-"discovering Eagle ERP!"
-msgstr "太好了，您可以在及時聊天應用程序中定制錄音響應。<br/><br/><b>是這個概述的結尾</b>，享受發現Eagle ERP！"
+"discovering Eagle!"
+msgstr "太好了，您可以在及時聊天應用程序中定制錄音響應。<br/><br/><b>是這個概述的結尾</b>，享受發現Eagle！"
 
 #. module: im_livechat_mail_bot
 #: selection:res.users,eaglebot_state:0
@@ -58,8 +58,8 @@ msgstr "不確定您的動作。請按: 然後等待。選擇其中一個選項�
 
 #. module: im_livechat_mail_bot
 #: model:ir.model.fields,field_description:im_livechat_mail_bot.field_res_users__eaglebot_state
-msgid "Eagle ERPBot Status"
-msgstr "Eagle ERPBot 狀態"
+msgid "EagleBot Status"
+msgstr "EagleBot 狀態"
 
 #. module: im_livechat_mail_bot
 #: selection:res.users,eaglebot_state:0

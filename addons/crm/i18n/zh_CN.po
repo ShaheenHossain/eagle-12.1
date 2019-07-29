@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * crm
 # 
@@ -6,7 +6,7 @@
 # zpq001 <zpq001@live.com>, 2018
 # ChinaMaker <liuct@chinamaker.net>, 2018
 # 老窦 北京 <2662059195@qq.com>, 2018
-# JZH-Eagle ERP <jzh@eagle.com>, 2018
+# JZH-Eagle <jzh@eagle.com>, 2018
 # Maie <m@maie.name>, 2018
 # bower Guo <124358678@qq.com>, 2018
 # roye w <159820@qq.com>, 2018
@@ -21,7 +21,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-09 10:31+0000\n"
 "PO-Revision-Date: 2018-08-24 09:17+0000\n"
@@ -1675,9 +1675,9 @@ msgstr "未读消息的数量"
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
-"Eagle ERP helps you keep track of your sales pipeline to follow\n"
+"Eagle helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues."
-msgstr "Eagle ERP帮助您追踪销售漏斗，关注潜在销售机会并更好的预测未来收入。"
+msgstr "Eagle帮助您追踪销售漏斗，关注潜在销售机会并更好的预测未来收入。"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_salesteams_view_kanban

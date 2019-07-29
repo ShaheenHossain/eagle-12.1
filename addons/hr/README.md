@@ -1,7 +1,7 @@
-Eagle ERP Human Resources
+Eagle Human Resources
 --------------------
 
-With Eagle ERP <a href="https://www.eagle.com/page/employees">Human Resources</a>,
+With Eagle <a href="https://www.eagle.com/page/employees">Human Resources</a>,
 manage the most important asset in your company: People
 
 Get all your HR operations managed easily: knowledge sharing, recruitments,
@@ -21,7 +21,7 @@ Record employee contracts and get alerts when they have to be renewed.
 Streamline Your Recruitment Process
 -----------------------------------
 
-Index resumes, track applicants, search profiles with <a href="https://www.eagle.com/page/employees">Eagle ERP HR</a>.
+Index resumes, track applicants, search profiles with <a href="https://www.eagle.com/page/employees">Eagle HR</a>.
 
 Post job offers and keep track of each application received. Follow applicants
 in your recruitment process with the smart kanban view.
@@ -56,7 +56,7 @@ updated accordingly.
 Keep Track of Employee Expenses
 -------------------------------
 
-Get rid of the paper work and follow employee's expenses directly in Eagle ERP.
+Get rid of the paper work and follow employee's expenses directly in Eagle.
 Don't loose time or money by controlling the full flow: expense validation,
 reimbursement of employees, posting in the accounting and re-invoicing to
 customers.
@@ -65,7 +65,7 @@ Follow Periodic Appraisals
 --------------------------
 
 Set-up appraisals plans and/or surveys for your employees and watch their
-evolution. Define steps for interviews and Eagle ERP will notify managers or
+evolution. Define steps for interviews and Eagle will notify managers or
 subordinates automatically to prepare appraisals. Keep track of the progress of
 your staff periodically.
 

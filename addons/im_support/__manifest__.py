@@ -7,7 +7,7 @@
         This module allows employee users to communicate with livechat operators
         of another database on which a counterpart addon is installed.
     """,
-    'author': 'Eagle ERP SA',
+    'author': 'Eagle SA',
     'depends': [
         'mail',
     ],

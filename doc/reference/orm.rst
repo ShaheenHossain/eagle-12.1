@@ -11,7 +11,7 @@ Recordsets
 
 .. versionadded:: 8.0
 
-    This page documents the New API added in Eagle ERP 8.0 which should be the
+    This page documents the New API added in Eagle 8.0 which should be the
     primary development API going forward. It also provides information about
     porting from or bridging with the "old API" of versions 7 and earlier, but
     does not explicitly document that API. See the old documentation for that.
@@ -88,14 +88,14 @@ Accessing a relational field (:class:`~eagle.fields.Many2one`,
 Record cache and prefetching
 ----------------------------
 
-Eagle ERP maintains a cache for the fields of the records, so that not every field
+Eagle maintains a cache for the fields of the records, so that not every field
 access issues a database request, which would be terrible for performance. The
 following example queries the database only for the first statement::
 
     record.name             # first access reads value from database
     record.name             # second access gets value from cache
 
-To avoid reading one field on one record at a time, Eagle ERP *prefetches* records
+To avoid reading one field on one record at a time, Eagle *prefetches* records
 and fields following some heuristics to get good performance. Once a field must
 be read on a given record, the ORM actually reads that field on a larger
 recordset, and stores the returned values in cache for later use. The prefetched
@@ -299,7 +299,7 @@ Common ORM methods
 
 :meth:`~eagle.models.Model.browse`
     Takes a database id or a list of ids and returns a recordset, useful when
-    record ids are obtained from outside Eagle ERP (e.g. round-trip through
+    record ids are obtained from outside Eagle (e.g. round-trip through
     external system) or :ref:`when calling methods in the old API
     <reference/orm/oldapi>`::
 
@@ -514,7 +514,7 @@ Clearing caches can be performed using the
 Compatibility between new API and old API
 =========================================
 
-Eagle ERP is currently transitioning from an older (less regular) API, it can be
+Eagle is currently transitioning from an older (less regular) API, it can be
 necessary to manually bridge from one to the other manually:
 
 * RPC layers (both XML-RPC and JSON-RPC) are expressed in terms of the old
@@ -892,9 +892,9 @@ Date and Datetime fields
 ------------------------
 
 Dates and Datetimes are very important fields in any kind of business
-application, they are heavily used in many popular Eagle ERP applications such as
+application, they are heavily used in many popular Eagle applications such as
 logistics or accounting and their misuse can create invisible yet painful
-bugs, this excerpt aims to provide Eagle ERP developers with the knowledge required
+bugs, this excerpt aims to provide Eagle developers with the knowledge required
 to avoid misusing these fields.
 
 When assigning a value to a Date/Datetime field, the following options are valid:
@@ -960,7 +960,7 @@ Relational fields
 Inheritance and extension
 =========================
 
-Eagle ERP provides three different mechanisms to extend models in a modular way:
+Eagle provides three different mechanisms to extend models in a modular way:
 
 * creating a new model from an existing one, adding new information to the
   copy but leaving the original module as-is
@@ -975,7 +975,7 @@ Classical inheritance
 ---------------------
 
 When using the :attr:`~eagle.models.Model._inherit` and
-:attr:`~eagle.models.Model._name` attributes together, Eagle ERP creates a new
+:attr:`~eagle.models.Model._name` attributes together, Eagle creates a new
 model using the existing one (provided via
 :attr:`~eagle.models.Model._inherit`) as a base. The new model gets all the
 fields, methods and meta-information (defaults & al) from its base.
@@ -1190,7 +1190,7 @@ Porting from the old API to the new API
   string), this makes them overridable (removes the need for an intermediate
   "trampoline" function)
 * double check that all fields and methods have different names, there is no
-  warning in case of collision (because Python handles it before Eagle ERP sees
+  warning in case of collision (because Python handles it before Eagle sees
   anything)
 * the normal new-api import is ``from eagle import fields, models``. If
   compatibility decorators are necessary, use ``from eagle import api,

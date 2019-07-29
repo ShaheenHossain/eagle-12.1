@@ -15,7 +15,7 @@ from eagle.service.db import _create_empty_database, DatabaseExists
 
 
 class Start(Command):
-    """Quick start the Eagle ERP server for your project"""
+    """Quick start the Eagle server for your project"""
 
     def get_module_list(self, path):
         mods = itertools.chain.from_iterable(

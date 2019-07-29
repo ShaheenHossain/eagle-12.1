@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * base_import
 # 
@@ -13,7 +13,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-02 10:05+0000\n"
 "PO-Revision-Date: 2018-08-24 09:16+0000\n"
@@ -400,12 +400,12 @@ msgstr "ID"
 #, python-format
 msgid ""
 "If the file contains\n"
-"                the column names, Eagle ERP can try auto-detecting the\n"
+"                the column names, Eagle can try auto-detecting the\n"
 "                field corresponding to the column. This makes imports\n"
 "                simpler especially when the file has many columns."
 msgstr ""
 "만약 파일이 컬럼 이름을 포함하고 있으면\n"
-"                     Eagle ERP는 컬럼 이름에 대응하는 필드를 자동으로 검출합니다.\n"
+"                     Eagle는 컬럼 이름에 대응하는 필드를 자동으로 검출합니다.\n"
 "                     이것은 가져오기를 많은 컬럼을 가진 파일을 다룰 때 간편하게 해줍니다"
 
 #. module: base_import

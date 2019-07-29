@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * account_bank_statement_import
 # 
@@ -10,7 +10,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:15+0000\n"
@@ -438,29 +438,29 @@ msgstr "គណនីបាត់បង់"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Eagle ERP.\n"
+"Manual: Get paid by cash, check or any other method outside of Eagle.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Eagle ERP,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Eagle,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
 "ទទួលបានការបង់ជាសាច់ប្រាក់។ "
-"ត្រូវធ្វើការត្រូតពិនិត្យគ្រប់វិធីសាស្រ្តផ្សេងទៀតនៅខាងក្រៅ Eagle ERP ។ "
+"ត្រូវធ្វើការត្រូតពិនិត្យគ្រប់វិធីសាស្រ្តផ្សេងទៀតនៅខាងក្រៅ Eagle ។ "
 "អេឡិចត្រូនិច: "
 "ទទួលបានការទូទាត់ដោយស្វ័យប្រវត្តិតាមរយៈអ្នកទិញដោយការស្នើសុំការធ្វើប្រតិបត្តិការលើកាតដែលរក្សាទុកដោយអតិថិជននៅពេលទិញឬចុះឈ្មោះប្រើប្រាស់អ៊ីនធឺណែត។"
 " ការដាក់ប្រាក់បញ្ញើជាបន្តបន្ទាប់: "
 "បញ្ចុះបញ្ជូលការត្រួតពិនិត្យអតិថិជនជាច្រើននៅពេលតែមួយដោយបង្កើតប្រាក់បញ្ញើបាច់ដើម្បីដាក់ស្នើទៅធនាគាររបស់អ្នក។"
-" នៅពេលអ៊ិនកូដសេចក្តីថ្លែងការណ៍របស់ធនាគារនៅ Eagle ERP "
+" នៅពេលអ៊ិនកូដសេចក្តីថ្លែងការណ៍របស់ធនាគារនៅ Eagle "
 "អ្នកត្រូវបានស្នើឱ្យសម្របសម្រួលប្រតិបត្តិការជាមួយនឹងការដាក់ប្រាក់ជាបន្តបន្ទាប់។"
 " បើកជម្រើសនេះពីការកំណត់។"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Eagle ERP.\n"
-"Check:Pay bill by check and print it from Eagle ERP.\n"
+"Manual:Pay bill by cash or any other method outside of Eagle.\n"
+"Check:Pay bill by check and print it from Eagle.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
-"ការទទួលបានការបង់ជាសាច់ប្រាក់ដោយវិកយបត្រផ្ទាល់ បង់វិក្កយបត្រដោយសាច់ប្រាក់រឺវិធីសាស្រ្តផ្សេងទៀតនៅខាងក្រៅ Eagle ERP ។\n"
-"ពិនិត្យមើល: បង់វិក័យប័ត្រដោយពិនិត្យនិងបោះពុម្ពវាពី Eagle ERP ។\n"
+"ការទទួលបានការបង់ជាសាច់ប្រាក់ដោយវិកយបត្រផ្ទាល់ បង់វិក្កយបត្រដោយសាច់ប្រាក់រឺវិធីសាស្រ្តផ្សេងទៀតនៅខាងក្រៅ Eagle ។\n"
+"ពិនិត្យមើល: បង់វិក័យប័ត្រដោយពិនិត្យនិងបោះពុម្ពវាពី Eagle ។\n"
 "ការផ្ទេរឥណទាន SEPA: បង់វិក្កយបត្រពីឯកសារផ្ទេរប្រាក់ SEPA ដែលអ្នកដាក់ស្នើទៅធនាគាររបស់អ្នក។ បើកជម្រើសនេះពីការកំណត់។"
 
 #. module: account_bank_statement_import
@@ -530,11 +530,11 @@ msgstr "បង្ហាញទិនានុប្បវត្តិនៅលើ
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
 msgid ""
-"The account of the statement you are importing is not yet recorded in Eagle ERP. "
+"The account of the statement you are importing is not yet recorded in Eagle. "
 "In order to proceed with the import, you need to create a bank journal for "
 "this account."
 msgstr ""
-"គណនីនៃសេចក្តីថ្លែងការណ៍ដែលអ្នកកំពុងនាំចូលមិនទាន់ត្រូវបានកត់ត្រានៅក្នុង Eagle ERP "
+"គណនីនៃសេចក្តីថ្លែងការណ៍ដែលអ្នកកំពុងនាំចូលមិនទាន់ត្រូវបានកត់ត្រានៅក្នុង Eagle "
 "ទេ។ ដើម្បីបន្តការនាំចូលអ្នកត្រូវបង្កើតកំណត់ហេតុធនាគារសម្រាប់គណនីនេះ។"
 
 #. module: account_bank_statement_import

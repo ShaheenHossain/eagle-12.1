@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * base_setup
 # 
@@ -8,7 +8,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:16+0000\n"
@@ -195,9 +195,9 @@ msgstr "வெளி மின்னஞ்சல் சேவையகங்க�
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Eagle ERP data from Google Spreadsheet"
+msgid "Extract and analyze Eagle data from Google Spreadsheet"
 msgstr ""
-"Google விரிதாளில் இருந்து Eagle ERP தரவை பிரித்தெடுத்து, பகுப்பாய்வு செய்யவும்"
+"Google விரிதாளில் இருந்து Eagle தரவை பிரித்தெடுத்து, பகுப்பாய்வு செய்யவும்"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -386,8 +386,8 @@ msgstr "புற அங்கீகார வழங்குநர்களை 
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Eagle ERP Notes"
-msgstr "Eagle ERP குறிப்புகள் வெளிப்புற பட்டைகள் பயன்படுத்த"
+msgid "Use external pads in Eagle Notes"
+msgstr "Eagle குறிப்புகள் வெளிப்புற பட்டைகள் பயன்படுத்த"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -397,10 +397,10 @@ msgstr "பயனர்கள்"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Eagle ERP provides a list of matching "
+"When populating your address book, Eagle provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
-"உங்கள் முகவரி புத்தகத்தை populating போது, Eagle ERP பொருந்தும் நிறுவனங்கள் "
+"உங்கள் முகவரி புத்தகத்தை populating போது, Eagle பொருந்தும் நிறுவனங்கள் "
 "பட்டியலை வழங்குகிறது. ஒரு உருப்படியைத் தேர்ந்தெடுக்கும்போது, நிறுவனத்தின் "
 "தரவு மற்றும் லோகோ தானாக நிரப்பப்படுகின்றன."

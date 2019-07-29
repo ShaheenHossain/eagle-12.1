@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 # SKR04
 # =====
 # Dieses Modul bietet Ihnen einen deutschen Kontenplan basierend auf dem SKR03.
-# Gemäss der aktuellen Einstellungen ist ein neues Unternehmen in Eagle ERP
+# Gemäss der aktuellen Einstellungen ist ein neues Unternehmen in Eagle
 # Umsatzsteuerpflichtig. Zahlreiche Erlös- und Aufwandskonten enthalten
 # bereits eine zugeordnete Steuer. Hierdurch wird für diese Konten bereits
 # die richtige Vorsteuer (Eingangsrechnungen) bzw. Umsatzsteuer
@@ -25,7 +25,7 @@
 # die Zuordnung bei Produkten und überschreibt diese im Einzelfall.
 #
 # Zur Vereinfachung der Steuerausweise und Buchung bei Auslandsgeschäften
-# erlaubt Eagle ERP ein generelles Mapping von Steuerausweis und Steuerkonten
+# erlaubt Eagle ein generelles Mapping von Steuerausweis und Steuerkonten
 # (z.B. Zuordnung 'Umsatzsteuer 19%' zu 'steuerfreie Einfuhren aus der EU')
 # zwecks Zuordnung dieses Mappings zum ausländischen Partner (Kunde/Lieferant).
 

@@ -1,10 +1,10 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * base_setup
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 11.0\n"
+"Project-Id-Version: Eagle Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-16 08:08+0000\n"
 "PO-Revision-Date: 2017-11-16 08:08+0000\n"
@@ -146,7 +146,7 @@ msgstr ""
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Eagle ERP data from Google Spreadsheet"
+msgid "Extract and analyze Eagle data from Google Spreadsheet"
 msgstr ""
 
 #. module: base_setup
@@ -311,7 +311,7 @@ msgstr ""
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Eagle ERP Notes"
+msgid "Use external pads in Eagle Notes"
 msgstr ""
 
 #. module: base_setup

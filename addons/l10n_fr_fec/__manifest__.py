@@ -1,5 +1,5 @@
 #-*- coding:utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 # Copyright (C) 2013-2015 Akretion (http://www.akretion.com)
 
@@ -7,7 +7,7 @@
     'name': 'France - FEC',
     'category': 'Accounting',
     'summary': "Fichier d'Échange Informatisé (FEC) for France",
-    'author': "Akretion,Eagle ERP Community Association (OCA)",
+    'author': "Akretion,Eagle Community Association (OCA)",
     'depends': ['l10n_fr', 'account'],
     'data': [
         'wizard/account_fr_fec_view.xml',

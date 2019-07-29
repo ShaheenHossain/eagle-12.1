@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * account_bank_statement_import
 # 
@@ -9,7 +9,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:15+0000\n"
@@ -440,23 +440,23 @@ msgstr "Рахунок для браку і втрат"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Eagle ERP.\n"
+"Manual: Get paid by cash, check or any other method outside of Eagle.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Eagle ERP,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Eagle,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Інструкція: отримуйте оплату готівкою, чеком або будь-яким іншим методом за межами Eagle ERP.\n"
+"Інструкція: отримуйте оплату готівкою, чеком або будь-яким іншим методом за межами Eagle.\n"
 "Електронний: отримуйте платіж автоматично за допомогою одержання платежу, надіславши запит на транзакцію на картці, збереженої клієнтом під час покупки або підписки в Інтернеті (платіжний токен).\n"
-"Пакетний депозит: одноразово зараховуйте кілька клієнтських чеків, створивши пакетний депозит, щоби подати в банк. Під час кодування виписки з банку в Eagle ERP вам пропонують узгодити транзакцію з пакетом  депозиту. Увімкніть цю опцію в налаштуваннях."
+"Пакетний депозит: одноразово зараховуйте кілька клієнтських чеків, створивши пакетний депозит, щоби подати в банк. Під час кодування виписки з банку в Eagle вам пропонують узгодити транзакцію з пакетом  депозиту. Увімкніть цю опцію в налаштуваннях."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Eagle ERP.\n"
-"Check:Pay bill by check and print it from Eagle ERP.\n"
+"Manual:Pay bill by cash or any other method outside of Eagle.\n"
+"Check:Pay bill by check and print it from Eagle.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
-"Інструкція: сплачуйте рахунок готівкою або будь-яким іншим методом за межами Eagle ERP.\n"
-"Перевірте: сплачуйте рахунок чеком та надрукуйте його з Eagle ERP.\n"
+"Інструкція: сплачуйте рахунок готівкою або будь-яким іншим методом за межами Eagle.\n"
+"Перевірте: сплачуйте рахунок чеком та надрукуйте його з Eagle.\n"
 "SEPA Credit Transfer: сплачуйте рахунок з файлу SEPA Credit Transfer, який ви передаєте у свій банк. Увімкніть цю опцію в налаштуваннях."
 
 #. module: account_bank_statement_import
@@ -528,11 +528,11 @@ msgstr "Показати журнал на панелі приладів"
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
 msgid ""
-"The account of the statement you are importing is not yet recorded in Eagle ERP. "
+"The account of the statement you are importing is not yet recorded in Eagle. "
 "In order to proceed with the import, you need to create a bank journal for "
 "this account."
 msgstr ""
-"Банківський рахунок для цієї виписки поки що не записано в Eagle ERP. Для того, "
+"Банківський рахунок для цієї виписки поки що не записано в Eagle. Для того, "
 "аби продовжити імпорт вам необхідно створити банківський журнал для цього "
 "рахунку."
 

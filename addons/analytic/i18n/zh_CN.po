@@ -1,11 +1,11 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * analytic
 # 
 # Translators:
 # Martin Trigaux, 2018
 # 老窦 北京 <2662059195@qq.com>, 2018
-# JZH-Eagle ERP <jzh@eagle.com>, 2018
+# JZH-Eagle <jzh@eagle.com>, 2018
 # bower Guo <124358678@qq.com>, 2018
 # roye w <159820@qq.com>, 2018
 # ChinaMaker <liuct@chinamaker.net>, 2018
@@ -15,7 +15,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 10:09+0000\n"
 "PO-Revision-Date: 2018-08-24 09:15+0000\n"
@@ -346,11 +346,11 @@ msgstr "如果活动字段配置为False，您将可以隐藏它而不在科目�
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
-"In Eagle ERP, sales orders and projects are implemented using\n"
+"In Eagle, sales orders and projects are implemented using\n"
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
 msgstr ""
-"在 Eagle ERP 中，使用\n"
+"在 Eagle 中，使用\n"
 " 分析账户实施销售订单和项目。您可以跟踪成本和收入，轻松分析\n"
 " 您的利润"
 

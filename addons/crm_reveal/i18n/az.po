@@ -1,10 +1,10 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * crm_reveal
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-01 06:19+0000\n"
 "PO-Revision-Date: 2019-07-01 06:20+0000\n"
@@ -25,7 +25,7 @@ msgid ""
 "                    You can charge your IAP Lead Generation account in the settings of the CRM app.<br/>\n"
 "\n"
 "                    <p>Best regards,</p>\n"
-"                    <p>Eagle ERP S.A.</p>\n"
+"                    <p>Eagle S.A.</p>\n"
 "                \n"
 "            "
 msgstr ""
@@ -1003,7 +1003,7 @@ msgstr ""
 
 #. module: crm_reveal
 #: model:ir.model.fields,help:crm_reveal.field_crm_reveal_rule__industry_tag_ids
-msgid "Leave empty to always match. Eagle ERP will not create lead if no match"
+msgid "Leave empty to always match. Eagle will not create lead if no match"
 msgstr ""
 
 #. module: crm_reveal
@@ -1229,7 +1229,7 @@ msgstr ""
 
 #. module: crm_reveal
 #: model_terms:ir.ui.view,arch_db:crm_reveal.lead_message_template
-msgid "Opportunity created by Eagle ERP Lead Generation"
+msgid "Opportunity created by Eagle Lead Generation"
 msgstr ""
 
 #. module: crm_reveal

@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * base_import
 # 
@@ -16,7 +16,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-02 10:05+0000\n"
 "PO-Revision-Date: 2018-08-24 09:16+0000\n"
@@ -413,12 +413,12 @@ msgstr "ID"
 #, python-format
 msgid ""
 "If the file contains\n"
-"                the column names, Eagle ERP can try auto-detecting the\n"
+"                the column names, Eagle can try auto-detecting the\n"
 "                field corresponding to the column. This makes imports\n"
 "                simpler especially when the file has many columns."
 msgstr ""
 "Se il file contiene\n"
-"nomi di colonne, Eagle ERP proverà a fare un riconoscimento\n"
+"nomi di colonne, Eagle proverà a fare un riconoscimento\n"
 "dei campi corrispondenti alle colonne in questione. Questo rende\n"
 "l'importazione più semplice, specialmente se il file ha molte colonne."
 
@@ -856,7 +856,7 @@ msgid ""
 "for the reason."
 msgstr ""
 "Non si possono importare immagini via URL, controlla con il tuo "
-"amministratore o chiedi a Eagle ERP support per le ragioni."
+"amministratore o chiedi a Eagle support per le ragioni."
 
 #. module: base_import
 #: code:addons/base_import/models/base_import.py:631

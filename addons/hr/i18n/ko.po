@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * hr
 # 
@@ -13,7 +13,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-12 12:19+0000\n"
 "PO-Revision-Date: 2018-08-24 09:18+0000\n"
@@ -128,7 +128,7 @@ msgid ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Powered by <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Eagle ERP</a>\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Eagle</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -156,7 +156,7 @@ msgstr ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        저작권 : <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Eagle ERP</a>\n"
+"        저작권 : <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Eagle</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -476,8 +476,8 @@ msgstr "자원 예약 정의"
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_consultant
-msgid "Deliver generic Eagle ERP functional training sessions"
-msgstr "일반 Eagle ERP 기능 훈련 세션 제공"
+msgid "Deliver generic Eagle functional training sessions"
+msgstr "일반 Eagle 기능 훈련 세션 제공"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__department_id
@@ -1164,10 +1164,10 @@ msgstr "읽지 않은 메시지 수"
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.open_module_tree_department
 msgid ""
-"Eagle ERP's department structure is used to manage all documents\n"
+"Eagle's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves, recruitments, etc."
-msgstr "Eagle ERP의 부서 구조는 부서별 직원 관련 문서 : 비용, 작입기록표, 휴가, 채용 등을 관리하는 데 사용됩니다."
+msgstr "Eagle의 부서 구조는 부서별 직원 관련 문서 : 비용, 작입기록표, 휴가, 채용 등을 관리하는 데 사용됩니다."
 
 #. module: hr
 #: model:res.groups,name:hr.group_hr_user
@@ -1732,11 +1732,11 @@ msgstr "전문 서비스 책임자에게 보고합니다."
 #: model_terms:ir.actions.act_window,help:hr.act_employee_from_department
 #: model_terms:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Eagle ERP employee screen, you\n"
+"With just a quick glance on the Eagle employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Eagle ERP 직원 화면을 간단히 보면, \n"
+"Eagle 직원 화면을 간단히 보면, \n"
 "                   각 사람에게 필요한 모든 정보를 쉽게 찾을 수 있습니다. \n"
 "                   연락처 데이터, 직무, 가용성 등."
 

@@ -290,7 +290,7 @@ var CrossTabBus = Longpolling.extend({
      * Handler when the local storage is updated
      *
      * @private
-     * @param {Eagle ERPEvent} event
+     * @param {EagleEvent} event
      * @param {string} event.key
      * @param {string} event.newValue
      */
@@ -325,8 +325,8 @@ var CrossTabBus = Longpolling.extend({
         }
         // update focus
         else if (key === this._generateKey('focus')) {
-            this._isEagle ERPFocused = value;
-            this.trigger('window_focus', this._isEagle ERPFocused);
+            this._isEagleFocused = value;
+            this.trigger('window_focus', this._isEagleFocused);
         }
     },
     /**

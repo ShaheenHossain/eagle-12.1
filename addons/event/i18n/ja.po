@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * event
 # 
@@ -15,7 +15,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 10:09+0000\n"
 "PO-Revision-Date: 2018-08-24 09:17+0000\n"
@@ -82,10 +82,10 @@ msgstr "<em>(チャンバー・ワークスは、イベントを取り消し、�
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid ""
-"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>Eagle ERP"
+"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>Eagle"
 " Programming</i></font>"
 msgstr ""
-"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">Eagle ERP "
+"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">Eagle "
 "<i>プログラミングを学ぶこと</i></font>"
 
 #. module: event
@@ -1625,13 +1625,13 @@ msgstr "未読メッセージ件数"
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
-msgid "Eagle ERP Official Website"
-msgstr "Eagle ERP 公式サイト"
+msgid "Eagle Official Website"
+msgstr "Eagle 公式サイト"
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
-msgid "Eagle ERP Web Client"
-msgstr "Eagle ERPウェブクライアント"
+msgid "Eagle Web Client"
+msgstr "Eagleウェブクライアント"
 
 #. module: event
 #: model:event.type,name:event.event_type_data_online

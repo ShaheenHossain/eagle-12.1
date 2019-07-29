@@ -11,7 +11,7 @@ import jinja2
 from . import Command
 
 class Scaffold(Command):
-    """ Generates an Eagle ERP module skeleton. """
+    """ Generates an Eagle module skeleton. """
 
     def run(self, cmdargs):
         # TODO: bash completion file

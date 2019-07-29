@@ -13,7 +13,7 @@ Database Upgrade
 Introduction
 ~~~~~~~~~~~~
 
-This document describes the API used to upgrade an Eagle ERP database to a
+This document describes the API used to upgrade an Eagle database to a
 higher version.
 
 It allows a database to be upgraded without ressorting to the html form at
@@ -41,10 +41,10 @@ This action creates a database request with the following information:
 
 * your contract reference
 * your email address
-* the target version (the Eagle ERP version you want to upgrade to)
+* the target version (the Eagle version you want to upgrade to)
 * the purpose of your request (test or production)
 * the database dump name (required but purely informative)
-* optionally the server timezone (for Eagle ERP source version < 6.1)
+* optionally the server timezone (for Eagle source version < 6.1)
 
 The ``create`` method
 ---------------------
@@ -55,10 +55,10 @@ The ``create`` method
 
     :param str contract: (required) your enterprise contract reference
     :param str email: (required) your email address
-    :param str target: (required) the Eagle ERP version you want to upgrade to. Valid choices: 10.0, 11.0, 12.0
+    :param str target: (required) the Eagle version you want to upgrade to. Valid choices: 10.0, 11.0, 12.0
     :param str aim: (required) the purpose of your upgrade database request. Valid choices: test, production.
     :param str filename: (required) a purely informative name for you database dump file
-    :param str timezone: (optional) the timezone used by your server. Only for Eagle ERP source version < 6.1
+    :param str timezone: (optional) the timezone used by your server. Only for Eagle source version < 6.1
     :return: request result
     :rtype: JSON dictionary
 
@@ -430,7 +430,7 @@ Asking to skip the tests
 =========================
 
 This action asks the Upgrade Platform to skip the tests for your request.
-If you don't want Eagle ERP to test and validate the migration, you can bypass the testing stage and directly get the migrated dump.
+If you don't want Eagle to test and validate the migration, you can bypass the testing stage and directly get the migrated dump.
 
 The ``skip_test`` method
 ------------------------
@@ -539,7 +539,7 @@ The ``request`` key contains various useful information about your request:
 ``email``
     the email address you supplied when creating the request
 ``target``
-    the target Eagle ERP version you supplied when creating the request
+    the target Eagle version you supplied when creating the request
 ``aim``
     the purpose (test, production) of your database upgrade request you supplied when creating the request
 ``filename``
@@ -549,9 +549,9 @@ The ``request`` key contains various useful information about your request:
 ``state``
     the state of your request
 ``issue_stage``
-    the stage of the issue we have create on Eagle ERP main server
+    the stage of the issue we have create on Eagle main server
 ``issue``
-    the id of the issue we have create on Eagle ERP main server
+    the id of the issue we have create on Eagle main server
 ``status_url``
     the URL to access your database upgrade request html page
 ``notes_url``
@@ -583,7 +583,7 @@ The ``request`` key contains various useful information about your request:
 ``customer_message``
     an important message related to your request
 ``database_version``
-    the guessed Eagle ERP version of your uploaded (not upgraded) database
+    the guessed Eagle version of your uploaded (not upgraded) database
 ``postgresql``
     the guessed Postgresql version of your uploaded (not upgraded) database
 ``compressions``

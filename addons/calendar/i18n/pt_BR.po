@@ -1,11 +1,11 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * calendar
 # 
 # Translators:
 # Rodrigo de Almeida Sottomaior Macedo <rmsolucoeseminformatic4@gmail.com>, 2018
 # Clemilton Clementino <clemylton@hotmail.com>, 2018
-# Planeta Eagle ERP <planetaeagle@gmail.com>, 2018
+# Planeta Eagle <planetaeagle@gmail.com>, 2018
 # Adriel Kotviski <kotviski@gmail.com>, 2018
 # falexandresilva <falexandresilva@gmail.com>, 2018
 # André Augusto Firmino Cordeiro <a.cordeito@gmail.com>, 2018
@@ -19,7 +19,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:18+0000\n"
 "PO-Revision-Date: 2018-08-24 09:17+0000\n"

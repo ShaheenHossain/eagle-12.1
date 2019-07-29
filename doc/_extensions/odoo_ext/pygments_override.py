@@ -17,7 +17,7 @@ AQUA = "#5bc4bf"
 BLUE = "#06b6ef"
 PURPLE = "#815ba4"
 
-class Eagle ERPStyle(Style):
+class EagleStyle(Style):
     """Modified version of Paraiso Dark style to avoid Pygments version
     annoyances.
 
@@ -122,5 +122,5 @@ import imp
 import sys
 modname = 'pygments.styles.eagle'
 m = imp.new_module(modname)
-m.Eagle ERPStyle = Eagle ERPStyle
+m.EagleStyle = EagleStyle
 sys.modules[modname] = m

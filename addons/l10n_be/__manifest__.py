@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Belgium - Accounting',
     'version': '2.0',
     'category': 'Localization',
     'description': """
-This is the base module to manage the accounting chart for Belgium in Eagle ERP.
+This is the base module to manage the accounting chart for Belgium in Eagle.
 ==============================================================================
 
 After installing this module, the Configuration wizard for accounting is launched.
@@ -34,7 +34,7 @@ Wizards provided by this module:
         **Path to access :** Invoicing/Reporting/Legal Reports/Belgium Statements/Annual Listing Of VAT-Subjected Customers
 
     """,
-    'author': 'Noviat, Eagle ERP SA',
+    'author': 'Noviat, Eagle SA',
     'depends': [
         'account',
         'base_iban',

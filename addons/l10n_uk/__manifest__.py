@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 # Copyright (C) 2011 Smartmode LTD (<http://www.smartmode.co.uk>).
 
@@ -8,7 +8,7 @@
     'version': '1.0',
     'category': 'Localization',
     'description': """
-This is the latest UK Eagle ERP localisation necessary to run Eagle ERP accounting for UK SME's with:
+This is the latest UK Eagle localisation necessary to run Eagle accounting for UK SME's with:
 =================================================================================================
     - a CT600-ready chart of accounts
     - VAT100-ready tax structure

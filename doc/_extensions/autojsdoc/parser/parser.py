@@ -15,7 +15,7 @@ class ModuleMatcher(Visitor):
 
         eagle.define($string, function ($name) {
 
-    These are *Eagle ERP module definitions*, upon encountering one the
+    These are *Eagle module definitions*, upon encountering one the
     matcher:
 
     * creates a module entry, optionally associated with the module comment
@@ -193,7 +193,7 @@ BASE_SCOPE = BaseScope(None, {
     }),
     'eagle': jsdoc.UnknownNS({
         'name': u'eagle',
-        'doc': u"Eagle ERP",
+        'doc': u"Eagle",
         '_members': [
             ('name', jsdoc.PropertyDoc({'name': u'csrf_token', 'type': u'{String}'})),
         ]

@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * account_tax_python
 # 
@@ -7,7 +7,7 @@
 # Murat Kaplan <muratk@projetgrup.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.4\n"
+"Project-Id-Version: Eagle Server saas~11.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-02 09:12+0000\n"
 "PO-Revision-Date: 2018-08-02 09:12+0000\n"

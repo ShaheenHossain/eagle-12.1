@@ -8,14 +8,14 @@
 Javascript Reference
 =====================
 
-This document presents the Eagle ERP Javascript framework. This
+This document presents the Eagle Javascript framework. This
 framework is not a large application in term of lines of code, but it is quite
 generic, because it is basically a machine to turn a declarative interface
 description into a live application, able to interact with every model and
 records in the database.  It is even possible to use the web client to modify
 the interface of the web client.
 
-.. note:: An html version of all docstrings in Eagle ERP is available at:
+.. note:: An html version of all docstrings in Eagle is available at:
 
     .. toctree::
         :maxdepth: 2
@@ -31,7 +31,7 @@ The Javascript framework is designed to work with three main use cases:
 - the *web client*: this is the private web application, where one can view and
   edit business data. This is a single page application (the page is never
   reloaded, only the new data is fetched from the server whenever it is needed)
-- the *website*: this is the public part of Eagle ERP.  It allows an unidentified
+- the *website*: this is the public part of Eagle.  It allows an unidentified
   user to browse some content, to shop or to perform many actions, as a client.
   This is a classical website: various routes with controllers and some
   javascript to make it work.
@@ -57,7 +57,7 @@ request a full page from the server each time the user perform an action. Instea
 it only requests what it needs, and then replaces/updates the view. Also, it
 manages the url: it is kept in sync with the web client state.
 
-It means that while a user is working on Eagle ERP, the web client class (and the
+It means that while a user is working on Eagle, the web client class (and the
 action manager) actually creates and destroys many sub components. The state is
 highly dynamic, and each widget could be destroyed at any time.
 
@@ -87,7 +87,7 @@ We only cover the most important files/folders.
 Assets Management
 =================
 
-Managing assets in Eagle ERP is not as straightforward as it is in some other apps.
+Managing assets in Eagle is not as straightforward as it is in some other apps.
 One of the reason is that we have a variety of situations where some, but not all
 the assets are required.  For example, the needs of the web client, the point of
 sale, the website or even the mobile application are different.  Also, some
@@ -95,7 +95,7 @@ assets may be large, but are seldom needed.  In that case, we sometimes want the
 to be loaded lazily.
 
 The main idea is that we define a set of *bundles* in xml.  A bundle is here defined as
-a collection of files (javascript, css, scss). In Eagle ERP, the most important
+a collection of files (javascript, css, scss). In Eagle, the most important
 bundles are defined in the file *addons/web/views/webclient_templates.xml*. It looks
 like this:
 
@@ -139,7 +139,7 @@ them once.
 
 Main bundles
 ------------
-When the Eagle ERP server is started, it checks the timestamp of each file in a bundle,
+When the Eagle server is started, it checks the timestamp of each file in a bundle,
 and if necessary, will create/recreate the corresponding bundles.
 
 Here are some important bundles that most developers will need to know:
@@ -222,13 +222,13 @@ Javascript Module System
 ========================
 
 Once we are able to load our javascript files into the browser, we need to make
-sure they are loaded in the correct order.  In order to do that, Eagle ERP has defined
+sure they are loaded in the correct order.  In order to do that, Eagle has defined
 a small module system (located in the file *addons/web/static/src/js/boot.js*,
 which needs to be loaded first).
 
-The Eagle ERP module system, inspired by AMD, works by defining the function *define*
+The Eagle module system, inspired by AMD, works by defining the function *define*
 on the global eagle object. We then define each javascript module by calling that
-function.  In the Eagle ERP framework, a module is a piece of code that will be executed
+function.  In the Eagle framework, a module is a piece of code that will be executed
 as soon as possible.  It has a name and potentially some dependencies.  When its
 dependencies are loaded, a module will then be loaded as well.  The value of the
 module is then the return value of the function defining the module.
@@ -366,12 +366,12 @@ Best practices
 Class System
 ============
 
-Eagle ERP was developed before ECMAScript 6 classes were available.  In Ecmascript 5,
+Eagle was developed before ECMAScript 6 classes were available.  In Ecmascript 5,
 the standard way to define a class is to define a function and to add methods
 on its prototype object.  This is fine, but it is slightly complex when we want
 to use inheritance, mixins.
 
-For these reasons, Eagle ERP decided to use its own class system, inspired by John
+For these reasons, Eagle decided to use its own class system, inspired by John
 Resig. The base Class is located in *web.Class*, in the file *class.js*.
 
 Creating a subclass
@@ -476,7 +476,7 @@ This is done by using the *include* method:
 
 
 This is obviously a dangerous operation and should be done with care.  But with
-the way Eagle ERP is structured, it is sometimes necessary in one addon to modify
+the way Eagle is structured, it is sometimes necessary in one addon to modify
 the behavior of a widget/class defined in another addon.  Note that it will
 modify all instances of the class, even if they have already been created.
 
@@ -788,10 +788,10 @@ Widget Guidelines
   as in C or Objective-C).
 
 * Global selectors should be avoided. Because a component may be used several
-  times in a single page (an example in Eagle ERP is dashboards), queries should be
+  times in a single page (an example in Eagle is dashboards), queries should be
   restricted to a given component's scope. Unfiltered selections such as
   ``$(selector)`` or ``document.querySelectorAll(selector)`` will generally
-  lead to unintended or incorrect behavior.  Eagle ERP Web's
+  lead to unintended or incorrect behavior.  Eagle Web's
   :class:`~Widget` has an attribute providing its DOM root
   (:attr:`~Widget.$el`), and a shortcut to select nodes directly
   (:func:`~Widget.$`).
@@ -850,7 +850,7 @@ With this, the *Counter* widget will load the xmlDependencies files in its
 Event system
 ============
 
-There are currently two event systems supported by Eagle ERP: a simple system which
+There are currently two event systems supported by Eagle: a simple system which
 allows adding listeners and triggering events, and a more complete system that
 also makes events 'bubble up'.
 
@@ -903,13 +903,13 @@ The custom event widgets is a more advanced system, which mimic the DOM events
 API.  Whenever an event is triggered, it will 'bubble up' the component tree,
 until it reaches the root widget, or is stopped.
 
-- *trigger_up*: this is the method that will create a small *Eagle ERPEvent* and
+- *trigger_up*: this is the method that will create a small *EagleEvent* and
   dispatch it in the component tree.  Note that it will start with the component
   that triggered the event
 - *custom_events*: this is the equivalent of the *event* dictionary, but for
   eagle events.
 
-The Eagle ERPEvent class is very simple.  It has three public attributes: *target*
+The EagleEvent class is very simple.  It has three public attributes: *target*
 (the widget that triggered the event), *name* (the event name) and *data* (the
 payload).  It also has 2 methods: *stopPropagation* and *is_stopped*.
 
@@ -942,7 +942,7 @@ The previous example can be updated to use the custom event system:
 Registries
 ===========
 
-A common need in the Eagle ERP ecosystem is to extend/change the behaviour of the
+A common need in the Eagle ecosystem is to extend/change the behaviour of the
 base system from the outside (by installing an application, i.e. a different
 module).  For example, one may need to add a new widget type in some views.  In
 that case, and many others, the usual process is to create the desired component,
@@ -1127,7 +1127,7 @@ RPCs
 The rpc functionality is supplied by the ajax service.  But most people will
 probably only interact with the *_rpc* helpers.
 
-There are typically two usecases when working on Eagle ERP: one may need to call a
+There are typically two usecases when working on Eagle: one may need to call a
 method on a (python) model (this goes through a controller *call_kw*), or one
 may need to directly call a controller (available on some route).
 
@@ -1153,7 +1153,7 @@ may need to directly call a controller (available on some route).
 Notifications
 ==============
 
-The Eagle ERP framework has a standard way to communicate various informations to the
+The Eagle framework has a standard way to communicate various informations to the
 user: notifications, which are displayed on the top right of the user interface.
 
 There are two types of notifications:
@@ -1171,7 +1171,7 @@ could be displayed with two buttons *Accept* and *Decline*.
 Notification system
 -------------------
 
-The notification system in Eagle ERP is designed with the following components:
+The notification system in Eagle is designed with the following components:
 
 - a *Notification* widget: this is a simple widget that is meant to be created
   and displayed with the desired information
@@ -1372,7 +1372,7 @@ The word 'view' has more than one meaning. This section is about the design of
 the javascript code of the views, not the structure of the *arch* or anything
 else.
 
-In 2017, Eagle ERP replaced the previous view code with a new architecture.  The
+In 2017, Eagle replaced the previous view code with a new architecture.  The
 main need was to separate the rendering logic from the model logic.
 
 

@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * hr_expense
 # 
@@ -9,7 +9,7 @@
 # Djordje Marjanovic <djordje_m@yahoo.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 11.0\n"
+"Project-Id-Version: Eagle Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-16 08:08+0000\n"
 "PO-Revision-Date: 2017-11-16 08:08+0000\n"
@@ -565,7 +565,7 @@ msgstr ""
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "Enjoy your Eagle ERP experience,"
+msgid "Enjoy your Eagle experience,"
 msgstr ""
 
 #. module: hr_expense
@@ -831,7 +831,7 @@ msgstr ""
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid ""
-"For the Eagle ERP Team,<br/>\n"
+"For the Eagle Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
 
@@ -888,7 +888,7 @@ msgstr ""
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "Have a wonderful day,<br/>- The Eagle ERP Team"
+msgid "Have a wonderful day,<br/>- The Eagle Team"
 msgstr ""
 
 #. module: hr_expense
@@ -1565,7 +1565,7 @@ msgstr ""
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "This guide helps you start with Eagle ERP Expenses."
+msgid "This guide helps you start with Eagle Expenses."
 msgstr ""
 
 #. module: hr_expense

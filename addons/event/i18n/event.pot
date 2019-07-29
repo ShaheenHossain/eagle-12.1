@@ -1,10 +1,10 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 #	* event
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 10:09+0000\n"
 "PO-Revision-Date: 2019-03-29 10:09+0000\n"
@@ -65,7 +65,7 @@ msgstr ""
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
-msgid "<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>Eagle ERP Programming</i></font>"
+msgid "<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>Eagle Programming</i></font>"
 msgstr ""
 
 #. module: event
@@ -1565,12 +1565,12 @@ msgstr ""
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
-msgid "Eagle ERP Official Website"
+msgid "Eagle Official Website"
 msgstr ""
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
-msgid "Eagle ERP Web Client"
+msgid "Eagle Web Client"
 msgstr ""
 
 #. module: event

@@ -1,10 +1,10 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * hr_expense
 # 
 # Translators:
 # ChinaMaker <liuct@chinamaker.net>, 2018
-# JZH-Eagle ERP <jzh@eagle.com>, 2018
+# JZH-Eagle <jzh@eagle.com>, 2018
 # bower Guo <124358678@qq.com>, 2018
 # p too <totopo@163.com>, 2018
 # inspur qiuguodong <qiuguodong@inspur.com>, 2018
@@ -18,7 +18,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-19 08:20+0000\n"
 "PO-Revision-Date: 2018-08-24 09:18+0000\n"

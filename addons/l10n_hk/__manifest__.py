@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Hong Kong - Accounting',
     'version': '1.0',
     'category': 'Localization',
     'description': """ This is the base module to manage chart of accounting and localization for Hong Kong """,
-    'author': 'Eagle ERP SA',
+    'author': 'Eagle SA',
     'depends': ['account'],
     'data': [
         'data/account_chart_template_data.xml',

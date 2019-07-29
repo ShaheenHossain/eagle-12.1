@@ -1,8 +1,8 @@
-Eagle ERP Enterprise Social Network
+Eagle Enterprise Social Network
 ------------------------------
 
 Connect with experts, follow what interests you, share documents and promote
-best practices with Eagle ERP <a href="https://www.eagle.com/page/enterprise-social-network">Enterprise Social Network</a>. Get work done with
+best practices with Eagle <a href="https://www.eagle.com/page/enterprise-social-network">Enterprise Social Network</a>. Get work done with
 effective collaboration across departments, geographies, documents and business
 applications. All of this while decreasing email overload.
 
@@ -10,7 +10,7 @@ Connect with experts
 --------------------
 
 Next time you have a question for the marketing, sales, R&D or any other
-department, don't send an email blast-post the question to Eagle ERP and get answers
+department, don't send an email blast-post the question to Eagle and get answers
 from the right persons.
 
 Follow what interests you

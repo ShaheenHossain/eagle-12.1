@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 import datetime
 import itertools
@@ -34,7 +34,7 @@ class CRMRevealRule(models.Model):
                                    'Rules with a lower sequence number will be processed first.')
 
     # Company Criteria Filter
-    industry_tag_ids = fields.Many2many('crm.reveal.industry', string='Industry Tags', help='Leave empty to always match. Eagle ERP will not create lead if no match')
+    industry_tag_ids = fields.Many2many('crm.reveal.industry', string='Industry Tags', help='Leave empty to always match. Eagle will not create lead if no match')
     company_size_min = fields.Integer(string='Min Company Size', help="Leave it as 0 if you don't want to use this filter.")
     company_size_max = fields.Integer(string='Max Company Size', help="Leave it as 0 if you don't want to use this filter.")
 

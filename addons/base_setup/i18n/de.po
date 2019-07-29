@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * base_setup
 # 
@@ -11,7 +11,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:16+0000\n"
@@ -207,8 +207,8 @@ msgstr "Externe E-Mail-Server"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Eagle ERP data from Google Spreadsheet"
-msgstr "Extrahieren und analysieren Sie Eagle ERP-Daten über Google Tabellen"
+msgid "Extract and analyze Eagle data from Google Spreadsheet"
+msgstr "Extrahieren und analysieren Sie Eagle-Daten über Google Tabellen"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -395,8 +395,8 @@ msgstr "Verwenden Sie externe Authentifizierungsanbieter (OAuth)"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Eagle ERP Notes"
-msgstr "Verwenden Sie externe Pads in Eagle ERP Notes"
+msgid "Use external pads in Eagle Notes"
+msgstr "Verwenden Sie externe Pads in Eagle Notes"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -406,10 +406,10 @@ msgstr "Benutzer"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Eagle ERP provides a list of matching "
+"When populating your address book, Eagle provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
-"Beim Auffüllen Ihres Adressbuchs stellt Eagle ERP eine Liste passender "
+"Beim Auffüllen Ihres Adressbuchs stellt Eagle eine Liste passender "
 "Unternehmen zur Verfügung. Bei der Auswahl eines Artikels werden die "
 "Firmendaten und das Logo automatisch ausgefüllt."

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'OAuth2 Authentication',
@@ -8,7 +8,7 @@
 Allow users to login through OAuth2 Provider.
 =============================================
 """,
-    'maintainer': 'Eagle ERP S.A.',
+    'maintainer': 'Eagle S.A.',
     'depends': ['base', 'web', 'base_setup', 'auth_signup'],
     'data': [
         'data/auth_oauth_data.xml',

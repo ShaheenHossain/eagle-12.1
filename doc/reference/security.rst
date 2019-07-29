@@ -3,10 +3,10 @@
 .. _reference/security:
 
 ================
-Security in Eagle ERP
+Security in Eagle
 ================
 
-Aside from manually managing access using custom code, Eagle ERP provides two main
+Aside from manually managing access using custom code, Eagle provides two main
 data-driven mechanisms to manage or restrict access to data.
 
 Both mechanisms are linked to specific users through *groups*: a user belongs

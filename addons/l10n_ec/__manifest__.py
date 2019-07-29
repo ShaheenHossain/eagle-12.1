@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 # Copyright (C) 2010-2012 Cristian Salamea Gnuthink Software Labs Cia. Ltda
 
@@ -8,7 +8,7 @@
     'version': '1.1',
     'category': 'Localization',
     'description': """
-This is the base module to manage the accounting chart for Ecuador in Eagle ERP.
+This is the base module to manage the accounting chart for Ecuador in Eagle.
 ==============================================================================
 
 Accounting chart and localization for Ecuador.

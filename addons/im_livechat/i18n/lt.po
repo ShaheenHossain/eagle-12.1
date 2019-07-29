@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * im_livechat
 # 
@@ -12,7 +12,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-09 10:32+0000\n"
 "PO-Revision-Date: 2018-08-24 09:19+0000\n"
@@ -379,11 +379,11 @@ msgstr "Paaiškinkite savo pastabą"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"For websites built with the Eagle ERP CMS, please install the website_livechat "
+"For websites built with the Eagle CMS, please install the website_livechat "
 "module. Then go to Website &gt; Configuration &gt; Settings and select the "
 "Website Live Chat Channel you want to add on your website."
 msgstr ""
-"Svetainėms, sukurtoms su \"Eagle ERP\" TVS, įdiekite modulį website_livechat. "
+"Svetainėms, sukurtoms su \"Eagle\" TVS, įdiekite modulį website_livechat. "
 "Tada eikite į Svetainė/Konfigūracija/Nustatymai ir pasirinkite svetainės "
 "gyvo susirašinėjimo kanalą, kurį norite pridėti į savo puslapį."
 
@@ -701,10 +701,10 @@ msgstr ""
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"Operators that do not show any activity In Eagle ERP for more than 30 minutes "
+"Operators that do not show any activity In Eagle for more than 30 minutes "
 "will be considered as disconnected."
 msgstr ""
-"Operatoriai, kurie daugiau nei 30 minučių neatlieka jokių veiksmų \"Eagle ERP\", "
+"Operatoriai, kurie daugiau nei 30 minučių neatlieka jokių veiksmų \"Eagle\", "
 "bus laikomi atsijungusiais."
 
 #. module: im_livechat

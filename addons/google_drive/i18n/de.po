@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * google_drive
 # 
@@ -10,7 +10,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-08 06:49+0000\n"
 "PO-Revision-Date: 2018-08-24 09:18+0000\n"
@@ -26,7 +26,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:google_drive.view_google_drive_config_form
 msgid ""
 "<b>To create a new filter:</b><br/>\n"
-"                                - Go to the Eagle ERP document you want to filter. For instance, go to Opportunities and search on Sales Department.<br/>\n"
+"                                - Go to the Eagle document you want to filter. For instance, go to Opportunities and search on Sales Department.<br/>\n"
 "                                - In this \"Search\" view, select the option \"Save Current Filter\", enter the name (Ex: Sales Department)<br/>\n"
 "                                - If you select \"Share with all users\", link of google document in \"More\" options will appear for all users in opportunities of Sales Department.<br/>\n"
 "                                - If you don't select \"Share with all users\", link of google document in \"More\" options will not appear for other users in opportunities of Sales Department.<br/>\n"
@@ -189,17 +189,17 @@ msgstr "Zuletzt aktualisiert am"
 #. module: google_drive
 #: model_terms:ir.actions.act_window,help:google_drive.action_google_drive_users_config
 msgid ""
-"Link your own google drive templates to any record of Eagle ERP. If you have "
+"Link your own google drive templates to any record of Eagle. If you have "
 "really specific documents you want your collaborator fill in, e.g. Use a "
 "spreadsheet to control the quality of your product or review the delivery "
 "checklist for each order in a foreign country, ... Its very easy to manage "
-"them, link them to Eagle ERP and use them to collaborate with your employees."
+"them, link them to Eagle and use them to collaborate with your employees."
 msgstr ""
-"Verbinden Sie ihre eigenen Google Drive Vorlagen mit beliebigen Eagle ERP Daten. "
+"Verbinden Sie ihre eigenen Google Drive Vorlagen mit beliebigen Eagle Daten. "
 "Sollten Sie tatsächlich auszufüllende Formulare haben, z.B. eine Tabelle, um"
 " die Qualität der eigenen Produkte zu überprüfen, oder eine "
 "Lieferauftragsliste für alle Exporte, ... Es ist sehr einfach diese zu "
-"verwalten. Verknüpfen Sie Ihre Vorlagen mit Eagle ERP und nutzen Sie diese, um "
+"verwalten. Verknüpfen Sie Ihre Vorlagen mit Eagle und nutzen Sie diese, um "
 "mit Ihren Mitarbeitern gemeinsam daran zu arbeiten."
 
 #. module: google_drive
@@ -266,12 +266,12 @@ msgstr "Die URL, um den Autorisierungscode von Google zu generieren"
 msgid ""
 "The name of the attached document can use fixed or variable data. To distinguish between documents in\n"
 "                                Google Drive, use fixed words and fields. For instance, in the example above, if you wrote Deco_Addict_%(name)s_Sales\n"
-"                                in the Google Drive name field, the document in your Google Drive and in Eagle ERP attachment will be named\n"
+"                                in the Google Drive name field, the document in your Google Drive and in Eagle attachment will be named\n"
 "                                'Deco_Addict_SO0001_Sales'."
 msgstr ""
 "Der Name des angehängten Dokuments kann feste oder variable Daten enthalten. Dokumente unterscheiden in\n"
 "                                 Google Drive, verwenden feste Wörter und Feldern. Zum Beispiel im obigen Beispiel, wenn Sie Deco_Addict_%(name)s_Sales geschrieben haben\n"
-"                                 Im Feld Google Drive-Name wird das Dokument in Ihrem Google Drive und im Eagle ERP-Anhang benannt\n"
+"                                 Im Feld Google Drive-Name wird das Dokument in Ihrem Google Drive und im Eagle-Anhang benannt\n"
 "                                 'Deco_Addict_SO0001_Sales'."
 
 #. module: google_drive

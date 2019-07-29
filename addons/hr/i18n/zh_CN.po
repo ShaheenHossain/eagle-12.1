@@ -1,11 +1,11 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * hr
 # 
 # Translators:
 # ChinaMaker <liuct@chinamaker.net>, 2018
 # 老窦 北京 <2662059195@qq.com>, 2018
-# JZH-Eagle ERP <jzh@eagle.com>, 2018
+# JZH-Eagle <jzh@eagle.com>, 2018
 # Shane Tsoi <sso@eagle.com>, 2018
 # Summer Xia <sxi@eagle.com>, 2018
 # bower Guo <124358678@qq.com>, 2018
@@ -25,7 +25,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-12 12:19+0000\n"
 "PO-Revision-Date: 2018-08-24 09:18+0000\n"
@@ -140,7 +140,7 @@ msgid ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Powered by <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Eagle ERP</a>\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Eagle</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -168,7 +168,7 @@ msgstr ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        版权所有 <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Eagle ERP</a>\n"
+"        版权所有 <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Eagle</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -481,8 +481,8 @@ msgstr "定义资源调度"
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_consultant
-msgid "Deliver generic Eagle ERP functional training sessions"
-msgstr "提供通用的 Eagle ERP 功能培训会议"
+msgid "Deliver generic Eagle functional training sessions"
+msgstr "提供通用的 Eagle 功能培训会议"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__department_id
@@ -1167,11 +1167,11 @@ msgstr "未读消息的数量"
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.open_module_tree_department
 msgid ""
-"Eagle ERP's department structure is used to manage all documents\n"
+"Eagle's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves, recruitments, etc."
 msgstr ""
-"Eagle ERP每个部门的雇员资料都可以在部门内独立管理：\n"
+"Eagle每个部门的雇员资料都可以在部门内独立管理：\n"
 "                比如 费用、日程安排、考勤、休假、录用"
 
 #. module: hr
@@ -1728,11 +1728,11 @@ msgstr "向专业服务部主管汇报"
 #: model_terms:ir.actions.act_window,help:hr.act_employee_from_department
 #: model_terms:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Eagle ERP employee screen, you\n"
+"With just a quick glance on the Eagle employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"只需快速浏览一下Eagle ERP员工管理信息，您\n"
+"只需快速浏览一下Eagle员工管理信息，您\n"
 "                可以轻松找到相关信息;\n"
 "                联系人数据，工作岗位，可用性等。"
 

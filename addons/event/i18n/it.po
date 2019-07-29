@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * event
 # 
@@ -22,7 +22,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 10:09+0000\n"
 "PO-Revision-Date: 2018-08-24 09:17+0000\n"
@@ -104,11 +104,11 @@ msgstr ""
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid ""
-"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>Eagle ERP"
+"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>Eagle"
 " Programming</i></font>"
 msgstr ""
 "<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">per imparare "
-"<i>la programmazione Eagle ERP</i></font>"
+"<i>la programmazione Eagle</i></font>"
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -2071,13 +2071,13 @@ msgstr "Numero di messaggi non letti"
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
-msgid "Eagle ERP Official Website"
-msgstr "Sito web ufficiale di Eagle ERP"
+msgid "Eagle Official Website"
+msgstr "Sito web ufficiale di Eagle"
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
-msgid "Eagle ERP Web Client"
-msgstr "Eagle ERP Web Client"
+msgid "Eagle Web Client"
+msgstr "Eagle Web Client"
 
 #. module: event
 #: model:event.type,name:event.event_type_data_online

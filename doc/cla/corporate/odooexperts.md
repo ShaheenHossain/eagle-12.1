@@ -1,6 +1,6 @@
 Netherlands, 18-1-2018
 
-Eagle ERP Experts agrees to the terms of the Eagle ERP Corporate Contributor License
+Eagle Experts agrees to the terms of the Eagle Corporate Contributor License
 Agreement v1.0.
 
 I declare that I am authorized and able to make this agreement and sign this

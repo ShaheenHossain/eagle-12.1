@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Italy - E-invoicing',
     'version': '0.3',
     'depends': ['l10n_it'],
-    'author': 'Eagle ERP',
+    'author': 'Eagle',
     'description': """
 E-invoice implementation
     """,

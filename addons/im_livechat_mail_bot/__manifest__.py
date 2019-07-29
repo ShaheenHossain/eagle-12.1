@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'Eagle ERPBot for livechat',
+    'name': 'EagleBot for livechat',
     'version': '1.0',
     'category': 'Discuss',
-    'summary': 'Add livechat support for Eagle ERPBot',
+    'summary': 'Add livechat support for EagleBot',
     'description': "",
     'website': 'https://www.eagle.com/page/discuss',
     'depends': ['mail_bot', 'im_livechat'],

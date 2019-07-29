@@ -5,7 +5,7 @@ var AbstractAction = require('web.AbstractAction');
 var core = require('web.core');
 
 
-var IapEagle ERPCreditRedirect = AbstractAction.extend({
+var IapEagleCreditRedirect = AbstractAction.extend({
     template: 'iap.redirect_to_eagle_credit',
     events : {
         "click .redirect_confirm" : "eagle_redirect",
@@ -22,5 +22,5 @@ var IapEagle ERPCreditRedirect = AbstractAction.extend({
     },
 
 });
-core.action_registry.add('iap_eagle_credit_redirect', IapEagle ERPCreditRedirect);
+core.action_registry.add('iap_eagle_credit_redirect', IapEagleCreditRedirect);
 });

@@ -6,9 +6,9 @@
 Eagle
 ----
 
-Eagle ERP is a suite of web based open source business apps.
+Eagle is a suite of web based open source business apps.
 
-The main Eagle ERP include an <a href="http://www.eagle-erp.com">Customer Relation Management CRM</a>,
+The main Eagle include an <a href="http://www.eagle-erp.com">Customer Relation Management CRM</a>,
 <a href="http://www.eagle-erp.com">Website Builder</a>,
 <a href="http://www.eagle-erp.com">eCommerce</a>,
 <a href="http://www.eagle-erp.com">Warehouse Management</a>,

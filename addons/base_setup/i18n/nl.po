@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * base_setup
 # 
@@ -10,7 +10,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:16+0000\n"
@@ -204,8 +204,8 @@ msgstr "Externe e-mail servers"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Eagle ERP data from Google Spreadsheet"
-msgstr "Exporteer en analyseer Eagle ERP data in Google Spreadsheets"
+msgid "Extract and analyze Eagle data from Google Spreadsheet"
+msgstr "Exporteer en analyseer Eagle data in Google Spreadsheets"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -392,8 +392,8 @@ msgstr "Gebruik externe authenticatie providers (OAuth)"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Eagle ERP Notes"
-msgstr "Gebruik externe paden in Eagle ERP Notities"
+msgid "Use external pads in Eagle Notes"
+msgstr "Gebruik externe paden in Eagle Notities"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -403,10 +403,10 @@ msgstr "Gebruikers"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Eagle ERP provides a list of matching "
+"When populating your address book, Eagle provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
-"Bij het automatisch invullen van uw adresboek, geeft Eagle ERP een lijst van "
+"Bij het automatisch invullen van uw adresboek, geeft Eagle een lijst van "
 "matchende bedrijven. Wanneer u er een selecteert, wordt de bedrijfsnaam, het"
 " logo automatisch ingevuld."

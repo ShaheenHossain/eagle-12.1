@@ -1,5 +1,5 @@
 # -*- coding: ascii -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 from eagle import api, models
 from eagle.addons.http_routing.models.ir_http import slug, unslug_url

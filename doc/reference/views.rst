@@ -255,7 +255,7 @@ Possible children elements of the list view are:
         * if there is no ``icon``, the button's text
         * if there is an ``icon``, ``alt`` text for the icon
     ``type``
-        type of button, indicates how it clicking it affects Eagle ERP:
+        type of button, indicates how it clicking it affects Eagle:
 
         ``object``
             call a method on the list's model. The button's ``name`` is the
@@ -298,10 +298,10 @@ Possible children elements of the list view are:
             Using ``states`` in combination with ``attrs`` may lead to
             unexpected results as domains are combined with a logical AND.
     ``context``
-        merged into the view's context when performing the button's Eagle ERP call
+        merged into the view's context when performing the button's Eagle call
     ``confirm``
         confirmation message to display (and for the user to accept) before
-        performing the button's Eagle ERP call
+        performing the button's Eagle call
 
     .. declared but unused: help
 
@@ -455,11 +455,11 @@ logic. They are used as elements or sets of elements in form views.
 Semantic components
 -------------------
 
-Semantic components tie into and allow interaction with the Eagle ERP
+Semantic components tie into and allow interaction with the Eagle
 system. Available semantic components are:
 
 ``button``
-  call into the Eagle ERP system, similar to :ref:`list view buttons
+  call into the Eagle system, similar to :ref:`list view buttons
   <reference/views/list/button>`. In addition, the following attribute can be
   specified:
 
@@ -1087,13 +1087,13 @@ Possible children of the view element are:
 
       .. todo:: list widgets?
 
-    * buttons and links with a ``type`` attribute become perform Eagle ERP-related
+    * buttons and links with a ``type`` attribute become perform Eagle-related
       operations rather than their standard HTML function. Possible types are:
 
       ``action``, ``object``
-        standard behavior for :ref:`Eagle ERP buttons
+        standard behavior for :ref:`Eagle buttons
         <reference/views/list/button>`, most attributes relevant to standard
-        Eagle ERP buttons can be used.
+        Eagle buttons can be used.
       ``open``
         opens the card's record in the form view in read-only mode
       ``edit``
@@ -1276,7 +1276,7 @@ Possible children of the diagram view are:
     Defines the nodes of the graph. Its attributes are:
 
     ``object``
-      the node's Eagle ERP model
+      the node's Eagle model
     ``shape``
       conditional shape mapping similar to colors and fonts in :ref:`the list
       view <reference/views/list>`. The only valid shape is ``rectangle`` (the
@@ -1289,7 +1289,7 @@ Possible children of the diagram view are:
     Defines the directed edges of the graph. Its attributes are:
 
     ``object`` (required)
-      the edge's Eagle ERP model
+      the edge's Eagle model
     ``source`` (required)
       :class:`~eagle.fields.Many2one` field of the edge's model pointing to
       the edge's source node record
@@ -1317,7 +1317,7 @@ more complete and interesting look on a given dataset.
 
 .. warning::
 
-   The Dashboard view is only available in Eagle ERP Enterprise.
+   The Dashboard view is only available in Eagle Enterprise.
 
 The dashboard view can display sub views, aggregates for some fields (over a
 domain), or even *formulas* (expressions which involves one or more aggregates).
@@ -1516,7 +1516,7 @@ this action contains a list view and a form view.
 
 .. warning::
 
-   The Cohort view is only available in Eagle ERP Enterprise.
+   The Cohort view is only available in Eagle Enterprise.
 
 .. note:: By default the cohort view will use the same list and form views as those
    defined on the action. You can pass a list view and a form view
@@ -1649,7 +1649,7 @@ Possible children elements of the search view are:
         make the field only available to specific users
     ``widget``
         use specific search widget for the field (the only use case in
-        standard Eagle ERP 8.0 is a ``selection`` widget for
+        standard Eagle 8.0 is a ``selection`` widget for
         :class:`~eagle.fields.Many2one` fields)
     ``domain``
         if the field can provide an auto-completion
@@ -1667,7 +1667,7 @@ Possible children elements of the search view are:
     ``string`` (required)
         the label of the filter
     ``domain`` (optional)
-        an Eagle ERP :ref:`domain <reference/orm/domains>`, will be appended to the
+        an Eagle :ref:`domain <reference/orm/domains>`, will be appended to the
         action's domain as part of the search domain.
     ``date`` (optional)
         the name of a field of type ``date`` or ``datetime``.

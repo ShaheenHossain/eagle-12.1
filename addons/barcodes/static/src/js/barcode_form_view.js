@@ -230,7 +230,7 @@ FormController.include({
      * The barcode is activate when at least one widget trigger_up 'activeBarcode' event
      * with the widget option
      *
-     * @param {Eagle ERPEvent} event
+     * @param {EagleEvent} event
      * @param {string} event.data.name: the current field name
      * @param {string} [event.data.fieldName] optional for x2many sub field
      * @param {boolean} [event.data.notifyChange] optional for x2many sub field

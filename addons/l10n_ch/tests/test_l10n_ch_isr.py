@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 import time
 
@@ -86,7 +86,7 @@ class ISRTest(AccountingTestCase):
 
     def test_isr(self):
         #Let us test the generation of an ISR for an invoice, first by showing an
-        #ISR report is only generated when Eagle ERP has all the data it needs.
+        #ISR report is only generated when Eagle has all the data it needs.
         invoice_1 = self.create_invoice('base.CHF')
         self.isr_not_generated(invoice_1)
 

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 from datetime import datetime, timedelta
 from hashlib import sha256
 from json import dumps
@@ -180,7 +180,7 @@ class pos_order(models.Model):
                          From: %(start_order_name)s %(start_order_ref)s recorded on %(start_order_date)s
                          To: %(end_order_name)s %(end_order_ref)s recorded on %(end_order_date)s
 
-                         For this report to be legally meaningful, please download your certification from your customer account on Eagle ERP.com (Only for Eagle ERP Enterprise users).'''
+                         For this report to be legally meaningful, please download your certification from your customer account on Eagle.com (Only for Eagle Enterprise users).'''
                          ) % report_dict)
 
 

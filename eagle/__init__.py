@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 """ OpenERP core library."""
 
@@ -12,7 +12,7 @@ __path__ = __import__('pkgutil').extend_path(__path__, __name__)
 
 # As of version 12.0, python 2 is no longer supported, ensure py version is >= 3.5
 import sys
-assert sys.version_info > (3, 5), "Python 2 detected, Eagle ERP requires Python >= 3.5 to run."
+assert sys.version_info > (3, 5), "Python 2 detected, Eagle requires Python >= 3.5 to run."
 
 #----------------------------------------------------------
 # Running mode flags (gevent, prefork)

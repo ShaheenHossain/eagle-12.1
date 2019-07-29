@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * analytic
 # 
@@ -18,7 +18,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 10:09+0000\n"
 "PO-Revision-Date: 2018-08-24 09:15+0000\n"
@@ -353,11 +353,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
-"In Eagle ERP, sales orders and projects are implemented using\n"
+"In Eagle, sales orders and projects are implemented using\n"
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
 msgstr ""
-"No Eagle ERP, ordens de vendas e projetos são implementados usando\n"
+"No Eagle, ordens de vendas e projetos são implementados usando\n"
 "o analisador de contas. Você pode rastrear os custos e receitas para analisar suas margens facilmente."
 
 #. module: analytic

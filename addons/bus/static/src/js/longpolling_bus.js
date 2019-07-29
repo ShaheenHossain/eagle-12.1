@@ -23,7 +23,7 @@ var LongpollingBus = Bus.extend(ServicesMixin, {
     // properties
     _isActive: null,
     _lastNotificationID: 0,
-    _isEagle ERPFocused: true,
+    _isEagleFocused: true,
     _pollRetryTimeout: null,
 
     /**
@@ -106,8 +106,8 @@ var LongpollingBus = Bus.extend(ServicesMixin, {
      *
      * @returns {boolean}
      */
-    isEagle ERPFocused: function () {
-        return this._isEagle ERPFocused;
+    isEagleFocused: function () {
+        return this._isEagleFocused;
     },
     /**
      * Start a long polling, i.e. it continually opens a long poll
@@ -217,10 +217,10 @@ var LongpollingBus = Bus.extend(ServicesMixin, {
      * @param {Boolean} params.focus
      */
     _onFocusChange: function (params) {
-        this._isEagle ERPFocused = params.focus;
+        this._isEagleFocused = params.focus;
         if (params.focus) {
             this._lastPresenceTime = new Date().getTime();
-            this.trigger('window_focus', this._isEagle ERPFocused);
+            this.trigger('window_focus', this._isEagleFocused);
         }
     },
     /**

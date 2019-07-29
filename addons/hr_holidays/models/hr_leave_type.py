@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 # Copyright (c) 2005-2006 Axelor SARL. (http://www.axelor.com)
 
@@ -25,7 +25,7 @@ class HolidaysType(models.Model):
                               help='The type with the smallest sequence is the default value in leave request')
     categ_id = fields.Many2one(
         'calendar.event.type', string='Meeting Type',
-        help='Once a leave is validated, Eagle ERP will create a corresponding meeting of this type in the calendar.')
+        help='Once a leave is validated, Eagle will create a corresponding meeting of this type in the calendar.')
     color_name = fields.Selection([
         ('red', 'Red'),
         ('blue', 'Blue'),

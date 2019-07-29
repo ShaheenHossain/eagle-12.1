@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 {
     "name" : "Mongolia - Accounting",
     "version" : "1.0",
     'category': 'Localization',
-    "author" : "BumanIT LLC, Eagle ERP S.A",
+    "author" : "BumanIT LLC, Eagle S.A",
     "description": """
 This is the module to manage the accounting chart for Mongolia.
 ===============================================================

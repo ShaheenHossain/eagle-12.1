@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 import logging
 import time
@@ -21,7 +21,7 @@ _logger = logging.getLogger(__name__)
 try:
     import evdev
 except ImportError:
-    _logger.error('Eagle ERP module hw_scanner depends on the evdev python module')
+    _logger.error('Eagle module hw_scanner depends on the evdev python module')
     evdev = None
 
 class ScannerDevice():

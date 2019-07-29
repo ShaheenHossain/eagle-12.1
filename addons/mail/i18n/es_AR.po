@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * mail
 # 
@@ -6,7 +6,7 @@
 # Martin Trigaux <mat@eagle.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 11.0\n"
+"Project-Id-Version: Eagle Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-30 13:11+0000\n"
 "PO-Revision-Date: 2017-11-30 13:11+0000\n"
@@ -104,7 +104,7 @@ msgid ""
 "    </a>\n"
 "    % endif\n"
 "    using\n"
-"    <a target=\"_blank\" href=\"https://www.eagle.com\" style=\"text-decoration:none; color: #875A7B;\">Eagle ERP</a>.\n"
+"    <a target=\"_blank\" href=\"https://www.eagle.com\" style=\"text-decoration:none; color: #875A7B;\">Eagle</a>.\n"
 "</p>\n"
 "</div>"
 msgstr ""
@@ -2041,7 +2041,7 @@ msgstr ""
 
 #. module: mail
 #: selection:res.users,notification_type:0
-msgid "Handle in Eagle ERP"
+msgid "Handle in Eagle"
 msgstr ""
 
 #. module: mail
@@ -2296,7 +2296,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings_alias_domain
 msgid ""
-"If you have setup a catch-all email domain redirected to the Eagle ERP server, "
+"If you have setup a catch-all email domain redirected to the Eagle server, "
 "enter the domain name here."
 msgstr ""
 
@@ -3614,7 +3614,7 @@ msgstr ""
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.message_user_assigned
-msgid "Eagle ERP"
+msgid "Eagle"
 msgstr ""
 
 #. module: mail
@@ -3622,14 +3622,14 @@ msgstr ""
 #: code:addons/mail/static/src/js/client_action.js:895
 #, python-format
 msgid ""
-"Eagle ERP has now the permission to send you native notifications on this device."
+"Eagle has now the permission to send you native notifications on this device."
 msgstr ""
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:11
 #, python-format
-msgid "Eagle ERP needs your permission to"
+msgid "Eagle needs your permission to"
 msgstr ""
 
 #. module: mail
@@ -3637,7 +3637,7 @@ msgstr ""
 #: code:addons/mail/static/src/js/client_action.js:892
 #, python-format
 msgid ""
-"Eagle ERP will not have the permission to send native notifications on this "
+"Eagle will not have the permission to send native notifications on this "
 "device."
 msgstr ""
 
@@ -4024,7 +4024,7 @@ msgstr ""
 msgid ""
 "Policy on how to handle Chatter notifications:\n"
 "- Emails: notifications are sent to your email\n"
-"- Eagle ERP: notifications appear in your Eagle ERP Inbox"
+"- Eagle: notifications appear in your Eagle Inbox"
 msgstr ""
 
 #. module: mail
@@ -4728,7 +4728,7 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_channel_alias_model_id
 #: model:ir.model.fields,help:mail.field_mail_test_alias_model_id
 msgid ""
-"The model (Eagle ERP Document Kind) to which this alias corresponds. Any incoming"
+"The model (Eagle Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""

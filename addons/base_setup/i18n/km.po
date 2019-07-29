@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * base_setup
 # 
@@ -8,7 +8,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:16+0000\n"
@@ -202,8 +202,8 @@ msgstr "ម៉ាស៊ីនបម្រើអ៊ីមែលខាងក្រ
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Eagle ERP data from Google Spreadsheet"
-msgstr "ស្រង់និងវិភាគទិន្នន័យ Eagle ERP ពី Google Spreadsheet"
+msgid "Extract and analyze Eagle data from Google Spreadsheet"
+msgstr "ស្រង់និងវិភាគទិន្នន័យ Eagle ពី Google Spreadsheet"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -390,8 +390,8 @@ msgstr "ប្រើអ្នកផ្តល់ការផ្ទៀងផ្ទ
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Eagle ERP Notes"
-msgstr "ប្រើបន្ទះខាងក្រៅនៅក្នុងឯកសារ Eagle ERP"
+msgid "Use external pads in Eagle Notes"
+msgstr "ប្រើបន្ទះខាងក្រៅនៅក្នុងឯកសារ Eagle"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -401,10 +401,10 @@ msgstr "អ្នកប្រើ"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Eagle ERP provides a list of matching "
+"When populating your address book, Eagle provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
-"នៅពេលដែលអ្នកកំពុងអានសៀវភៅអាសយដ្ឋានរបស់អ្នក Eagle ERP "
+"នៅពេលដែលអ្នកកំពុងអានសៀវភៅអាសយដ្ឋានរបស់អ្នក Eagle "
 "ផ្តល់នូវបញ្ជីក្រុមហ៊ុនដែលត្រូវគ្នា។ "
 "នៅពេលជ្រើសរើសធាតុមួយទិន្នន័យរបស់ក្រុមហ៊ុននិងឡូហ្គោត្រូវបានបំពេញដោយស្វ័យប្រវត្តិ។"

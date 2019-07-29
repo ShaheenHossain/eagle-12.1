@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * event
 # 
@@ -10,7 +10,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 10:09+0000\n"
 "PO-Revision-Date: 2018-08-24 09:17+0000\n"
@@ -88,10 +88,10 @@ msgstr "<em>（Chamber Works 保留取消、重命名或重新安排<br>活動�
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid ""
-"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>Eagle ERP"
+"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>Eagle"
 " Programming</i></font>"
 msgstr ""
-"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">學習 <i>Eagle ERP "
+"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">學習 <i>Eagle "
 "系統程式編制</i></font>"
 
 #. module: event
@@ -1648,12 +1648,12 @@ msgstr "未讀消息的數量"
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
-msgid "Eagle ERP Official Website"
-msgstr "Eagle ERP 官方網站"
+msgid "Eagle Official Website"
+msgstr "Eagle 官方網站"
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
-msgid "Eagle ERP Web Client"
+msgid "Eagle Web Client"
 msgstr "EAGLE Web 客戶端"
 
 #. module: event

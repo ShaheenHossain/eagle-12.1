@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * iap
 # 
@@ -8,7 +8,7 @@
 # xu xiaohu <xu.xiaohu@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-02 10:05+0000\n"
 "PO-Revision-Date: 2018-10-02 10:05+0000\n"
@@ -34,7 +34,7 @@ msgstr "账户令牌"
 #. openerp-web
 #: code:addons/iap/static/src/js/crash_manager.js:23
 #, python-format
-msgid "Buy credits at Eagle ERP"
+msgid "Buy credits at Eagle"
 msgstr "在eagle中购买信用"
 
 #. module: iap
@@ -160,7 +160,7 @@ msgstr "服务名称"
 #. openerp-web
 #: code:addons/iap/static/src/js/crash_manager.js:23
 #, python-format
-msgid "Start a Trial at Eagle ERP"
+msgid "Start a Trial at Eagle"
 msgstr "在eagle中开始试用"
 
 #. module: iap

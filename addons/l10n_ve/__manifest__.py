@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 #    Module programed and financed by:
 #    Vauxoo, C.A. (<http://vauxoo.com>).
@@ -8,7 +8,7 @@
 
 {
     'name' : 'Venezuela - Accounting',
-    'author': ['Eagle ERP S.A.', 'Vauxoo'],
+    'author': ['Eagle S.A.', 'Vauxoo'],
     'category': 'Localization',
     'description':
 """
@@ -16,16 +16,16 @@ Chart of Account for Venezuela.
 ===============================
 
 Venezuela doesn't have any chart of account by law, but the default
-proposed in Eagle ERP should comply with some Accepted best practices in Venezuela, 
+proposed in Eagle should comply with some Accepted best practices in Venezuela, 
 this plan comply with this practices.
 
 This module has been tested as base for more of 1000 companies, because 
 it is based in a mixtures of most common software in the Venezuelan 
 market what will allow for sure to accountants feel them first steps with 
-Eagle ERP more confortable.
+Eagle more confortable.
 
 This module doesn't pretend be the total localization for Venezuela, 
-but it will help you to start really quickly with Eagle ERP in this country.
+but it will help you to start really quickly with Eagle in this country.
 
 This module give you.
 ---------------------

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Indian - Accounting',
@@ -10,11 +10,11 @@ Indian Accounting: Chart of Account.
 
 Indian accounting chart and localization.
 
-Eagle ERP allows to manage Indian Accounting by providing Two Formats Of Chart of Accounts i.e Indian Chart Of Accounts - Standard and Indian Chart Of Accounts - Schedule VI.
+Eagle allows to manage Indian Accounting by providing Two Formats Of Chart of Accounts i.e Indian Chart Of Accounts - Standard and Indian Chart Of Accounts - Schedule VI.
 
 Note: The Schedule VI has been revised by MCA and is applicable for all Balance Sheet made after
 31st March, 2011. The Format has done away with earlier two options of format of Balance
-Sheet, now only Vertical format has been permitted Which is Supported By Eagle ERP.
+Sheet, now only Vertical format has been permitted Which is Supported By Eagle.
   """,
     'category': 'Localization',
     'depends': [

@@ -147,7 +147,7 @@ The server-side composition of the ``views`` sequence is the following:
 URL Actions (``ir.actions.act_url``)
 ====================================
 
-Allow opening a URL (website/web page) via an Eagle ERP action. Can be customized
+Allow opening a URL (website/web page) via an Eagle action. Can be customized
 via two fields:
 
 ``url``
@@ -164,7 +164,7 @@ via two fields:
         "target": "self",
     }
 
-will replace the current content section by the Eagle ERP home page.
+will replace the current content section by the Eagle home page.
 
 .. _reference/actions/server:
 
@@ -184,7 +184,7 @@ specific or generic actions based on their ``state``. Some fields (and
 corresponding behaviors) are shared between states:
 
 ``model_id``
-    Eagle ERP model linked to the action, made available in
+    Eagle model linked to the action, made available in
     :ref:`evaluation contexts <reference/actions/server/context>`
 ``condition`` (optional)
     evaluated as Python code using the server action's

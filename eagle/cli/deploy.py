@@ -11,7 +11,7 @@ import zipfile
 from . import Command
 
 class Deploy(Command):
-    """Deploy a module on an Eagle ERP instance"""
+    """Deploy a module on an Eagle instance"""
     def __init__(self):
         super(Deploy, self).__init__()
         self.session = requests.session()

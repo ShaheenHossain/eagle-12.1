@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Saudi Arabia - Accounting',
@@ -7,7 +7,7 @@
     'author': 'DVIT.ME',
     'category': 'Localization',
     'description': """
-Eagle ERP Arabic localization for most arabic countries and Saudi Arabia.
+Eagle Arabic localization for most arabic countries and Saudi Arabia.
 
 This initially includes chart of accounts of USA translated to Arabic.
 

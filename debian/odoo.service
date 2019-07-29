@@ -1,5 +1,5 @@
 [Unit]
-Description=Eagle ERP Open Source ERP and CRM
+Description=Eagle Open Source ERP and CRM
 After=network.target
 
 [Service]

@@ -8,7 +8,7 @@
 QWeb
 ====
 
-QWeb is the primary templating_ engine used by Eagle ERP\ [#othertemplates]_. It
+QWeb is the primary templating_ engine used by Eagle\ [#othertemplates]_. It
 is an XML templating engine\ [#genshif]_ and used mostly to generate HTML_
 fragments and pages.
 
@@ -412,7 +412,7 @@ At a deeper level than the previous helper is the ``render`` method on
         the ``keep_query`` helper function
 
     :param values: context values to pass to QWeb for rendering
-    :param str engine: name of the Eagle ERP model to use for rendering, can be
+    :param str engine: name of the Eagle model to use for rendering, can be
                        used to expand or customize QWeb locally (by creating
                        a "new" qweb based on ``ir.qweb`` with alterations)
 
@@ -555,7 +555,7 @@ API
     The QWeb "renderer", handles most of QWeb's logic (loading,
     parsing, compiling and rendering templates).
 
-    Eagle ERP Web instantiates one for the user in the core module, and
+    Eagle Web instantiates one for the user in the core module, and
     exports it to ``core.qweb``. It also loads all the template files
     of the various modules into that QWeb instance.
 
@@ -574,7 +574,7 @@ API
 
     The engine exposes an other method which may be useful in some
     cases (e.g. if you need a separate template namespace with, in
-    Eagle ERP Web, Kanban views get their own :js:class:`QWeb2.Engine`
+    Eagle Web, Kanban views get their own :js:class:`QWeb2.Engine`
     instance so their templates don't collide with more general
     "module" templates):
 
@@ -621,7 +621,7 @@ API
     .. js:attribute:: QWeb2.Engine.preprocess_node
 
         A ``Function``. If present, called before compiling each DOM
-        node to template code. In Eagle ERP Web, this is used to
+        node to template code. In Eagle Web, this is used to
         automatically translate text content and some attributes in
         templates. Defaults to ``null``.
 
@@ -630,7 +630,7 @@ API
 
 .. [#othertemplates] although it uses a few others, either for historical
                      reasons or because they remain better fits for the
-                     use case. Eagle ERP 9.0 still depends on Jinja_ and Mako_.
+                     use case. Eagle 9.0 still depends on Jinja_ and Mako_.
 
 .. _templating:
     http://en.wikipedia.org/wiki/Template_processor

@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Turkey - Accounting',
     'version': '1.0',
     'category': 'Localization',
     'description': """
-Türkiye için Tek düzen hesap planı şablonu Eagle ERP Modülü.
+Türkiye için Tek düzen hesap planı şablonu Eagle Modülü.
 ==========================================================
 
 Bu modül kurulduktan sonra, Muhasebe yapılandırma sihirbazı çalışır

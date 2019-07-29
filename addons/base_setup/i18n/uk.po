@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * base_setup
 # 
@@ -8,7 +8,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:16+0000\n"
@@ -202,8 +202,8 @@ msgstr "Зовнішні сервери електронної пошти"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Eagle ERP data from Google Spreadsheet"
-msgstr "Витягуйте та аналізуйте дані Eagle ERP з Google Spreadsheet"
+msgid "Extract and analyze Eagle data from Google Spreadsheet"
+msgstr "Витягуйте та аналізуйте дані Eagle з Google Spreadsheet"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -392,8 +392,8 @@ msgstr "Використовуйте аутентифікацію зовнішн
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Eagle ERP Notes"
-msgstr "Використовуйте зовнішні закладки в Eagle ERP Notes"
+msgid "Use external pads in Eagle Notes"
+msgstr "Використовуйте зовнішні закладки в Eagle Notes"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -403,9 +403,9 @@ msgstr "Користувачі"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Eagle ERP provides a list of matching "
+"When populating your address book, Eagle provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
-"Після заповнення адресної книги Eagle ERP надає список відповідних компаній. При "
+"Після заповнення адресної книги Eagle надає список відповідних компаній. При "
 "виборі одного елемента дані та логотип компанії заповнюються автоматично."

@@ -3,11 +3,11 @@
 .. highlight:: python
 
 ===============
-Eagle ERP Guidelines
+Eagle Guidelines
 ===============
 
-This page introduces the Eagle ERP Coding Guidelines. Those aim to improve the
-quality of Eagle ERP Apps code. Indeed proper code improves readability, eases
+This page introduces the Eagle Coding Guidelines. Those aim to improve the
+quality of Eagle Apps code. Indeed proper code improves readability, eases
 maintenance, helps debugging, lowers complexity and promotes reliability.
 These guidelines should be applied to every new module and to all new development.
 
@@ -68,7 +68,7 @@ models.
     |-- models/
     |   |-- plant_nursery.py (first main model)
     |   |-- plant_order.py (another main model)
-    |   |-- res_partner.py (inherited Eagle ERP model)
+    |   |-- res_partner.py (inherited Eagle model)
 
 Concerning *security* and access rights and rules two main files should be used.
 First one is the definition of access rights done in a ``ir.model.access.csv``
@@ -118,7 +118,7 @@ activities and mail templates all related to mail module:
     |   |-- mail_data.xml
 
 Concerning *controllers*, generally all controllers belong to a single controller
-contained in a file named ``<module_name>.py``. An old convention in Eagle ERP is to
+contained in a file named ``<module_name>.py``. An old convention in Eagle is to
 name this file ``main.py`` but it is considered as outdated. If you need to inherit
 an existing controller from another module do it in ``<inherited_module_name>.py``.
 For example adding portal controller in an application is done in ``portal.py``.
@@ -137,7 +137,7 @@ For instance, the activity widgets are located in ``activity.js`` of mail module
 Subdirectories can also be created to structure the 'package' (see web module
 for more details). The same logic should be applied for the templates of JS
 widgets (static XML files) and for their styles (scss files). Don't link
-data (image, libraries) outside Eagle ERP: do not use an URL to an image but copy
+data (image, libraries) outside Eagle: do not use an URL to an image but copy
 it in the codebase instead.
 
 Concerning *wizards*, naming convention is the same of for python models:
@@ -172,7 +172,7 @@ templates naming is the following :
     |   |-- plant_order_reports.xml (report actions, paperformat, ...)
     |   |-- plant_order_templates.xml (xml report templates)
 
-The complete tree of our Eagle ERP module therefore looks like
+The complete tree of our Eagle module therefore looks like
 
 .. code-block:: text
 
@@ -270,7 +270,7 @@ To declare a record in XML, the **record** notation (using *<record>*) is recomm
         </field>
     </record>
 
-Eagle ERP supports custom tags acting as syntactic sugar:
+Eagle supports custom tags acting as syntactic sugar:
 
 - menuitem: use it as a shortcut to declare a ``ir.ui.menu``
 - template: use it to declare a QWeb View requiring only the ``arch`` section of the view.
@@ -393,7 +393,7 @@ Python
 PEP8 options
 ------------
 
-Using a linter can help show syntax and semantic warnings or errors. Eagle ERP
+Using a linter can help show syntax and semantic warnings or errors. Eagle
 source code tries to respect Python standard, but some of them can be ignored.
 
 - E501: line too long
@@ -406,7 +406,7 @@ The imports are ordered as
 
 #. External libraries (one per line sorted and split in python stdlib)
 #. Imports of ``eagle``
-#. Imports from Eagle ERP modules (rarely, and only if necessary)
+#. Imports from Eagle modules (rarely, and only if necessary)
 
 Inside these 3 groups, the imported lines are alphabetically sorted.
 
@@ -575,11 +575,11 @@ So, you can write ``if some_collection:`` instead of ``if len(some_collection):`
   interesting: http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
   (a little bit outdated, but quite relevant)
 
-Programming in Eagle ERP
+Programming in Eagle
 -------------------
 
 - Avoid to create generators and decorators: only use the ones provided by
-  the Eagle ERP API.
+  the Eagle API.
 - As in python, use ``filtered``, ``mapped``, ``sorted``, ... methods to
   ease code reading and performance.
 
@@ -751,7 +751,7 @@ This recommendation is also relevant for classes, files, modules and packages.
 
 Never commit the transaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The Eagle ERP framework is in charge of providing the transactional context for
+The Eagle framework is in charge of providing the transactional context for
 all RPC calls. The principle is that a new database cursor is opened at the
 beginning of each RPC call, and committed when the call has returned, just
 before transmitting the answer to the RPC client, approximately like this:
@@ -820,7 +820,7 @@ they can and will be removed !
 Use translation method correctly
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Eagle ERP uses a GetText-like method named "underscore" ``_( )`` to indicate that
+Eagle uses a GetText-like method named "underscore" ``_( )`` to indicate that
 a static string used in the code needs to be translated at runtime using the
 language of the context. This pseudo-method is accessed within your code by
 importing as follows:
@@ -896,7 +896,7 @@ to be preserved, but it's important to use these in a sensible and obvious manne
     error = _("Answer to question %s is not valid.\n" \
               "Please enter an integer value.") % question
 
-In general in Eagle ERP, when manipulating strings, prefer ``%`` over ``.format()``
+In general in Eagle, when manipulating strings, prefer ``%`` over ``.format()``
 (when only one variable to replace in a string), and prefer ``%(varname)`` instead
 of position (when multiple variables have to be replaced). This makes the
 translation easier for the community translators.
@@ -906,16 +906,16 @@ Symbols and Conventions
 -----------------------
 
 - Model name (using the dot notation, prefix by the module name) :
-    - When defining an Eagle ERP Model : use singular form of the name (*res.partner*
+    - When defining an Eagle Model : use singular form of the name (*res.partner*
       and *sale.order* instead of *res.partnerS* and *saleS.orderS*)
-    - When defining an Eagle ERP Transient (wizard) : use ``<related_base_model>.<action>``
+    - When defining an Eagle Transient (wizard) : use ``<related_base_model>.<action>``
       where *related_base_model* is the base model (defined in *models/*) related
       to the transient, and *action* is the short name of what the transient do. Avoid the *wizard* word.
       For instance : ``account.invoice.make``, ``project.task.delegate.batch``, ...
     - When defining *report* model (SQL views e.i.) : use
       ``<related_base_model>.report.<action>``, based on the Transient convention.
 
-- Eagle ERP Python Class : use camelcase (Object-oriented style).
+- Eagle Python Class : use camelcase (Object-oriented style).
 
 
 .. code-block:: python
@@ -1018,10 +1018,10 @@ Javascript and CSS
 Static files organization
 --------------------------
 
-Eagle ERP addons have some conventions on how to structure various files. We explain
+Eagle addons have some conventions on how to structure various files. We explain
 here in more details how web assets are supposed to be organized.
 
-The first thing to know is that the Eagle ERP server will serve (statically) all files
+The first thing to know is that the Eagle server will serve (statically) all files
 located in a *static/* folder, but prefixed with the addon name. So, for example,
 if a file is located in *addons/web/static/src/js/some_file.js*, then it will be
 statically available at the url *your-eagle-server.com/web/static/src/js/some_file.js*
@@ -1128,7 +1128,7 @@ Tags are used to prefix your commit. They should be one of the following
   are incremental improvements not related to another tag;
 - **[MERGE]** for merge commits: used in forward port of bug fixes but also as
   main commit for feature involving several separated commits;
-- **[CLA]** for signing the Eagle ERP Individual Contributor License;
+- **[CLA]** for signing the Eagle Individual Contributor License;
 - **[I18N]** for changes in translation files;
 
 After tag comes the modified module name. Use the technical name as functional
@@ -1162,7 +1162,7 @@ purpose of the change.
 
 What you did can be found in the commit itself. If there was some technical choices
 involved it is a good idea to explain it also in the commit message after the why.
-For Eagle ERP R&D developers "PO team asked me to do it" is not a valid why, by the way.
+For Eagle R&D developers "PO team asked me to do it" is not a valid why, by the way.
 
 Please avoid commits which simultaneously impact multiple modules. Try to split
 into different commits where impacted modules are different. It will be helpful
@@ -1175,7 +1175,7 @@ No pressure at all.
 **You spend several hours, days or weeks working on meaningful features. Take
 some time to calm down and write clear and understandable commit messages.**
 
-If you are an Eagle ERP R&D developer the WHY should be the purpose of the task you
+If you are an Eagle R&D developer the WHY should be the purpose of the task you
 are working on. Full specifications make the core of the commit message.
 **If you are working on a task that lacks purpose and specifications please
 consider making them clear before continuing.**

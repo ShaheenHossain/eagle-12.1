@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 import datetime
 
 from datetime import datetime, timedelta, time
@@ -20,9 +20,9 @@ class TestCalendar(TransactionCase):
             'privacy': 'private',
             'start': '2011-04-30 16:00:00',
             'stop': '2011-04-30 18:30:00',
-            'description': 'The Technical Presentation will cover following topics:\n* Creating Eagle ERP class\n* Views\n* Wizards\n* Workflows',
+            'description': 'The Technical Presentation will cover following topics:\n* Creating Eagle class\n* Views\n* Wizards\n* Workflows',
             'duration': 2.5,
-            'location': 'Eagle ERP S.A.',
+            'location': 'Eagle S.A.',
             'name': 'Technical Presentation'
         })
 

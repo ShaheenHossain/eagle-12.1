@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 import logging
 import json
 import re
@@ -98,7 +98,7 @@ class GoogleDrive(models.Model):
         except requests.HTTPError:
             raise UserError(_("The Google Template cannot be found. Maybe it has been deleted."))
 
-        record_url = "Click on link to open Record in Eagle ERP\n %s/?db=%s#id=%s&model=%s" % (google_web_base_url, self._cr.dbname, res_id, res_model)
+        record_url = "Click on link to open Record in Eagle\n %s/?db=%s#id=%s&model=%s" % (google_web_base_url, self._cr.dbname, res_id, res_model)
         data = {
             "title": name_gdocs,
             "description": record_url,
@@ -126,7 +126,7 @@ class GoogleDrive(models.Model):
             self._cr.commit()
             res['url'] = content['alternateLink']
             key = self._get_key_from_url(res['url'])
-            request_url = "https://www.googleapis.com/drive/v2/files/%s/permissions?emailMessage=This+is+a+drive+file+created+by+Eagle ERP&sendNotificationEmails=false&access_token=%s" % (key, access_token)
+            request_url = "https://www.googleapis.com/drive/v2/files/%s/permissions?emailMessage=This+is+a+drive+file+created+by+Eagle&sendNotificationEmails=false&access_token=%s" % (key, access_token)
             data = {'role': 'writer', 'type': 'anyone', 'value': '', 'withLink': True}
             try:
                 req = requests.post(request_url, data=json.dumps(data), headers=headers, timeout=TIMEOUT)

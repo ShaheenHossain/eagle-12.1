@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Canada - Accounting',
@@ -7,7 +7,7 @@
     'website': 'https://www.savoirfairelinux.com',
     'category': 'Localization',
     'description': """
-This is the module to manage the Canadian accounting chart in Eagle ERP.
+This is the module to manage the Canadian accounting chart in Eagle.
 ===========================================================================================
 
 Canadian accounting charts and localizations.

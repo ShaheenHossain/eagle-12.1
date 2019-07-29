@@ -41,21 +41,21 @@
 In-App Purchase
 ===============
 
-In-App Purchase (IAP) allows providers of ongoing services through Eagle ERP apps to
+In-App Purchase (IAP) allows providers of ongoing services through Eagle apps to
 be compensated for ongoing service use rather than — and possibly instead of
 — a sole initial purchase.
 
-In that context, Eagle ERP acts mostly as a *broker* between a client and an Eagle ERP
+In that context, Eagle acts mostly as a *broker* between a client and an Eagle
 App Developer:
 
-* Users purchase service tokens from Eagle ERP.
-* Service providers draw tokens from the user's Eagle ERP account when service
+* Users purchase service tokens from Eagle.
+* Service providers draw tokens from the user's Eagle account when service
   is requested.
 
 .. attention::
 
     This document is intended for *service providers* and presents the latter,
-    which can be done either via direct JSON-RPC2_ or if you are using Eagle ERP
+    which can be done either via direct JSON-RPC2_ or if you are using Eagle
     using the convenience helpers it provides.
 
 Overview
@@ -68,12 +68,12 @@ Overview
 
     * The Service Provider is (probably) you the reader, you will be providing
       value to the client in the form of a service paid per-use.
-    * The Client installed your Eagle ERP App, and from there will request services.
-    * Eagle ERP brokers crediting, the Client adds credit to their account, and you
+    * The Client installed your Eagle App, and from there will request services.
+    * Eagle brokers crediting, the Client adds credit to their account, and you
       can draw credits from there to provide services.
     * The External Service is an optional player: *you* can either provide a
       service directly, or you can delegate the actual service acting as a
-      bridge/translator between an Eagle ERP system and the actual service.
+      bridge/translator between an Eagle system and the actual service.
 
     
 .. figure:: images/credits.jpg
@@ -111,12 +111,12 @@ Overview
     If everything goes well, the normal flow is the following:
 
     1. The Client requests a service of some sort.
-    2. The Service Provider asks Eagle ERP if there are enough credits for the
+    2. The Service Provider asks Eagle if there are enough credits for the
        service in the Client's account, and creates a transaction over that
        amount.
     3. The Service Provider provides the service (either on their own or
        calling to External Services).
-    4. The Service Provider goes back to Eagle ERP to capture (if the service could
+    4. The Service Provider goes back to Eagle to capture (if the service could
        be provided) or cancel (if the service could not be provided) the
        transaction created at step 2.
     5. Finally, the Service Provider notifies the Client that the service has
@@ -131,10 +131,10 @@ Overview
     However, if the Client's account lacks credits for the service, the flow will be as follows:
 
     1. The Client requests a service as previously.
-    2. The Service Provider asks Eagle ERP if there are enough credits on the
+    2. The Service Provider asks Eagle if there are enough credits on the
        Client's account and gets a negative reply.
     3. This is signaled back to the Client.
-    4. Who is redirected to their Eagle ERP account to credit it and re-try.
+    4. Who is redirected to their Eagle account to credit it and re-try.
 
 
 Building your service
@@ -151,7 +151,7 @@ For this example, the service we will provide is ~~mining dogecoins~~ burning
 
 .. _register-service:
 
-Register the service on Eagle ERP
+Register the service on Eagle
 ----------------------------
 
 .. queue:: iap_service/series
@@ -163,7 +163,7 @@ and/or test) before you can actually query user accounts. To create a service,
 go to your *Portal Account* on the IAP endpoint (https://iap.eagle-erp.com for
 production, https://iap-sandbox.eagle-erp.com for testing, the endpoints are
 *independent* and *not synchronized*). Alternatively, you can go to your portal
-on Eagle ERP (https://iap.eagle-erp.com/my/home) and select *In-App Services*.
+on Eagle (https://iap.eagle-erp.com/my/home) and select *In-App Services*.
 
 .. note:: 
     
@@ -178,7 +178,7 @@ Create and provide the informations of your service.
 The service has *seven* important fields:
 
 * :samp:`name` - :class:`ServiceName`: This is the string you will need to provide inside
-  the client's :ref:`app <iap-eagle-app>` when requesting a transaction from Eagle ERP. (e.g.
+  the client's :ref:`app <iap-eagle-app>` when requesting a transaction from Eagle. (e.g.
   :class:`self.env['iap.account].get(name)`). As good practice, this should match the
   technical name of your app.
 
@@ -187,7 +187,7 @@ The service has *seven* important fields:
 
 .. warning::
    Both the :class:`ServiceName` and :class:`Label` are unique. As good practice, the 
-   :class:`ServiceName` should usually match the name of your Eagle ERP Client App.
+   :class:`ServiceName` should usually match the name of your Eagle Client App.
 
 * :samp:`icon` - :class:`Icon`: A generic icon that will serve as default for your
   :ref:`packs <iap-packages>`.
@@ -242,7 +242,7 @@ A credit pack is essentially a product with five characteristics:
 
 .. note:: 
     
-    Eagle ERP takes a 25% commission on all pack sales. Adjust your selling price accordingly.
+    Eagle takes a 25% commission on all pack sales. Adjust your selling price accordingly.
 
 
 .. note::
@@ -256,15 +256,15 @@ A credit pack is essentially a product with five characteristics:
 
 .. _iap-eagle-app:
 
-Eagle ERP App
+Eagle App
 --------
 
 .. queue:: iap/series
 
 .. todo:: does this actually require apps?
 
-The second step is to develop an `Eagle ERP App`_ which clients can install in their
-Eagle ERP instance and through which they can *request* the services you provide.
+The second step is to develop an `Eagle App`_ which clients can install in their
+Eagle instance and through which they can *request* the services you provide.
 Our app will just add a button to the Partners form which lets a user request
 burning some CPU time on the server.
 
@@ -289,7 +289,7 @@ server*.
 There are no requirements when it comes to the server or the communication
 protocol between the app and our server, but ``iap`` provides a
 :func:`~eagle.addons.iap.jsonrpc` helper to call a JSON-RPC2_ endpoint on an
-other Eagle ERP instance and transparently re-raise relevant Eagle ERP exceptions
+other Eagle instance and transparently re-raise relevant Eagle exceptions
 (:class:`~eagle.addons.iap.models.iap.InsufficientCreditError`,
 :class:`eagle.exceptions.AccessError` and :class:`eagle.exceptions.UserError`).
 
@@ -331,7 +331,7 @@ Service
 Though that is not *required*, since ``iap`` provides both a client helper
 for JSON-RPC2_ calls (:func:`~eagle.addons.iap.jsonrpc`) and a service helper
 for transactions (:class:`~eagle.addons.iap.models.iap.charge`) we will also be
-implementing the service side as an Eagle ERP module:
+implementing the service side as an Eagle module:
 
 .. patch::
 
@@ -366,7 +366,7 @@ The :class:`~eagle.addons.iap.models.iap.charge` helper will:
     https://iap-sandbox.eagle-erp.com.
 
     To do so, set the ``iap.endpoint`` config parameter in your service
-    Eagle ERP: in debug/developer mode, :menuselection:`Setting --> Technical -->
+    Eagle: in debug/developer mode, :menuselection:`Setting --> Technical -->
     Parameters --> System Parameters`, just define an entry for the key
     ``iap.endpoint`` if none already exists).
 
@@ -394,7 +394,7 @@ JSON-RPC2_ Transaction API
 .. image:: images/flow.png
     :align: center
 
-* The IAP transaction API does not require using Eagle ERP when implementing your
+* The IAP transaction API does not require using Eagle when implementing your
   server gateway, calls are standard JSON-RPC2_.
 * Calls use different *endpoints* but the same *method* on all endpoints
   (``call``).
@@ -586,10 +586,10 @@ The latter consists in specific tokens that will work on **IAP-Sandbox only**.
     * The service key is completely ignored with this flow, If you want to run a robust test
       of your service, you should ignore these tokens.
 
-Eagle ERP Helpers
+Eagle Helpers
 ============
 
-For convenience, if you are implementing your service using Eagle ERP the ``iap``
+For convenience, if you are implementing your service using Eagle the ``iap``
 module provides a few helpers to make IAP flow even simpler.
 
 .. _iap-charging:
@@ -761,4 +761,4 @@ Capture
 
 
 .. _JSON-RPC2: http://www.jsonrpc.org/specification
-.. _Eagle ERP App: https://www.eagle-erp.com/apps
+.. _Eagle App: https://www.eagle-erp.com/apps

@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * account_bank_statement_import
 # 
@@ -12,7 +12,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server saas~11.5\n"
+"Project-Id-Version: Eagle Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:15+0000\n"
@@ -429,23 +429,23 @@ msgstr "손실 계정"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Eagle ERP.\n"
+"Manual: Get paid by cash, check or any other method outside of Eagle.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Eagle ERP,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Eagle,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"수동: Eagle ERP 외에서 현금, 수표 또는 기타 다른 방식으로 지급받습니다.\n"
+"수동: Eagle 외에서 현금, 수표 또는 기타 다른 방식으로 지급받습니다.\n"
 "자동: 온라인에서 매입/구독할 때 고객이 저장한 카드에 대해 거래를 요청한 후 결제를 통해 자동으로 지급받습니다(결제 토큰).\n"
-"일괄 예금: 은행에 예치할 일괄 예금을 생성하여 여러 고객의 전표를 한 번에 묶습니다. Eagle ERP에서 예금거래 명세서를 인코딩할 때는 일괄 예금으로 거래를 조정하는 것이 좋습니다. 이 옵션은 설정에서 활성화합니다."
+"일괄 예금: 은행에 예치할 일괄 예금을 생성하여 여러 고객의 전표를 한 번에 묶습니다. Eagle에서 예금거래 명세서를 인코딩할 때는 일괄 예금으로 거래를 조정하는 것이 좋습니다. 이 옵션은 설정에서 활성화합니다."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Eagle ERP.\n"
-"Check:Pay bill by check and print it from Eagle ERP.\n"
+"Manual:Pay bill by cash or any other method outside of Eagle.\n"
+"Check:Pay bill by check and print it from Eagle.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
-"수동: Eagle ERP 외에 현금이나 다른 방법으로 청구 금액을 지불합니다.\n"
-"전표: 전표로 청구 금액을 지불하고 Eagle ERP에서 인쇄합니다.\n"
+"수동: Eagle 외에 현금이나 다른 방법으로 청구 금액을 지불합니다.\n"
+"전표: 전표로 청구 금액을 지불하고 Eagle에서 인쇄합니다.\n"
 "SEPA 신용 이전: 은행에 제출한 SEPA 신용 이전 파일에서 청구 금액을 지불합니다. 이 옵션은 설정에서 활성화합니다."
 
 #. module: account_bank_statement_import
@@ -515,11 +515,11 @@ msgstr "대시보드에 분개장 표시"
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
 msgid ""
-"The account of the statement you are importing is not yet recorded in Eagle ERP. "
+"The account of the statement you are importing is not yet recorded in Eagle. "
 "In order to proceed with the import, you need to create a bank journal for "
 "this account."
 msgstr ""
-"가져오는 명세서의 계정이 아직 Eagle ERP에 기록되지 않았습니다. 가져오기를 진행하려면 이 계정에 대한 은행 분개장을 생성해야 합니다."
+"가져오는 명세서의 계정이 아직 Eagle에 기록되지 않았습니다. 가져오기를 진행하려면 이 계정에 대한 은행 분개장을 생성해야 합니다."
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:157

@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Eagle ERP. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Generic - Accounting',
     'version': '1.1',
     'category': 'Localization',
     'description': """
-This is the base module to manage the generic accounting chart in Eagle ERP.
+This is the base module to manage the generic accounting chart in Eagle.
 ==============================================================================
 
 Install some generic chart of accounts.

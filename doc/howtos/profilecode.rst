@@ -1,16 +1,16 @@
 ===================
-Profiling Eagle ERP code
+Profiling Eagle code
 ===================
 
 .. warning::
 
-    This tutorial requires :ref:`having installed Eagle ERP <setup/install>`
-    and :doc:`writing Eagle ERP code <backend>`
+    This tutorial requires :ref:`having installed Eagle <setup/install>`
+    and :doc:`writing Eagle code <backend>`
 
 Graph a method
 ==============
 
-Eagle ERP embeds a profiler of code. This embeded profiler output can be used to
+Eagle embeds a profiler of code. This embeded profiler output can be used to
 generate a graph of calls triggered by the method, number of queries, percentage
 of time taken in the method itself as well as the time that the method took and
 its sub-called methods.
@@ -83,7 +83,7 @@ completely reviewed.
 Dump stack
 ==========
 
-Sending the SIGQUIT signal to an Eagle ERP process (only available on POSIX) makes
+Sending the SIGQUIT signal to an Eagle process (only available on POSIX) makes
 this process output the current stack trace to log, with info level. When an
 eagle process seems stucked, sending this signal to the process permit to know
 what the process is doing, and letting the process continue his job.
@@ -91,7 +91,7 @@ what the process is doing, and letting the process continue his job.
 Tracing code execution
 ======================
 
-Instead of sending the SIGQUIT signal to an Eagle ERP process often enough, to check
+Instead of sending the SIGQUIT signal to an Eagle process often enough, to check
 where the processes are performing worse than expected, we can use the pyflame tool to
 do it for us.
 

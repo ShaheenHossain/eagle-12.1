@@ -1,4 +1,4 @@
-# Translation of Eagle ERP Server.
+# Translation of Eagle Server.
 # This file contains the translation of the following modules:
 # * hr
 # 
@@ -10,7 +10,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Eagle ERP Server 12.0\n"
+"Project-Id-Version: Eagle Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-12 12:19+0000\n"
 "PO-Revision-Date: 2018-08-24 09:18+0000\n"
@@ -122,7 +122,7 @@ msgid ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Powered by <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Eagle ERP</a>\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Eagle</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -435,7 +435,7 @@ msgstr ""
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_consultant
-msgid "Deliver generic Eagle ERP functional training sessions"
+msgid "Deliver generic Eagle functional training sessions"
 msgstr ""
 
 #. module: hr
@@ -1123,7 +1123,7 @@ msgstr "ન વાંચેલા સંદેશાની સંખ્યા"
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.open_module_tree_department
 msgid ""
-"Eagle ERP's department structure is used to manage all documents\n"
+"Eagle's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves, recruitments, etc."
 msgstr ""
@@ -1669,7 +1669,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:hr.act_employee_from_department
 #: model_terms:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Eagle ERP employee screen, you\n"
+"With just a quick glance on the Eagle employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""

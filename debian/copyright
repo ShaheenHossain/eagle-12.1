@@ -1,8 +1,8 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Contact: Eagle ERP <info@eagle-erp.com>
+Upstream-Contact: Eagle <info@eagle-erp.com>
 
 Files: *
-Copyright: Copyright (C) 2004-2015 Eagle ERP SA. (www.eagle-erp.com)
+Copyright: Copyright (C) 2004-2015 Eagle SA. (www.eagle-erp.com)
 License: LGPL-3+
 
 Files: eagle/tools/appdirs.py
