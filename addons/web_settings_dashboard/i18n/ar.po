@@ -231,8 +231,8 @@ msgstr "أودو نسخة المؤسسات"
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:120
 #, python-format
-msgid "Eagle S.A."
-msgstr "Eagle S.A."
+msgid "Eagle ERP"
+msgstr "Eagle ERP"
 
 #. module: web_settings_dashboard
 #. openerp-web

@@ -1,7 +1,7 @@
 Source: eagle
 Section: net
 Priority: optional
-Maintainer: Eagle S.A. <info@eagle-erp.com>
+Maintainer: Eagle ERP <info@eagle-erp.com>
 Uploaders: Aaron Bohy <aab@eagle-erp.com>, Simon Lejeune <sle@eagle-erp.com>
 Build-Depends: debhelper (>= 9.2), dh-python, python3, rsync, python3-setuptools
 Standards-Version: 3.9.8

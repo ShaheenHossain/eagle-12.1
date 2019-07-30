@@ -57,7 +57,7 @@ Demo_ instances require no local installation, just a web browser.
 SaaS
 ----
 
-Trivial to start with, fully managed and migrated by Eagle S.A., Eagle's SaaS_
+Trivial to start with, fully managed and migrated by Eagle ERP, Eagle's SaaS_
 provides private instances and starts out free. It can be used to discover and
 test Eagle and do non-code customizations (i.e. incompatible with custom modules
 or the Eagle Apps Store) without having to install it locally.
@@ -132,7 +132,7 @@ found in our `wiki <https://github.com/eagle/eagle/wiki/Wkhtmltopdf>`_.
 Repository
 ^^^^^^^^^^
 
-Eagle S.A. provides a repository that can be used with  Debian and Ubuntu
+Eagle ERP provides a repository that can be used with  Debian and Ubuntu
 distributions. It can be used to install Eagle Community Edition by executing the
 following commands as root:
 
@@ -230,7 +230,7 @@ found in our `wiki <https://github.com/eagle/eagle/wiki/Wkhtmltopdf>`_.
 Repository
 ^^^^^^^^^^
 
-Eagle S.A. provides a repository that can be used with the Fedora distibutions.
+Eagle ERP provides a repository that can be used with the Fedora distibutions.
 It can be used to install Eagle Community Edition by executing the following
 commands:
 

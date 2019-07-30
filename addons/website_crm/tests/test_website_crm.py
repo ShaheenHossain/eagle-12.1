@@ -15,4 +15,4 @@ class TestWebsiteCrm(eagle.tests.HttpCase):
         self.assertEqual(len(record), 1)
         self.assertEqual(record.contact_name, 'John Smith')
         self.assertEqual(record.email_from, 'john@smith.com')
-        self.assertEqual(record.partner_name, 'Eagle S.A.')
+        self.assertEqual(record.partner_name, 'Eagle ERP')

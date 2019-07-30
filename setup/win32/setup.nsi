@@ -38,7 +38,7 @@
     Exch $R2
 !macroend
 
-!define PUBLISHER 'Eagle S.A.'
+!define PUBLISHER 'Eagle ERP'
 
 !ifndef MAJOR_VERSION
     !define MAJOR_VERSION '12'

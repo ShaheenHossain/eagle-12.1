@@ -1,7 +1,7 @@
 # Please note that this Dockerfile is used for testing nightly builds and should
 # not be used to deploy Eagle
 FROM debian:stretch
-MAINTAINER Eagle S.A. <info@eagle-erp.com>
+MAINTAINER Eagle ERP <info@eagle-erp.com>
 
 RUN apt-get update && \
     apt-get install -y locales && \

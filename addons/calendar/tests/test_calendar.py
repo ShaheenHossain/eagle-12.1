@@ -22,7 +22,7 @@ class TestCalendar(TransactionCase):
             'stop': '2011-04-30 18:30:00',
             'description': 'The Technical Presentation will cover following topics:\n* Creating Eagle class\n* Views\n* Wizards\n* Workflows',
             'duration': 2.5,
-            'location': 'Eagle S.A.',
+            'location': 'Eagle ERP',
             'name': 'Technical Presentation'
         })
 

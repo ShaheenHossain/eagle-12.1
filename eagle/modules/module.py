@@ -309,7 +309,7 @@ def load_information_from_description_file(module, mod_path=None):
         # default values for descriptor
         info = {
             'application': False,
-            'author': 'Eagle S.A.',
+            'author': 'Eagle ERP',
             'auto_install': False,
             'category': 'Uncategorized',
             'depends': [],

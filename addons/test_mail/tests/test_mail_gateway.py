@@ -535,7 +535,7 @@ class TestMailgateway(BaseFunctionalTest, MockEmails):
         self.assertIn('reply_to', msg.message_id.split('@')[0])
 
         # forward it to a new thread AND an existing thread
-        fw_msg_id = '<THIS.IS.A.FW.MESSAGE.1@bert.fr>'
+        fw_msg_id = '<THIS.IERPFW.MESSAGE.1@bert.fr>'
         fw_message = MAIL_TEMPLATE.format(to='groups@example.com',
                                           cc='',
                                           subject='FW: Re: 1',

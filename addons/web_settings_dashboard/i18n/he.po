@@ -230,7 +230,7 @@ msgstr "Eagle אנטרפרייז"
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:120
 #, python-format
-msgid "Eagle S.A."
+msgid "Eagle ERP"
 msgstr ""
 
 #. module: web_settings_dashboard

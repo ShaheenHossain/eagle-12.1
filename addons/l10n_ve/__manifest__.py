@@ -8,7 +8,7 @@
 
 {
     'name' : 'Venezuela - Accounting',
-    'author': ['Eagle S.A.', 'Vauxoo'],
+    'author': ['Eagle ERP', 'Vauxoo'],
     'category': 'Localization',
     'description':
 """

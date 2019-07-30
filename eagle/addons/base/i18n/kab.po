@@ -9844,7 +9844,7 @@ msgstr "Immed"
 #. module: base
 #: model:res.partner.title,shortcut:base.res_partner_title_doctor
 msgid "Dr."
-msgstr "S.A.L."
+msgstr "ERPL."
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_dropshipping

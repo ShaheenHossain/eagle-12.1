@@ -1,12 +1,12 @@
 Lima, Peru, 2015-04-01
 
-Cubic ERP S.A.C. agrees to the terms of the Eagle Corporate Contributor License Agreement v1.0.
+Cubic ERP ERPC. agrees to the terms of the Eagle Corporate Contributor License Agreement v1.0.
 
 I declare that I am authorized and able to make this agreement and sign this declaration.
 
 Signed,
 
-Cubic ERP S.A.C. info@cubicerp.com https://github.com/CubicERP
+Cubic ERP ERPC. info@cubicerp.com https://github.com/CubicERP
 
 List of contributors:
 

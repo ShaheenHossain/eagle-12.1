@@ -5,8 +5,8 @@
 #
 #    __init__.py
 #    l10n_cr_account
-#    First author: Carlos Vásquez <carlos.vasquez@clearcorp.co.cr> (ClearCorp S.A.)
-#    Copyright (c) 2010-TODAY ClearCorp S.A. (http://clearcorp.co.cr). All rights reserved.
+#    First author: Carlos Vásquez <carlos.vasquez@clearcorp.co.cr> (ClearCorp ERP)
+#    Copyright (c) 2010-TODAY ClearCorp ERP (http://clearcorp.co.cr). All rights reserved.
 #    
 #    Redistribution and use in source and binary forms, with or without modification, are
 #    permitted provided that the following conditions are met:
@@ -30,6 +30,6 @@
 #    
 #    The views and conclusions contained in the software and documentation are those of the
 #    authors and should not be interpreted as representing official policies, either expressed
-#    or implied, of ClearCorp S.A..
+#    or implied, of ClearCorp ERP.
 #    
 ##############################################################################

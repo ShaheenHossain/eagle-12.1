@@ -53,7 +53,7 @@
         </record>
         <record id="res_partner_title_sal" model="res.partner.title">
             <field name="name">Sociedad An&#243;nima Laboral</field>
-            <field name="shortcut">S.A.L.</field>
+            <field name="shortcut">ERPL.</field>
         </record>
         <record id="res_partner_title_asoc" model="res.partner.title">
             <field name="name">Asociation</field>

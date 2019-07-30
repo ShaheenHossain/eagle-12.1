@@ -22234,7 +22234,7 @@ msgstr "U ČINNOSTÍ EXTRA ÚZEMNÍCH ORGANIZACÍ A ORGÁNŮ"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_ae
 msgid "U.A.E. - Accounting"
-msgstr "S.A.E. - Účetnictví"
+msgstr "ERPE. - Účetnictví"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_uk

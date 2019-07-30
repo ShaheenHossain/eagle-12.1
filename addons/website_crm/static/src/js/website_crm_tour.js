@@ -23,7 +23,7 @@ eagle.define('website_crm.tour', function(require) {
     }, {
         content: "Complete Company",
         trigger: "input[name=partner_name]",
-        run: "text Eagle S.A."
+        run: "text Eagle ERP"
     }, {
         content: "Complete Subject",
         trigger: "input[name=name]",

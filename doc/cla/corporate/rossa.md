@@ -1,12 +1,12 @@
 Paraguay, 2015-07-09
 
-Rossa S.A. agrees to the terms of the Eagle Corporate Contributor License Agreement v1.0.
+Rossa ERP agrees to the terms of the Eagle Corporate Contributor License Agreement v1.0.
 
 I declare that I am authorized and able to make this agreement and sign this declaration.
 
 Signed,
 
-Rossa S.A. emaildarossa@gmail.com https://github.com/rossasa
+Rossa ERP emaildarossa@gmail.com https://github.com/rossasa
 
 List of contributors:
 

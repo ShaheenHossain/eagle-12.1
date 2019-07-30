@@ -30,7 +30,7 @@ License :: OSI Approved :: GNU Lesser General Public License v3
 Programming Language :: Python
 """
 url = 'https://www.eagle.com'
-author = 'OpenERP S.A.'
+author = 'OpenERP ERP'
 author_email = 'info@eagle.com'
 license = 'LGPL-3'
 
