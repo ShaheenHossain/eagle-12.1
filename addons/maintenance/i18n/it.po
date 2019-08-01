@@ -7,15 +7,15 @@
 # Giacomo Grasso <giacomo.grasso.82@gmail.com>, 2018
 # Christian <chris@effeci.info>, 2018
 # p_amoruso <p.amoruso@elvenstudio.it>, 2018
-# Cécile Collart <cco@eagle.com>, 2018
+# Cécile Collart <cco@eagle-erp.com>, 2018
 # Manuela Feliciani <mfeliciani@alice.it>, 2018
 # David Minneci <david@numeko.it>, 2018
-# efraimbiffi <eab@eagle.com>, 2018
+# efraimbiffi <eab@eagle-erp.com>, 2018
 # Paolo Valier, 2018
 # Martin Trigaux, 2018
 # Luigi Di Naro <gigidn@gmail.com>, 2018
 # Simone Bernini <simone@aperturelabs.it>, 2018
-# Léonie Bouchat <lbo@eagle.com>, 2019
+# Léonie Bouchat <lbo@eagle-erp.com>, 2019
 # Sebastiano Pistore <SebastianoPistore.info@protonmail.ch>, 2019
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # 
@@ -1324,10 +1324,10 @@ msgstr ""
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.eagle.com>"
+"<jobs@example.eagle-erp.com>"
 msgstr ""
 "Il nome dell’alias email, ad es. “lavori” se vuoi prendere e-mail per "
-"<jobs@example.eagle.com>"
+"<jobs@example.eagle-erp.com>"
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_user_id

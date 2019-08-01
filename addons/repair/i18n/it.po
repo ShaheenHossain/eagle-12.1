@@ -14,7 +14,7 @@
 # Paolo Valier, 2018
 # David Minneci <david@numeko.it>, 2018
 # maiolif <maiolif@mgftools.com>, 2018
-# Léonie Bouchat <lbo@eagle.com>, 2018
+# Léonie Bouchat <lbo@eagle-erp.com>, 2018
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # 
 msgid ""

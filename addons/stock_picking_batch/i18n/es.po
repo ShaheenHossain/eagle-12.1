@@ -11,8 +11,8 @@
 # Antonio Trueba, 2018
 # Miguel Orueta <mo@landoo.es>, 2018
 # Nicolás Broggi <rnbroggi@gmail.com>, 2018
-# Miquel Torner <miq@eagle.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Miquel Torner <miq@eagle-erp.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # Margarita Gutierrez <ana.gutierrez@jarsa.com.mx>, 2019
 # 
 msgid ""

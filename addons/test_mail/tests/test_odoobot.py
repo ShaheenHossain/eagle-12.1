@@ -21,7 +21,7 @@ class TestEaglebot(BaseFunctionalTest, MockEmails, TestRecipients):
             'partner_ids': [],
             'subtype': 'mail.mt_comment'
         }
-        self.eaglebot_ping_body = '<a href="http://eagle.com/web#model=res.partner&amp;id=%s" class="o_mail_redirect" data-oe-id="%s" data-oe-model="res.partner" target="_blank">@EagleBot</a>' % (self.eaglebot.id, self.eaglebot.id)
+        self.eaglebot_ping_body = '<a href="http://eagle-erp.com/web#model=res.partner&amp;id=%s" class="o_mail_redirect" data-oe-id="%s" data-oe-model="res.partner" target="_blank">@EagleBot</a>' % (self.eaglebot.id, self.eaglebot.id)
         self.test_record_employe = self.test_record.sudo(self.user_employee)
 
     @mute_logger('eagle.addons.mail.models.mail_mail')

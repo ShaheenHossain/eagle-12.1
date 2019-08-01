@@ -5,7 +5,7 @@
     'version' : '0.1',
     'sequence': 165,
     'category': 'Human Resources',
-    'website' : 'https://www.eagle.com/page/fleet',
+    'website' : 'https://www.eagle-erp.com/page/fleet',
     'summary' : 'Manage your fleet and track car costs',
     'description' : """
 Vehicle, leasing, insurances, cost

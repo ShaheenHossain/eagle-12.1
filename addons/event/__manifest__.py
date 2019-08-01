@@ -2,7 +2,7 @@
 {
     'name': 'Events Organization',
     'version': '1.0',
-    'website': 'https://www.eagle.com/page/events',
+    'website': 'https://www.eagle-erp.com/page/events',
     'category': 'Marketing',
     'summary': 'Trainings, Conferences, Meetings, Exhibitions, Registrations',
     'description': """

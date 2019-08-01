@@ -85,7 +85,7 @@ msgstr ""
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:59
 #, python-format
-msgid "I'm just a bot... :( You can check <a href=\"https://www.eagle.com/page/docs\">our documentation</a>) for more information!"
+msgid "I'm just a bot... :( You can check <a href=\"https://www.eagle-erp.com/page/docs\">our documentation</a>) for more information!"
 msgstr ""
 
 #. module: mail_bot

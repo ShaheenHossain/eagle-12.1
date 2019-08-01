@@ -17,7 +17,7 @@
 # Martin Trigaux, 2018
 # Leonardo Donelli <learts92@gmail.com>, 2018
 # Lorenzo Battistini <lorenzo.battistini@agilebg.com>, 2019
-# Léonie Bouchat <lbo@eagle.com>, 2019
+# Léonie Bouchat <lbo@eagle-erp.com>, 2019
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # 
 msgid ""

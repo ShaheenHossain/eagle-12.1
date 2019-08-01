@@ -6,10 +6,10 @@
 # Giacomo Grasso <giacomo.grasso.82@gmail.com>, 2018
 # David Minneci <david@numeko.it>, 2018
 # maiolif <maiolif@mgftools.com>, 2018
-# pfaeagle <pfa@eagle.com>, 2018
+# pfaeagle <pfa@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
 # Paolo Valier, 2018
-# Léonie Bouchat <lbo@eagle.com>, 2019
+# Léonie Bouchat <lbo@eagle-erp.com>, 2019
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # 
 msgid ""

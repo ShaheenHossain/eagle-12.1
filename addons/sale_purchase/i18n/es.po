@@ -5,7 +5,7 @@
 # Translators:
 # Martin Trigaux, 2018
 # Antonio Trueba, 2018
-# Mariela Moreno <mam@eagle.com>, 2018
+# Mariela Moreno <mam@eagle-erp.com>, 2018
 # Gabriel Umana <gabriel.umana@delfixcr.com>, 2019
 # 
 msgid ""

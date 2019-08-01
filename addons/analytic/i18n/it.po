@@ -13,7 +13,7 @@
 # Paolo Valier, 2018
 # Alessandro Camilli <alessandrocamilli@openforce.it>, 2018
 # David Minneci <david@numeko.it>, 2018
-# Léonie Bouchat <lbo@eagle.com>, 2019
+# Léonie Bouchat <lbo@eagle-erp.com>, 2019
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # Sebastiano Pistore <SebastianoPistore.info@protonmail.ch>, 2019
 # 

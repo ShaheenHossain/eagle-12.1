@@ -3,10 +3,10 @@
 # * hr_timesheet
 # 
 # Translators:
-# Lucas Deliege <lud@eagle.com>, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
-# Marie Willemyns <mwi@eagle.com>, 2018
-# Nathan Grognet <ngr@eagle.com>, 2018
+# Lucas Deliege <lud@eagle-erp.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
+# Marie Willemyns <mwi@eagle-erp.com>, 2018
+# Nathan Grognet <ngr@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
 # William Olhasque <william.olhasque@scopea.fr>, 2019
 # Mohamed BENKIRANE <benkirane.med.ali@gmail.com>, 2019

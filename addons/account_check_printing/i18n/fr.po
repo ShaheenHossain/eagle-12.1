@@ -4,9 +4,9 @@
 # 
 # Translators:
 # Martin Trigaux, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2018
-# Marie Willemyns <mwi@eagle.com>, 2018
+# Marie Willemyns <mwi@eagle-erp.com>, 2018
 # Rémi CAZENAVE <remi@le-filament.com>, 2019
 # 
 msgid ""

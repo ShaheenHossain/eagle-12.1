@@ -1313,10 +1313,10 @@ msgstr ""
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.eagle.com>"
+"<jobs@example.eagle-erp.com>"
 msgstr ""
 "Název aliasu e-mailu, např. 'jobs', pokud chcete zachytit e-maily pro "
-"<jobs@example.eagle.com>"
+"<jobs@example.eagle-erp.com>"
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_user_id

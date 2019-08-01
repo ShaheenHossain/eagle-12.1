@@ -6,7 +6,7 @@
 # Cas Vissers <c.vissers@brahoo.nl>, 2018
 # Gunther Clauwaert <gclauwae@hotmail.com>, 2018
 # Thomas Pot <thomas@open2bizz.nl>, 2018
-# Wynand Tastenhoye <wta@eagle.com>, 2018
+# Wynand Tastenhoye <wta@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
 # Jean-Paul Ladage <j.ladage@zestsoftware.nl>, 2018
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2019
@@ -2896,7 +2896,7 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.eagle.com>"
+"<jobs@example.eagle-erp.com>"
 msgstr ""
 "De naam van de e-mail alias, bijvoorbeeld: 'vacature' indien u alle e-mails "
 "van vacature@uwbedrijf.nl wilt afvangen."

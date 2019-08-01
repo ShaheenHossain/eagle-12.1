@@ -3,7 +3,7 @@
 # * maintenance
 # 
 # Translators:
-# Martin Trigaux <mat@eagle.com>, 2017
+# Martin Trigaux <mat@eagle-erp.com>, 2017
 # Andre de Kock <adekock11@gmail.com>, 2017
 msgid ""
 msgstr ""
@@ -1032,7 +1032,7 @@ msgstr ""
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.eagle.com>"
+"<jobs@example.eagle-erp.com>"
 msgstr ""
 
 #. module: maintenance

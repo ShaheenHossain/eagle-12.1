@@ -3,7 +3,7 @@
 # * base_iban
 # 
 # Translators:
-# Petra <bop@eagle.com>, 2018
+# Petra <bop@eagle-erp.com>, 2018
 # Sergio Zanchetta <primes2h@gmail.com>, 2018
 # 
 msgid ""

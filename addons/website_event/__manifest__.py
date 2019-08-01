@@ -5,7 +5,7 @@
     'category': 'Website',
     'sequence': 166,
     'summary': 'Publish events, sell tickets',
-    'website': 'https://www.eagle.com/page/events',
+    'website': 'https://www.eagle-erp.com/page/events',
     'description': "",
     'depends': ['website', 'website_partner', 'website_mail', 'event'],
     'data': [

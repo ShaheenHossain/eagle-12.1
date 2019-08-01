@@ -2654,8 +2654,8 @@ msgstr "Что вы думаете о мастерах конфигурации?
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_1
-msgid "What do you think about the documentation available on doc.eagle.com?"
-msgstr "Что вы думаете о документации, доступной на doc.eagle.com?"
+msgid "What do you think about the documentation available on doc.eagle-erp.com?"
+msgstr "Что вы думаете о документации, доступной на doc.eagle-erp.com?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_5

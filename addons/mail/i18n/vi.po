@@ -5290,10 +5290,10 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.eagle.com>"
+"<jobs@example.eagle-erp.com>"
 msgstr ""
 "Tên của bí danh email, vd 'vieclam' nếu bạn muốn bắt thông điệp gửi đến địa "
-"chỉ email <vieclam@vidu.eagle.com>"
+"chỉ email <vieclam@vidu.eagle-erp.com>"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_user_id
@@ -5766,7 +5766,7 @@ msgstr "Người dùng trong kênh này: %s %s và bạn."
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.eagle.com)."
+"email server (@mycompany.eagle-erp.com)."
 msgstr ""
 "Sử dụng máy chủ email của riêng bạn là bắt buộc để gửi/nhận email trong các "
 "phiên bản Cộng đồng và Doanh nghiệp. Người dùng trực tuyến đã được hưởng lợi"
@@ -6282,7 +6282,7 @@ msgstr "tháng"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "mycompany.eagle.com"
+msgid "mycompany.eagle-erp.com"
 msgstr "mycompany.erponline.com"
 
 #. module: mail

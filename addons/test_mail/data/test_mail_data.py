@@ -293,15 +293,15 @@ AAAAACwAAAAAAgACAAAEA3DJFQA7
 """
 
 MAIL_EML_ATTACHMENT = """Subject: Re: test attac
-From: Anon <anon@eagle.com>
+From: Anon <anon@eagle-erp.com>
 To: anon@gmail.com
-References: <f3b9f8f8-28fa-2543-cab2-7aa68f679ebb@eagle.com>
-Message-ID: <cb7eaf62-58dc-2017-148c-305d0c78892f@eagle.com>
+References: <f3b9f8f8-28fa-2543-cab2-7aa68f679ebb@eagle-erp.com>
+Message-ID: <cb7eaf62-58dc-2017-148c-305d0c78892f@eagle-erp.com>
 Date: Wed, 14 Mar 2018 14:26:58 +0100
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101
  Thunderbird/52.6.0
 MIME-Version: 1.0
-In-Reply-To: <f3b9f8f8-28fa-2543-cab2-7aa68f679ebb@eagle.com>
+In-Reply-To: <f3b9f8f8-28fa-2543-cab2-7aa68f679ebb@eagle-erp.com>
 Content-Type: multipart/mixed;
  boundary="------------A6B5FD5F68F4D73ECD739009"
 Content-Language: en-US
@@ -350,33 +350,33 @@ ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc
          7wXuo/gpYe6E2cPuS2opei8AzjEhYTNzlYXTPvaoxCCTTjfGTaPv22TeRDehuIXngSEl
          Nmmw==
 ARC-Authentication-Results: i=1; mx.google.com;
-       dkim=pass header.i=@eagle.com header.s=mail header.b=MCzhjB9b;
-       spf=pass (google.com: domain of soup@eagle.com designates 149.202.180.44 as permitted sender) smtp.mailfrom=soup@eagle.com;
-       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=eagle.com
-Return-Path: <soup@eagle.com>
-Received: from mail2.eagle.com (mail2.eagle.com. [149.202.180.44])
+       dkim=pass header.i=@eagle-erp.com header.s=mail header.b=MCzhjB9b;
+       spf=pass (google.com: domain of soup@eagle-erp.com designates 149.202.180.44 as permitted sender) smtp.mailfrom=soup@eagle-erp.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=eagle-erp.com
+Return-Path: <soup@eagle-erp.com>
+Received: from mail2.eagle-erp.com (mail2.eagle-erp.com. [149.202.180.44])
         by mx.google.com with ESMTPS id y4si4279200wmy.148.2018.03.05.01.19.22
         (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
         Mon, 05 Mar 2018 01:19:23 -0800 (PST)
-Received-SPF: pass (google.com: domain of soup@eagle.com designates 149.202.180.44 as permitted sender) client-ip=149.202.180.44;
+Received-SPF: pass (google.com: domain of soup@eagle-erp.com designates 149.202.180.44 as permitted sender) client-ip=149.202.180.44;
 Authentication-Results: mx.google.com;
-       dkim=pass header.i=@eagle.com header.s=mail header.b=MCzhjB9b;
-       spf=pass (google.com: domain of soup@eagle.com designates 149.202.180.44 as permitted sender) smtp.mailfrom=soup@eagle.com;
-       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=eagle.com
+       dkim=pass header.i=@eagle-erp.com header.s=mail header.b=MCzhjB9b;
+       spf=pass (google.com: domain of soup@eagle-erp.com designates 149.202.180.44 as permitted sender) smtp.mailfrom=soup@eagle-erp.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=eagle-erp.com
 Received: from [10.10.31.24] (unknown [91.183.114.50])
 	(Authenticated sender: soup)
-	by mail2.eagle.com (Postfix) with ESMTPSA id 7B571A4085
-	for <what@eagle.com>; Mon,  5 Mar 2018 10:19:21 +0100 (CET)
-DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=eagle.com; s=mail;
+	by mail2.eagle-erp.com (Postfix) with ESMTPSA id 7B571A4085
+	for <what@eagle-erp.com>; Mon,  5 Mar 2018 10:19:21 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=eagle-erp.com; s=mail;
 	t=1520241562; bh=L2r7Sp/vjogIdM1k8H9zDGDjnhKolsTTLLjndnFC4Jc=;
 	h=To:From:Subject:Date:From;
 	b=MCzhjB9bnsrJ3uKjq+GjujFxmtrq3fc7Vv7Vg2C72EPKnkxgqy6yPjWKtXbBlaiT3
 	 YjKI24aiSQlOeOPQiqFgiDzeqqemNDp+CRuhoYz1Vbz+ESRaHtkWRLb7ZjvohS2k7e
 	 RTq7tUxY2nUL2YrNHV7DFYtJVBwiTuyLP6eAiJdE=
-To: what@eagle.com
-From: Soup <soup@eagle.com>
+To: what@eagle-erp.com
+From: Soup <soup@eagle-erp.com>
 Subject: =?UTF-8?Q?Soupe_du_jour_:_Pois_cass=c3=a9s?=
-Message-ID: <a05d8334-7b7c-df68-c96a-4a88ed19f31b@eagle.com>
+Message-ID: <a05d8334-7b7c-df68-c96a-4a88ed19f31b@eagle-erp.com>
 Date: Mon, 5 Mar 2018 10:19:21 +0100
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101
  Thunderbird/52.6.0
@@ -387,7 +387,7 @@ Content-Language: en-US
 X-Spam-Status: No, score=-1.2 required=5.0 tests=ALL_TRUSTED,BAYES_00,
 	HTML_IMAGE_ONLY_08,HTML_MESSAGE,T_REMOTE_IMAGE autolearn=no
 	autolearn_force=no version=3.4.0
-X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mail2.eagle.com
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mail2.eagle-erp.com
 
 This is a multi-part message in MIME format.
 --------------1F2D18B1129FC2F0B9EECF50
@@ -402,7 +402,7 @@ Soup
 Eagle ERP
 Chaussée de Namur, 40
 B-1367 Grand Rosière
-Web: http://www.eagle.com
+Web: http://www.eagle-erp.com
 
 
 --------------1F2D18B1129FC2F0B9EECF50
@@ -425,7 +425,7 @@ Soup
 Eagle ERP
 Chaussée de Namur, 40
 B-1367 Grand Rosière
-Web: <a class="moz-txt-link-freetext" href="http://www.eagle.com">http://www.eagle.com</a> </pre>
+Web: <a class="moz-txt-link-freetext" href="http://www.eagle-erp.com">http://www.eagle-erp.com</a> </pre>
   </body>
 </html>
 
@@ -661,7 +661,7 @@ aa.com" style=3D"text-decoration:none; color: white;">info@aust-mfg.com</a>=
                       </tr>
                       <tr>
                         <td align=3D"center">
-                            Powered by <a href=3D"https://www.eagle.com">Odo=
+                            Powered by <a href=3D"https://www.eagle-erp.com">Odo=
 o</a>.
                         </td>
                       </tr>

@@ -7,7 +7,7 @@
     'category': 'Discuss',
     'summary': 'Add livechat support for EagleBot',
     'description': "",
-    'website': 'https://www.eagle.com/page/discuss',
+    'website': 'https://www.eagle-erp.com/page/discuss',
     'depends': ['mail_bot', 'im_livechat'],
     'installable': True,
     'application': False,

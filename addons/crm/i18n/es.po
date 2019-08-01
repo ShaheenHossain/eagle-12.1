@@ -5,8 +5,8 @@
 # Translators:
 # José Vicente <txusev@gmail.com>, 2018
 # Cristóbal Martí Oliver <info@moblesmarti.com>, 2018
-# Miquel Torner <miq@eagle.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Miquel Torner <miq@eagle-erp.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
 # Sergio Hevia <sah@talleresbernesga.com>, 2018
 # Luis M. Ontalba <luis.martinez@tecnativa.com>, 2018
@@ -2798,8 +2798,8 @@ msgstr "Por ejemplo Precios de Productos"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_form_view_leads
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_form_view_oppor
-msgid "e.g. www.eagle.com"
-msgstr "Por ejemplo, www.eagle.com"
+msgid "e.g. www.eagle-erp.com"
+msgstr "Por ejemplo, www.eagle-erp.com"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:946

@@ -5,7 +5,7 @@
 {
     'name': 'Manufacturing',
     'version': '2.0',
-    'website': 'https://www.eagle.com/page/manufacturing',
+    'website': 'https://www.eagle-erp.com/page/manufacturing',
     'category': 'Manufacturing',
     'sequence': 16,
     'summary': 'Manufacturing Orders & BOMs',

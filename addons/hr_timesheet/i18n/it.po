@@ -7,7 +7,7 @@
 # Paolo Valier, 2018
 # Manuela Feliciani <mfeliciani@alice.it>, 2018
 # David Minneci <david@numeko.it>, 2018
-# Léonie Bouchat <lbo@eagle.com>, 2018
+# Léonie Bouchat <lbo@eagle-erp.com>, 2018
 # Sergio Zanchetta <primes2h@gmail.com>, 2018
 # Martin Trigaux, 2018
 # mymage <stefano.consolaro@mymage.it>, 2019

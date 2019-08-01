@@ -4,7 +4,7 @@
 # 
 # Translators:
 # ChinaMaker <liuct@chinamaker.net>, 2018
-# JZH-Eagle <jzh@eagle.com>, 2018
+# JZH-Eagle <jzh@eagle-erp.com>, 2018
 # bower Guo <124358678@qq.com>, 2018
 # p too <totopo@163.com>, 2018
 # inspur qiuguodong <qiuguodong@inspur.com>, 2018

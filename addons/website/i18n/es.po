@@ -25,14 +25,14 @@
 # Carlos rodriguez <carlosalbertor436@gmail.com>, 2018
 # Antonio Trueba, 2018
 # Luis M. Ontalba <luis.martinez@tecnativa.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
-# Raquel Iciarte <ric@eagle.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
+# Raquel Iciarte <ric@eagle-erp.com>, 2018
 # JOSE ALEJANDRO ECHEVERRI VALENCIA <josealejandroeche@gmail.com>, 2018
 # Cris Martin <cristina.marrod@gmail.com>, 2018
 # Pilar Marín <pilar@eagleperu.pe>, 2018
 # Martin Trigaux, 2018
 # Gabriel Umana <gabriel.umana@delfixcr.com>, 2019
-# Carolina Gonzalez <cgo@eagle.com>, 2019
+# Carolina Gonzalez <cgo@eagle-erp.com>, 2019
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2019
 # Rick Hunter <rick.hunter.ec@gmail.com>, 2019
 # Rick Hunter <rick_hunter_ec@yahoo.com>, 2019
@@ -4988,7 +4988,7 @@ msgstr "con"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "www.eagle.com"
+msgid "www.eagle-erp.com"
 msgstr ""
 
 #. module: website

@@ -606,31 +606,31 @@ msgstr "Odkryj, jak łatwy może być Twój biznes z Eagle"
 msgid ""
 "Discover how you can integrate MRP, PLM, Quality and Maintenance in a single application to maximize the efficiency of your manufacturing operations.\n"
 "\n"
-"Read more about the features at: https://www.eagle.com/page/manufacturing-features\n"
+"Read more about the features at: https://www.eagle-erp.com/page/manufacturing-features\n"
 "\n"
-"Discover Eagle MRP: https://www.eagle.com/page/manufacturing"
+"Discover Eagle MRP: https://www.eagle-erp.com/page/manufacturing"
 msgstr ""
 "Odkryj, jak możesz zintegrować MRP, PLM, jakość i konserwację w jednej aplikacji, aby zmaksymalizować efektywność swoich operacji produkcyjnych.\n"
 "\n"
-"Przeczytaj więcej o funkcjach na stronie: https://www.eagle.com/page/manufacturing-features\n"
+"Przeczytaj więcej o funkcjach na stronie: https://www.eagle-erp.com/page/manufacturing-features\n"
 "\n"
-"Odkryj Eagle MRP: https://www.eagle.com/page/manufacturing"
+"Odkryj Eagle MRP: https://www.eagle-erp.com/page/manufacturing"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_1
-msgid "Discover the CRM sales people love https://www.eagle.com/page/crm"
-msgstr "Odkryj CRM który sprzedawcy kochają https://www.eagle.com/page/crm"
+msgid "Discover the CRM sales people love https://www.eagle-erp.com/page/crm"
+msgstr "Odkryj CRM który sprzedawcy kochają https://www.eagle-erp.com/page/crm"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_2
 msgid ""
 "Discover the all-in-one business management software solution that fits any business size and use case.\n"
 "\n"
-"Learn more at https://eagle.com"
+"Learn more at https://eagle-erp.com"
 msgstr ""
 "Odkryj kompleksowe rozwiązanie do zarządzania biznesowego, które pasuje do każdego rozmiaru firmy i przypadku użycia.\n"
 "\n"
-"Dowiedz się więcej na https://eagle.com"
+"Dowiedz się więcej na https://eagle-erp.com"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__dislikes
@@ -949,8 +949,8 @@ msgstr "Ostatnio opublikowany"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_8
-msgid "Learn more at https://www.eagle.com/page/sales"
-msgstr "Dowiedz się więcej na https://www.eagle.com/page/sales"
+msgid "Learn more at https://www.eagle-erp.com/page/sales"
+msgstr "Dowiedz się więcej na https://www.eagle-erp.com/page/sales"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__likes
@@ -1476,11 +1476,11 @@ msgstr "Przykro nam, ale nic nie pasuje do Twoich kryteriów wyszukiwania"
 msgid ""
 "Stop doing manual printing and scanning. Move to electronic signature with Eagle Sign!\n"
 "\n"
-"Discover more at https://www.eagle.com/page/sign"
+"Discover more at https://www.eagle-erp.com/page/sign"
 msgstr ""
 "Przestań wykonywać ręczne drukowanie i skanowanie. Przejdź do podpisu elektronicznego z Podpis Eagle!\n"
 "\n"
-"Odkryj więcej na https://www.eagle.com/page/sign"
+"Odkryj więcej na https://www.eagle-erp.com/page/sign"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_tag_form
@@ -1706,11 +1706,11 @@ msgstr "Oczekiwanie na weryfikację"
 msgid ""
 "Warehouse management software for the 21st century.\n"
 "\n"
-"Discover Eagle Inventory: https://www.eagle.com/page/warehouse"
+"Discover Eagle Inventory: https://www.eagle-erp.com/page/warehouse"
 msgstr ""
 "Oprogramowanie do zarządzania magazynem na miarę 21 wieku.\n"
 "\n"
-"Odkryj Magazyn Eagle: https://www.eagle.com/page/warehouse"
+"Odkryj Magazyn Eagle: https://www.eagle-erp.com/page/warehouse"
 
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_website

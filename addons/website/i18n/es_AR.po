@@ -2811,7 +2811,7 @@ msgstr "ERP de código abierto"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.layout_footer_copyright
-msgid "Open Source eCommerce"
+msgid "A Total IT Solution"
 msgstr "Comercio electrónico de código abierto"
 
 #. module: website

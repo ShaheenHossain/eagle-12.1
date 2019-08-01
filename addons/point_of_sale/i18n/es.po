@@ -6,7 +6,7 @@
 # AleEscandon <alejandra.escandon@jarsa.com.mx>, 2018
 # Luis M. Ontalba <luis.martinez@tecnativa.com>, 2018
 # Christopher Ormaza <chris.ormaza@gmail.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
 # David Vidal <david.vidal@trespinos.es>, 2019
 # Luis Guzman <ark@switnet.org>, 2019

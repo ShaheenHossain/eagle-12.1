@@ -4,10 +4,10 @@
 # 
 # Translators:
 # Paolo Valier, 2018
-# Cécile Collart <cco@eagle.com>, 2018
+# Cécile Collart <cco@eagle-erp.com>, 2018
 # David Minneci <david@numeko.it>, 2018
 # Pietro Della Notte <pdellanotte@gmail.com>, 2018
-# Petra <bop@eagle.com>, 2018
+# Petra <bop@eagle-erp.com>, 2018
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # 
 msgid ""

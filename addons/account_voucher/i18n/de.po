@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2018
-# Johannes Croe <jcr@eagle.com>, 2018
+# Johannes Croe <jcr@eagle-erp.com>, 2018
 # Chris Egal <sodaswed@web.de>, 2019
 # Silvan Wyden <silvan.wyden@braintec-group.com>, 2019
 # 

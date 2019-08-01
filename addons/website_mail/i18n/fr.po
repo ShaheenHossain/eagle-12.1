@@ -5,7 +5,7 @@
 # Translators:
 # Martin Trigaux, 2018
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2018
-# Richard Mathot <rim@eagle.com>, 2018
+# Richard Mathot <rim@eagle-erp.com>, 2018
 # Shark McGnark <peculiarcheese@gmail.com>, 2018
 msgid ""
 msgstr ""

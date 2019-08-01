@@ -10,7 +10,7 @@
     'description': """
 Ask questions, get answers, no distractions
         """,
-    'website': 'https://www.eagle.com/page/community-builder',
+    'website': 'https://www.eagle-erp.com/page/community-builder',
     'depends': [
         'auth_signup',
         'gamification',

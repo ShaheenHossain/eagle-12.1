@@ -4,8 +4,8 @@
 # 
 # Translators:
 # Martin Trigaux, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
-# Vivian Montana <vmo@eagle.com>, 2019
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
+# Vivian Montana <vmo@eagle-erp.com>, 2019
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2019
 # 
 msgid ""

@@ -8,12 +8,12 @@
 # Giacomo Grasso <giacomo.grasso.82@gmail.com>, 2018
 # SebastianoPistore <SebastianoPistore.info@protonmail.ch>, 2018
 # Christian <chris@effeci.info>, 2018
-# Romica Paun <roa@eagle.com>, 2018
+# Romica Paun <roa@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
 # Luigi Di Naro <gigidn@gmail.com>, 2018
 # Paolo Valier, 2018
 # David Minneci <david@numeko.it>, 2018
-# Léonie Bouchat <lbo@eagle.com>, 2019
+# Léonie Bouchat <lbo@eagle-erp.com>, 2019
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # 
 msgid ""
@@ -2806,8 +2806,8 @@ msgstr "Es. definizione prezzo del prodotto"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_form_view_leads
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_form_view_oppor
-msgid "e.g. www.eagle.com"
-msgstr "Es. www.eagle.com"
+msgid "e.g. www.eagle-erp.com"
+msgstr "Es. www.eagle-erp.com"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:946

@@ -7,10 +7,10 @@
 # bb76cd9ac0cb7e20167a14728edb858b, 2018
 # Martin Trigaux, 2018
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2018
-# Richard Mathot <rim@eagle.com>, 2018
-# Lucas Deliege <lud@eagle.com>, 2018
+# Richard Mathot <rim@eagle-erp.com>, 2018
+# Lucas Deliege <lud@eagle-erp.com>, 2018
 # Magali <mch@openerp.com>, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
 # Moka Tourisme <hello@mokatourisme.fr>, 2019
 # 
 msgid ""
@@ -304,8 +304,8 @@ msgstr "ex.: Moteur de recherche, Page web, ..."
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
-msgid "e.g. https://www.eagle.com/page/contactus"
-msgstr "ex.: https://www.eagle.com/page/contactus"
+msgid "e.g. https://www.eagle-erp.com/page/contactus"
+msgstr "ex.: https://www.eagle-erp.com/page/contactus"
 
 #. module: website_links
 #. openerp-web

@@ -6,7 +6,7 @@
 # Sergio Zanchetta <primes2h@gmail.com>, 2018
 # Martin Trigaux, 2018
 # Giovanni Perteghella <giovanni@perteghella.org>, 2018
-# Léonie Bouchat <lbo@eagle.com>, 2019
+# Léonie Bouchat <lbo@eagle-erp.com>, 2019
 # Manuela Feliciani <mfeliciani@alice.it>, 2019
 # 
 msgid ""

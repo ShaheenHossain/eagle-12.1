@@ -9,19 +9,19 @@
 # Cesare Cugnasco <cesare.cugnasco@gmail.com>, 2018
 # Christian <chris@effeci.info>, 2018
 # Giacomo Grasso <giacomo.grasso.82@gmail.com>, 2018
-# Cécile Collart <cco@eagle.com>, 2018
+# Cécile Collart <cco@eagle-erp.com>, 2018
 # Giovanni Perteghella <giovanni@perteghella.org>, 2018
 # Luigi Di Naro <gigidn@gmail.com>, 2018
 # Marco Calcagni <mcalcagni@dinamicheaziendali.it>, 2018
 # David Minneci <david@numeko.it>, 2018
 # Francesco Garganese <francesco.garganese@aeromnia.aero>, 2018
 # Martin Trigaux, 2018
-# Romica Paun <roa@eagle.com>, 2018
+# Romica Paun <roa@eagle-erp.com>, 2018
 # Paolo Valier, 2018
 # Simone Bernini <simone@aperturelabs.it>, 2018
-# efraimbiffi <eab@eagle.com>, 2018
+# efraimbiffi <eab@eagle-erp.com>, 2018
 # Lorenzo Battistini <lorenzo.battistini@agilebg.com>, 2019
-# Léonie Bouchat <lbo@eagle.com>, 2019
+# Léonie Bouchat <lbo@eagle-erp.com>, 2019
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # 
 msgid ""
@@ -5316,10 +5316,10 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.eagle.com>"
+"<jobs@example.eagle-erp.com>"
 msgstr ""
 "Il nome dell’alias email, ad es. “lavori” se vuoi prendere e-mail per "
-"<jobs@example.eagle.com>"
+"<jobs@example.eagle-erp.com>"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_user_id
@@ -5797,11 +5797,11 @@ msgstr "Utenti in questo canale: %s %s e tu."
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.eagle.com)."
+"email server (@mycompany.eagle-erp.com)."
 msgstr ""
 "Per inviare/ricevere e-mail nelle versioni Community o Enterprise è "
 "necessario usare server di posta personali. Gli utenti online beneficiano "
-"già di un server di posta pronto all'uso (@mycompany.eagle.com)."
+"già di un server di posta pronto all'uso (@mycompany.eagle-erp.com)."
 
 #. module: mail
 #. openerp-web
@@ -6312,8 +6312,8 @@ msgstr "mesi"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "mycompany.eagle.com"
-msgstr "lamiaazienda.eagle.com"
+msgid "mycompany.eagle-erp.com"
+msgstr "lamiaazienda.eagle-erp.com"
 
 #. module: mail
 #. openerp-web

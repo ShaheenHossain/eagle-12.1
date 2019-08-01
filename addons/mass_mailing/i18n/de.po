@@ -7,7 +7,7 @@
 # Katharina Moritz <kmo@e2f.com>, 2018
 # e2f <projects@e2f.com>, 2018
 # Mathias Neef <mn@copado.de>, 2018
-# Johannes Croe <jcr@eagle.com>, 2018
+# Johannes Croe <jcr@eagle-erp.com>, 2018
 # DE T1 <e2f8846@yahoo.com>, 2018
 # Marco Tarsia <marco.y.tarsia@gmail.com>, 2018
 # Michael Schütt <michael.schuett.lwl@gmail.com>, 2018

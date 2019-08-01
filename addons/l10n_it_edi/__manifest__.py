@@ -10,7 +10,7 @@
 E-invoice implementation
     """,
     'category': 'Localization',
-    'website': 'http://www.eagle.com/',
+    'website': 'http://www.eagle-erp.com/',
     'data': [
         'security/ir.model.access.csv',
         'data/invoice_it_template.xml',

@@ -5,7 +5,7 @@ from eagle import api, fields, models
 from eagle.exceptions import UserError
 from eagle.addons.iap.models import iap
 
-DEFAULT_ENDPOINT = 'https://iap-sms.eagle.com'
+DEFAULT_ENDPOINT = 'https://iap-sms.eagle-erp.com'
 
 
 class SmsApi(models.AbstractModel):

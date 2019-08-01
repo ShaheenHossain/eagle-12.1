@@ -4,9 +4,9 @@
 # 
 # Translators:
 # Martin Trigaux, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
-# Marie Willemyns <mwi@eagle.com>, 2018
-# Nathan Grognet <ngr@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
+# Marie Willemyns <mwi@eagle-erp.com>, 2018
+# Nathan Grognet <ngr@eagle-erp.com>, 2018
 # kallard1 <kallard@efficom-lille.com>, 2019
 # 
 msgid ""

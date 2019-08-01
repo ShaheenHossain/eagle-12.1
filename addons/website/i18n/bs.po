@@ -4809,7 +4809,7 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "www.eagle.com"
+msgid "www.eagle-erp.com"
 msgstr ""
 
 #. module: website

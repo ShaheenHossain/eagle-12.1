@@ -8,7 +8,7 @@
     'sequence': 90,
     'summary': 'Track your recruitment pipeline',
     'description': "",
-    'website': 'https://www.eagle.com/page/recruitment',
+    'website': 'https://www.eagle-erp.com/page/recruitment',
     'depends': [
         'hr',
         'calendar',

@@ -3,11 +3,11 @@
 # * website
 # 
 # Translators:
-# Damien Bouvy <dbo@eagle.com>, 2018
+# Damien Bouvy <dbo@eagle-erp.com>, 2018
 # Cédric Le Brouster, 2018
 # Denis Leemann <denis.leemann@camptocamp.com>, 2018
 # Shark McGnark <peculiarcheese@gmail.com>, 2018
-# Olivier Dony <odo@eagle.com>, 2018
+# Olivier Dony <odo@eagle-erp.com>, 2018
 # lucasdeliege <deliegelucas@gmail.com>, 2018
 # Bertrand LATOUR <divoir@gmail.com>, 2018
 # 44fd1b7fd1ad5b321e37d151521961ad, 2018
@@ -15,7 +15,7 @@
 # Mohamed Cherkaoui <chermed@gmail.com>, 2018
 # Kévin R., 2018
 # Vincent Hammadache <vhammadache@gmail.com>, 2018
-# Clo <clo@eagle.com>, 2018
+# Clo <clo@eagle-erp.com>, 2018
 # Stephane DAGUET <stephane@darbtech.net>, 2018
 # adrien didenot <adrien.didenot@horanet.com>, 2018
 # Pandraghon <pandraghon@outlook.com>, 2018
@@ -31,20 +31,20 @@
 # e2f <projects@e2f.com>, 2018
 # Fabien Pinckaers <fp@openerp.com>, 2018
 # Christophe CHAUVET <christophe.chauvet@gmail.com>, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
-# Laura Piraux <lap@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
+# Laura Piraux <lap@eagle-erp.com>, 2018
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2018
-# Marie Willemyns <mwi@eagle.com>, 2018
+# Marie Willemyns <mwi@eagle-erp.com>, 2018
 # Fabri Yohann <psn@fabri.pw>, 2018
-# Melanie Bernard <mbe@eagle.com>, 2018
+# Melanie Bernard <mbe@eagle-erp.com>, 2018
 # Xavier Belmere <Info@cartmeleon.com>, 2018
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2018
-# Richard Mathot <rim@eagle.com>, 2018
+# Richard Mathot <rim@eagle-erp.com>, 2018
 # Sébastien BÜHL <buhlsebastien@gmail.com>, 2018
-# Nathan Grognet <ngr@eagle.com>, 2018
+# Nathan Grognet <ngr@eagle-erp.com>, 2018
 # Martin Trigaux, 2019
 # William Olhasque <william.olhasque@scopea.fr>, 2019
-# Fred Gilson <fgi@eagle.com>, 2019
+# Fred Gilson <fgi@eagle-erp.com>, 2019
 # Moka Tourisme <hello@mokatourisme.fr>, 2019
 # 
 msgid ""
@@ -5029,7 +5029,7 @@ msgstr "avec"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "www.eagle.com"
+msgid "www.eagle-erp.com"
 msgstr ""
 
 #. module: website

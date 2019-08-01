@@ -2201,7 +2201,7 @@ msgstr "bebidas e lanches;"
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
-msgid "events@eagle.com"
+msgid "events@eagle-erp.com"
 msgstr ""
 
 #. module: event

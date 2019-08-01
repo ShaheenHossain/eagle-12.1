@@ -8,7 +8,7 @@
 # Florian Hatat, 2018
 # Simon CARRIER <carrier.sim@gmail.com>, 2018
 # zoe <yann.hoareau@migs.re>, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
 # Nathan Noël <nathan070@me.com>, 2018
 msgid ""
 msgstr ""

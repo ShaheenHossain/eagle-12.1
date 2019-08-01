@@ -284,8 +284,8 @@ msgstr "napr. Vyhľadávač, Webová stránka, .."
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
-msgid "e.g. https://www.eagle.com/page/contactus"
-msgstr "napr. https://www.eagle.com/page/contactus"
+msgid "e.g. https://www.eagle-erp.com/page/contactus"
+msgstr "napr. https://www.eagle-erp.com/page/contactus"
 
 #. module: website_links
 #. openerp-web

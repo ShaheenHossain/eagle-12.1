@@ -5,7 +5,7 @@
 # Translators:
 # v2exerer <9010446@qq.com>, 2018
 # fausthuang, 2018
-# Felix Yuen <fyu@eagle.com>, 2018
+# Felix Yuen <fyu@eagle-erp.com>, 2018
 # Jeffery CHEN Fan <jeffery9@gmail.com>, 2018
 # snow wang <147156565@qq.com>, 2018
 # Martin Trigaux, 2018

@@ -5,7 +5,7 @@
     'name': 'Blogs',
     'category': 'Website',
     'sequence': 140,
-    'website': 'https://www.eagle.com/page/blog-engine',
+    'website': 'https://www.eagle-erp.com/page/blog-engine',
     'summary': 'Publish blog posts, announces, news',
     'version': '1.0',
     'description': "",

@@ -213,7 +213,7 @@ If you have development competencies, we can propose you specific traineeships</
           <field name="category_ids" eval="[(6, 0, [ref('employee_category_4')])]"/>
           <field name="work_location">Building 1, Second Floor</field>
           <field name="work_phone">+3281813700</field>
-          <field name="work_email">gilles@eagle.com</field>
+          <field name="work_email">gilles@eagle-erp.com</field>
           <field name="image" type="base64" file="hr/static/img/employee_qdp-image.png"/>
       </record>
 
@@ -313,7 +313,7 @@ If you have development competencies, we can propose you specific traineeships</
           <field name="job_id" ref="hr.job_marketing"/>
           <field name="work_location">Building 1, Second Floor</field>
           <field name="work_phone">(206)-267-3735</field>
-          <field name="work_email">jod@eagle.com</field>
+          <field name="work_email">jod@eagle-erp.com</field>
           <field name="image" type="base64" file="hr/static/img/employee_jod-image.jpg"/>
       </record>
 

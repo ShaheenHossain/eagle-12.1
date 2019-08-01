@@ -2619,8 +2619,8 @@ msgstr "您怎麼看配置嚮導?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_1
-msgid "What do you think about the documentation available on doc.eagle.com?"
-msgstr "您覺得在doc.eagle.com可用的文檔是怎麼樣？"
+msgid "What do you think about the documentation available on doc.eagle-erp.com?"
+msgstr "您覺得在doc.eagle-erp.com可用的文檔是怎麼樣？"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_5

@@ -8,7 +8,7 @@
 # fausthuang, 2018
 # e2f_cn c5 <jarvisn@ecinnovations.com>, 2018
 # bf2549c5415a9287249cba2b8a5823c7, 2018
-# Felix Yuen <fyu@eagle.com>, 2018
+# Felix Yuen <fyu@eagle-erp.com>, 2018
 # ChinaMaker <liuct@chinamaker.net>, 2018
 # Martin Trigaux, 2018
 # diaojiaolou <124412206@qq.com>, 2018

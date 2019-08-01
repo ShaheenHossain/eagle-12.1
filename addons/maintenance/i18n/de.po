@@ -3,7 +3,7 @@
 # * maintenance
 # 
 # Translators:
-# Johannes Croe <jcr@eagle.com>, 2018
+# Johannes Croe <jcr@eagle-erp.com>, 2018
 # e2f <projects@e2f.com>, 2018
 # Wolfgang Taferner, 2018
 # Thorsten Vocks <thorsten.vocks@openbig.org>, 2018
@@ -1323,10 +1323,10 @@ msgstr ""
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.eagle.com>"
+"<jobs@example.eagle-erp.com>"
 msgstr ""
 "Die Bezeichnung des E-Mail-Alias, z.B. 'jobs', falls Sie E-Mails an z.B. "
-"<jobs@example.eagle.com> erhalten möchten"
+"<jobs@example.eagle-erp.com> erhalten möchten"
 
 #. module: maintenance
 #: model:ir.model.fields,help:maintenance.field_maintenance_equipment_category__alias_user_id

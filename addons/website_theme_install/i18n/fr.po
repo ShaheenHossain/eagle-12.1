@@ -4,14 +4,14 @@
 # 
 # Translators:
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2018
-# Richard Mathot <rim@eagle.com>, 2018
+# Richard Mathot <rim@eagle-erp.com>, 2018
 # Xavier Symons <xsy@openerp.com>, 2018
 # Nathan Noël <nathan070@me.com>, 2018
-# Fred Gilson <fgi@eagle.com>, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
-# Laura Piraux <lap@eagle.com>, 2018
+# Fred Gilson <fgi@eagle-erp.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
+# Laura Piraux <lap@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
-# Marie Willemyns <mwi@eagle.com>, 2018
+# Marie Willemyns <mwi@eagle-erp.com>, 2018
 # Sébastien BÜHL <buhlsebastien@gmail.com>, 2018
 # Frédéric LIETART <stuff@tifred.fr>, 2019
 # 

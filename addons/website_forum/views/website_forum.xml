@@ -468,7 +468,7 @@
                 <label class="col-md-2 col-form-label" for="content_link">URL to Share</label>
                 <div class="col-md-8">
                     <input type="text" name="content_link" required="True" t-attf-value="#{post_name}"
-                        class="form-control mb16 o_forum_post_link" placeholder="e.g. https://www.eagle.com"/>
+                        class="form-control mb16 o_forum_post_link" placeholder="e.g. https://www.eagle-erp.com"/>
                 </div>
             </div>
             <div class="form-group row">

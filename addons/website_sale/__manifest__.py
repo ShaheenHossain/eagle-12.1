@@ -3,7 +3,7 @@
     'category': 'Website',
     'sequence': 55,
     'summary': 'Sell your products online',
-    'website': 'https://www.eagle.com/page/e-commerce',
+    'website': 'https://www.eagle-erp.com/page/e-commerce',
     'version': '1.0',
     'description': "",
     'depends': ['website', 'sale', 'website_payment', 'website_mail', 'website_form', 'website_rating', 'digest'],

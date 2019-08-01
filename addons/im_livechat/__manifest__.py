@@ -6,7 +6,7 @@
     'summary': 'Chat with your website visitors',
     'category': 'Website',
     'complexity': 'easy',
-    'website': 'https://www.eagle.com/page/live-chat',
+    'website': 'https://www.eagle-erp.com/page/live-chat',
     'description':
         """
 Live Chat Support

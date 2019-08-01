@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
 # Antoine Lorence <antoine.lorence@gmail.com>, 2019
 # 
 msgid ""

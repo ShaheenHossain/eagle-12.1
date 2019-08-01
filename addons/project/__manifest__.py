@@ -4,7 +4,7 @@
 {
     'name': 'Project',
     'version': '1.1',
-    'website': 'https://www.eagle.com/page/project-management',
+    'website': 'https://www.eagle-erp.com/page/project-management',
     'category': 'Project',
     'sequence': 10,
     'summary': 'Organize and schedule your projects ',

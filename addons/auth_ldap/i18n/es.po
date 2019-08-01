@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # Gabriel Umaña <gabriel.umana@delfixcr.com>, 2019
 # 
 msgid ""

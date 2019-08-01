@@ -291,8 +291,8 @@
 
 <template id="brand_promotion" name="Brand Promotion">
     <div class="o_brand_promotion">
-        Create a <a target="_blank" href="http://www.eagle.com/page/website-builder?utm_source=db&amp;utm_medium=website">free website</a> with
-        <a target="_blank" class="badge badge-danger" href="http://www.eagle.com/page/website-builder?utm_source=db&amp;utm_medium=website">Eagle</a>
+        Create a <a target="_blank" href="http://www.eagle-erp.com">Ecommerce website</a> with
+        <a target="_blank" class="badge badge-danger" href="http://www.eagle-erp.com">Eagle ERP</a>
     </div>
 </template>
 
@@ -714,13 +714,13 @@
 </template>
 
 <!-- Error and special pages -->
-<template id="website_info" name="Eagle Information">
+<template id="website_info" name="Eagle ERP Information">
     <t t-call="website.layout">
         <div id="wrap"/>
     </t>
 </template>
 
-<template id="show_website_info" inherit_id="website.website_info" customize_show="True" name="Show Eagle Information">
+<template id="show_website_info" inherit_id="website.website_info" customize_show="True" name="Show Eagle ERP Information">
     <xpath expr="//div[@id='wrap']" position="inside">
         <div class="oe_structure">
             <section class="container">
@@ -729,10 +729,10 @@
               </t>
               <t t-if="version">
                 <h1><t t-esc="res_company.name"/>
-                    <small>Eagle Version <t t-raw="version.get('server_version')"/></small>
+                    <small>Eagle ERP Version <t t-raw="version.get('server_version')"/></small>
                 </h1>
                 <p>
-                    Information about the <t t-esc="res_company.name"/> instance of Eagle, the <a target="_blank" href="https://www.eagle.com">Open Source ERP</a>.
+                    Information about the <t t-esc="res_company.name"/> instance of Eagle ERP, the <a target="_blank" href="http://www.eagle-erp.com">Most Powerfull ERP</a>.
                 </p>
 
                 <div class="alert alert-warning alert-dismissable mt16" groups="website.group_website_publisher" role="status">

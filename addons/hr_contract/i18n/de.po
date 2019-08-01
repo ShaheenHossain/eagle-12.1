@@ -5,7 +5,7 @@
 # Translators:
 # Martin Trigaux, 2018
 # Wolfgang Taferner, 2018
-# Johannes Croe <jcr@eagle.com>, 2018
+# Johannes Croe <jcr@eagle-erp.com>, 2018
 # Stefan Hartenfels <stefan.hartenfels@camptocamp.com>, 2019
 # 
 msgid ""

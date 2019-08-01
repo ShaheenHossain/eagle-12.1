@@ -1,7 +1,7 @@
 Eagle Point of Sale
 -----------------------------
 
-Eagle's <a href="https://www.eagle.com/page/point-of-sale">Point of Sale</a>
+Eagle's <a href="https://www.eagle-erp.com/page/point-of-sale">Point of Sale</a>
 introduces a super clean interface with no installation required that runs
 online and offline on modern hardwares.
 

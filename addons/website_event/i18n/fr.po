@@ -7,12 +7,12 @@
 # fr trans <e2ftrans1@yahoo.com>, 2018
 # fr rev <e2ffr02@hotmail.com>, 2018
 # Moka Tourisme <hello@mokatourisme.fr>, 2018
-# Olivier Dony <odo@eagle.com>, 2018
+# Olivier Dony <odo@eagle-erp.com>, 2018
 # Frédéric LIETART <stuff@tifred.fr>, 2018
-# Richard Mathot <rim@eagle.com>, 2018
+# Richard Mathot <rim@eagle-erp.com>, 2018
 # Xavier Belmere <Info@cartmeleon.com>, 2018
-# Fred Gilson <fgi@eagle.com>, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
+# Fred Gilson <fgi@eagle-erp.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
 # 
 msgid ""

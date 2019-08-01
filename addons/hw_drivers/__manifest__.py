@@ -6,7 +6,7 @@
     'category': 'IOT',
     'sequence': 6,
     'summary': 'Connect the Web Client to Hardware Peripherals',
-    'website': 'https://www.eagle.com/page/iot',
+    'website': 'https://www.eagle-erp.com/page/iot',
     'description': """
 Hardware Poxy
 =============

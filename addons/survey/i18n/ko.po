@@ -2593,7 +2593,7 @@ msgstr "환경 설정 마법사에 대해 어떻게 생각하십니까?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_1
-msgid "What do you think about the documentation available on doc.eagle.com?"
+msgid "What do you think about the documentation available on doc.eagle-erp.com?"
 msgstr ""
 
 #. module: survey

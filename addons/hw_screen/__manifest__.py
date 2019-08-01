@@ -6,7 +6,7 @@
     'category': 'Hardware Drivers',
     'sequence': 6,
     'summary': 'Provides support for customer facing displays',
-    'website': 'https://www.eagle.com/page/point-of-sale-hardware',
+    'website': 'https://www.eagle-erp.com/page/point-of-sale-hardware',
     'description': """
 Screen Driver
 =============

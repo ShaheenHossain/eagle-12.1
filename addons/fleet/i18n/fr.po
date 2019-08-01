@@ -4,13 +4,13 @@
 # 
 # Translators:
 # bb76cd9ac0cb7e20167a14728edb858b, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
-# Laura Piraux <lap@eagle.com>, 2018
-# Nathan Grognet <ngr@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
+# Laura Piraux <lap@eagle-erp.com>, 2018
+# Nathan Grognet <ngr@eagle-erp.com>, 2018
 # Christophe CHAUVET <christophe.chauvet@gmail.com>, 2018
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2018
 # Agathe Mollé <molleagathe@gmail.com>, 2018
-# Richard Mathot <rim@eagle.com>, 2018
+# Richard Mathot <rim@eagle-erp.com>, 2018
 # Maxime Solinas <msolinas@t2o.ca>, 2018
 # Xavier Symons <xsy@openerp.com>, 2018
 # Adriana Ierfino <adriana.ierfino@savoirfairelinux.com>, 2018

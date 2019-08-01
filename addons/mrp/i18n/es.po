@@ -5,9 +5,9 @@
 # Translators:
 # Nicolás Broggi <rnbroggi@gmail.com>, 2018
 # Lina Maria Avendaño Carvajal <lina8823@gmail.com>, 2018
-# Miquel Torner <miq@eagle.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
-# Mariela Moreno <mam@eagle.com>, 2018
+# Miquel Torner <miq@eagle-erp.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
+# Mariela Moreno <mam@eagle-erp.com>, 2018
 # Luis M. Ontalba <luis.martinez@tecnativa.com>, 2018
 # e2f <projects@e2f.com>, 2018
 # David Arnold <blaggacao@users.noreply.github.com>, 2018

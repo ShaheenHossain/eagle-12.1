@@ -41,10 +41,10 @@ msgstr "IM 測試支援"
 #: code:addons/im_support/static/src/js/support_channel.js:187
 #, python-format
 msgid ""
-"None of our operators are available. <a href='https://www.eagle.com/help' "
+"None of our operators are available. <a href='https://www.eagle-erp.com/help' "
 "target='_blank'>Submit a ticket</a> to ask your question now."
 msgstr ""
-"我們的客服人員目前都在忙線中。<a href='HTTPs://www.eagle.com/help' target='_blank'> 提交票證 "
+"我們的客服人員目前都在忙線中。<a href='HTTPs://www.eagle-erp.com/help' target='_blank'> 提交票證 "
 "</a> 提前你的詢問排程。"
 
 #. module: im_support

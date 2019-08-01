@@ -1967,8 +1967,8 @@ msgstr "¿Qué piensa acerca de los asistentes de configuración?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_1
-msgid "What do you think about the documentation available on doc.eagle.com?"
-msgstr "¿Qué opina sobre la documentación disponible en doc.eagle.com?"
+msgid "What do you think about the documentation available on doc.eagle-erp.com?"
+msgstr "¿Qué opina sobre la documentación disponible en doc.eagle-erp.com?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_5

@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Cas Vissers <casvissers@brahoo.nl>, 2018
-# Wynand Tastenhoye <wta@eagle.com>, 2018
+# Wynand Tastenhoye <wta@eagle-erp.com>, 2018
 # Gunther Clauwaert <gclauwae@hotmail.com>, 2018
 # Eric Geens <ericgeens@yahoo.com>, 2018
 # Erwin van der Ploeg <erwin@eagleexperts.nl>, 2019
@@ -2691,8 +2691,8 @@ msgstr "Wat denkt u van de configuratiewizard?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_1
-msgid "What do you think about the documentation available on doc.eagle.com?"
-msgstr "Wat denkt u over de documentatie beschikbaar op doc.eagle.com?"
+msgid "What do you think about the documentation available on doc.eagle-erp.com?"
+msgstr "Wat denkt u over de documentatie beschikbaar op doc.eagle-erp.com?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_5

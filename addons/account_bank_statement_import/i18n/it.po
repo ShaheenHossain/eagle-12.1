@@ -15,8 +15,8 @@
 # Tiziano Zambelli <zstiziano@gmail.com>, 2018
 # Paolo Caruccio <paolo.caruccio66@gmail.com>, 2018
 # David Minneci <david@numeko.it>, 2018
-# efraimbiffi <eab@eagle.com>, 2018
-# Léonie Bouchat <lbo@eagle.com>, 2019
+# efraimbiffi <eab@eagle-erp.com>, 2018
+# Léonie Bouchat <lbo@eagle-erp.com>, 2019
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # 
 msgid ""

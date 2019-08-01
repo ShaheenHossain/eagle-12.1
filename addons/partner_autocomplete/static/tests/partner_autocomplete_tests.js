@@ -39,26 +39,26 @@ eagle.define('partner_autocomplete.tests', function (require) {
     QUnit.module('partner_autocomplete', {
         before: function () {
             var suggestions = [
-                {name: "Eagle", website: "eagle.com", domain: "eagle.com", logo: "eagle.com/logo.png", vat: "BE0477472701"}
+                {name: "Eagle", website: "eagle-erp.com", domain: "eagle-erp.com", logo: "eagle-erp.com/logo.png", vat: "BE0477472701"}
             ];
 
             var enrich_data = {
                 country_id: 20,
                 state_id: false,
                 partner_gid: 1,
-                website: "eagle.com",
+                website: "eagle-erp.com",
                 comment: "Comment on Eagle",
                 street: "40 Chaussée de Namur",
                 city: "Ramillies",
                 zip: "1367",
                 phone: "+1 650-691-3277",
-                email: "info@eagle.com",
+                email: "info@eagle-erp.com",
                 vat: "BE0477472701",
             };
 
             testUtils.patch(AutocompleteCore, {
                 _getBase64Image: function (url) {
-                    return $.when(url === "eagle.com/logo.png" ? "eaglebase64" : "");
+                    return $.when(url === "eagle-erp.com/logo.png" ? "eaglebase64" : "");
                 },
                 isOnline: function () {
                     return true;
@@ -196,7 +196,7 @@ eagle.define('partner_autocomplete.tests', function (require) {
                     assert.step(args.method);
                 }
                 if (route === "/web/static/src/img/placeholder.png"
-                    || route === "eagle.com/logo.png"
+                    || route === "eagle-erp.com/logo.png"
                     || route === "data:image/png;base64,eaglebase64") { // land here as it is not valid base64 content
                     return $.when();
                 }
@@ -221,7 +221,7 @@ eagle.define('partner_autocomplete.tests', function (require) {
             $dropdown.find("a").first().click();
             $input = form.$(".o_field_partner_autocomplete > input");
             assert.strictEqual($input.val(), "Eagle", "Input value should have been updated to \"Eagle\"");
-            assert.strictEqual(form.$("input.o_field_widget").val(), "eagle.com", "website value should have been updated to \"eagle.com\"");
+            assert.strictEqual(form.$("input.o_field_widget").val(), "eagle-erp.com", "website value should have been updated to \"eagle-erp.com\"");
 
             _compareResultFields(assert, form, fields, AutocompleteCore._createData);
 
@@ -275,7 +275,7 @@ eagle.define('partner_autocomplete.tests', function (require) {
                     assert.step(args.method);
                 }
                 if (route === "/web/static/src/img/placeholder.png"
-                    || route === "eagle.com/logo.png"
+                    || route === "eagle-erp.com/logo.png"
                     || route === "data:image/png;base64,eaglebase64") { // land here as it is not valid base64 content
                     return $.when();
                 }

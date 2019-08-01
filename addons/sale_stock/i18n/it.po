@@ -9,9 +9,9 @@
 # Alberto Carollo <baba75@gmail.com>, 2018
 # David Minneci <david@numeko.it>, 2018
 # maiolif <maiolif@mgftools.com>, 2018
-# mbo_eagle <mbo@eagle.com>, 2018
+# mbo_eagle <mbo@eagle-erp.com>, 2018
 # nle_eagle, 2018
-# Léonie Bouchat <lbo@eagle.com>, 2019
+# Léonie Bouchat <lbo@eagle-erp.com>, 2019
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # Paolo Valier, 2019
 # 

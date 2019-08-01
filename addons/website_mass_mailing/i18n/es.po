@@ -12,7 +12,7 @@
 # Gelo Joga Landoo <gj@landoo.es>, 2018
 # Nicolás Broggi <rnbroggi@gmail.com>, 2018
 # e2f <projects@e2f.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # Rick Hunter <rick.hunter.ec@gmail.com>, 2019
 # 
 msgid ""

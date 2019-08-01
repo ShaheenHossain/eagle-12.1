@@ -42,11 +42,11 @@ msgstr "Tests des messages instantanés du Support."
 #: code:addons/im_support/static/src/js/support_channel.js:187
 #, python-format
 msgid ""
-"None of our operators are available. <a href='https://www.eagle.com/help' "
+"None of our operators are available. <a href='https://www.eagle-erp.com/help' "
 "target='_blank'>Submit a ticket</a> to ask your question now."
 msgstr ""
 "Aucune de nos personnes supports n'est disponible <a "
-"href='https://www.eagle.com/help' target='_blank'>Ouvrez un ticket </a> "
+"href='https://www.eagle-erp.com/help' target='_blank'>Ouvrez un ticket </a> "
 "maintenant pour poser votre question."
 
 #. module: im_support

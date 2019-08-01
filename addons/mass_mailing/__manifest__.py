@@ -7,7 +7,7 @@
     'description': "",
     'version': '2.0',
     'sequence': 110,
-    'website': 'https://www.eagle.com/page/mailing',
+    'website': 'https://www.eagle-erp.com/page/mailing',
     'category': 'Marketing',
     'depends': [
         'contacts',

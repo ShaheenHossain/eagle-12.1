@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2018
-# Johannes Croe <jcr@eagle.com>, 2018
+# Johannes Croe <jcr@eagle-erp.com>, 2018
 # Felix Schubert <felix.schubert@go-erp.com>, 2019
 # Chris Egal <sodaswed@web.de>, 2019
 # 

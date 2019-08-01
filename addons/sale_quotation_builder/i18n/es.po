@@ -6,7 +6,7 @@
 # José Vicente <txusev@gmail.com>, 2018
 # e2f_EPV Translator <e2f_EPV@outlook.com>, 2018
 # e2f_es_ t8 <e2f_es_t8@outlook.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
 # Alejandro Santana <alejandrosantana@anubia.es>, 2018
 # Gabriel Umana <gabriel.umana@delfixcr.com>, 2019

@@ -3,7 +3,7 @@
 # * im_livechat
 # 
 # Translators:
-# Eloïse Stilmant <est@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
 # Fabien Bourgeois <fabien@yaltik.com>, 2018
 # 

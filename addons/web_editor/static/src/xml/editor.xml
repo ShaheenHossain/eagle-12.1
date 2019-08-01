@@ -108,7 +108,7 @@
                         <span class="text-muted">— or —</span>
                         <label for="imageurl">Add an image URL</label>
                         <div class="input-group">
-                            <input type="text" class="form-control url" id="imageurl" name="url" placeholder="https://www.eagle.com/logo.png" style="width: 250px;"/>
+                            <input type="text" class="form-control url" id="imageurl" name="url" placeholder="https://www.eagle-erp.com/logo.png" style="width: 250px;"/>
                             <div class="input-group-append">
                                 <button type="button" class="btn btn-secondary o_upload_image_url_button" disabled="disabled">Add</button>
                             </div>

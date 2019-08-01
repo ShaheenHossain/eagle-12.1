@@ -5,7 +5,7 @@
     'name': 'IoT Box Homepage',
     'category': 'Point of Sale',
     'sequence': 6,
-    'website': 'https://www.eagle.com/page/point-of-sale-hardware',
+    'website': 'https://www.eagle-erp.com/page/point-of-sale-hardware',
     'summary': 'A homepage for the IoT Box',
     'description': """
 IoT Box Homepage

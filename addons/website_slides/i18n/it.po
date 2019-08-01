@@ -11,11 +11,11 @@
 # Simone Bernini <simone@aperturelabs.it>, 2018
 # ginfriz <ginfriz84@hotmail.it>, 2018
 # Paolo Valier, 2018
-# Cécile Collart <cco@eagle.com>, 2018
+# Cécile Collart <cco@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
 # Francesco Garganese <francesco.garganese@aeromnia.aero>, 2018
 # Luigi Di Naro <gigidn@gmail.com>, 2018
-# Léonie Bouchat <lbo@eagle.com>, 2019
+# Léonie Bouchat <lbo@eagle-erp.com>, 2019
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # 
 msgid ""
@@ -669,31 +669,31 @@ msgstr "Scopri come promuovere facilmente il tuo business con Eagle"
 msgid ""
 "Discover how you can integrate MRP, PLM, Quality and Maintenance in a single application to maximize the efficiency of your manufacturing operations.\n"
 "\n"
-"Read more about the features at: https://www.eagle.com/page/manufacturing-features\n"
+"Read more about the features at: https://www.eagle-erp.com/page/manufacturing-features\n"
 "\n"
-"Discover Eagle MRP: https://www.eagle.com/page/manufacturing"
+"Discover Eagle MRP: https://www.eagle-erp.com/page/manufacturing"
 msgstr ""
 "Scopri come integrare MRP, PLM, qualità e manutenzione in un'unica applicazione per ottimizzare l'efficienza delle tue operazioni di produzione. \n"
 "\n"
-"Per saperne di più sulle funzionalità: https://www.eagle.com/page/manufacturing-features\n"
+"Per saperne di più sulle funzionalità: https://www.eagle-erp.com/page/manufacturing-features\n"
 "\n"
-"Scopri Eagle MRP: https://www.eagle.com/page/manufacturing"
+"Scopri Eagle MRP: https://www.eagle-erp.com/page/manufacturing"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_1
-msgid "Discover the CRM sales people love https://www.eagle.com/page/crm"
-msgstr "Scopri il CRM che i commerciali amano: https://www.eagle.com/page/crm"
+msgid "Discover the CRM sales people love https://www.eagle-erp.com/page/crm"
+msgstr "Scopri il CRM che i commerciali amano: https://www.eagle-erp.com/page/crm"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_2
 msgid ""
 "Discover the all-in-one business management software solution that fits any business size and use case.\n"
 "\n"
-"Learn more at https://eagle.com"
+"Learn more at https://eagle-erp.com"
 msgstr ""
 "Scopri la soluzione software di gestione aziendale all-in-one che si adatta a tutte le aziende e situazioni.\n"
 "\n"
-"Per saperne di più: https://eagle.com"
+"Per saperne di più: https://eagle-erp.com"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__dislikes
@@ -1011,8 +1011,8 @@ msgstr "Ultima pubblicazione"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_8
-msgid "Learn more at https://www.eagle.com/page/sales"
-msgstr "Per saperne di più: https://www.eagle.com/page/sales"
+msgid "Learn more at https://www.eagle-erp.com/page/sales"
+msgstr "Per saperne di più: https://www.eagle-erp.com/page/sales"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__likes
@@ -1535,11 +1535,11 @@ msgstr "Scusaci, niente corrisponde al tuo criterio di ricerca"
 msgid ""
 "Stop doing manual printing and scanning. Move to electronic signature with Eagle Sign!\n"
 "\n"
-"Discover more at https://www.eagle.com/page/sign"
+"Discover more at https://www.eagle-erp.com/page/sign"
 msgstr ""
 "Smettila di stampare i documenti, firmarli e poi scannerizzarli. Passa alla firma elettronica con Eagle Firma\n"
 "\n"
-"Per saperne di più: https://www.eagle.com/page/sign"
+"Per saperne di più: https://www.eagle-erp.com/page/sign"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_tag_form
@@ -1764,11 +1764,11 @@ msgstr "In attesa di validazione"
 msgid ""
 "Warehouse management software for the 21st century.\n"
 "\n"
-"Discover Eagle Inventory: https://www.eagle.com/page/warehouse"
+"Discover Eagle Inventory: https://www.eagle-erp.com/page/warehouse"
 msgstr ""
 "Software di gestione del magazzino per il 21o secolo.\n"
 "\n"
-"Scopri Eagle Magazzino: https://www.eagle.com/page/warehouse"
+"Scopri Eagle Magazzino: https://www.eagle-erp.com/page/warehouse"
 
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_website

@@ -104,11 +104,11 @@ msgstr "أخشى أنني لا أفهمك. آسف!"
 #, python-format
 msgid ""
 "I'm just a bot... :( You can check <a "
-"href=\"https://www.eagle.com/page/docs\">our documentation</a>) for more "
+"href=\"https://www.eagle-erp.com/page/docs\">our documentation</a>) for more "
 "information!"
 msgstr ""
 "أنا مجرد بوت... :( يمكنك تفقد <a "
-"href=\"https://www.eagle.com/page/docs\">مستنداتنا</a>) لمعلومات أكثر!"
+"href=\"https://www.eagle-erp.com/page/docs\">مستنداتنا</a>) لمعلومات أكثر!"
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:73

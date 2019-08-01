@@ -6,7 +6,7 @@
     'category': 'Point Of Sale',
     'sequence': 6,
     'summary': 'Connect the Web Client to Hardware Peripherals',
-    'website': 'https://www.eagle.com/page/point-of-sale-hardware',
+    'website': 'https://www.eagle-erp.com/page/point-of-sale-hardware',
     'description': """
 Hardware Poxy
 =============

@@ -15,8 +15,8 @@
 # Gustavo Valverde, 2018
 # e2f_EPV Translator <e2f_EPV@outlook.com>, 2018
 # Nicolás Broggi <rnbroggi@gmail.com>, 2018
-# Miquel Torner <miq@eagle.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Miquel Torner <miq@eagle-erp.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
 # Gabriel Umana <gabriel.umana@delfixcr.com>, 2019
 # 

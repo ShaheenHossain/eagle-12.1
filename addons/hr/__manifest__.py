@@ -8,7 +8,7 @@
     'sequence': 75,
     'summary': 'Centralize employee information',
     'description': "",
-    'website': 'https://www.eagle.com/page/employees',
+    'website': 'https://www.eagle-erp.com/page/employees',
     'images': [
         'images/hr_department.jpeg',
         'images/hr_employee.jpeg',

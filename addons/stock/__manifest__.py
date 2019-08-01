@@ -6,7 +6,7 @@
     'version': '1.1',
     'summary': 'Manage your stock and logistics activities',
     'description': "",
-    'website': 'https://www.eagle.com/page/warehouse',
+    'website': 'https://www.eagle-erp.com/page/warehouse',
     'depends': ['product', 'barcodes'],
     'category': 'Warehouse',
     'sequence': 13,

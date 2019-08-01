@@ -294,8 +294,8 @@ msgstr "örn. Arama Motoru, Website sayfası,.."
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
-msgid "e.g. https://www.eagle.com/page/contactus"
-msgstr "Örn: https://www.eagle.com/page/contactus"
+msgid "e.g. https://www.eagle-erp.com/page/contactus"
+msgstr "Örn: https://www.eagle-erp.com/page/contactus"
 
 #. module: website_links
 #. openerp-web

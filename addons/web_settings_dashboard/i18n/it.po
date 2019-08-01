@@ -9,7 +9,7 @@
 # Sebastiano Pistore <SebastianoPistore.info@protonmail.ch>, 2018
 # Paolo Valier, 2018
 # Pietro Della Notte <pdellanotte@gmail.com>, 2018
-# Léonie Bouchat <lbo@eagle.com>, 2018
+# Léonie Bouchat <lbo@eagle-erp.com>, 2018
 # Lorenzo Battistini <lorenzo.battistini@agilebg.com>, 2018
 # Sergio Zanchetta <primes2h@gmail.com>, 2018
 # 

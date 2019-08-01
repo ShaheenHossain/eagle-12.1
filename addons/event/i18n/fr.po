@@ -3,21 +3,21 @@
 # * event
 # 
 # Translators:
-# Eloïse Stilmant <est@eagle.com>, 2018
-# Laura Piraux <lap@eagle.com>, 2018
-# Nathan Grognet <ngr@eagle.com>, 2018
-# Marie Willemyns <mwi@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
+# Laura Piraux <lap@eagle-erp.com>, 2018
+# Nathan Grognet <ngr@eagle-erp.com>, 2018
+# Marie Willemyns <mwi@eagle-erp.com>, 2018
 # Quentin THEURET <eagle@kerpeo.com>, 2018
 # 6534c450c77b2549e41c52e2051f5839, 2018
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2018
 # Fabien Pinckaers <fp@openerp.com>, 2018
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2018
-# Richard Mathot <rim@eagle.com>, 2018
+# Richard Mathot <rim@eagle-erp.com>, 2018
 # Loic <loic.richard2@gmail.com>, 2018
 # nle_eagle, 2018
-# Clo <clo@eagle.com>, 2018
+# Clo <clo@eagle-erp.com>, 2018
 # Xavier Symons <xsy@openerp.com>, 2018
-# Melanie Bernard <mbe@eagle.com>, 2018
+# Melanie Bernard <mbe@eagle-erp.com>, 2018
 # Olivier ANDRE <frsw194@gmail.com>, 2018
 # Martin Trigaux, 2019
 # Luce Pasquini <luce@easypme.com>, 2019
@@ -2254,8 +2254,8 @@ msgstr "boissons et repas;"
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
-msgid "events@eagle.com"
-msgstr "events@eagle.com"
+msgid "events@eagle-erp.com"
+msgstr "events@eagle-erp.com"
 
 #. module: event
 #: code:addons/event/models/event.py:526

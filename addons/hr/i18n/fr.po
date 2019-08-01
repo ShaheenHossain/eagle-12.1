@@ -3,18 +3,18 @@
 # * hr
 # 
 # Translators:
-# Eloïse Stilmant <est@eagle.com>, 2018
-# Laura Piraux <lap@eagle.com>, 2018
-# Marie Willemyns <mwi@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
+# Laura Piraux <lap@eagle-erp.com>, 2018
+# Marie Willemyns <mwi@eagle-erp.com>, 2018
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2018
 # Fabien Pinckaers <fp@openerp.com>, 2018
 # Frédéric LIETART <stuff@tifred.fr>, 2018
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2018
 # Martin Malorni <mmalorni@gmail.com>, 2018
 # Xavier Symons <xsy@openerp.com>, 2018
-# Lucas Deliege <lud@eagle.com>, 2018
+# Lucas Deliege <lud@eagle-erp.com>, 2018
 # Martin Trigaux, 2019
-# Nathan Grognet <ngr@eagle.com>, 2019
+# Nathan Grognet <ngr@eagle-erp.com>, 2019
 # Rémi CAZENAVE <remi@le-filament.com>, 2019
 # 
 msgid ""
@@ -131,7 +131,7 @@ msgid ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Powered by <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Eagle</a>\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.eagle-erp.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Eagle</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -159,7 +159,7 @@ msgstr ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Powered by <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Eagle</a>\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.eagle-erp.com?utm_source=db&amp;utm_medium=hr\" style=\"color: #875A7B;\">Eagle</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"

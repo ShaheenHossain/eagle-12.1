@@ -4,7 +4,7 @@
     'version': '1.0',
     'sequence': 145,
     'summary': 'Publish videos, slides and documents',
-    'website': 'https://www.eagle.com/page/slides',
+    'website': 'https://www.eagle-erp.com/page/slides',
     'category': 'Website',
     'description': """
 Share and Publish Videos, Presentations and Documents'

@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2018
-# Johannes Croe <jcr@eagle.com>, 2018
+# Johannes Croe <jcr@eagle-erp.com>, 2018
 # Marco Tarsia <marco.y.tarsia@gmail.com>, 2018
 # Chris Egal <sodaswed@web.de>, 2019
 # 
@@ -44,11 +44,11 @@ msgstr "IM-Support-Tests"
 #: code:addons/im_support/static/src/js/support_channel.js:187
 #, python-format
 msgid ""
-"None of our operators are available. <a href='https://www.eagle.com/help' "
+"None of our operators are available. <a href='https://www.eagle-erp.com/help' "
 "target='_blank'>Submit a ticket</a> to ask your question now."
 msgstr ""
 "Keiner unserer Mitarbeiter ist verfügbar. <a "
-"href='https://www.eagle.com/help' target='_blank'>Senden Sie jetzt ein "
+"href='https://www.eagle-erp.com/help' target='_blank'>Senden Sie jetzt ein "
 "Ticket</a> um Ihre Frage zu stellen."
 
 #. module: im_support

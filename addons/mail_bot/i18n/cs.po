@@ -101,7 +101,7 @@ msgstr "Obávám se, že nerozumím. Promiňte!"
 #, python-format
 msgid ""
 "I'm just a bot... :( You can check <a "
-"href=\"https://www.eagle.com/page/docs\">our documentation</a>) for more "
+"href=\"https://www.eagle-erp.com/page/docs\">our documentation</a>) for more "
 "information!"
 msgstr ""
 

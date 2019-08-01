@@ -11,7 +11,7 @@
 # Gelo Joga Landoo <gj@landoo.es>, 2018
 # 966ff43e6966712895a590e7320ca288, 2018
 # David Vidal <david.vidal@trespinos.es>, 2018
-# Raquel Iciarte <ric@eagle.com>, 2018
+# Raquel Iciarte <ric@eagle-erp.com>, 2018
 # Nicolás Broggi <rnbroggi@gmail.com>, 2018
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2019
 # Rick Hunter <rick_hunter_ec@yahoo.com>, 2019

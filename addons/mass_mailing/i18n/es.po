@@ -9,8 +9,8 @@
 # Nicolás Broggi <rnbroggi@gmail.com>, 2018
 # Manuel De los Reyes <manuel9410z@gmail.com>, 2018
 # Cristóbal Martí Oliver <info@moblesmarti.com>, 2018
-# Miquel Torner <miq@eagle.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Miquel Torner <miq@eagle-erp.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # Gelo Joga Landoo <gj@landoo.es>, 2018
 # Luis M. Ontalba <luis.martinez@tecnativa.com>, 2019
 # Martin Trigaux, 2019

@@ -4,10 +4,10 @@
 # 
 # Translators:
 # f5f0a0dac17dde787a1d812a6989680e, 2018
-# Fred Gilson <fgi@eagle.com>, 2018
-# Marie Willemyns <mwi@eagle.com>, 2018
-# Nathan Grognet <ngr@eagle.com>, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
+# Fred Gilson <fgi@eagle-erp.com>, 2018
+# Marie Willemyns <mwi@eagle-erp.com>, 2018
+# Nathan Grognet <ngr@eagle-erp.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
 # Nathan Noël <nathan070@me.com>, 2018
 # Martin Trigaux, 2019
 # Mohamed BENKIRANE <benkirane.med.ali@gmail.com>, 2019

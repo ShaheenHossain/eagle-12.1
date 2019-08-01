@@ -37,8 +37,8 @@
                 <a href="#" class="btn btn-primary btn-block o_browse_apps" role="button"><strong>Browse Apps</strong></a>
             </div>
             <div class="d-flex mt-2 o_web_settings_dashboard_pills">
-                <a href="https://www.eagle.com/apps/modules" target="_blank" class="flex-grow-1 w-25"><i class="fa fa-lg fa-rocket text-muted"/> App store</a>
-                <a href="https://www.eagle.com/apps/themes" target="_blank" class="flex-grow-1 w-25"><i class="fa fa-lg fa-picture-o text-muted"/> Theme store</a>
+                <a href="https://www.eagle-erp.com/apps/modules" target="_blank" class="flex-grow-1 w-25"><i class="fa fa-lg fa-rocket text-muted"/> App store</a>
+                <a href="https://www.eagle-erp.com/apps/themes" target="_blank" class="flex-grow-1 w-25"><i class="fa fa-lg fa-picture-o text-muted"/> Theme store</a>
             </div>
             <div class="clearfix"/>
         </div>
@@ -117,7 +117,7 @@
                 <div>
                     <div class="tab-content">
                         <div role="tabpanel" id="settings" class="tab-pane active text-muted text-center o_web_settings_dashboard_compact_subtitle">
-                            <small>Copyright © 2004 <a target="_blank" href="https://www.eagle.com" style="text-decoration: underline;">Eagle ERP</a> <a target="_blank" href="http://www.gnu.org/licenses/lgpl.html" style="text-decoration: underline;">GNU LGPL Licensed</a></small>
+                            <small>Copyright © 2004 <a target="_blank" href="https://www.eagle-erp.com" style="text-decoration: underline;">Eagle ERP</a> <a target="_blank" href="http://www.gnu.org/licenses/lgpl.html" style="text-decoration: underline;">GNU LGPL Licensed</a></small>
                         </div>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
         <hr class="mt16"/>
         <div class="text-center o_web_settings_dashboard_enterprise">
             <div class="o_web_settings_dashboard_header">Eagle Enterprise</div>
-            <div class="mb16"><a href="http://www.eagle.com/editions" target="_blank">Get more features with the Enterprise Edition!</a></div>
+            <div class="mb16"><a href="http://www.eagle-erp.com/editions" target="_blank">Get more features with the Enterprise Edition!</a></div>
             <div><img class="img img-fluid" t-att-src='_s + "/web/static/src/img/enterprise_upgrade.jpg"' alt="Upgrade to enterprise"/></div>
             <div>
                 <a href="#" class="btn btn-primary btn-block o_confirm_upgrade" role="button"><strong>Upgrade Now</strong></a>

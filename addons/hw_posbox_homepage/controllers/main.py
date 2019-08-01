@@ -60,7 +60,7 @@ class IoTboxHomepage(web.Home):
         return """
         <p>
             The activate the customer display feature, you will need to reinstall the IoT Box software.
-            You can find the latest images on the <a href="http://nightly.eagle.com/master/posbox/">Eagle Nightly builds</a> website.
+            You can find the latest images on the <a href="http://nightly.eagle-erp.com/master/posbox/">Eagle Nightly builds</a> website.
             Make sure to download at least the version 16.<br/>
             Eagle version 11, or above, is required to use the customer display feature.
         </p>

@@ -4,10 +4,10 @@
 # 
 # Translators:
 # Martin Trigaux, 2018
-# Richard Mathot <rim@eagle.com>, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
+# Richard Mathot <rim@eagle-erp.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
 # Jérôme Tanché <jerome.tanche@ouest-dsi.fr>, 2018
-# Marie Willemyns <mwi@eagle.com>, 2018
+# Marie Willemyns <mwi@eagle-erp.com>, 2018
 # William Olhasque <william.olhasque@scopea.fr>, 2019
 # 
 msgid ""

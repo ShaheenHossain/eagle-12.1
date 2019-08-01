@@ -3,8 +3,8 @@
 # * mail
 # 
 # Translators:
-# Divya Pandya <dia@eagle.com>, 2018
-# Ranjit Pillai <rpi@eagle.com>, 2018
+# Divya Pandya <dia@eagle-erp.com>, 2018
+# Ranjit Pillai <rpi@eagle-erp.com>, 2018
 # Dharmraj Jhala <dja@openerp.com>, 2018
 # Turkesh Patel <turkesh4friends@gmail.com>, 2018
 # Martin Trigaux, 2018
@@ -5079,7 +5079,7 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.eagle.com>"
+"<jobs@example.eagle-erp.com>"
 msgstr ""
 
 #. module: mail
@@ -5524,7 +5524,7 @@ msgstr ""
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.eagle.com)."
+"email server (@mycompany.eagle-erp.com)."
 msgstr ""
 
 #. module: mail
@@ -6008,7 +6008,7 @@ msgstr ""
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "mycompany.eagle.com"
+msgid "mycompany.eagle-erp.com"
 msgstr ""
 
 #. module: mail

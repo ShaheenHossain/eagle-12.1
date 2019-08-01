@@ -3,7 +3,7 @@
 # * website_sale_management
 # 
 # Translators:
-# Raquel Iciarte <ric@eagle.com>, 2017
+# Raquel Iciarte <ric@eagle-erp.com>, 2017
 # Christopher Ormaza <chris.ormaza@gmail.com>, 2017
 msgid ""
 msgstr ""

@@ -4969,8 +4969,8 @@ msgstr "s "
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "www.eagle.com"
-msgstr "www.eagle.com"
+msgid "www.eagle-erp.com"
+msgstr "www.eagle-erp.com"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.500

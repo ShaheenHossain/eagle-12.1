@@ -4,11 +4,11 @@
 # 
 # Translators:
 # Martin Trigaux, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
-# Fred Gilson <fgi@eagle.com>, 2018
-# Laura Piraux <lap@eagle.com>, 2018
-# Marie Willemyns <mwi@eagle.com>, 2018
-# Nathan Grognet <ngr@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
+# Fred Gilson <fgi@eagle-erp.com>, 2018
+# Laura Piraux <lap@eagle-erp.com>, 2018
+# Marie Willemyns <mwi@eagle-erp.com>, 2018
+# Nathan Grognet <ngr@eagle-erp.com>, 2018
 # Moka Tourisme <hello@mokatourisme.fr>, 2019
 # Rémi CAZENAVE <remi@le-filament.com>, 2019
 # 

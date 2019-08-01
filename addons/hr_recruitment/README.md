@@ -2,7 +2,7 @@ Manage Recruitment and Job applications
 ---------------------------------------
 
 Publish, promote and organize your job offers with the Eagle
-<a href="https://www.eagle.com/page/recruitment">Open Source Recruitment Application</a>.
+<a href="https://www.eagle-erp.com/page/recruitment">Open Source Recruitment Application</a>.
 
 Organize your job board, promote your job announces and keep track of
 application submissions easily. Follow every applicant and build up a database

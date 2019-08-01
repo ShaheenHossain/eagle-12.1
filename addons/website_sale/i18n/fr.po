@@ -5,30 +5,30 @@
 # Translators:
 # Saad Thaifa <saad.thaifa@gmail.com>, 2018
 # Miguel Vidali <mvidali129@gmail.com>, 2018
-# Melanie Bernard <mbe@eagle.com>, 2018
+# Melanie Bernard <mbe@eagle-erp.com>, 2018
 # Shark McGnark <peculiarcheese@gmail.com>, 2018
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2018
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2018
 # Lionel Sausin <ls@numerigraphe.com>, 2018
-# Lucas Deliege <lud@eagle.com>, 2018
+# Lucas Deliege <lud@eagle-erp.com>, 2018
 # Simon Maillard <simon@ogesta.fr>, 2018
 # David Réchatin <david@rechatin.com>, 2018
 # Maximilien Tantin <maximilien.tantin@horanet.com>, 2018
 # 6534c450c77b2549e41c52e2051f5839, 2018
 # Frédéric LIETART <stuff@tifred.fr>, 2018
 # Adriana Ierfino <adriana.ierfino@savoirfairelinux.com>, 2018
-# Clo <clo@eagle.com>, 2018
+# Clo <clo@eagle-erp.com>, 2018
 # f5f0a0dac17dde787a1d812a6989680e, 2018
 # bb76cd9ac0cb7e20167a14728edb858b, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
-# Fred Gilson <fgi@eagle.com>, 2018
-# Marie Willemyns <mwi@eagle.com>, 2018
-# Nathan Grognet <ngr@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
+# Fred Gilson <fgi@eagle-erp.com>, 2018
+# Marie Willemyns <mwi@eagle-erp.com>, 2018
+# Nathan Grognet <ngr@eagle-erp.com>, 2018
 # Lucas Deliege <lud@openerp.com>, 2018
 # e2f <projects@e2f.com>, 2018
 # Quentin THEURET <eagle@kerpeo.com>, 2018
 # Martin Trigaux, 2018
-# Richard Mathot <rim@eagle.com>, 2018
+# Richard Mathot <rim@eagle-erp.com>, 2018
 # Moka Tourisme <hello@mokatourisme.fr>, 2019
 # William Olhasque <william.olhasque@scopea.fr>, 2019
 # Sébastien BÜHL <buhlsebastien@gmail.com>, 2019
@@ -179,7 +179,7 @@ msgid ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Powered by <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=website\" style=\"color: #875A7B;\">Eagle</a>\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.eagle-erp.com?utm_source=db&amp;utm_medium=website\" style=\"color: #875A7B;\">Eagle</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -1576,8 +1576,8 @@ msgstr "Services seulement"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.brand_promotion
-msgid "Open Source eCommerce"
-msgstr "Open Source eCommerce"
+msgid "A Total IT Solution"
+msgstr "A Total IT Solution"
 
 #. module: website_sale
 #. openerp-web

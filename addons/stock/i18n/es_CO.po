@@ -7701,8 +7701,8 @@ msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner
-msgid "feedback@mail.eagle.com"
-msgstr "feedback@mail.eagle.com"
+msgid "feedback@mail.eagle-erp.com"
+msgstr "feedback@mail.eagle-erp.com"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.inventory_planner

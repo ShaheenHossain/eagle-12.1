@@ -9,9 +9,9 @@
 # Giacomo Grasso <giacomo.grasso.82@gmail.com>, 2018
 # Christian <chris@effeci.info>, 2018
 # Paolo Valier, 2018
-# Cécile Collart <cco@eagle.com>, 2018
+# Cécile Collart <cco@eagle-erp.com>, 2018
 # Pietro Della Notte <pdellanotte@gmail.com>, 2018
-# Léonie Bouchat <lbo@eagle.com>, 2018
+# Léonie Bouchat <lbo@eagle-erp.com>, 2018
 # Sebastiano Pistore <SebastianoPistore.info@protonmail.ch>, 2019
 # Lorenzo Battistini <lorenzo.battistini@agilebg.com>, 2019
 # Sergio Zanchetta <primes2h@gmail.com>, 2019

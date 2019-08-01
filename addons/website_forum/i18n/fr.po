@@ -7,12 +7,12 @@
 # Jérémy Kersten <jke@openerp.com>, 2018
 # Xavier Belmere <Info@cartmeleon.com>, 2018
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2018
-# Lucas Deliege <lud@eagle.com>, 2018
+# Lucas Deliege <lud@eagle-erp.com>, 2018
 # Magali <mch@openerp.com>, 2018
 # e2f <projects@e2f.com>, 2018
 # 6534c450c77b2549e41c52e2051f5839, 2018
 # bb76cd9ac0cb7e20167a14728edb858b, 2018
-# Olivier Dony <odo@eagle.com>, 2018
+# Olivier Dony <odo@eagle-erp.com>, 2018
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2018
 # Fabien Pinckaers <fp@openerp.com>, 2018
 # Adriana Ierfino <adriana.ierfino@savoirfairelinux.com>, 2018
@@ -23,14 +23,14 @@
 # Vincent Briffaux <vincent.briffaux@gmail.com>, 2018
 # Martin Malorni <mmalorni@gmail.com>, 2018
 # Loic <loic.richard2@gmail.com>, 2018
-# Clo <clo@eagle.com>, 2018
-# Melanie Bernard <mbe@eagle.com>, 2018
-# Fred Gilson <fgi@eagle.com>, 2018
-# Laura Piraux <lap@eagle.com>, 2018
-# Nathan Grognet <ngr@eagle.com>, 2018
+# Clo <clo@eagle-erp.com>, 2018
+# Melanie Bernard <mbe@eagle-erp.com>, 2018
+# Fred Gilson <fgi@eagle-erp.com>, 2018
+# Laura Piraux <lap@eagle-erp.com>, 2018
+# Nathan Grognet <ngr@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
-# Léonie Bouchat <lbo@eagle.com>, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
+# Léonie Bouchat <lbo@eagle-erp.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
 # William Olhasque <william.olhasque@scopea.fr>, 2019
 # 
 msgid ""
@@ -542,7 +542,7 @@ msgid ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "        <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"            Powered by <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=forum\" style=\"color: #875A7B;\">Eagle</a>\n"
+"            Powered by <a target=\"_blank\" href=\"https://www.eagle-erp.com?utm_source=db&amp;utm_medium=forum\" style=\"color: #875A7B;\">Eagle</a>\n"
 "        </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -634,7 +634,7 @@ msgstr ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "        <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"            Powered by <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=forum\" style=\"color: #875A7B;\">Eagle</a>\n"
+"            Powered by <a target=\"_blank\" href=\"https://www.eagle-erp.com?utm_source=db&amp;utm_medium=forum\" style=\"color: #875A7B;\">Eagle</a>\n"
 "        </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -3621,8 +3621,8 @@ msgstr "Dupliquer le message"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.new_link
-msgid "e.g. https://www.eagle.com"
-msgstr "e.x. https://www.eagle.com"
+msgid "e.g. https://www.eagle-erp.com"
+msgstr "e.x. https://www.eagle-erp.com"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.faq

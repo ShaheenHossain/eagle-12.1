@@ -5253,9 +5253,9 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.eagle.com>"
+"<jobs@example.eagle-erp.com>"
 msgstr ""
-"Eposta rumuzunun adı, ör. <kariyer@example.eagle.com> adresine gelen "
+"Eposta rumuzunun adı, ör. <kariyer@example.eagle-erp.com> adresine gelen "
 "epostaları yakalamak için 'kariyer' "
 
 #. module: mail
@@ -5722,11 +5722,11 @@ msgstr "Bu kanaldaki kullanıcılar: %s %s ve siz."
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.eagle.com)."
+"email server (@mycompany.eagle-erp.com)."
 msgstr ""
 "Ücretsiz ve Kurumsal sürümlerde e-posta göndermek / almak için kendi e-posta"
 " sunucunuzu kullanmanız gerekir. Çevrimiçi kullanıcılar, kullanıma hazır bir"
-" e-posta sunucusundan (@ mycompany.eagle.com) faydalanıyor."
+" e-posta sunucusundan (@ mycompany.eagle-erp.com) faydalanıyor."
 
 #. module: mail
 #. openerp-web
@@ -6225,7 +6225,7 @@ msgstr "ay"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "mycompany.eagle.com"
+msgid "mycompany.eagle-erp.com"
 msgstr "mycompany.Eagle.com"
 
 #. module: mail

@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
 # William Olhasque <william.olhasque@scopea.fr>, 2019
 # 
 msgid ""
@@ -106,11 +106,11 @@ msgstr "Je ne suis pas sûr de comprendre. Désolé! "
 #, python-format
 msgid ""
 "I'm just a bot... :( You can check <a "
-"href=\"https://www.eagle.com/page/docs\">our documentation</a>) for more "
+"href=\"https://www.eagle-erp.com/page/docs\">our documentation</a>) for more "
 "information!"
 msgstr ""
 "Je suis juste un robot... :( Vous pouvez regarder <a "
-"href=\"https://www.eagle.com/page/docs\">notre documentation</a>) pour plus "
+"href=\"https://www.eagle-erp.com/page/docs\">notre documentation</a>) pour plus "
 "d'informations!"
 
 #. module: mail_bot

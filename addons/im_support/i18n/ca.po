@@ -41,11 +41,11 @@ msgstr "Tests de suport IM"
 #: code:addons/im_support/static/src/js/support_channel.js:187
 #, python-format
 msgid ""
-"None of our operators are available. <a href='https://www.eagle.com/help' "
+"None of our operators are available. <a href='https://www.eagle-erp.com/help' "
 "target='_blank'>Submit a ticket</a> to ask your question now."
 msgstr ""
 "Cap dels nostres operadors estan disponibles. <a "
-"href='https://www.eagle.com/help' target='_blank'>Crea un tiquet</a> per fer-"
+"href='https://www.eagle-erp.com/help' target='_blank'>Crea un tiquet</a> per fer-"
 "nos una pregunta ara mateix."
 
 #. module: im_support

@@ -3,11 +3,11 @@
 # * delivery
 # 
 # Translators:
-# Eloïse Stilmant <est@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
 # Nathan Noël <nathan070@me.com>, 2018
-# Elise Carton <eca@eagle.com>, 2018
+# Elise Carton <eca@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
-# Marie Willemyns <mwi@eagle.com>, 2018
+# Marie Willemyns <mwi@eagle-erp.com>, 2018
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2018
 # 
 msgid ""

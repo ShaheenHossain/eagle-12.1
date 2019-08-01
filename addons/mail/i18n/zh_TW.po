@@ -5148,8 +5148,8 @@ msgstr "與此別名對應的模型(Eagle單據種類)。任何一封沒有回�
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.eagle.com>"
-msgstr "信件別名的名稱，例如，如果您要收取 <jobs@example.eagle.com> 的電子信件，別名就要被設為：\"jobs\""
+"<jobs@example.eagle-erp.com>"
+msgstr "信件別名的名稱，例如，如果您要收取 <jobs@example.eagle-erp.com> 的電子信件，別名就要被設為：\"jobs\""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_user_id
@@ -5604,10 +5604,10 @@ msgstr "在此頻道的使用者 : %s %s 以及您。"
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.eagle.com)."
+"email server (@mycompany.eagle-erp.com)."
 msgstr ""
 "在社區和企業版本中，發送/接收電子信件需要使用自己的電子信件伺服器。線上使用者已受益於隨時可用的電子信件伺服器 "
-"(@mycompany.eagle.com)。"
+"(@mycompany.eagle-erp.com)。"
 
 #. module: mail
 #. openerp-web
@@ -6099,8 +6099,8 @@ msgstr "月"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "mycompany.eagle.com"
-msgstr "mycompany.eagle.com"
+msgid "mycompany.eagle-erp.com"
+msgstr "mycompany.eagle-erp.com"
 
 #. module: mail
 #. openerp-web

@@ -4,7 +4,7 @@
 {
     'name': 'IoTBox Software Upgrader',
     'category': 'Point of Sale',
-    'website': 'https://www.eagle.com/page/point-of-sale-hardware',
+    'website': 'https://www.eagle-erp.com/page/point-of-sale-hardware',
     'sequence': 6,
     'summary': 'Allows to remotely upgrade the IoTBox software',
     'description': """

@@ -11,12 +11,12 @@
 # RGB Consulting <eagle@rgbconsulting.com>, 2018
 # Miguel Orueta <mo@landoo.es>, 2018
 # 966ff43e6966712895a590e7320ca288, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
-# Mariela Moreno <mam@eagle.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
+# Mariela Moreno <mam@eagle-erp.com>, 2018
 # Rick Hunter <rick.hunter.ec@gmail.com>, 2018
 # Pilar Marín <pilar@eagleperu.pe>, 2018
 # Jesús Alan Ramos Rodríguez <alan.ramos@jarsa.com.mx>, 2019
-# Sabina Batlle <sbb@eagle.com>, 2019
+# Sabina Batlle <sbb@eagle-erp.com>, 2019
 # Gabriel Umana <gabriel.umana@delfixcr.com>, 2019
 # Martin Trigaux, 2019
 # Pedro S. Lopez <pedroslopez@me.com>, 2019

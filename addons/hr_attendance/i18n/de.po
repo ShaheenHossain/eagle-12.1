@@ -5,7 +5,7 @@
 # Translators:
 # Martin Trigaux, 2018
 # Ermin Trevisan <trevi@twanda.com>, 2018
-# Johannes Croe <jcr@eagle.com>, 2018
+# Johannes Croe <jcr@eagle-erp.com>, 2018
 # ba566f9f7abd166f8f1f032649ec3e69, 2019
 # Chris Egal <sodaswed@web.de>, 2019
 # 

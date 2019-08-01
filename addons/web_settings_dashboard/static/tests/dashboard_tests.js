@@ -57,17 +57,17 @@ QUnit.module('settings_dashboard', function () {
         });
 
         // add email to invite
-        dashboard.$('.o_user_emails').val('lagan@eagle.com').trigger($.Event('keydown', {
+        dashboard.$('.o_user_emails').val('lagan@eagle-erp.com').trigger($.Event('keydown', {
             which: $.ui.keyCode.ENTER,
         }));
-        assert.strictEqual(dashboard.$('.o_badge_text').text().trim(), 'lagan@eagle.com',
+        assert.strictEqual(dashboard.$('.o_badge_text').text().trim(), 'lagan@eagle-erp.com',
             'should generate a badge with provided email');
         assert.strictEqual(dashboard.$('.o_user_emails').val(), '',
             'input should have been cleared');
 
         // send invitation
         dashboard.$('.o_web_settings_dashboard_invite').click();
-        assert.strictEqual(dashboard.$('.o_web_settings_dashboard_user').text().trim(), 'lagan@eagle.com',
+        assert.strictEqual(dashboard.$('.o_web_settings_dashboard_user').text().trim(), 'lagan@eagle-erp.com',
             'should have created a badge in pending invitations');
         assert.strictEqual(dashboard.$('.o_badge_text').length, 0,
             'should have removed the badge from the invite area');
@@ -86,7 +86,7 @@ QUnit.module('settings_dashboard', function () {
                         users_info: {
                             active_users: 4,
                             pending_counts: 1,
-                            pending_users: [[3, 'xyz@eagle.com']],
+                            pending_users: [[3, 'xyz@eagle-erp.com']],
                         },
                     });
                 }
@@ -112,12 +112,12 @@ QUnit.module('settings_dashboard', function () {
         assert.verifySteps(['warning']);
 
         // enter an already pending address
-        dashboard.$('.o_user_emails').val('xyz@eagle.com').trigger($.Event('keydown', {
+        dashboard.$('.o_user_emails').val('xyz@eagle-erp.com').trigger($.Event('keydown', {
             which: $.ui.keyCode.ENTER,
         }));
         assert.strictEqual(dashboard.$('.o_badge_text').length, 0,
             'should not have generated any badge');
-        assert.strictEqual(dashboard.$('.o_user_emails').val(), 'xyz@eagle.com',
+        assert.strictEqual(dashboard.$('.o_user_emails').val(), 'xyz@eagle-erp.com',
             'input should not have been cleared');
         assert.verifySteps(['warning', 'warning']);
 
@@ -144,7 +144,7 @@ QUnit.module('settings_dashboard', function () {
         });
 
         // simulate a copy paste of multiple email addresses
-        var emails = ['a@eagle.com', 'b@eagle.com', 'c@eagle.com', 'd@eagle.com'];
+        var emails = ['a@eagle-erp.com', 'b@eagle-erp.com', 'c@eagle-erp.com', 'd@eagle-erp.com'];
         dashboard.$('.o_user_emails').val(emails.join(' ')).trigger($.Event('keydown', {
             which: $.ui.keyCode.ENTER,
         }));
@@ -167,7 +167,7 @@ QUnit.module('settings_dashboard', function () {
                         users_info: {
                             active_users: 4,
                             pending_counts: 1,
-                            pending_users: [[4, 'a@eagle.com'], [5, 'd@eagle.com']],
+                            pending_users: [[4, 'a@eagle-erp.com'], [5, 'd@eagle-erp.com']],
                         },
                     });
                 }
@@ -183,7 +183,7 @@ QUnit.module('settings_dashboard', function () {
         });
 
         // simulate a copy paste of multiple email addresses
-        var emails = ['a@eagle.com', 'b@eagle.com', 'x@y', 'd@eagle.com'];
+        var emails = ['a@eagle-erp.com', 'b@eagle-erp.com', 'x@y', 'd@eagle-erp.com'];
         dashboard.$('.o_user_emails').val(emails.join(' ')).trigger($.Event('keydown', {
             which: $.ui.keyCode.ENTER,
         }));

@@ -577,14 +577,14 @@ msgstr ""
 msgid ""
 "Discover how you can integrate MRP, PLM, Quality and Maintenance in a single application to maximize the efficiency of your manufacturing operations.\n"
 "\n"
-"Read more about the features at: https://www.eagle.com/page/manufacturing-features\n"
+"Read more about the features at: https://www.eagle-erp.com/page/manufacturing-features\n"
 "\n"
-"Discover Eagle MRP: https://www.eagle.com/page/manufacturing"
+"Discover Eagle MRP: https://www.eagle-erp.com/page/manufacturing"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_1
-msgid "Discover the CRM sales people love https://www.eagle.com/page/crm"
+msgid "Discover the CRM sales people love https://www.eagle-erp.com/page/crm"
 msgstr ""
 
 #. module: website_slides
@@ -592,7 +592,7 @@ msgstr ""
 msgid ""
 "Discover the all-in-one business management software solution that fits any business size and use case.\n"
 "\n"
-"Learn more at https://eagle.com"
+"Learn more at https://eagle-erp.com"
 msgstr ""
 
 #. module: website_slides
@@ -903,7 +903,7 @@ msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_8
-msgid "Learn more at https://www.eagle.com/page/sales"
+msgid "Learn more at https://www.eagle-erp.com/page/sales"
 msgstr ""
 
 #. module: website_slides
@@ -1425,7 +1425,7 @@ msgstr ""
 msgid ""
 "Stop doing manual printing and scanning. Move to electronic signature with Eagle Sign!\n"
 "\n"
-"Discover more at https://www.eagle.com/page/sign"
+"Discover more at https://www.eagle-erp.com/page/sign"
 msgstr ""
 
 #. module: website_slides
@@ -1643,7 +1643,7 @@ msgstr ""
 msgid ""
 "Warehouse management software for the 21st century.\n"
 "\n"
-"Discover Eagle Inventory: https://www.eagle.com/page/warehouse"
+"Discover Eagle Inventory: https://www.eagle-erp.com/page/warehouse"
 msgstr ""
 
 #. module: website_slides

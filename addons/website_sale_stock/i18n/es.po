@@ -8,7 +8,7 @@
 # e2f_EPV Translator <e2f_EPV@outlook.com>, 2018
 # e2f_es_ t7 <e2f_es_t7@outlook.com>, 2018
 # Martin Trigaux, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # Gabriel Umana <gabriel.umana@delfixcr.com>, 2019
 # 
 msgid ""

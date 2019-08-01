@@ -2636,8 +2636,8 @@ msgstr "Co si myslíte o konfiguračních průvodcích?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_1
-msgid "What do you think about the documentation available on doc.eagle.com?"
-msgstr "Co si myslíte o dokumentaci která je k dispozici na doc.eagle.com?"
+msgid "What do you think about the documentation available on doc.eagle-erp.com?"
+msgstr "Co si myslíte o dokumentaci která je k dispozici na doc.eagle-erp.com?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_5

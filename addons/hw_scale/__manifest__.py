@@ -6,7 +6,7 @@
     'category': 'Point of Sale',
     'sequence': 6,
     'summary': 'Hardware Driver for Weighing Scales',
-    'website': 'https://www.eagle.com/page/point-of-sale-hardware',
+    'website': 'https://www.eagle-erp.com/page/point-of-sale-hardware',
     'description': """
 Weighing Scale Hardware Driver
 ================================

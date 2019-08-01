@@ -12,7 +12,7 @@
 # David Minneci <david@numeko.it>, 2018
 # Niccolò Lubello <nlubello@gmail.com>, 2018
 # mymage <stefano.consolaro@mymage.it>, 2018
-# Léonie Bouchat <lbo@eagle.com>, 2019
+# Léonie Bouchat <lbo@eagle-erp.com>, 2019
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # 
 msgid ""

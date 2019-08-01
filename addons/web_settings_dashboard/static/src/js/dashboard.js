@@ -281,7 +281,7 @@ var DashboardApps = Widget.extend({
     },
 
     confirm_upgrade: function() {
-        framework.redirect("https://www.eagle.com/eagle-enterprise/upgrade?num_users=" + (this.data.enterprise_users || 1));
+        framework.redirect("https://www.eagle-erp.com/eagle-enterprise/upgrade?num_users=" + (this.data.enterprise_users || 1));
     },
 });
 
@@ -298,7 +298,7 @@ var DashboardShare = Widget.extend({
     init: function (parent, data) {
         this.data = data;
         this.parent = parent;
-        this.share_url = 'https://www.eagle.com';
+        this.share_url = 'https://www.eagle-erp.com';
         this.share_text = encodeURIComponent("I am using #Eagle - Awesome open source business apps.");
         return this._super.apply(this, arguments);
     },
@@ -325,7 +325,7 @@ var DashboardShare = Widget.extend({
      */
     share_linkedin: function (ev) {
         ev.preventDefault();
-        var popup_url = _.str.sprintf('http://www.linkedin.com/shareArticle?mini=true&url=%s&title=I am using eagle&summary=%s&source=www.eagle.com', encodeURIComponent(this.share_url), this.share_text);
+        var popup_url = _.str.sprintf('http://www.linkedin.com/shareArticle?mini=true&url=%s&title=I am using eagle&summary=%s&source=www.eagle-erp.com', encodeURIComponent(this.share_url), this.share_text);
         this.sharer(popup_url);
     },
 

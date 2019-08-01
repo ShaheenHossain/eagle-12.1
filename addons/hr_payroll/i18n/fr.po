@@ -3,9 +3,9 @@
 # * hr_payroll
 # 
 # Translators:
-# Eloïse Stilmant <est@eagle.com>, 2018
-# Marie Willemyns <mwi@eagle.com>, 2018
-# Cécile Collart <cco@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
+# Marie Willemyns <mwi@eagle-erp.com>, 2018
+# Cécile Collart <cco@eagle-erp.com>, 2018
 # Olivier ANDRE <frsw194@gmail.com>, 2018
 # Martin Trigaux, 2019
 # 

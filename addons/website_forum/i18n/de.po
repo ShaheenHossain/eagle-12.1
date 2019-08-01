@@ -14,7 +14,7 @@
 # Katharina Moritz <kmo@e2f.com>, 2018
 # Martin Trigaux, 2018
 # Marco Tarsia <marco.y.tarsia@gmail.com>, 2018
-# Johannes Croe <jcr@eagle.com>, 2018
+# Johannes Croe <jcr@eagle-erp.com>, 2018
 # ba566f9f7abd166f8f1f032649ec3e69, 2019
 # Chris Egal <sodaswed@web.de>, 2019
 # 
@@ -558,7 +558,7 @@ msgid ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "        <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"            Powered by <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=forum\" style=\"color: #875A7B;\">Eagle</a>\n"
+"            Powered by <a target=\"_blank\" href=\"https://www.eagle-erp.com?utm_source=db&amp;utm_medium=forum\" style=\"color: #875A7B;\">Eagle</a>\n"
 "        </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -650,7 +650,7 @@ msgstr ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "        <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"            Unterstützt von <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=forum\" style=\"color: #875A7B;\">Eagle</a>\n"
+"            Unterstützt von <a target=\"_blank\" href=\"https://www.eagle-erp.com?utm_source=db&amp;utm_medium=forum\" style=\"color: #875A7B;\">Eagle</a>\n"
 "        </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -3653,8 +3653,8 @@ msgstr "Frage wurde bereits gestellt"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.new_link
-msgid "e.g. https://www.eagle.com"
-msgstr "z.B. https://www.eagle.com"
+msgid "e.g. https://www.eagle-erp.com"
+msgstr "z.B. https://www.eagle-erp.com"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.faq

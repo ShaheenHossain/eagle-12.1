@@ -11,7 +11,7 @@ Create beautiful surveys and display them on your website
 
 Use the styling and layout of your website for your surveys.
 """,
-    'website': 'https://www.eagle.com/page/survey',
+    'website': 'https://www.eagle-erp.com/page/survey',
     'depends': ['website', 'survey'],
     'data': [
         'views/website_survey_templates.xml',

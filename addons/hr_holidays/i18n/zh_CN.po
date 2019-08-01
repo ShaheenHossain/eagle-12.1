@@ -4,10 +4,10 @@
 # 
 # Translators:
 # ChinaMaker <liuct@chinamaker.net>, 2018
-# JZH-Eagle <jzh@eagle.com>, 2018
+# JZH-Eagle <jzh@eagle-erp.com>, 2018
 # 老窦 北京 <2662059195@qq.com>, 2018
 # Maie <m@maie.name>, 2018
-# Lisa Zhang <lzh@eagle.com>, 2018
+# Lisa Zhang <lzh@eagle-erp.com>, 2018
 # bower Guo <124358678@qq.com>, 2018
 # roye w <159820@qq.com>, 2018
 # Skyy <raozhangshun@163.com>, 2018

@@ -4,19 +4,19 @@
 # 
 # Translators:
 # Fabien Bourgeois <fabien@yaltik.com>, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
-# Nathan Grognet <ngr@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
+# Nathan Grognet <ngr@eagle-erp.com>, 2018
 # Jérôme Tanché <jerome.tanche@ouest-dsi.fr>, 2018
-# Thomas Dobbelsteyn <tdo@eagle.com>, 2018
-# Marie Willemyns <mwi@eagle.com>, 2018
+# Thomas Dobbelsteyn <tdo@eagle-erp.com>, 2018
+# Marie Willemyns <mwi@eagle-erp.com>, 2018
 # Xavier Symons <xsy@openerp.com>, 2018
-# Laura Piraux <lap@eagle.com>, 2018
+# Laura Piraux <lap@eagle-erp.com>, 2018
 # 6534c450c77b2549e41c52e2051f5839, 2018
 # Guilhaume Bordiau <github@guilhaume.fr>, 2018
 # Xavier Brochard <xavier@alternatif.org>, 2018
 # nle_eagle, 2018
 # Martin Trigaux, 2018
-# Léonie Bouchat <lbo@eagle.com>, 2019
+# Léonie Bouchat <lbo@eagle-erp.com>, 2019
 # Rémi CAZENAVE <remi@le-filament.com>, 2019
 # 
 msgid ""

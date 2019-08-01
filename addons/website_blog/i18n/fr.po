@@ -4,23 +4,23 @@
 # 
 # Translators:
 # Martin Trigaux, 2018
-# Olivier Dony <odo@eagle.com>, 2018
+# Olivier Dony <odo@eagle-erp.com>, 2018
 # Fabien Pinckaers <fp@openerp.com>, 2018
 # Frédéric LIETART <stuff@tifred.fr>, 2018
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2018
-# Richard Mathot <rim@eagle.com>, 2018
+# Richard Mathot <rim@eagle-erp.com>, 2018
 # Florian Hatat, 2018
 # lucasdeliege <deliegelucas@gmail.com>, 2018
 # Xavier Symons <xsy@openerp.com>, 2018
 # Daniel & Delphine <dd2013@leschoupinous.net>, 2018
 # Shark McGnark <peculiarcheese@gmail.com>, 2018
 # Jérôme Tanché <jerome.tanche@ouest-dsi.fr>, 2018
-# Ludvig Auvens <lau@eagle.com>, 2018
+# Ludvig Auvens <lau@eagle-erp.com>, 2018
 # e2f <projects@e2f.com>, 2018
-# Fred Gilson <fgi@eagle.com>, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
-# Laura Piraux <lap@eagle.com>, 2018
-# Nathan Grognet <ngr@eagle.com>, 2018
+# Fred Gilson <fgi@eagle-erp.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
+# Laura Piraux <lap@eagle-erp.com>, 2018
+# Nathan Grognet <ngr@eagle-erp.com>, 2018
 # fr trans <e2ftrans1@yahoo.com>, 2018
 # fr rev <e2ffr02@hotmail.com>, 2018
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2018

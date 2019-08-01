@@ -49,5 +49,5 @@
     'installable': True,
     'application': True,
     'qweb': ['static/src/xml/pos.xml'],
-    'website': 'https://www.eagle.com/page/point-of-sale-shop',
+    'website': 'https://www.eagle-erp.com/page/point-of-sale-shop',
 }

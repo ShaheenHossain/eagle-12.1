@@ -5,7 +5,7 @@
 # Translators:
 # nle_eagle, 2018
 # Diego de cos <diegodecos@hotmail.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # Israel Cevallos <israel.cevallos1792@gmail.com>, 2018
 # Martin Trigaux, 2019
 # 

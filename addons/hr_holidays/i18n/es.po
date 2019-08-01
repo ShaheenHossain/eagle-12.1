@@ -5,8 +5,8 @@
 # Translators:
 # José Antonio Cuello <inactive+Yopli2k@transifex.com>, 2018
 # Lina Maria Avendaño Carvajal <lina8823@gmail.com>, 2018
-# Miquel Torner <miq@eagle.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Miquel Torner <miq@eagle-erp.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # Gabriel Umana <gabriel.umana@delfixcr.com>, 2019
 # Carlos Lopez <celm1990@hotmail.com>, 2019
 # Martin Trigaux, 2019

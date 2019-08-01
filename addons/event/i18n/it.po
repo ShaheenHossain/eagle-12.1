@@ -6,7 +6,7 @@
 # Cesare Cugnasco <cesare.cugnasco@gmail.com>, 2018
 # Christian <chris@effeci.info>, 2018
 # p_amoruso <p.amoruso@elvenstudio.it>, 2018
-# Cécile Collart <cco@eagle.com>, 2018
+# Cécile Collart <cco@eagle-erp.com>, 2018
 # Manuela Feliciani <mfeliciani@alice.it>, 2018
 # Francesco Garganese <francesco.garganese@aeromnia.aero>, 2018
 # Martin Trigaux, 2018
@@ -16,7 +16,7 @@
 # Maurizio Schiavo <inactive+MaurizioSchiavo@transifex.com>, 2018
 # David Minneci <david@numeko.it>, 2018
 # mymage <stefano.consolaro@mymage.it>, 2018
-# Léonie Bouchat <lbo@eagle.com>, 2019
+# Léonie Bouchat <lbo@eagle-erp.com>, 2019
 # Sebastiano Pistore <SebastianoPistore.info@protonmail.ch>, 2019
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # 
@@ -2624,8 +2624,8 @@ msgstr "bevande e pranzo;"
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
-msgid "events@eagle.com"
-msgstr "events@eagle.com"
+msgid "events@eagle-erp.com"
+msgstr "events@eagle-erp.com"
 
 #. module: event
 #: code:addons/event/models/event.py:526

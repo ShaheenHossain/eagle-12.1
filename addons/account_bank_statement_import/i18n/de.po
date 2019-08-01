@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2018
-# Johannes Croe <jcr@eagle.com>, 2018
+# Johannes Croe <jcr@eagle-erp.com>, 2018
 # Michael Schütt <michael.schuett.lwl@gmail.com>, 2018
 # Rudolf Schnapka <rs@techno-flex.de>, 2019
 # 

@@ -6,7 +6,7 @@
     'version': '1.5',
     'category': 'Human Resources',
     'summary': 'Allocate leaves and follow leave requests',
-    'website': 'https://www.eagle.com/page/leaves',
+    'website': 'https://www.eagle-erp.com/page/leaves',
     'description': """
 Manage leave requests and allocations
 =====================================

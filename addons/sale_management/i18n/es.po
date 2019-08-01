@@ -8,8 +8,8 @@
 # 966ff43e6966712895a590e7320ca288, 2018
 # 36700cd705c35e1852bdffcd0b296648, 2018
 # 715cd7e95e9ee8a7f9785bf3e53bc76f, 2018
-# reneagle <ren@eagle.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# reneagle <ren@eagle-erp.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
 # Cristian Salamea <ovnicraft@gmail.com>, 2018
 # Gabriel Umana <gabriel.umana@delfixcr.com>, 2019

@@ -3,7 +3,7 @@
 # * repair
 # 
 # Translators:
-# Johannes Croe <jcr@eagle.com>, 2018
+# Johannes Croe <jcr@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
 # Chris Egal <sodaswed@web.de>, 2019
 # 

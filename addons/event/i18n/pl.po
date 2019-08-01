@@ -2191,8 +2191,8 @@ msgstr "napoje i posiłek;"
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
-msgid "events@eagle.com"
-msgstr "events@eagle.com"
+msgid "events@eagle-erp.com"
+msgstr "events@eagle-erp.com"
 
 #. module: event
 #: code:addons/event/models/event.py:526

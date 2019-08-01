@@ -12,7 +12,7 @@
 # maiolif <maiolif@mgftools.com>, 2018
 # Simone Bernini <simone@aperturelabs.it>, 2019
 # Paolo Valier, 2019
-# Léonie Bouchat <lbo@eagle.com>, 2019
+# Léonie Bouchat <lbo@eagle-erp.com>, 2019
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # 
 msgid ""

@@ -16,7 +16,7 @@ Add all information on the employee form to manage contracts.
 
 You can assign several contracts per employee.
     """,
-    'website': 'https://www.eagle.com/page/employees',
+    'website': 'https://www.eagle-erp.com/page/employees',
     'depends': ['hr'],
     'data': [
         'security/security.xml',

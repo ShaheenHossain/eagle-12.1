@@ -6,8 +6,8 @@
 # Alejandro Die Sanchis <marketing@domatix.com>, 2018
 # Martin Trigaux, 2018
 # Eduardo Magdalena <emagdalena@close2circle.com>, 2018
-# Pierre-Antoine Magnet <pma@eagle.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Pierre-Antoine Magnet <pma@eagle-erp.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # Rick Hunter <rick.hunter.ec@gmail.com>, 2019
 # Rick Hunter <rick_hunter_ec@yahoo.com>, 2019
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2019

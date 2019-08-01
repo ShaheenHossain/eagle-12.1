@@ -2599,7 +2599,7 @@ msgstr ""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_name
-msgid "The name of the email alias, e.g. 'jobs' if you want to catch emails for <jobs@example.eagle.com>"
+msgid "The name of the email alias, e.g. 'jobs' if you want to catch emails for <jobs@example.eagle-erp.com>"
 msgstr ""
 
 #. module: project

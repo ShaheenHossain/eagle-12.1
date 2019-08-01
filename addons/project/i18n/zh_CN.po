@@ -6,9 +6,9 @@
 # ChinaMaker <liuct@chinamaker.net>, 2018
 # 老窦 北京 <2662059195@qq.com>, 2018
 # Fisher <fisher@kdomi.com>, 2018
-# JZH-Eagle <jzh@eagle.com>, 2018
+# JZH-Eagle <jzh@eagle-erp.com>, 2018
 # Maie <m@maie.name>, 2018
-# Shane Tsoi <sso@eagle.com>, 2018
+# Shane Tsoi <sso@eagle-erp.com>, 2018
 # bower Guo <124358678@qq.com>, 2018
 # roye w <159820@qq.com>, 2018
 # 李赋 <fu792659@163.com>, 2018
@@ -2820,8 +2820,8 @@ msgstr "相应于这个别名对应的模型(Eagle单据种类)。任何一封�
 #: model:ir.model.fields,help:project.field_project_project__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.eagle.com>"
-msgstr "邮件别名的名称，例如，如果你要收取 <jobs@example.eagle.com> 的EMail,别名就要被设为：\"jobs\""
+"<jobs@example.eagle-erp.com>"
+msgstr "邮件别名的名称，例如，如果你要收取 <jobs@example.eagle-erp.com> 的EMail,别名就要被设为：\"jobs\""
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_user_id

@@ -184,7 +184,7 @@ var SupportChannel = SearchableThread.extend({
     _addSupportNotAvailableMessage: function () {
         var msg = {
             author_id: this.call('mail_service', 'getEaglebotID'),
-            body: _t("None of our operators are available. <a href='https://www.eagle.com/help' " +
+            body: _t("None of our operators are available. <a href='https://www.eagle-erp.com/help' " +
                 "target='_blank'>Submit a ticket</a> to ask your question now."),
             channel_ids: [this.getID()],
             id: Number.MAX_SAFE_INTEGER, // last message in the channel

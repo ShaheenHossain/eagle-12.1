@@ -4,7 +4,7 @@
 # 
 # Translators:
 # e2f <projects@e2f.com>, 2018
-# Johannes Croe <jcr@eagle.com>, 2018
+# Johannes Croe <jcr@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
 # Chris Egal <sodaswed@web.de>, 2019
 # 
@@ -290,7 +290,7 @@ msgstr ""
 #, python-format
 msgid ""
 "You don't have an IAP account registered for this service.<br>Please go to "
-"<a href=%s target=\"new\">iap.eagle.com</a> to claim your free credits."
+"<a href=%s target=\"new\">iap.eagle-erp.com</a> to claim your free credits."
 msgstr ""
 
 #. module: snailmail

@@ -10,7 +10,7 @@ from eagle.addons.iap.models.iap import InsufficientCreditError
 
 _logger = logging.getLogger(__name__)
 
-DEFAULT_ENDPOINT = 'https://partner-autocomplete.eagle.com'
+DEFAULT_ENDPOINT = 'https://partner-autocomplete.eagle-erp.com'
 
 class ResPartner(models.Model):
     _name = 'res.partner'

@@ -6,26 +6,26 @@
 # fr rev <e2ffr02@hotmail.com>, 2018
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2018
 # Frédéric LIETART <stuff@tifred.fr>, 2018
-# Richard Mathot <rim@eagle.com>, 2018
+# Richard Mathot <rim@eagle-erp.com>, 2018
 # Fabrice Henrion, 2018
 # Fabien Bourgeois <fabien@yaltik.com>, 2018
 # Vincent Hammadache <vhammadache@gmail.com>, 2018
 # Loic <loic.richard2@gmail.com>, 2018
 # user 2 eagle <user2eagle@gmail.com>, 2018
-# Melanie Bernard <mbe@eagle.com>, 2018
+# Melanie Bernard <mbe@eagle-erp.com>, 2018
 # Jérémy Kersten <jke@openerp.com>, 2018
-# Fred Gilson <fgi@eagle.com>, 2018
+# Fred Gilson <fgi@eagle-erp.com>, 2018
 # Benoît Fontaine <benoitfontaine.ba@gmail.com>, 2018
 # e2f <projects@e2f.com>, 2018
 # Fabien Pinckaers <fp@openerp.com>, 2018
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2018
 # Kévin R., 2018
-# Clo <clo@eagle.com>, 2018
+# Clo <clo@eagle-erp.com>, 2018
 # Xavier Symons <xsy@openerp.com>, 2018
 # Shark McGnark <peculiarcheese@gmail.com>, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
-# Lucas Deliege <lud@eagle.com>, 2018
+# Lucas Deliege <lud@eagle-erp.com>, 2018
 # William Olhasque <william.olhasque@scopea.fr>, 2019
 # 
 msgid ""
@@ -1770,8 +1770,8 @@ msgstr "auto"
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:110
 #, python-format
-msgid "https://www.eagle.com/logo.png"
-msgstr "https://www.eagle.com/logo.png"
+msgid "https://www.eagle-erp.com/logo.png"
+msgstr "https://www.eagle-erp.com/logo.png"
 
 #. module: web_editor
 #. openerp-web

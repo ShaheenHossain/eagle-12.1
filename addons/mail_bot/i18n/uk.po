@@ -105,11 +105,11 @@ msgstr "Здається, я не розумію. Вибачте!"
 #, python-format
 msgid ""
 "I'm just a bot... :( You can check <a "
-"href=\"https://www.eagle.com/page/docs\">our documentation</a>) for more "
+"href=\"https://www.eagle-erp.com/page/docs\">our documentation</a>) for more "
 "information!"
 msgstr ""
 "Я лише бот... :( Ви можете перевірити <a "
-"href=\"https://www.eagle.com/page/docs\">нашу документацію</a>) для більшої "
+"href=\"https://www.eagle-erp.com/page/docs\">нашу документацію</a>) для більшої "
 "інформації!"
 
 #. module: mail_bot

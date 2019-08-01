@@ -11,7 +11,7 @@
 # bf2549c5415a9287249cba2b8a5823c7, 2018
 # inspur qiuguodong <qiuguodong@inspur.com>, 2018
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2018
-# Lisa Zhang <lzh@eagle.com>, 2018
+# Lisa Zhang <lzh@eagle-erp.com>, 2018
 # liAnGjiA <liangjia@qq.com>, 2018
 # Jeffery CHEN Fan <jeffery9@gmail.com>, 2018
 # 

@@ -3,7 +3,7 @@
 # * product_email_template
 # 
 # Translators:
-# Eloïse Stilmant <est@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
 # Martin Trigaux, 2019
 # 
 msgid ""

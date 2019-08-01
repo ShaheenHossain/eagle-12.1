@@ -5,7 +5,7 @@
     'name': 'Quotation Builder',
     'category': 'Sales',
     'summary': 'Build great quotation templates',
-    'website': 'https://www.eagle.com/page/quote-builder',
+    'website': 'https://www.eagle-erp.com/page/quote-builder',
     'version': '1.0',
     'description': "Design great quotation templates with building blocks to significantly boost your success rate.",
     'depends': ['website', 'sale_management', 'website_mail'],

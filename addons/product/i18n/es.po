@@ -3,16 +3,16 @@
 # * product
 # 
 # Translators:
-# Nicole Kist <nki@eagle.com>, 2018
-# Miquel Torner <miq@eagle.com>, 2018
+# Nicole Kist <nki@eagle-erp.com>, 2018
+# Miquel Torner <miq@eagle-erp.com>, 2018
 # Christopher Ormaza <chris.ormaza@gmail.com>, 2018
 # RGB Consulting <eagle@rgbconsulting.com>, 2018
 # Nicolás Broggi <rnbroggi@gmail.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # Ivan Coro <ivan@iventiva.com>, 2018
 # Martin Trigaux, 2018
 # Miguel Orueta <mo@landoo.es>, 2018
-# Nans Lefebvre <len@eagle.com>, 2018
+# Nans Lefebvre <len@eagle-erp.com>, 2018
 # Gabriel Umana <gabriel.umana@delfixcr.com>, 2019
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2019
 # 

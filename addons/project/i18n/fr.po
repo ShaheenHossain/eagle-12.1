@@ -3,17 +3,17 @@
 # * project
 # 
 # Translators:
-# Fred Gilson <fgi@eagle.com>, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
+# Fred Gilson <fgi@eagle-erp.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
 # Jérôme Tanché <jerome.tanche@ouest-dsi.fr>, 2018
-# Laura Piraux <lap@eagle.com>, 2018
-# Marie Willemyns <mwi@eagle.com>, 2018
-# Nathan Grognet <ngr@eagle.com>, 2018
+# Laura Piraux <lap@eagle-erp.com>, 2018
+# Marie Willemyns <mwi@eagle-erp.com>, 2018
+# Nathan Grognet <ngr@eagle-erp.com>, 2018
 # fr trans <e2ffr05@hotmail.com>, 2018
 # Martin Trigaux, 2018
 # Frédéric LIETART <stuff@tifred.fr>, 2018
-# Clo <clo@eagle.com>, 2018
-# Léonie Bouchat <lbo@eagle.com>, 2019
+# Clo <clo@eagle-erp.com>, 2018
+# Léonie Bouchat <lbo@eagle-erp.com>, 2019
 # Rémi CAZENAVE <remi@le-filament.com>, 2019
 # 
 msgid ""
@@ -2910,10 +2910,10 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.eagle.com>"
+"<jobs@example.eagle-erp.com>"
 msgstr ""
 "Le nom de l'alias de messagerie, par exemple 'carrieres' pour relever les "
-"e-mails de <carrieres@example.eagle.com>"
+"e-mails de <carrieres@example.eagle-erp.com>"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_user_id

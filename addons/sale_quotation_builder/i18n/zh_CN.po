@@ -15,7 +15,7 @@
 # keecome <7017511@qq.com>, 2018
 # liAnGjiA <liangjia@qq.com>, 2018
 # SHOM <shanmuxin@yeah.net>, 2018
-# Cécile Collart <cco@eagle.com>, 2018
+# Cécile Collart <cco@eagle-erp.com>, 2018
 # inspur qiuguodong <qiuguodong@inspur.com>, 2018
 # 
 msgid ""

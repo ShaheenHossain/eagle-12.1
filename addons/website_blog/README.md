@@ -1,7 +1,7 @@
 Eagle Blogs
 ----------
 
-Write, Design, Promote and Engage with <a href="https://www.eagle.com/page/blog-engine">Eagle Blogs</a>.
+Write, Design, Promote and Engage with <a href="https://www.eagle-erp.com/page/blog-engine">Eagle Blogs</a>.
 
 Express yourself with the Eagle enterprise grade blogging platform. Write
 beautiful blog posts, engage with visitors, translate content and moderate

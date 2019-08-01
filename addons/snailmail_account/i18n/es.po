@@ -5,7 +5,7 @@
 # Translators:
 # Martin Trigaux, 2018
 # Nicolás Broggi <rnbroggi@gmail.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # Cristian Salamea <ovnicraft@gmail.com>, 2018
 # Gabriel Umana <gabriel.umana@delfixcr.com>, 2019
 # 

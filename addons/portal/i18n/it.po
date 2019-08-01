@@ -11,9 +11,9 @@
 # Pietro Della Notte <pdellanotte@gmail.com>, 2018
 # Francesco Garganese <francesco.garganese@aeromnia.aero>, 2018
 # Paolo Valier, 2018
-# efraimbiffi <eab@eagle.com>, 2018
+# efraimbiffi <eab@eagle-erp.com>, 2018
 # Mario Riva <mario.riva@gmail.com>, 2019
-# Léonie Bouchat <lbo@eagle.com>, 2019
+# Léonie Bouchat <lbo@eagle-erp.com>, 2019
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # 
 msgid ""
@@ -163,7 +163,7 @@ msgid ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Powered by <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=portalinvite\" style=\"color: #875A7B;\">Eagle</a>\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.eagle-erp.com?utm_source=db&amp;utm_medium=portalinvite\" style=\"color: #875A7B;\">Eagle</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"

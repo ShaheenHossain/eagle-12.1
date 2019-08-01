@@ -4,8 +4,8 @@
 # 
 # Translators:
 # Katerina Katapodi <katerinakatapodi@gmail.com>, 2018
-# Miquel Torner <miq@eagle.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Miquel Torner <miq@eagle-erp.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # Diego de cos <diegodecos@hotmail.com>, 2018
 # Martin Trigaux, 2018
 # Alejandro Die Sanchis <marketing@domatix.com>, 2018
@@ -2791,11 +2791,11 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.eagle.com>"
+"<jobs@example.eagle-erp.com>"
 msgstr ""
 "El nombre de este seudónimo de correo electrónico. Por ejemplo, "
 "\"trabajos\",  si lo que quiere es obtener los correos para "
-"<trabajos@example.eagle.com>."
+"<trabajos@example.eagle-erp.com>."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_user_id

@@ -297,10 +297,10 @@ msgstr ""
 #, python-format
 msgid ""
 "You don't have an IAP account registered for this service.<br>Please go to "
-"<a href=%s target=\"new\">iap.eagle.com</a> to claim your free credits."
+"<a href=%s target=\"new\">iap.eagle-erp.com</a> to claim your free credits."
 msgstr ""
 "U hebt geen IAP-account geregistreerd voor deze service. <br>Ga naar <a "
-"href=%s target=\"new\"> iap.eagle.com </a>om uw gratis krediet te claimen."
+"href=%s target=\"new\"> iap.eagle-erp.com </a>om uw gratis krediet te claimen."
 
 #. module: snailmail
 #: code:addons/snailmail/models/snailmail_letter.py:204

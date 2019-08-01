@@ -10,19 +10,19 @@
 # lucasdeliege <deliegelucas@gmail.com>, 2018
 # Leo Schmitt <inactive+lschmitt@transifex.com>, 2018
 # Cédric Le Brouster, 2018
-# Melanie Bernard <mbe@eagle.com>, 2018
+# Melanie Bernard <mbe@eagle-erp.com>, 2018
 # Xavier Belmere <Info@cartmeleon.com>, 2018
 # Christophe CHAUVET <christophe.chauvet@gmail.com>, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
-# Laura Piraux <lap@eagle.com>, 2018
-# Nathan Grognet <ngr@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
+# Laura Piraux <lap@eagle-erp.com>, 2018
+# Nathan Grognet <ngr@eagle-erp.com>, 2018
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2018
 # Agathe Mollé <molleagathe@gmail.com>, 2018
 # Bruno JOLIVEAU, 2018
-# Richard Mathot <rim@eagle.com>, 2018
+# Richard Mathot <rim@eagle-erp.com>, 2018
 # Adriana Ierfino <adriana.ierfino@savoirfairelinux.com>, 2018
-# Clo <clo@eagle.com>, 2018
-# Lucas Deliege <lud@eagle.com>, 2018
+# Clo <clo@eagle-erp.com>, 2018
+# Lucas Deliege <lud@eagle-erp.com>, 2018
 # Miguel Vidali <mvidali129@gmail.com>, 2018
 # Martin Trigaux, 2019
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2019
@@ -2703,8 +2703,8 @@ msgstr "Que pensez-vous des assistants de configuration ?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_1
-msgid "What do you think about the documentation available on doc.eagle.com?"
-msgstr "Que pensez-vous de la documentation disponible sur doc.eagle.com?"
+msgid "What do you think about the documentation available on doc.eagle-erp.com?"
+msgstr "Que pensez-vous de la documentation disponible sur doc.eagle-erp.com?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_5

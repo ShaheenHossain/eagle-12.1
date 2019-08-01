@@ -3,7 +3,7 @@
 # * hr_payroll
 # 
 # Translators:
-# Johannes Croe <jcr@eagle.com>, 2018
+# Johannes Croe <jcr@eagle-erp.com>, 2018
 # Rudolf Schnapka <rs@techno-flex.de>, 2018
 # Martin Trigaux, 2019
 # Chris Egal <sodaswed@web.de>, 2019

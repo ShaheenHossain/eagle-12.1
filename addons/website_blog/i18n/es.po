@@ -13,8 +13,8 @@
 # Gelo Joga Landoo <gj@landoo.es>, 2018
 # David Vidal <david.vidal@trespinos.es>, 2018
 # Nicolás Broggi <rnbroggi@gmail.com>, 2018
-# Miquel Torner <miq@eagle.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Miquel Torner <miq@eagle-erp.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # e2f <projects@e2f.com>, 2018
 # 384b9483dceff15cca881ce1cccf70f5, 2018
 # Martin Trigaux, 2018

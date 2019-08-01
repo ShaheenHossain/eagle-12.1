@@ -9,9 +9,9 @@
 # Sebastiano Pistore <SebastianoPistore.info@protonmail.ch>, 2018
 # Pietro Della Notte <pdellanotte@gmail.com>, 2018
 # Paolo Valier, 2018
-# Petra <bop@eagle.com>, 2018
+# Petra <bop@eagle-erp.com>, 2018
 # David Minneci <david@numeko.it>, 2018
-# Léonie Bouchat <lbo@eagle.com>, 2019
+# Léonie Bouchat <lbo@eagle-erp.com>, 2019
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # 
 msgid ""

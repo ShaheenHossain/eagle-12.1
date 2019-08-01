@@ -8,8 +8,8 @@
 # Ana Juaristi <ajuaristio@gmail.com>, 2018
 # Alejandro Santana <alejandrosantana@anubia.es>, 2018
 # Glen Sojo <inactive+glen.sojo@transifex.com>, 2018
-# Miquel Torner <miq@eagle.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Miquel Torner <miq@eagle-erp.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # Cristian Salamea <ovnicraft@gmail.com>, 2018
 # Jesús Alan Ramos Rodríguez <alan.ramos@jarsa.com.mx>, 2018
 # Luis M. Ontalba <luis.martinez@tecnativa.com>, 2018
@@ -21,7 +21,7 @@
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2019
 # Martin Trigaux, 2019
 # RGB Consulting <eagle@rgbconsulting.com>, 2019
-# Vivian Montana <vmo@eagle.com>, 2019
+# Vivian Montana <vmo@eagle-erp.com>, 2019
 # Rick Hunter <rick_hunter_ec@yahoo.com>, 2019
 # 
 msgid ""
@@ -2670,8 +2670,8 @@ msgstr "¿Qué piensa acerca de los asistentes de configuración?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_1
-msgid "What do you think about the documentation available on doc.eagle.com?"
-msgstr "¿Qué opina de la documentación disponible en doc.eagle.com?"
+msgid "What do you think about the documentation available on doc.eagle-erp.com?"
+msgstr "¿Qué opina de la documentación disponible en doc.eagle-erp.com?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_5

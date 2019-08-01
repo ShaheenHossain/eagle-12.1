@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Nicolás Broggi <rnbroggi@gmail.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # Jimmy Ramos <jimmybanegas93@gmail.com>, 2018
 # Martin Trigaux, 2018
 # 

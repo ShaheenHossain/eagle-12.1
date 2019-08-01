@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Fabien Pinckaers <fp@openerp.com>, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
 # Olivier ANDRE <frsw194@gmail.com>, 2018
 # 

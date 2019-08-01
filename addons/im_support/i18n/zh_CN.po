@@ -46,10 +46,10 @@ msgstr "IM 测试支持"
 #: code:addons/im_support/static/src/js/support_channel.js:187
 #, python-format
 msgid ""
-"None of our operators are available. <a href='https://www.eagle.com/help' "
+"None of our operators are available. <a href='https://www.eagle-erp.com/help' "
 "target='_blank'>Submit a ticket</a> to ask your question now."
 msgstr ""
-"无运营商可用。现在 <a href='https://www.eagle.com/help' "
+"无运营商可用。现在 <a href='https://www.eagle-erp.com/help' "
 "target='_blank'>提交一个服务单</a>来上报问题。"
 
 #. module: im_support

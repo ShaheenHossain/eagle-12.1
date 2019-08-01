@@ -6,7 +6,7 @@
 # e2f <projects@e2f.com>, 2018
 # Assma Buifruri <assma.buifruri@hotmail.com>, 2018
 # f5f0a0dac17dde787a1d812a6989680e, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
 # Martin Trigaux, 2019
 # 
 msgid ""

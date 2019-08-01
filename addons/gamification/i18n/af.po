@@ -3,7 +3,7 @@
 # * gamification
 # 
 # Translators:
-# Martin Trigaux <mat@eagle.com>, 2017
+# Martin Trigaux <mat@eagle-erp.com>, 2017
 # Andre de Kock <adekock11@gmail.com>, 2017
 msgid ""
 msgstr ""
@@ -247,7 +247,7 @@ msgid ""
 "                    </tr> \n"
 "                    <tr>\n"
 "                        <td align=\"center\">\n"
-"                            Powered by <a target=\"_blank\" href=\"https://www.eagle.com\">Eagle</a>.\n"
+"                            Powered by <a target=\"_blank\" href=\"https://www.eagle-erp.com\">Eagle</a>.\n"
 "                        </td>\n"
 "                    </tr>\n"
 "                </table>\n"

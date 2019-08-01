@@ -3,8 +3,8 @@
 # * website
 # 
 # Translators:
-# Ranjit Pillai <rpi@eagle.com>, 2018
-# Divya Pandya <dia@eagle.com>, 2018
+# Ranjit Pillai <rpi@eagle-erp.com>, 2018
+# Divya Pandya <dia@eagle-erp.com>, 2018
 # Dharmraj Jhala <dja@openerp.com>, 2018
 # Turkesh Patel <turkesh4friends@gmail.com>, 2018
 # Martin Trigaux, 2018
@@ -4801,7 +4801,7 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "www.eagle.com"
+msgid "www.eagle-erp.com"
 msgstr ""
 
 #. module: website

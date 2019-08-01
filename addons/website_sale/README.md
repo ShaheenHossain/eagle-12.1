@@ -3,7 +3,7 @@ Eagle e-Commerce
 
 ### Optimize sales with an awesome online store.
 
-Eagle is an <a href="https://www.eagle.com/page/e-commerce">Open Source eCommerce</a>
+Eagle ERP is an <a href="http://www.eagle-erp.com">A Total IT Solution</a>
 unlike anything you have ever seen before. Get an awesome catalog of products
 and great product description pages.
 

@@ -176,7 +176,7 @@ tour.register('rte', {
 }, {
     content: "insert a link url",
     trigger: 'input[name="url"]',
-    run: "text http://www.eagle.com",
+    run: "text http://www.eagle-erp.com",
 }, {
     content: "click on color style",
     trigger: '.o_link_dialog_color > .o_link_dialog_color_item.btn-success',

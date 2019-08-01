@@ -11,13 +11,13 @@
 # e2f_fr_t5 <e2f_fr_t5@outlook.com>, 2018
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2018
 # Natys <support@natys.fr>, 2018
-# Clo <clo@eagle.com>, 2018
+# Clo <clo@eagle-erp.com>, 2018
 # Nancy Bolognesi <nb@microcom.ca>, 2018
 # Jérôme Tanché <jerome.tanche@ouest-dsi.fr>, 2018
 # f5f0a0dac17dde787a1d812a6989680e, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
-# Nathan Grognet <ngr@eagle.com>, 2018
-# Marie Willemyns <mwi@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
+# Nathan Grognet <ngr@eagle-erp.com>, 2018
+# Marie Willemyns <mwi@eagle-erp.com>, 2018
 # Nathan Noël <nathan070@me.com>, 2018
 msgid ""
 msgstr ""

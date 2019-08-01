@@ -14,8 +14,8 @@
 # e2f_cn c5 <jarvisn@ecinnovations.com>, 2018
 # 老窦 北京 <2662059195@qq.com>, 2018
 # guohuadeng <guohuadeng@hotmail.com>, 2018
-# Lisa Zhang <lzh@eagle.com>, 2018
-# Felix Yuen <fyu@eagle.com>, 2018
+# Lisa Zhang <lzh@eagle-erp.com>, 2018
+# Felix Yuen <fyu@eagle-erp.com>, 2018
 # neter ji <jifuyi@qq.com>, 2018
 # ChinaMaker <liuct@chinamaker.net>, 2018
 # Youfu Sheng <wdmsyf@sina.com>, 2018
@@ -25,7 +25,7 @@
 # niulin lnc. <admin@niulin.net>, 2018
 # v2exerer <9010446@qq.com>, 2018
 # bf2549c5415a9287249cba2b8a5823c7, 2018
-# Shane Tsoi <sso@eagle.com>, 2018
+# Shane Tsoi <sso@eagle-erp.com>, 2018
 # keecome <7017511@qq.com>, 2018
 # snow wang <147156565@qq.com>, 2018
 # inspur qiuguodong <qiuguodong@inspur.com>, 2018
@@ -179,7 +179,7 @@ msgid ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Powered by <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=website\" style=\"color: #875A7B;\">Eagle</a>\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.eagle-erp.com?utm_source=db&amp;utm_medium=website\" style=\"color: #875A7B;\">Eagle</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -1534,7 +1534,7 @@ msgstr "只是服务"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.brand_promotion
-msgid "Open Source eCommerce"
+msgid "A Total IT Solution"
 msgstr "开源电商"
 
 #. module: website_sale

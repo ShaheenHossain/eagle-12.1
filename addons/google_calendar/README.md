@@ -2,7 +2,7 @@ Google Calendar
 ---------------
 
 Get your meetings, your leaves... Get your calendar anywhere and never
-forget an event, fully synchronized with the Eagle <a href="https://www.eagle.com/page/crm">Open Source CRM</a>.
+forget an event, fully synchronized with the Eagle <a href="https://www.eagle-erp.com/page/crm">Open Source CRM</a>.
 
 Keep an eye on your events
 --------------------------

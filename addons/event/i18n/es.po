@@ -4,8 +4,8 @@
 # 
 # Translators:
 # Diego de cos <diegodecos@hotmail.com>, 2018
-# Miquel Torner <miq@eagle.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Miquel Torner <miq@eagle-erp.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # ced903afe967c2a46d1036224972db9d, 2018
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2018
 # Christopher Ormaza <chris.ormaza@gmail.com>, 2018
@@ -2224,8 +2224,8 @@ msgstr "bebidas y almuerzo;"
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
-msgid "events@eagle.com"
-msgstr "events@eagle.com"
+msgid "events@eagle-erp.com"
+msgstr "events@eagle-erp.com"
 
 #. module: event
 #: code:addons/event/models/event.py:526

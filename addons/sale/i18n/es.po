@@ -10,12 +10,12 @@
 # Nicolás Broggi <rnbroggi@gmail.com>, 2018
 # Juan José Scarafía <scarafia.juanjose@gmail.com>, 2018
 # Luis M. Ontalba <luis.martinez@tecnativa.com>, 2018
-# reneagle <ren@eagle.com>, 2018
+# reneagle <ren@eagle-erp.com>, 2018
 # Mateo Tibaquirá Palacios <nestormateo@gmail.com>, 2018
 # Christopher Ormaza <chris.ormaza@gmail.com>, 2018
 # Manuel De los Reyes <manuel9410z@gmail.com>, 2018
-# Miquel Torner <miq@eagle.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Miquel Torner <miq@eagle-erp.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # 966ff43e6966712895a590e7320ca288, 2018
 # Cristian Salamea <ovnicraft@gmail.com>, 2018
 # e2f <projects@e2f.com>, 2018
@@ -27,7 +27,7 @@
 # Pilar Marín <pilar@eagleperu.pe>, 2018
 # Carlos Lopez <celm1990@hotmail.com>, 2018
 # Miguel Orueta <mo@landoo.es>, 2019
-# Sabina Batlle <sbb@eagle.com>, 2019
+# Sabina Batlle <sbb@eagle-erp.com>, 2019
 # Martin Trigaux, 2019
 # Gabriel Umana <gabriel.umana@delfixcr.com>, 2019
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2019

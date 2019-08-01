@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2018
-# Vivian Montana <vmo@eagle.com>, 2019
+# Vivian Montana <vmo@eagle-erp.com>, 2019
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2019
 # 
 msgid ""
@@ -43,11 +43,11 @@ msgstr ""
 #: code:addons/im_support/static/src/js/support_channel.js:187
 #, python-format
 msgid ""
-"None of our operators are available. <a href='https://www.eagle.com/help' "
+"None of our operators are available. <a href='https://www.eagle-erp.com/help' "
 "target='_blank'>Submit a ticket</a> to ask your question now."
 msgstr ""
 "Ninguno de nuestros operadores está disponible. <a "
-"href='https://www.eagle.com/help' target='_blank'>Envíe una consulta</a> para"
+"href='https://www.eagle-erp.com/help' target='_blank'>Envíe una consulta</a> para"
 " hacer su pregunta ahora."
 
 #. module: im_support

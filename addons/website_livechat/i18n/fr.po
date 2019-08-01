@@ -6,9 +6,9 @@
 # fr rev <e2ffr02@hotmail.com>, 2018
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2018
 # Fabri Yohann <psn@fabri.pw>, 2018
-# Lucas Deliege <lud@eagle.com>, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
-# Marie Willemyns <mwi@eagle.com>, 2018
+# Lucas Deliege <lud@eagle-erp.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
+# Marie Willemyns <mwi@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
 # Moka Tourisme <hello@mokatourisme.fr>, 2019
 # 

@@ -3,7 +3,7 @@
 # * hw_escpos
 #
 # Translators:
-# Ranjit Pillai <rpi@eagle.com>, 2015
+# Ranjit Pillai <rpi@eagle-erp.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Eagle 9.0\n"

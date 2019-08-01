@@ -12,8 +12,8 @@
 # Joray <13637815@qq.com>, 2018
 # ChinaMaker <liuct@chinamaker.net>, 2018
 # Fisher <fisher@kdomi.com>, 2018
-# JZH-Eagle <jzh@eagle.com>, 2018
-# Lisa Zhang <lzh@eagle.com>, 2018
+# JZH-Eagle <jzh@eagle-erp.com>, 2018
+# Lisa Zhang <lzh@eagle-erp.com>, 2018
 # bower Guo <124358678@qq.com>, 2018
 # roye w <159820@qq.com>, 2018
 # Youfu Sheng <wdmsyf@sina.com>, 2018
@@ -665,31 +665,31 @@ msgstr "了解 Eagle 如何轻松实现业务营销"
 msgid ""
 "Discover how you can integrate MRP, PLM, Quality and Maintenance in a single application to maximize the efficiency of your manufacturing operations.\n"
 "\n"
-"Read more about the features at: https://www.eagle.com/page/manufacturing-features\n"
+"Read more about the features at: https://www.eagle-erp.com/page/manufacturing-features\n"
 "\n"
-"Discover Eagle MRP: https://www.eagle.com/page/manufacturing"
+"Discover Eagle MRP: https://www.eagle-erp.com/page/manufacturing"
 msgstr ""
 "了解如何在单个应用程序上集成 MRP、 PLM、质量和维护，以便最大化制造业务的效率。\n"
 "\n"
-" 欲了解更多功能，请访问以下网址：https://www.eagle.com/page/manufacturing-features  \n"
+" 欲了解更多功能，请访问以下网址：https://www.eagle-erp.com/page/manufacturing-features  \n"
 "\n"
-" 了解 Eagle MRP：https://www.eagle.com/page/manufacturing"
+" 了解 Eagle MRP：https://www.eagle-erp.com/page/manufacturing"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_1
-msgid "Discover the CRM sales people love https://www.eagle.com/page/crm"
-msgstr "了解销售人员喜爱的客户关系管理 https://www.eagle.com/page/crm"
+msgid "Discover the CRM sales people love https://www.eagle-erp.com/page/crm"
+msgstr "了解销售人员喜爱的客户关系管理 https://www.eagle-erp.com/page/crm"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_2
 msgid ""
 "Discover the all-in-one business management software solution that fits any business size and use case.\n"
 "\n"
-"Learn more at https://eagle.com"
+"Learn more at https://eagle-erp.com"
 msgstr ""
 "了解适合任何业务规模和用例的一体化业务管理软件解决方案。\n"
 "\n"
-" 欲了解更多内容，请访问 https://eagle.com "
+" 欲了解更多内容，请访问 https://eagle-erp.com "
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__dislikes
@@ -1005,8 +1005,8 @@ msgstr "最新发布"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_8
-msgid "Learn more at https://www.eagle.com/page/sales"
-msgstr "欲了解更多内容，请访问 https://www.eagle.com/page/sales"
+msgid "Learn more at https://www.eagle-erp.com/page/sales"
+msgstr "欲了解更多内容，请访问 https://www.eagle-erp.com/page/sales"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__likes
@@ -1527,11 +1527,11 @@ msgstr "抱歉，没有符合你的搜索条件"
 msgid ""
 "Stop doing manual printing and scanning. Move to electronic signature with Eagle Sign!\n"
 "\n"
-"Discover more at https://www.eagle.com/page/sign"
+"Discover more at https://www.eagle-erp.com/page/sign"
 msgstr ""
 "告别手动打印和扫描。转投带有 Eagle 标志的电子签名！\n"
 "\n"
-" 欲了解更多内容，请访问 https://www.eagle.com/page/sign"
+" 欲了解更多内容，请访问 https://www.eagle-erp.com/page/sign"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_tag_form
@@ -1748,11 +1748,11 @@ msgstr "等待验证"
 msgid ""
 "Warehouse management software for the 21st century.\n"
 "\n"
-"Discover Eagle Inventory: https://www.eagle.com/page/warehouse"
+"Discover Eagle Inventory: https://www.eagle-erp.com/page/warehouse"
 msgstr ""
 "面向 21 世纪的仓库管理软件 \n"
 "\n"
-" 了解 Eagle 库存：https://www.eagle.com/page/warehouse"
+" 了解 Eagle 库存：https://www.eagle-erp.com/page/warehouse"
 
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_website

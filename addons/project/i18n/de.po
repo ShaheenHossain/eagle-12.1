@@ -11,7 +11,7 @@
 # Wolfgang Taferner, 2018
 # Thorsten Vocks <thorsten.vocks@openbig.org>, 2018
 # Katharina Moritz <kmo@e2f.com>, 2018
-# Johannes Croe <jcr@eagle.com>, 2018
+# Johannes Croe <jcr@eagle-erp.com>, 2018
 # Chris Egal <sodaswed@web.de>, 2019
 # 
 msgid ""
@@ -2876,10 +2876,10 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.eagle.com>"
+"<jobs@example.eagle-erp.com>"
 msgstr ""
 "Die Bezeichnung des E-Mail-Alias, z.B. 'jobs', falls Sie E-Mails an z.B. "
-"<jobs@example.eagle.com> erhalten möchten"
+"<jobs@example.eagle-erp.com> erhalten möchten"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_user_id

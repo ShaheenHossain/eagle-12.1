@@ -610,31 +610,31 @@ msgstr "瞭解 Eagle 如何輕鬆實現業務行銷"
 msgid ""
 "Discover how you can integrate MRP, PLM, Quality and Maintenance in a single application to maximize the efficiency of your manufacturing operations.\n"
 "\n"
-"Read more about the features at: https://www.eagle.com/page/manufacturing-features\n"
+"Read more about the features at: https://www.eagle-erp.com/page/manufacturing-features\n"
 "\n"
-"Discover Eagle MRP: https://www.eagle.com/page/manufacturing"
+"Discover Eagle MRP: https://www.eagle-erp.com/page/manufacturing"
 msgstr ""
 "瞭解如何在單個應用程序上集成 MRP、 PLM、品質和維護，以便最大化製造業務的效率。\n"
 "\n"
-" 欲瞭解更多功能，請訪問以下網址：https://www.eagle.com/page/manufacturing-features  \n"
+" 欲瞭解更多功能，請訪問以下網址：https://www.eagle-erp.com/page/manufacturing-features  \n"
 "\n"
-" 瞭解 Eagle MRP：https://www.eagle.com/page/manufacturing"
+" 瞭解 Eagle MRP：https://www.eagle-erp.com/page/manufacturing"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_1
-msgid "Discover the CRM sales people love https://www.eagle.com/page/crm"
-msgstr "瞭解銷售人員喜愛的客戶關係管理 https://www.eagle.com/page/crm"
+msgid "Discover the CRM sales people love https://www.eagle-erp.com/page/crm"
+msgstr "瞭解銷售人員喜愛的客戶關係管理 https://www.eagle-erp.com/page/crm"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_2
 msgid ""
 "Discover the all-in-one business management software solution that fits any business size and use case.\n"
 "\n"
-"Learn more at https://eagle.com"
+"Learn more at https://eagle-erp.com"
 msgstr ""
 "瞭解適合任何業務規模和用例的一體化業務管理軟體解決方案。\n"
 "\n"
-" 欲瞭解更多內容，請訪問 https://eagle.com "
+" 欲瞭解更多內容，請訪問 https://eagle-erp.com "
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__dislikes
@@ -950,8 +950,8 @@ msgstr "最新發佈"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_8
-msgid "Learn more at https://www.eagle.com/page/sales"
-msgstr "欲瞭解更多內容，請訪問 https://www.eagle.com/page/sales"
+msgid "Learn more at https://www.eagle-erp.com/page/sales"
+msgstr "欲瞭解更多內容，請訪問 https://www.eagle-erp.com/page/sales"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__likes
@@ -1472,11 +1472,11 @@ msgstr "抱歉，沒有符合您的搜尋條件"
 msgid ""
 "Stop doing manual printing and scanning. Move to electronic signature with Eagle Sign!\n"
 "\n"
-"Discover more at https://www.eagle.com/page/sign"
+"Discover more at https://www.eagle-erp.com/page/sign"
 msgstr ""
 "告別手動列印和掃瞄。轉投帶有 Eagle 標誌的電子簽名！\n"
 "\n"
-" 欲瞭解更多內容，請訪問 https://www.eagle.com/page/sign"
+" 欲瞭解更多內容，請訪問 https://www.eagle-erp.com/page/sign"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_tag_form
@@ -1693,11 +1693,11 @@ msgstr "等待驗證"
 msgid ""
 "Warehouse management software for the 21st century.\n"
 "\n"
-"Discover Eagle Inventory: https://www.eagle.com/page/warehouse"
+"Discover Eagle Inventory: https://www.eagle-erp.com/page/warehouse"
 msgstr ""
 "面向 21 世紀的倉庫管理軟體 \n"
 "\n"
-" 瞭解 Eagle 庫存：https://www.eagle.com/page/warehouse"
+" 瞭解 Eagle 庫存：https://www.eagle-erp.com/page/warehouse"
 
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_website

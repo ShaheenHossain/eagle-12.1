@@ -4,21 +4,21 @@
 # 
 # Translators:
 # Frédéric LIETART <stuff@tifred.fr>, 2018
-# Richard Mathot <rim@eagle.com>, 2018
+# Richard Mathot <rim@eagle-erp.com>, 2018
 # Shark McGnark <peculiarcheese@gmail.com>, 2018
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2018
 # Loic <loic.richard2@gmail.com>, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
-# Fred Gilson <fgi@eagle.com>, 2018
-# Laura Piraux <lap@eagle.com>, 2018
-# Nathan Grognet <ngr@eagle.com>, 2018
-# Marie Willemyns <mwi@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
+# Fred Gilson <fgi@eagle-erp.com>, 2018
+# Laura Piraux <lap@eagle-erp.com>, 2018
+# Nathan Grognet <ngr@eagle-erp.com>, 2018
+# Marie Willemyns <mwi@eagle-erp.com>, 2018
 # e2f <projects@e2f.com>, 2018
 # fr rev <e2ffr02@hotmail.com>, 2018
 # Martin Trigaux, 2018
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2018
-# Clo <clo@eagle.com>, 2018
-# Melanie Bernard <mbe@eagle.com>, 2018
+# Clo <clo@eagle-erp.com>, 2018
+# Melanie Bernard <mbe@eagle-erp.com>, 2018
 # Moka Tourisme <hello@mokatourisme.fr>, 2019
 # 
 msgid ""
@@ -653,32 +653,32 @@ msgstr "Découvrez comment faire connaître facilement votre activité avec Eagl
 msgid ""
 "Discover how you can integrate MRP, PLM, Quality and Maintenance in a single application to maximize the efficiency of your manufacturing operations.\n"
 "\n"
-"Read more about the features at: https://www.eagle.com/page/manufacturing-features\n"
+"Read more about the features at: https://www.eagle-erp.com/page/manufacturing-features\n"
 "\n"
-"Discover Eagle MRP: https://www.eagle.com/page/manufacturing"
+"Discover Eagle MRP: https://www.eagle-erp.com/page/manufacturing"
 msgstr ""
 "Découvrez comment intégrer MRP, PLM, qualité et maintenance dans une seule application pour optimiser l'efficacité de vos opérations de fabrication.\n"
 "\n"
-"Pour en savoir plus sur les fonctionnalités, consultez https://www.eagle.com/page/manufacturing-features\n"
+"Pour en savoir plus sur les fonctionnalités, consultez https://www.eagle-erp.com/page/manufacturing-features\n"
 "\n"
-"Découvrez Eagle MRP : https://www.eagle.com/page/manufacturing"
+"Découvrez Eagle MRP : https://www.eagle-erp.com/page/manufacturing"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_1
-msgid "Discover the CRM sales people love https://www.eagle.com/page/crm"
+msgid "Discover the CRM sales people love https://www.eagle-erp.com/page/crm"
 msgstr ""
-"Découvrez le CRM que les commerciaux adorent : https://www.eagle.com/page/crm"
+"Découvrez le CRM que les commerciaux adorent : https://www.eagle-erp.com/page/crm"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_2
 msgid ""
 "Discover the all-in-one business management software solution that fits any business size and use case.\n"
 "\n"
-"Learn more at https://eagle.com"
+"Learn more at https://eagle-erp.com"
 msgstr ""
 "Découvrez la solution logicielle de gestion d'entreprise tout-en-un qui s'adapte à toutes les entreprises et situations.\n"
 "\n"
-"En savoir plus sur https://eagle.com"
+"En savoir plus sur https://eagle-erp.com"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__dislikes
@@ -997,8 +997,8 @@ msgstr "Dernières publications"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_8
-msgid "Learn more at https://www.eagle.com/page/sales"
-msgstr "En savoir plus sur https://www.eagle.com/page/sales"
+msgid "Learn more at https://www.eagle-erp.com/page/sales"
+msgstr "En savoir plus sur https://www.eagle-erp.com/page/sales"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__likes
@@ -1525,11 +1525,11 @@ msgstr "Désolée, mais rien ne correspond à vos critères de recherche"
 msgid ""
 "Stop doing manual printing and scanning. Move to electronic signature with Eagle Sign!\n"
 "\n"
-"Discover more at https://www.eagle.com/page/sign"
+"Discover more at https://www.eagle-erp.com/page/sign"
 msgstr ""
 "Plus besoin d'imprimer les documents, les signer puis les numériser. Passez à la signature électronique avec Eagle Signature ! \n"
 "\n"
-"En savoir plus sur https://www.eagle.com/page/sign"
+"En savoir plus sur https://www.eagle-erp.com/page/sign"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_tag_form
@@ -1755,11 +1755,11 @@ msgstr "En attente de validation"
 msgid ""
 "Warehouse management software for the 21st century.\n"
 "\n"
-"Discover Eagle Inventory: https://www.eagle.com/page/warehouse"
+"Discover Eagle Inventory: https://www.eagle-erp.com/page/warehouse"
 msgstr ""
 "Logiciel de gestion d'entrepôt pour le XXIe siècle.\n"
 "\n"
-"Découvrez Eagle Inventaire : https://www.eagle.com/page/warehouse"
+"Découvrez Eagle Inventaire : https://www.eagle-erp.com/page/warehouse"
 
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_website

@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Eric Geens <ericgeens@yahoo.com>, 2018
-# Wynand Tastenhoye <wta@eagle.com>, 2018
+# Wynand Tastenhoye <wta@eagle-erp.com>, 2018
 # Gunther Clauwaert <gclauwae@hotmail.com>, 2018
 # Thomas Pot <thomas@open2bizz.nl>, 2018
 # Cas Vissers <casvissers@brahoo.nl>, 2018
@@ -5312,7 +5312,7 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.eagle.com>"
+"<jobs@example.eagle-erp.com>"
 msgstr ""
 "De naam van de e-mail alias, bijvoorbeeld: 'vacature' indien u alle e-mails "
 "van vacature@uwbedrijf.nl wilt afvangen."
@@ -5792,11 +5792,11 @@ msgstr "Gebruikers in dit kanaal: %s %s en u."
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.eagle.com)."
+"email server (@mycompany.eagle-erp.com)."
 msgstr ""
 "Het gebruik van uw eigen e-mailserver is vereist voor het verzenden / "
 "ontvangen van e-mails in Community- en Enterprise-versies. Online gebruikers"
-" profiteren van een kant-en-klare e-mailserver (@ mijnbedrijf.eagle.com)."
+" profiteren van een kant-en-klare e-mailserver (@ mijnbedrijf.eagle-erp.com)."
 
 #. module: mail
 #. openerp-web
@@ -6306,8 +6306,8 @@ msgstr "maanden"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "mycompany.eagle.com"
-msgstr "mijnbedrijf.eagle.com"
+msgid "mycompany.eagle-erp.com"
+msgstr "mijnbedrijf.eagle-erp.com"
 
 #. module: mail
 #. openerp-web

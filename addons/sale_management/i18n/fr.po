@@ -5,17 +5,17 @@
 # Translators:
 # bb76cd9ac0cb7e20167a14728edb858b, 2018
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2018
-# Richard Mathot <rim@eagle.com>, 2018
+# Richard Mathot <rim@eagle-erp.com>, 2018
 # Fabri Yohann <psn@fabri.pw>, 2018
 # Loic <loic.richard2@gmail.com>, 2018
-# Clo <clo@eagle.com>, 2018
-# Melanie Bernard <mbe@eagle.com>, 2018
+# Clo <clo@eagle-erp.com>, 2018
+# Melanie Bernard <mbe@eagle-erp.com>, 2018
 # Xavier Belmere <Info@cartmeleon.com>, 2018
 # Frédéric Fleurial Monfils <ffm@cetic.be>, 2018
 # Lucas Deliege <lud@openerp.com>, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
-# Fred Gilson <fgi@eagle.com>, 2018
-# Marie Willemyns <mwi@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
+# Fred Gilson <fgi@eagle-erp.com>, 2018
+# Marie Willemyns <mwi@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
 # Sébastien BÜHL <buhlsebastien@gmail.com>, 2019
 # 

@@ -13,7 +13,7 @@
 # Alexander Klockhaus <a.klockhaus@gmail.com>, 2018
 # Bülent Tiknas <btiknas@googlemail.com>, 2018
 # Jan Meyer, 2018
-# Johannes Croe <jcr@eagle.com>, 2018
+# Johannes Croe <jcr@eagle-erp.com>, 2018
 # Chris Egal <sodaswed@web.de>, 2019
 # 
 msgid ""

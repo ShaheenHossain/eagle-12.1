@@ -3,7 +3,7 @@
 # * website_sale_management
 # 
 # Translators:
-# Eloïse Stilmant <est@eagle.com>, 2017
+# Eloïse Stilmant <est@eagle-erp.com>, 2017
 # e2f <projects@e2f.com>, 2018
 msgid ""
 msgstr ""

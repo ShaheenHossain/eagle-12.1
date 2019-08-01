@@ -2,7 +2,7 @@ Eagle Manufacturing Resource Planning
 ------------------------------------
 
 Manage Bill of Materials, plan manufacturing orders, track work orders with the
-Eagle <a href="https://www.eagle.com/page/manufacturing">Open Source MRP</a> app.
+Eagle <a href="https://www.eagle-erp.com/page/manufacturing">Open Source MRP</a> app.
 
 Get all your assembly or manufacturing operations managed by Eagle. Schedule
 manufacturing orders and work orders automatically. Review the proposed

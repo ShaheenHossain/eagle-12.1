@@ -4,8 +4,8 @@
 # 
 # Translators:
 # Cristóbal Martí Oliver <info@moblesmarti.com>, 2018
-# Miquel Torner <miq@eagle.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Miquel Torner <miq@eagle-erp.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # Martin Trigaux, 2019
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2019
 # Rick Hunter <rick_hunter_ec@yahoo.com>, 2019

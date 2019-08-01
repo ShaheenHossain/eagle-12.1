@@ -6,8 +6,8 @@
 # Martin Trigaux, 2018
 # Luigi Di Naro <gigidn@gmail.com>, 2018
 # Paolo Valier, 2018
-# efraimbiffi <eab@eagle.com>, 2018
-# Petra <bop@eagle.com>, 2018
+# efraimbiffi <eab@eagle-erp.com>, 2018
+# Petra <bop@eagle-erp.com>, 2018
 # Sergio Zanchetta <primes2h@gmail.com>, 2018
 # 
 msgid ""

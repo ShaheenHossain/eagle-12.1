@@ -3,7 +3,7 @@
 # * stock
 # 
 # Translators:
-# Cécile Collart <cco@eagle.com>, 2018
+# Cécile Collart <cco@eagle-erp.com>, 2018
 # Manuela Feliciani <mfeliciani@alice.it>, 2018
 # Alessandro Forte <a.forte1010@gmail.com>, 2018
 # maiolif <maiolif@mgftools.com>, 2018
@@ -18,14 +18,14 @@
 # Alberto Carollo <baba75@gmail.com>, 2018
 # Cesare Cugnasco <cesare.cugnasco@gmail.com>, 2018
 # Massimo Bianchi <bianchi.massimo@gmail.com>, 2018
-# mbo_eagle <mbo@eagle.com>, 2018
+# mbo_eagle <mbo@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
 # David Minneci <david@numeko.it>, 2018
 # Paolo Valier, 2018
 # nle_eagle, 2018
 # Davide Corio <enlightx@gmail.com>, 2019
 # Mario Riva <mario.riva@gmail.com>, 2019
-# Léonie Bouchat <lbo@eagle.com>, 2019
+# Léonie Bouchat <lbo@eagle-erp.com>, 2019
 # Lorenzo Battistini <lorenzo.battistini@agilebg.com>, 2019
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # 

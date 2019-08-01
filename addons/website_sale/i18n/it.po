@@ -6,20 +6,20 @@
 # Francesco Garganese <francesco.garganese@aeromnia.aero>, 2018
 # Sebastiano Pistore <SebastianoPistore.info@protonmail.ch>, 2018
 # Massimo Bianchi <bianchi.massimo@gmail.com>, 2018
-# pfaeagle <pfa@eagle.com>, 2018
+# pfaeagle <pfa@eagle-erp.com>, 2018
 # Luigi Di Naro <gigidn@gmail.com>, 2018
 # Simone Bernini <simone@aperturelabs.it>, 2018
 # Matteo Boscolo <matteo.boscolo.76@gmail.com>, 2018
 # Giacomo Grasso <giacomo.grasso.82@gmail.com>, 2018
 # ginfriz <ginfriz84@hotmail.it>, 2018
 # Alberto Carollo <baba75@gmail.com>, 2018
-# efraimbiffi <eab@eagle.com>, 2018
+# efraimbiffi <eab@eagle-erp.com>, 2018
 # Paolo Caruccio <paolo.caruccio66@gmail.com>, 2018
 # David Minneci <david@numeko.it>, 2018
 # Martin Trigaux, 2018
 # Giovanni Perteghella <giovanni@perteghella.org>, 2018
 # Paolo Valier, 2018
-# Léonie Bouchat <lbo@eagle.com>, 2019
+# Léonie Bouchat <lbo@eagle-erp.com>, 2019
 # Lorenzo Battistini <lorenzo.battistini@agilebg.com>, 2019
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # 
@@ -169,7 +169,7 @@ msgid ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Powered by <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=website\" style=\"color: #875A7B;\">Eagle</a>\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.eagle-erp.com?utm_source=db&amp;utm_medium=website\" style=\"color: #875A7B;\">Eagle</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -1585,8 +1585,8 @@ msgstr "Solo servizi"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.brand_promotion
-msgid "Open Source eCommerce"
-msgstr "Open Source eCommerce"
+msgid "A Total IT Solution"
+msgstr "A Total IT Solution"
 
 #. module: website_sale
 #. openerp-web

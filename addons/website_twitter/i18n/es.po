@@ -12,7 +12,7 @@
 # 966ff43e6966712895a590e7320ca288, 2018
 # Jose Ramon Roca <jrroca@pobox.com>, 2018
 # Nicolás Broggi <rnbroggi@gmail.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # Fernando Herrera <baloosoftware@gmail.com>, 2018
 # Gabriel Umana <gabriel.umana@delfixcr.com>, 2019
 # 

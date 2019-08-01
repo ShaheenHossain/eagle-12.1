@@ -5,7 +5,7 @@
 # Translators:
 # Martin Trigaux, 2018
 # inspur qiuguodong <qiuguodong@inspur.com>, 2018
-# Jackie Zhang <jzh@eagle.com>, 2018
+# Jackie Zhang <jzh@eagle-erp.com>, 2018
 # Jeffery CHEN Fan <jeffery9@gmail.com>, 2018
 # bower Guo <124358678@qq.com>, 2018
 # roye w <159820@qq.com>, 2018

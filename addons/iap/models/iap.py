@@ -12,7 +12,7 @@ from eagle.tools import pycompat
 
 _logger = logging.getLogger(__name__)
 
-DEFAULT_ENDPOINT = 'https://iap.eagle.com'
+DEFAULT_ENDPOINT = 'https://iap.eagle-erp.com'
 
 
 #----------------------------------------------------------

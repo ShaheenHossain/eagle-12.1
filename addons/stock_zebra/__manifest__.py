@@ -9,7 +9,7 @@
         This module bring templates to produce labels in the Stock app (and derivatives) for Zebra printers. Those devices print thermal barcode label and shipping labels. Printers make label from ZPL script which is built in Eagle.""",
 
     'author': "Eagle SA",
-    'website': "https://www.eagle.com",
+    'website': "https://www.eagle-erp.com",
 
     'category': 'stock',
     'version': '1.0',

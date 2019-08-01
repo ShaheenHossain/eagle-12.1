@@ -103,10 +103,10 @@ msgstr "죄송하지만 이해가 안 돼요. 죄송합니다!"
 #, python-format
 msgid ""
 "I'm just a bot... :( You can check <a "
-"href=\"https://www.eagle.com/page/docs\">our documentation</a>) for more "
+"href=\"https://www.eagle-erp.com/page/docs\">our documentation</a>) for more "
 "information!"
 msgstr ""
-"난 그냥 봇일 뿐이에요 : 자세한 내용은 <a href=\"https://www.eagle.com/page/docs\">당사의 "
+"난 그냥 봇일 뿐이에요 : 자세한 내용은 <a href=\"https://www.eagle-erp.com/page/docs\">당사의 "
 "문서</a>를 확인하세요!"
 
 #. module: mail_bot

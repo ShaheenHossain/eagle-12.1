@@ -2684,8 +2684,8 @@ msgstr "Ką manote apie nustatymų vedlius?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_1
-msgid "What do you think about the documentation available on doc.eagle.com?"
-msgstr "Ką manote apie dokumentaciją, pasiekiamą doc.eagle.com?"
+msgid "What do you think about the documentation available on doc.eagle-erp.com?"
+msgstr "Ką manote apie dokumentaciją, pasiekiamą doc.eagle-erp.com?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_5

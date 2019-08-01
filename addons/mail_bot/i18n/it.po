@@ -7,7 +7,7 @@
 # Martin Trigaux, 2018
 # Pietro Della Notte <pdellanotte@gmail.com>, 2018
 # Paolo Valier, 2018
-# Léonie Bouchat <lbo@eagle.com>, 2019
+# Léonie Bouchat <lbo@eagle-erp.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-02 10:05+0000\n"
 "PO-Revision-Date: 2018-08-24 09:20+0000\n"
-"Last-Translator: Léonie Bouchat <lbo@eagle.com>, 2019\n"
+"Last-Translator: Léonie Bouchat <lbo@eagle-erp.com>, 2019\n"
 "Language-Team: Italian (https://www.transifex.com/eagle/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -108,11 +108,11 @@ msgstr "Temo di non capire. Mi dispiace!"
 #, python-format
 msgid ""
 "I'm just a bot... :( You can check <a "
-"href=\"https://www.eagle.com/page/docs\">our documentation</a>) for more "
+"href=\"https://www.eagle-erp.com/page/docs\">our documentation</a>) for more "
 "information!"
 msgstr ""
 "Sono solo un bot... :( Puoi leggere <a "
-"href=\"https://www.eagle.com/page/docs\">la nostra documentazione</a> per "
+"href=\"https://www.eagle-erp.com/page/docs\">la nostra documentazione</a> per "
 "ulteriori informazioni!"
 
 #. module: mail_bot

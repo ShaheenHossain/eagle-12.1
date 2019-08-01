@@ -4,11 +4,11 @@
 # 
 # Translators:
 # 老窦 北京 <2662059195@qq.com>, 2018
-# Shane Tsoi <sso@eagle.com>, 2018
+# Shane Tsoi <sso@eagle-erp.com>, 2018
 # bower Guo <124358678@qq.com>, 2018
 # roye w <159820@qq.com>, 2018
 # ChinaMaker <liuct@chinamaker.net>, 2018
-# Lisa Zhang <lzh@eagle.com>, 2018
+# Lisa Zhang <lzh@eagle-erp.com>, 2018
 # v2exerer <9010446@qq.com>, 2018
 # xu xiaohu <xu.xiaohu@gmail.com>, 2018
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2018

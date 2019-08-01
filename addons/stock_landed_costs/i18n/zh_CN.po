@@ -11,7 +11,7 @@
 # bf2549c5415a9287249cba2b8a5823c7, 2018
 # ChinaMaker <liuct@chinamaker.net>, 2018
 # v2exerer <9010446@qq.com>, 2018
-# JZH-Eagle <jzh@eagle.com>, 2018
+# JZH-Eagle <jzh@eagle-erp.com>, 2018
 # Jeffery CHEN Fan <jeffery9@gmail.com>, 2018
 # bower Guo <124358678@qq.com>, 2018
 # roye w <159820@qq.com>, 2018

@@ -5,8 +5,8 @@
 # Translators:
 # ES T2 <e2f48ds4f2ds1@outlook.com>, 2018
 # Cristóbal Martí Oliver <info@moblesmarti.com>, 2018
-# Miquel Torner <miq@eagle.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Miquel Torner <miq@eagle-erp.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # José Matias Zuazo <jose.zuazo@tpsistemas.com.ar>, 2018
 # Nicolás Broggi <rnbroggi@gmail.com>, 2018
 # Gabriel Umana <gabriel.umana@delfixcr.com>, 2019

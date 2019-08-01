@@ -10,15 +10,15 @@
 # Florian Hatat, 2018
 # Simon CARRIER <carrier.sim@gmail.com>, 2018
 # Xavier Symons <xsy@openerp.com>, 2018
-# Lucas Deliege <lud@eagle.com>, 2018
-# Melanie Bernard <mbe@eagle.com>, 2018
+# Lucas Deliege <lud@eagle-erp.com>, 2018
+# Melanie Bernard <mbe@eagle-erp.com>, 2018
 # f5f0a0dac17dde787a1d812a6989680e, 2018
-# Léonie Bouchat <lbo@eagle.com>, 2018
-# Laura Piraux <lap@eagle.com>, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
-# Nathan Grognet <ngr@eagle.com>, 2018
-# Thomas Dobbelsteyn <tdo@eagle.com>, 2018
-# Marie Willemyns <mwi@eagle.com>, 2018
+# Léonie Bouchat <lbo@eagle-erp.com>, 2018
+# Laura Piraux <lap@eagle-erp.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
+# Nathan Grognet <ngr@eagle-erp.com>, 2018
+# Thomas Dobbelsteyn <tdo@eagle-erp.com>, 2018
+# Marie Willemyns <mwi@eagle-erp.com>, 2018
 # Xavier Brochard <xavier@alternatif.org>, 2018
 # Martin Trigaux, 2019
 # Rémi CAZENAVE <remi@le-filament.com>, 2019

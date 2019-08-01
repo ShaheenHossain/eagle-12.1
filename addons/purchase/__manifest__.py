@@ -8,7 +8,7 @@
     'sequence': 60,
     'summary': 'Purchase orders, tenders and agreements',
     'description': "",
-    'website': 'https://www.eagle.com/page/purchase',
+    'website': 'https://www.eagle-erp.com/page/purchase',
     'depends': ['account'],
     'data': [
         'security/purchase_security.xml',

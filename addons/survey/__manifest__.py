@@ -15,7 +15,7 @@ answers of question and according to that survey is done. Partners are also
 sent mails with personal token for the invitation of the survey.
     """,
     'summary': 'Create surveys and analyze answers',
-    'website': 'https://www.eagle.com/page/survey',
+    'website': 'https://www.eagle-erp.com/page/survey',
     'depends': ['http_routing', 'mail'],
     'data': [
         'security/survey_security.xml',

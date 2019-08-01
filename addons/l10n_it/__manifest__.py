@@ -17,7 +17,7 @@ Piano dei conti italiano di un'impresa generica.
 Italian accounting chart and localization.
     """,
     'category': 'Localization',
-    'website': 'http://www.eagle.com/',
+    'website': 'http://www.eagle-erp.com/',
     'data': [
         'data/l10n_it_chart_data.xml',
         'data/account.account.template.csv',

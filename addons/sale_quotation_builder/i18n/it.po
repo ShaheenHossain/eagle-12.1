@@ -10,7 +10,7 @@
 # Paolo Caruccio <paolo.caruccio66@gmail.com>, 2018
 # Martin Trigaux, 2018
 # Massimo Bianchi <bianchi.massimo@gmail.com>, 2018
-# Léonie Bouchat <lbo@eagle.com>, 2019
+# Léonie Bouchat <lbo@eagle-erp.com>, 2019
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # 
 msgid ""

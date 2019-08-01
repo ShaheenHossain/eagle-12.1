@@ -25,15 +25,15 @@
 # David Vidal <david.vidal@trespinos.es>, 2018
 # Nicolás Broggi <rnbroggi@gmail.com>, 2018
 # Lina Maria Avendaño Carvajal <lina8823@gmail.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
-# Mariela Moreno <mam@eagle.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
+# Mariela Moreno <mam@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
 # Miguel Orueta <mo@landoo.es>, 2018
 # Ivan Coro <ivan@iventiva.com>, 2018
-# Miquel Torner <miq@eagle.com>, 2018
-# Nans Lefebvre <len@eagle.com>, 2018
+# Miquel Torner <miq@eagle-erp.com>, 2018
+# Nans Lefebvre <len@eagle-erp.com>, 2018
 # Margarita Gutierrez <ana.gutierrez@jarsa.com.mx>, 2019
-# Jon Perez <jop@eagle.com>, 2019
+# Jon Perez <jop@eagle-erp.com>, 2019
 # Gabriel Umana <gabriel.umana@delfixcr.com>, 2019
 # Rick Hunter <rick.hunter.ec@gmail.com>, 2019
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2019

@@ -7,7 +7,7 @@
     'category': 'Discuss',
     'summary': 'Add EagleBot in discussions',
     'description': "",
-    'website': 'https://www.eagle.com/page/discuss',
+    'website': 'https://www.eagle-erp.com/page/discuss',
     'depends': ['mail'],
     'installable': True,
     'application': False,

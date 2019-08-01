@@ -3,7 +3,7 @@
 # * account_test
 # 
 # Translators:
-# Martin Trigaux <mat@eagle.com>, 2017
+# Martin Trigaux <mat@eagle-erp.com>, 2017
 # Andre de Kock <adekock11@gmail.com>, 2017
 msgid ""
 msgstr ""

@@ -13,7 +13,7 @@
 # e2f_cn c5 <jarvisn@ecinnovations.com>, 2018
 # Bo Cao, 2018
 # bf2549c5415a9287249cba2b8a5823c7, 2018
-# Lisa Zhang <lzh@eagle.com>, 2018
+# Lisa Zhang <lzh@eagle-erp.com>, 2018
 # Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
 # liAnGjiA <liangjia@qq.com>, 2019
 # 

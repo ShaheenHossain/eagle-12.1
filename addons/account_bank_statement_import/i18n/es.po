@@ -7,8 +7,8 @@
 # Jesús Alan Ramos Rodríguez <alan.ramos@jarsa.com.mx>, 2018
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2019
 # Gabriel Umana <gabriel.umana@delfixcr.com>, 2019
-# Jon Perez <jop@eagle.com>, 2019
-# Jesse Garza <jga@eagle.com>, 2019
+# Jon Perez <jop@eagle-erp.com>, 2019
+# Jesse Garza <jga@eagle-erp.com>, 2019
 # Angel Moya - PESOL <angel.moya@pesol.es>, 2019
 # Rick Hunter <rick_hunter_ec@yahoo.com>, 2019
 # 

@@ -713,7 +713,7 @@ QUnit.test('chatter: post, receive and star messages', function (assert) {
             }
             if (args.method === 'get_mention_suggestions') {
                 getSuggestionsDef.resolve();
-                return $.when([{email: "test@eagle.com", id: 1, name: "Test User"}]);
+                return $.when([{email: "test@eagle-erp.com", id: 1, name: "Test User"}]);
             }
             if (args.method === 'message_post') {
                 var lastMessageData = _.max(this.data['mail.message'].records, function (messageData) {
@@ -830,7 +830,7 @@ QUnit.test('chatter: post, receive and star messages', function (assert) {
                 "suggestion's id should be correct");
             assert.strictEqual(form.$('.o_mention_proposition .o_mention_name').text(), 'Test User',
                 "suggestion should be displayed correctly");
-            assert.strictEqual(form.$('.o_mention_proposition .o_mention_info').text(), '(test@eagle.com)',
+            assert.strictEqual(form.$('.o_mention_proposition .o_mention_info').text(), '(test@eagle-erp.com)',
                 "suggestion should be displayed correctly");
 
             //cleanup
@@ -1249,7 +1249,7 @@ QUnit.test('chatter: discard changes on message post with post_refresh "recipien
             }
             if (args.method === 'get_mention_suggestions') {
                 getSuggestionsDef.resolve();
-                return $.when([{email: "me@eagle.com", id: 42, name: "Me"}]);
+                return $.when([{email: "me@eagle-erp.com", id: 42, name: "Me"}]);
             }
             if (args.method === 'message_format') {
                 var requested_msgs = _.filter(messages, function (msg) {

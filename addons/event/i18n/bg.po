@@ -3,7 +3,7 @@
 # * event
 # 
 # Translators:
-# Martin Trigaux <mat@eagle.com>, 2017
+# Martin Trigaux <mat@eagle-erp.com>, 2017
 # B Dochev <dochevb@gmail.com>, 2017
 msgid ""
 msgstr ""
@@ -1964,7 +1964,7 @@ msgstr ""
 #. module: event
 #: model_terms:event.event,description:event.event_2
 #: model_terms:event.event,description:event.event_3
-msgid "events@eagle.com"
+msgid "events@eagle-erp.com"
 msgstr ""
 
 #. module: event
@@ -1981,7 +1981,7 @@ msgstr ""
 
 #. module: event
 #: model_terms:event.event,description:event.event_3
-msgid "https://www.eagle.com/services/technical-training"
+msgid "https://www.eagle-erp.com/services/technical-training"
 msgstr ""
 
 #. module: event

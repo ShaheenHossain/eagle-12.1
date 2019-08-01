@@ -7,7 +7,7 @@
 # liAnGjiA <liangjia@qq.com>, 2018
 # Jerry Pan <panjianyu@inspur.com>, 2018
 # Maie <m@maie.name>, 2018
-# Shane Tsoi <sso@eagle.com>, 2018
+# Shane Tsoi <sso@eagle-erp.com>, 2018
 # Skyy <raozhangshun@163.com>, 2018
 # Jeffery CHEN Fan <jeffery9@gmail.com>, 2018
 # snow wang <147156565@qq.com>, 2018

@@ -3,8 +3,8 @@
 # * hr_expense
 # 
 # Translators:
-# Miquel Torner <miq@eagle.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Miquel Torner <miq@eagle-erp.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # Luis M. Ontalba <luis.martinez@tecnativa.com>, 2018
 # Luis González <lgonzalez@vauxoo.com>, 2018
 # Martin Trigaux, 2018

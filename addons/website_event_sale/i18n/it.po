@@ -6,7 +6,7 @@
 # Martin Trigaux, 2018
 # Giovanni Perteghella <giovanni@perteghella.org>, 2018
 # Paolo Valier, 2018
-# Léonie Bouchat <lbo@eagle.com>, 2018
+# Léonie Bouchat <lbo@eagle-erp.com>, 2018
 # Paolo Caruccio <paolo.caruccio66@gmail.com>, 2018
 # Sergio Zanchetta <primes2h@gmail.com>, 2019
 # 

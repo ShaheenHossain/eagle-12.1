@@ -2,7 +2,7 @@ Eagle Supply Chain
 -----------------
 
 Automate requisition-to-pay, control invoicing with the Eagle
-<a href="https://www.eagle.com/page/purchase">Open Source Supply Chain</a>.
+<a href="https://www.eagle-erp.com/page/purchase">Open Source Supply Chain</a>.
 
 Automate procurement propositions, launch request for quotations, track
 purchase orders, manage vendors' information, control products reception and

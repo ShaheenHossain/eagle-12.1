@@ -3,7 +3,7 @@
 # * hr_expense
 # 
 # Translators:
-# Johannes Croe <jcr@eagle.com>, 2018
+# Johannes Croe <jcr@eagle-erp.com>, 2018
 # Laurent Meuwly <laurent.meuwly@camptocamp.com>, 2018
 # Martin Trigaux, 2018
 # Wolfgang Taferner, 2019

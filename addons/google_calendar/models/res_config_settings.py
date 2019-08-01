@@ -16,6 +16,6 @@ class ResConfigSettings(models.TransientModel):
         res = super(ResConfigSettings, self).get_values()
         get_param = self.env['ir.config_parameter'].sudo().get_param
         res.update(
-            server_uri="%s/google_account/authentication" % get_param('web.base.url', default="http://yourcompany.eagle.com"),
+            server_uri="%s/google_account/authentication" % get_param('web.base.url', default="http://yourcompany.eagle-erp.com"),
         )
         return res

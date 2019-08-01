@@ -106,11 +106,11 @@ msgstr "Ik begrijp het helaas niet. Sorry!"
 #, python-format
 msgid ""
 "I'm just a bot... :( You can check <a "
-"href=\"https://www.eagle.com/page/docs\">our documentation</a>) for more "
+"href=\"https://www.eagle-erp.com/page/docs\">our documentation</a>) for more "
 "information!"
 msgstr ""
 "Ik ben maar een bot ... :( Je kunt <a "
-"href=\"https://www.eagle.com/page/docs\">onze documentatie</a> raadplegen) "
+"href=\"https://www.eagle-erp.com/page/docs\">onze documentatie</a> raadplegen) "
 "voor meer informatie!"
 
 #. module: mail_bot

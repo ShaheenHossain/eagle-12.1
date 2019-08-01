@@ -6,9 +6,9 @@
 # e2f <projects@e2f.com>, 2018
 # Martin Trigaux, 2018
 # Fabien Pinckaers <fp@openerp.com>, 2018
-# Richard Mathot <rim@eagle.com>, 2018
+# Richard Mathot <rim@eagle-erp.com>, 2018
 # Xavier Belmere <Info@cartmeleon.com>, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
 # William Olhasque <william.olhasque@scopea.fr>, 2019
 # 
 msgid ""

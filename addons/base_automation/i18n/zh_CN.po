@@ -3,7 +3,7 @@
 # * base_automation
 # 
 # Translators:
-# Emily JIA <eji@eagle.com>, 2018
+# Emily JIA <eji@eagle-erp.com>, 2018
 # snow wang <147156565@qq.com>, 2018
 # inspur qiuguodong <qiuguodong@inspur.com>, 2018
 # Martin Trigaux, 2019

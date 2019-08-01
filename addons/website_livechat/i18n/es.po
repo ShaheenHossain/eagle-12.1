@@ -6,7 +6,7 @@
 # e2f <projects@e2f.com>, 2018
 # David Perez <david@closemarketing.es>, 2018
 # Galileo Sanchez <galileopy@gmail.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
 # Pedro M. Baeza <pedro.baeza@gmail.com>, 2019
 # Rick Hunter <rick_hunter_ec@yahoo.com>, 2019

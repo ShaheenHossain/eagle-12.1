@@ -29,11 +29,11 @@
 # keecome <7017511@qq.com>, 2018
 # v2exerer <9010446@qq.com>, 2018
 # 苏州远鼎 <tiexinliu@126.com>, 2018
-# Shane Tsoi <sso@eagle.com>, 2018
+# Shane Tsoi <sso@eagle-erp.com>, 2018
 # snow wang <147156565@qq.com>, 2018
 # inspur qiuguodong <qiuguodong@inspur.com>, 2018
 # Martin Trigaux, 2018
-# Lisa Zhang <lzh@eagle.com>, 2019
+# Lisa Zhang <lzh@eagle-erp.com>, 2019
 # liAnGjiA <liangjia@qq.com>, 2019
 # Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
 # 
@@ -4926,8 +4926,8 @@ msgstr "使用"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "www.eagle.com"
-msgstr "www.eagle.com"
+msgid "www.eagle-erp.com"
+msgstr "www.eagle-erp.com"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.500

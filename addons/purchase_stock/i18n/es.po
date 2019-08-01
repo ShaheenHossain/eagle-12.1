@@ -5,9 +5,9 @@
 # Translators:
 # Carlos Lopez <celm1990@hotmail.com>, 2018
 # Martin Trigaux, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
-# Miquel Torner <miq@eagle.com>, 2018
-# Mariela Moreno <mam@eagle.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
+# Miquel Torner <miq@eagle-erp.com>, 2018
+# Mariela Moreno <mam@eagle-erp.com>, 2018
 # Rick Hunter <rick.hunter.ec@gmail.com>, 2018
 # Gabriel Umana <gabriel.umana@delfixcr.com>, 2019
 # 

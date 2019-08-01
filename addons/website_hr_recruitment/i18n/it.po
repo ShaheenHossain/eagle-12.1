@@ -9,7 +9,7 @@
 # Paolo Valier, 2018
 # Pietro Della Notte <pdellanotte@gmail.com>, 2018
 # mymage <stefano.consolaro@mymage.it>, 2019
-# Léonie Bouchat <lbo@eagle.com>, 2019
+# Léonie Bouchat <lbo@eagle-erp.com>, 2019
 # Davide Corio <enlightx@gmail.com>, 2019
 # 
 msgid ""

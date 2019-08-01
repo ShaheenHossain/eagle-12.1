@@ -3,9 +3,9 @@
 # * snailmail
 # 
 # Translators:
-# Clo <clo@eagle.com>, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
-# Marie Willemyns <mwi@eagle.com>, 2018
+# Clo <clo@eagle-erp.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
+# Marie Willemyns <mwi@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
 # 
 msgid ""
@@ -294,7 +294,7 @@ msgstr ""
 #, python-format
 msgid ""
 "You don't have an IAP account registered for this service.<br>Please go to "
-"<a href=%s target=\"new\">iap.eagle.com</a> to claim your free credits."
+"<a href=%s target=\"new\">iap.eagle-erp.com</a> to claim your free credits."
 msgstr ""
 
 #. module: snailmail

@@ -2,7 +2,7 @@
 <eagle>
 
     <record id="base.main_company" model="res.company">
-        <field name="pad_server">https://pad.eagle.com</field>
+        <field name="pad_server">https://pad.eagle-erp.com</field>
     </record>
 
     <record id="base.main_company" model="res.company">

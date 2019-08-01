@@ -8,10 +8,10 @@
 # Xavier Belmere <Info@cartmeleon.com>, 2018
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2018
 # Christophe CHAUVET <christophe.chauvet@gmail.com>, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
-# Laura Piraux <lap@eagle.com>, 2018
-# Marie Willemyns <mwi@eagle.com>, 2018
-# Nathan Grognet <ngr@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
+# Laura Piraux <lap@eagle-erp.com>, 2018
+# Marie Willemyns <mwi@eagle-erp.com>, 2018
+# Nathan Grognet <ngr@eagle-erp.com>, 2018
 # Quentin THEURET <eagle@kerpeo.com>, 2018
 # Julien Martin <204336@supinfo.com>, 2018
 # nle_eagle, 2018
@@ -5309,10 +5309,10 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.eagle.com>"
+"<jobs@example.eagle-erp.com>"
 msgstr ""
 "Le nom de l'alias de messagerie, par exemple 'carrieres' pour relever les "
-"e-mails de <carrieres@example.eagle.com>"
+"e-mails de <carrieres@example.eagle-erp.com>"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_user_id
@@ -5784,12 +5784,12 @@ msgstr "Utilisateurs dans ce canal: %s %s et vous."
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.eagle.com)."
+"email server (@mycompany.eagle-erp.com)."
 msgstr ""
 "Vous devez utiliser votre propre serveur d'e-mails pour envoyer ou recevoir "
 "des e-mails dans les versions Community et Enterprise. Les utilisateurs en "
 "ligne bénéficient déjà d'un serveur d'e-mails préalablement compatible "
-"(@mycompany.eagle.com)."
+"(@mycompany.eagle-erp.com)."
 
 #. module: mail
 #. openerp-web
@@ -6298,8 +6298,8 @@ msgstr "mois"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "mycompany.eagle.com"
-msgstr "masociete.eagle.com"
+msgid "mycompany.eagle-erp.com"
+msgstr "masociete.eagle-erp.com"
 
 #. module: mail
 #. openerp-web

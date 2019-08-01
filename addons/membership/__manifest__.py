@@ -29,7 +29,7 @@ invoice and send propositions for membership renewal.
         'views/partner_views.xml',
         'report/report_membership_views.xml',
     ],
-    'website': 'https://www.eagle.com/page/community-builder',
+    'website': 'https://www.eagle-erp.com/page/community-builder',
     'test': [
         '../account/test/account_minimal_test.xml',
     ],

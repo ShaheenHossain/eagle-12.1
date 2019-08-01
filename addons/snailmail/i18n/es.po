@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Cristóbal Martí Oliver <info@moblesmarti.com>, 2018
-# Cristopher Cravioto <ccr@eagle.com>, 2018
+# Cristopher Cravioto <ccr@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
 # Gabriel Umana <gabriel.umana@delfixcr.com>, 2019
 # Rick Hunter <rick_hunter_ec@yahoo.com>, 2019
@@ -290,7 +290,7 @@ msgstr ""
 #, python-format
 msgid ""
 "You don't have an IAP account registered for this service.<br>Please go to "
-"<a href=%s target=\"new\">iap.eagle.com</a> to claim your free credits."
+"<a href=%s target=\"new\">iap.eagle-erp.com</a> to claim your free credits."
 msgstr ""
 
 #. module: snailmail

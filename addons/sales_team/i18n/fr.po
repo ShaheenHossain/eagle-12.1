@@ -7,18 +7,18 @@
 # bb76cd9ac0cb7e20167a14728edb858b, 2018
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2018
 # Fabien Pinckaers <fp@openerp.com>, 2018
-# Richard Mathot <rim@eagle.com>, 2018
+# Richard Mathot <rim@eagle-erp.com>, 2018
 # Fabien Bourgeois <fabien@yaltik.com>, 2018
 # Florian Hatat, 2018
 # Henri Cornuau <hcornuau@gmail.com>, 2018
 # Nicolas JEUDY <njeudy@panda-chi.io>, 2018
-# Lucas Deliege <lud@eagle.com>, 2018
+# Lucas Deliege <lud@eagle-erp.com>, 2018
 # Matillon Samantha <smatillon@gmail.com>, 2018
 # Lucas Deliege <lud@openerp.com>, 2018
-# Eloïse Stilmant <est@eagle.com>, 2018
-# Elise Carton <eca@eagle.com>, 2018
-# Laura Piraux <lap@eagle.com>, 2018
-# Nathan Grognet <ngr@eagle.com>, 2018
+# Eloïse Stilmant <est@eagle-erp.com>, 2018
+# Elise Carton <eca@eagle-erp.com>, 2018
+# Laura Piraux <lap@eagle-erp.com>, 2018
+# Nathan Grognet <ngr@eagle-erp.com>, 2018
 # Martin Trigaux, 2018
 # Rémi CAZENAVE <remi@le-filament.com>, 2019
 # 

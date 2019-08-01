@@ -5,7 +5,7 @@
 # Translators:
 # Martin Trigaux, 2018
 # Thomas Pot <thomas@open2bizz.nl>, 2018
-# Wynand Tastenhoye <wta@eagle.com>, 2018
+# Wynand Tastenhoye <wta@eagle-erp.com>, 2018
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2018
 # 
 msgid ""

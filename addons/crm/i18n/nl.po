@@ -2790,8 +2790,8 @@ msgstr "Bijv. Productprijs"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_form_view_leads
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_form_view_oppor
-msgid "e.g. www.eagle.com"
-msgstr "bijv. www.eagle.com"
+msgid "e.g. www.eagle-erp.com"
+msgstr "bijv. www.eagle-erp.com"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:946

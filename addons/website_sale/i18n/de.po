@@ -19,11 +19,11 @@
 # e2f <projects@e2f.com>, 2018
 # Martin Trigaux, 2018
 # Katharina Moritz <kmo@e2f.com>, 2018
-# Johannes Croe <jcr@eagle.com>, 2018
+# Johannes Croe <jcr@eagle-erp.com>, 2018
 # Marco Tarsia <marco.y.tarsia@gmail.com>, 2018
 # Wolfgang Taferner, 2019
 # Chris Egal <sodaswed@web.de>, 2019
-# Leon Grill <leg@eagle.com>, 2019
+# Leon Grill <leg@eagle-erp.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -31,7 +31,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-29 10:09+0000\n"
 "PO-Revision-Date: 2018-08-24 09:35+0000\n"
-"Last-Translator: Leon Grill <leg@eagle.com>, 2019\n"
+"Last-Translator: Leon Grill <leg@eagle-erp.com>, 2019\n"
 "Language-Team: German (https://www.transifex.com/eagle/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -171,7 +171,7 @@ msgid ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Powered by <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=website\" style=\"color: #875A7B;\">Eagle</a>\n"
+"        Powered by <a target=\"_blank\" href=\"https://www.eagle-erp.com?utm_source=db&amp;utm_medium=website\" style=\"color: #875A7B;\">Eagle</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -266,7 +266,7 @@ msgstr ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Unterstützt von <a target=\"_blank\" href=\"https://www.eagle.com?utm_source=db&amp;utm_medium=website\" style=\"color: #875A7B;\">Eagle</a>\n"
+"        Unterstützt von <a target=\"_blank\" href=\"https://www.eagle-erp.com?utm_source=db&amp;utm_medium=website\" style=\"color: #875A7B;\">Eagle</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -1663,8 +1663,8 @@ msgstr "Nur Dienstleistungen"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.brand_promotion
-msgid "Open Source eCommerce"
-msgstr "Open Source eCommerce"
+msgid "A Total IT Solution"
+msgstr "A Total IT Solution"
 
 #. module: website_sale
 #. openerp-web

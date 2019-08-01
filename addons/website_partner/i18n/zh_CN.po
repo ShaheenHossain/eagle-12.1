@@ -9,7 +9,7 @@
 # v2exerer <9010446@qq.com>, 2018
 # inspur qiuguodong <qiuguodong@inspur.com>, 2018
 # Fisher <fisher@kdomi.com>, 2018
-# Lisa Zhang <lzh@eagle.com>, 2018
+# Lisa Zhang <lzh@eagle-erp.com>, 2018
 # Youfu Sheng <wdmsyf@sina.com>, 2018
 # 
 msgid ""

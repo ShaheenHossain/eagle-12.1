@@ -3,7 +3,7 @@
 # * note
 # 
 # Translators:
-# Johannes Croe <jcr@eagle.com>, 2018
+# Johannes Croe <jcr@eagle-erp.com>, 2018
 # Michael Schütt <michael.schuett.lwl@gmail.com>, 2018
 # Martin Trigaux, 2019
 # Chris Egal <sodaswed@web.de>, 2019

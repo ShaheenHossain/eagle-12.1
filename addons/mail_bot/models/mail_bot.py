@@ -56,7 +56,7 @@ class MailBot(models.AbstractModel):
             elif eaglebot_state == "idle" and body in ['❤️', _('i love you'), _('love')]:
                 return _("Aaaaaw that's really cute but, you know, bots don't work that way. You're too human for me! Let's keep it professional ❤️")
             elif eaglebot_state == "idle" and (('help' in body) or _('help') in body):
-                return _("I'm just a bot... :( You can check <a href=\"https://www.eagle.com/page/docs\">our documentation</a>) for more information!")
+                return _("I'm just a bot... :( You can check <a href=\"https://www.eagle-erp.com/page/docs\">our documentation</a>) for more information!")
             elif _('fuck') in body or "fuck" in body:
                 return _("That's not nice! I'm a bot but I have feelings... 💔")
             else:
